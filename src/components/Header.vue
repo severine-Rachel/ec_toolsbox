@@ -7,13 +7,14 @@
       <h2>Enseignante en lettre, Expression et Communication</h2>
     </div>
 
-    <nav>
+    <nav class="container">
       <ul>
         <li><a href="#">ACCUEIL</a></li>
         <li><a href="#">DOSSIER DE CANDIDATURE</a></li>
         <li><a href="#">COMMUNICATION &Eacute;CRITE ET ORALE</a></li>
         <li><a href="#">COMMUNICATION VISUELLE</a></li>
         <li><a href="#">ARTS ET CULTURE</a></li>
+        <li class="caesura"></li>
         <li><a href="#">QUI SUIS-JE</a></li>
       </ul>
     </nav>
@@ -43,23 +44,37 @@ h2 {
   color: #aef0ff;
 }
 nav ul {
-  position: relative;
+  position: absolute;
+
+  left: 0;
+  
   padding: 0px;
-  margin-top: 23.8vh;
+  margin-top: 23vh;
   list-style-type: none;
+  width: 100vw;
 }
+nav .caesura {
+  background-color: red;
+  background-image: none;
+  width: 1vw;
+  color: red;
+ position: fixed;
+ 
+}
+
 nav li {
-  display: inline-block;
   background-image: url("../assets/button.png");
   background-size: 100% 100%;
   border-right: white 1px solid;
   text-align: center;
-  width: 16.43vw;
-height: 40px;
-line-height: 40px;
+  width: 16.61vw;
+  height: 40px;
+  line-height: 40px;
   font-family: Myriad;
   font-size: 12pt;
+  display: inline-block;
 }
+
 nav li a {
   display: block;
   text-decoration: none;
@@ -67,7 +82,7 @@ nav li a {
 }
 nav li :hover {
   background-image: url("../assets/buttonhover.png");
-    background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 </style>
 
