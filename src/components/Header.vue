@@ -2,19 +2,19 @@
   <div>
     <div>
       <img alt="banner" src="../assets/banner.png" />
-      <h1>P. RAFFY-HIDEUX </h1>
-      <br><br>
-      <h2>Enseignante en lettre, Expression et Communication </h2>
+      <h1>P. RAFFY-HIDEUX</h1>
+      <br /><br />
+      <h2>Enseignante en lettre, Expression et Communication</h2>
     </div>
 
     <nav>
       <ul>
-        <li>ACCUEIL</li>
-        <li>DOSSIER DE CANDIDATURE</li>
-        <li>COMMUNICATION &Eacute;CRITE ET ORALE</li>
-        <li>COMMUNICATION VISUELLE</li>
-        <li>ARTS ET CULTURE</li>
-        <li>QUI SUIS-JE</li>
+        <li><a href="#">ACCUEIL</a></li>
+        <li><a href="#">DOSSIER DE CANDIDATURE</a></li>
+        <li><a href="#">COMMUNICATION &Eacute;CRITE ET ORALE</a></li>
+        <li><a href="#">COMMUNICATION VISUELLE</a></li>
+        <li><a href="#">ARTS ET CULTURE</a></li>
+        <li><a href="#">QUI SUIS-JE</a></li>
       </ul>
     </nav>
   </div>
@@ -24,7 +24,7 @@
 img {
   position: absolute;
   width: 100vw;
-  height: 25vh;
+  height: 30vh;
   left: 0%;
   top: 0%;
 }
@@ -32,20 +32,20 @@ img {
   font-family: Myriad;
   src: url(../assets/MyriadProBC.otf);
 }
-h1{
-    position: absolute;
-    font-family: Myriad;
-    color:white;
+h1 {
+  position: absolute;
+  font-family: Myriad;
+  color: white;
 }
-h2{
-    position: absolute;
-    font-family: Myriad;
-    color:#AEF0FF;
+h2 {
+  position: absolute;
+  font-family: Myriad;
+  color: #aef0ff;
 }
 nav ul {
   position: relative;
   padding: 0px;
-  margin-top: 18.8vh;
+  margin-top: 23.8vh;
   list-style-type: none;
 }
 nav li {
@@ -55,11 +55,19 @@ nav li {
   border-right: white 1px solid;
   text-align: center;
   width: 16.43vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
+height: 40px;
+line-height: 40px;
   font-family: Myriad;
   font-size: 12pt;
+}
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+nav li :hover {
+  background-image: url("../assets/buttonhover.png");
+    background-size: 100% 100%;
 }
 </style>
 
