@@ -1,7 +1,11 @@
 <template>
   <Home></Home>
 </template>
-
+<style>
+  html{
+    height:100%;
+  }
+</style>
 
 <script>
 import { Component, Vue } from 'vue-property-decorator';
