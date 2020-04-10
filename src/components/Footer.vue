@@ -44,10 +44,10 @@
       </div>
 
       <div class="col" id="justice">
-        <a class="link-footer" href="#">Mention légale </a><br />
+        <a class="link-footer" href="/LegalNotice"><router-link to="/LegalNotice">Mention légale </router-link></a><br />
         Le contenu du site est soumis à des droits d'auteur.
         <br />
-        <a class="link-footer" href="#">Politique de confidentialité </a>
+        <a class="link-footer" href="/confidentiality">Politique de confidentialité </a>
       </div>
     </div>
   </div>
@@ -59,6 +59,7 @@
   color: white;
   font-size: 9pt;
   text-align: center;
+  margin-top:10vh;
 }
 .logo {
   height: 10vh;
