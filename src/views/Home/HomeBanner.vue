@@ -4,8 +4,8 @@
 <style >
   #book-band{
     width: 100%;
-    margin-bottom:100vh;
-    overflow:visible;
+    margin-bottom:5vh;
+    border:solid 1px #1694d6;
   }
 </style>
 <script lang="ts">
