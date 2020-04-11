@@ -47,7 +47,9 @@
         <a class="link-footer" href="/LegalNotice">Mention légale</a><br />
         Le contenu du site est soumis à des droits d'auteur.
         <br />
-        <a class="link-footer" href="/confidentiality">Politique de confidentialité </a>
+        <a class="link-footer" href="/confidentiality"
+          >Politique de confidentialité
+        </a>
       </div>
     </div>
   </div>
@@ -59,7 +61,7 @@
   color: white;
   font-size: 9pt;
   text-align: center;
-  margin-top:40vh;
+  margin-top: 40vh;
 }
 .logo {
   height: 10vh;

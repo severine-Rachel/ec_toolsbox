@@ -4,6 +4,7 @@
 </template>
 <style >
   #band{
+    margin-top:5%;
     margin-bottom:20vh;
     padding: 27.5vh 0;
     background-image:url(../../assets/band2.png);
