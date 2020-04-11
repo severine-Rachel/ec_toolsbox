@@ -2,7 +2,7 @@
   <router-view></router-view>
 </template>
 <style>
-  html{
+  html, body{
     height:100%;
   }
 </style>

@@ -52,19 +52,22 @@
       <div class="col" id="justice">
         <div>
           <router-link
-            to="/mention-legale"
+            to="/mentions-legales"
             class="link-footer"
             href="/LegalNotice"
-            >Mention légale</router-link
+            >Mentions légales</router-link
           >
         </div>
         <div>
           Le contenu du site est soumis à des droits d'auteur.
         </div>
         <div>
-          <a class="link-footer" href="/confidentiality"
-            >Politique de confidentialité
-          </a>
+          <router-link
+            to="/confidentialite"
+            class="link-footer"
+            href="/confidentiality"
+            >Politique de confidentialité</router-link
+          >
         </div>
       </div>
     </div>
@@ -78,6 +81,7 @@
   font-size: 9pt;
   text-align: center;
   margin-top: 40vh;
+  padding-bottom: 6.3vh;
 }
 .logo {
   height: 10vh;

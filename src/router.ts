@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home/Home.vue';
 import LegalNotice from './views/LegalNotice.vue';
+import Confidentiality from './views/Confidentiality.vue';
 Vue.use(VueRouter)
 
 const routes = [
@@ -11,10 +12,15 @@ const routes = [
     component: Home
   },
  {
-   path:'/mention-legale',
-   name:'mention-legale',
+   path:'/mentions-legales',
+   name:'mentions-legales',
    component: LegalNotice
- }
+ },
+ {
+  path:'/confidentialite',
+  name:'confidentialite',
+  component: Confidentiality
+}
 ]
 
 const router = new VueRouter({

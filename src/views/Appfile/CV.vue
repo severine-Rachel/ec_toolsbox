@@ -1,9 +1,7 @@
 <template>
-  <div id="welcome-page">
+<div>
     <Header></Header>
     <Menu></Menu>
-    <HomeBanner></HomeBanner>
-    <h3>À propos</h3>
     <p>
       Ce site à été réalisé dans le but de fournir des supports de cours pour
       les étudiants de GEII de l’IUT d’Angers et égalemment permettre à d’autres
@@ -17,44 +15,26 @@
       étudiants qui sont sources de créativité et de nouveauté afin d'aider les
       nouveaux à trouver des inspirations.
     </p>
-    <HomeArticle></HomeArticle>
     <Footer></Footer>
-  </div>
+</div>
 </template>
 
-<style>
-#welcome-page{
-  position:relative;
-}
-h3 {
-  color: #1794d6;
-  font-family: Myriad;
-  margin: 10%;
-  padding-top:2%
-}
+<style lang="scss">
 
-p {
-  text-align: justify;
-  color: #2e367f;
-  margin: 10%;
-}
 </style>
-<script>
+
+<script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
-import HomeBanner from "@/views/Home/HomeBanner.vue";
-import HomeArticle from "@/views/Home/HomeArticle.vue";
 import Footer from "@/components/Footer.vue";
 
 @Component({
   components: {
     Header,
     Menu,
-    HomeBanner,
-    HomeArticle,
-    Footer
+       Footer
   }
 })
-export default class Home extends Vue {}
+export default class CV extends Vue {}
 </script>

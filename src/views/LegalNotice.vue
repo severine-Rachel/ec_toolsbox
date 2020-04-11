@@ -1,5 +1,5 @@
 <template>
-  <div class="txt-legal">
+  <div id="legal-page">
     <h3>Mentions légales</h3>
     <h4>Présentation</h4>
     <div class="txt-legal">
@@ -270,11 +270,15 @@
   </div>
 </template>
 <style lang="scss" scoped>
+#legal-page{
+  position: relative;
+}
 .txt-legal{
   text-align: justify;
   color: #2e367f;
   margin: 0 10%;
 }
+
 h4 {
   color: #2e367f;
   font-family: Myriad;
