@@ -1,8 +1,7 @@
 <template>
   <div id="header-template">
     <div id="header-banner">
-     
-            <b-navbar>
+      <b-navbar>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
             <b-form-input
@@ -19,9 +18,6 @@
 
       <h1>P. RAFFY-HIDEUX</h1>
       <h2>Enseignante en lettre, Expression et Communication</h2>
-
-
-
     </div>
 
     <div>
@@ -112,28 +108,28 @@
   font-family: Myriad;
   src: url(../assets/MyriadProBC.otf);
 }
-.btn-secondary{
-background-color: #1694d6 !important;
-border:none !important;
+.btn-secondary {
+  background-color: #1694d6 !important;
+  border: none !important;
   &:hover {
     background-color: #0e6ea1 !important;
   }
 }
-h1, h2 {
-  
+h1,
+h2 {
   margin-bottom: unset !important;
   margin-left: 3rem !important;
   font-family: Myriad;
   color: white;
 }
 
-
 #nav-header {
   position: sticky;
+  top:0;
   
-
 }
 .rubric {
+
   background-image: url("../assets/button.png");
   background-size: 100% 100%;
   border-radius: 0px;
@@ -163,7 +159,7 @@ h1, h2 {
   background-color: #1694d6;
   width: 15.8vw;
   text-align: center;
-  color:#2E367F;
+  color: #2e367f;
   &:hover {
     background-color: red;
   }
@@ -173,6 +169,9 @@ h1, h2 {
   border-radius: 0px !important;
   border: 0px !important;
   padding: 0 !important;
+}
+.dropdown-item {
+  color: #2e367f !important;
 }
 .show > .nav-link {
   background-image: url("../assets/buttonhover.png");
@@ -204,7 +203,7 @@ Vue.use(NavPlugin);
 Vue.use(DropdownPlugin);
 @Component({
   components: {
-    BIconSearch,
+    BIconSearch
   }
 })
 export default class Header extends Vue {

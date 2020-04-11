@@ -3,6 +3,7 @@
     <Header></Header>
     
     <HomeBanner></HomeBanner>
+    <h3> À propos</h3>
     <p>Ce site à été réalisé dans le but de fournir des supports de cours pour les étudiants de GEII de l’IUT d’Angers et 
       égalemment permettre à d’autres étudiants ou autres utilisateurs de tout horizon d’obtenir des aides dans leurs études 
       et travaux en rapport avec l'expression communication. 
@@ -11,6 +12,7 @@
       Vous trouverez des documents relatant l'ensemble du domaine de la communication, mais aussi des écrits sur l'art. Je
       met aussi à disposition d'anciens travaux étudiants qui sont sources de créativité et de nouveauté afin d'aider les nouveaux 
       à trouver des inspirations. </p>
+    <HomeArticle></HomeArticle>
     <Footer></Footer>
   </div>
 </template>
@@ -18,22 +20,33 @@
   #header-template{
     margin-bottom:5%;
   }
+  h3{
+    color:#1794d6;
+     font-family: Myriad;
+     margin: 10%;
+  }
   p{
     text-align:justify;
-   
+   color:#2E367F ;
     margin: 10%;
+    
+  }
+  body{
+    position:relative;
   }
 </style>
 <script>
 import { Component, Vue } from 'vue-property-decorator';
 import Header from '@/components/Header.vue';
 import HomeBanner from '@/views/Home/HomeBanner.vue';
+import HomeArticle from '@/views/Home/HomeArticle.vue';
 import Footer from '@/components/Footer.vue';
 
 @Component({
   components: {
     Header,
     HomeBanner,
+    HomeArticle,
     Footer,
   }
 })

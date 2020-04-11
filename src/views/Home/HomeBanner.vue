@@ -1,13 +1,17 @@
 <template>
-  <img id="book-band" src="../../assets/band.png" atl="band">
+  <div id="band">
+  </div>
 </template>
 <style >
-  #book-band{
-    width: 100%;
-    margin-bottom:5vh;
-    border:solid 1px #1694d6;
+  #band{
+    margin-bottom:20vh;
+    padding: 27.5vh 0;
+    background-image:url(../../assets/band2.png);
+    background-size: 100% 100%;
+    border:solid 1px #bce8ff;
   }
 </style>
+
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 @Component({})
