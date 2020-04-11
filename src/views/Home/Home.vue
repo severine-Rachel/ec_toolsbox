@@ -28,6 +28,7 @@ h3 {
   font-family: Myriad;
   margin: 10%;
 }
+
 p {
   text-align: justify;
   color: #2e367f;

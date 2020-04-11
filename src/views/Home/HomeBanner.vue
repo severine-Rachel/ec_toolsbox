@@ -1,14 +1,12 @@
 <template>
-  <div id="band">
-  </div>
+  <img id="band" src="../../assets/band2.png">
 </template>
 <style >
+
   #band{
-    margin-top:5%;
+    margin-top:7vh;
     margin-bottom:20vh;
-    padding: 27.5vh 0;
-    background-image:url(../../assets/band2.png);
-    background-size: 100% 100%;
+    width: 100%;
     border:solid 1px #bce8ff;
   }
 </style>

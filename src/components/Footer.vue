@@ -3,7 +3,9 @@
     <img class="logo" src="../assets/Logo5.png" atl="logo" />
     <div class="row">
       <div class="col" id="network">
-        Retrouvez-moi aussi sur:<br />
+        <div>
+          Retrouvez-moi aussi sur:
+        </div>
 
         <a href="https://fr.linkedin.com/in/peggy-raffy-hideux" target="_blank">
           <img
@@ -18,38 +20,52 @@
             src="../assets/Logo_Viadeo.png"
             atl="logo-viadeo"
           />
-          <br />
+        </a>
+        <div>
           <a class="link-footer" href=" https://www.aeciut.fr/"
             >Association des Enseignants de Communication en IUT</a
           >
-        </a>
+        </div>
       </div>
 
       <div class="col" id="aboutme">
-        <br />
-        Contact:
-        <br />
-        ©Peggy Raffy-Hideux
-        <br />
-        <b-icon icon="envelope"></b-icon> peggy.raffy-hideux@univ-angers.fr
-        <br />
-        <b-icon icon="geo-alt"></b-icon> Angers
-        <br />
-        <a
-          class="link-footer"
-          href="https://www.univ-angers.fr/fr/acces-directs/annuaire-2/r/a/uduser-p-raffy-fr.html"
-          target="_blank"
-          >www.univ-angers.fr</a
-        >
+        <div>
+          Contact:
+        </div>
+        <div>
+          ©Peggy Raffy-Hideux
+        </div>
+        <div>
+          <b-icon icon="envelope"></b-icon> peggy.raffy-hideux@univ-angers.fr
+        </div>
+        <div><b-icon icon="geo-alt"></b-icon> Angers</div>
+        <div>
+          <a
+            class="link-footer"
+            href="https://www.univ-angers.fr/fr/acces-directs/annuaire-2/r/a/uduser-p-raffy-fr.html"
+            target="_blank"
+            >www.univ-angers.fr</a
+          >
+        </div>
       </div>
 
       <div class="col" id="justice">
-        <a class="link-footer" href="/LegalNotice">Mention légale</a><br />
-        Le contenu du site est soumis à des droits d'auteur.
-        <br />
-        <a class="link-footer" href="/confidentiality"
-          >Politique de confidentialité
-        </a>
+        <div>
+          <router-link
+            to="/mention-legale"
+            class="link-footer"
+            href="/LegalNotice"
+            >Mention légale</router-link
+          >
+        </div>
+        <div>
+          Le contenu du site est soumis à des droits d'auteur.
+        </div>
+        <div>
+          <a class="link-footer" href="/confidentiality"
+            >Politique de confidentialité
+          </a>
+        </div>
       </div>
     </div>
   </div>

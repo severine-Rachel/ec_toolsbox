@@ -10,7 +10,7 @@
               placeholder="Rechercher"
             ></b-form-input>
             <b-button size="sm" class="my-2 my-sm-0" type="submit"
-              ><b-icon icon="search"></b-icon>Rechercher</b-button
+              ><b-icon icon="search"></b-icon></b-button
             >
           </b-nav-form>
         </b-navbar-nav>
@@ -56,7 +56,7 @@ import { BFormInput } from "bootstrap-vue";
 import { BButton } from "bootstrap-vue";
 import { BNavbarNav } from "bootstrap-vue";
 import { BNavbar } from "bootstrap-vue";
-import { BIconSearch } from "bootstrap-vue";
+import { BIcon, BIconSearch } from "bootstrap-vue";
 
 Vue.component("b-navbar", BNavbar);
 Vue.component("b-navbar-nav", BNavbarNav);
@@ -65,6 +65,7 @@ Vue.component("b-form-input", BFormInput);
 
 @Component({
   components: {
+    BIcon,
     BIconSearch
   }
 })
