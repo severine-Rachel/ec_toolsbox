@@ -1,7 +1,7 @@
 <template>
   <div id="nav-header">
     <b-nav pills fill>
-      <b-nav-item class="rubric" id="home" href="#">ACCUEIL</b-nav-item>
+      <b-nav-item class="rubric" id="home" to="/">ACCUEIL</b-nav-item>
 
       <b-nav-item-dropdown
         class="rubric"
@@ -9,7 +9,13 @@
         text="DOSSIER DE CANDIDATURE"
         toggle-class="nav-link-custom"
       >
-        <b-dropdown-item class="sub-rubric" href="#">CV</b-dropdown-item>
+      
+        <b-dropdown-item class="sub-rubric" to="/CV">
+          
+            CV
+          
+        </b-dropdown-item>
+        
         <b-dropdown-item class="sub-rubric" href="#"
           >LETTRE DE MOTIVATION</b-dropdown-item
         >
@@ -74,12 +80,13 @@
 
 <style lang="scss">
 #nav-header {
-  position: sticky; //work if it parent-component can scroll (home scroll, not header[that's why it didn't work]) 
+  position: sticky; //work if it parent-component can scroll (home scroll, not header[that's why it didn't work])
   top: 0; //when menu change from relative to absolute, need the absolute position:top 0;
   z-index: 1000; //put menu above other elements
+  margin-bottom:10vh;
 }
 .rubric {
-  background-image: url("../assets/button.png");
+  background-image: url("../assets/basic-Graph/button.png");
   background-size: 100% 100%;
   border-radius: 0px;
   margin-right: 0.5vw;
@@ -87,13 +94,13 @@
   font-family: Myriad;
   text-align: center;
   &:hover {
-    background-image: url("../assets/buttonhover.png");
+    background-image: url("../assets/basic-Graph/buttonhover.png");
     background-size: 100% 100%;
   }
 }
 #home {
   //rubric home
-  background-image: url("../assets/buttonhover.png");
+  background-image: url("../assets/basic-Graph/buttonhover.png");
   background-size: 100% 100%;
 }
 #ceasura {
@@ -123,7 +130,7 @@
   color: #2e367f !important;
 }
 .show > .nav-link {
-  background-image: url("../assets/buttonhover.png");
+  background-image: url("../assets/basic-Graph/buttonhover.png");
   background-size: 100% 100%;
 }
 .nav-link-custom {
@@ -131,6 +138,9 @@
 }
 .nav-link {
   color: white !important;
+}
+.nav-pills .nav-link{
+  border-radius:0 !important;
 }
 </style>
 

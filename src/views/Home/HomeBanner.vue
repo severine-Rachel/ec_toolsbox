@@ -1,10 +1,10 @@
 <template>
-  <img id="band" src="../../assets/band2.png">
+  <img id="band" src="../../assets/basic-Graph/band.png">
 </template>
 <style >
 
   #band{
-    margin-top:7vh;
+    
     margin-bottom:20vh;
     width: 100%;
     border:solid 1px #bce8ff;

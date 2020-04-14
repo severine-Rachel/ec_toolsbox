@@ -25,7 +25,7 @@
 <style lang="scss">
 #header-banner {
   //banner of website
-  background-image: url(../assets/banner.png);
+  background-image: url(../assets/basic-Graph/banner.png);
   background-size: 100% 100%;
   height: 30vh;
 }

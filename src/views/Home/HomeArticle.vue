@@ -4,19 +4,19 @@
       <b-col sm="3" class="content-article">
         <a class="link-article" href="#">
           <h5>ÉTUDIANTS TRÈS INVESTIS EN ART</h5>
-          <img class="img-art" src="../../assets/perf.png" atl="art-perf" />
+          <img class="img-art" src="../../assets/Site-Article/perf.png" atl="art-perf" />
         </a>
       </b-col>
       <b-col sm="3" class="content-article">
         <a class="link-article" href="#">
           <h5>PARLER D'ÉVÈNEMENTS DANS UN DOSSIER</h5>
-          <img class="img-art" src="../../assets/event.png" atl="art-perf" />
+          <img class="img-art" src="../../assets/Site-Article/event.png" atl="art-perf" />
         </a>
       </b-col>
       <b-col sm="3" class="content-article">
         <a class="link-article" href="#">
           <h5>SIMULATEUR D'ENTRETIEN</h5>
-          <img class="img-art" src="../../assets/meeting.png" atl="art-perf" />
+          <img class="img-art" src="../../assets/Site-Article/meeting.png" atl="art-perf" />
         </a>
       </b-col>
     </b-row>

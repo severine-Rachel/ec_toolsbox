@@ -1,6 +1,6 @@
 <template>
   <div id="footer">
-    <img class="logo" src="../assets/Logo5.png" atl="logo" />
+    <img class="logo" src="../assets/basic-Graph/Logo5.png" atl="logo" />
     <div class="row">
       <div class="col" id="network">
         <div>
@@ -10,14 +10,14 @@
         <a href="https://fr.linkedin.com/in/peggy-raffy-hideux" target="_blank">
           <img
             class="logo-network"
-            src="../assets/Logo_Linkendin.png"
+            src="../assets/basic-Graph/Logo_Linkendin.png"
             atl="logo-linkenin"
           />
         </a>
         <a href="http://fr.viadeo.com/fr/profile/raffy.peggy" target="_blank">
           <img
             class="logo-network"
-            src="../assets/Logo_Viadeo.png"
+            src="../assets/basic-Graph/Logo_Viadeo.png"
             atl="logo-viadeo"
           />
         </a>

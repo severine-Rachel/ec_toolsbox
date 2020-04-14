@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '@/views/Home/Home.vue';
 import LegalNotice from './views/LegalNotice.vue';
 import Confidentiality from './views/Confidentiality.vue';
+import CV from './views/Appfile/CV.vue';
 Vue.use(VueRouter)
 
 const routes = [
@@ -20,6 +21,11 @@ const routes = [
   path:'/confidentialite',
   name:'confidentialite',
   component: Confidentiality
+},
+{
+  path:'/CV',
+  name:'CV',
+  component: CV
 }
 ]
 

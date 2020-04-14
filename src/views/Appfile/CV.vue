@@ -3,18 +3,18 @@
     <Header></Header>
     <Menu></Menu>
     <p>
-      Ce site à été réalisé dans le but de fournir des supports de cours pour
-      les étudiants de GEII de l’IUT d’Angers et égalemment permettre à d’autres
-      étudiants ou autres utilisateurs de tout horizon d’obtenir des aides dans
-      leurs études et travaux en rapport avec l'expression communication. Il
-      pourra aussi permettre à des enseignants d’expression communication de
-      trouver des idées pour leurs propres cours. Je fais moi-même partie de
-      l'association des enseignants de communication en IUT. Vous trouverez des
-      documents relatant l'ensemble du domaine de la communication, mais aussi
-      des écrits sur l'art. Je met aussi à disposition d'anciens travaux
-      étudiants qui sont sources de créativité et de nouveauté afin d'aider les
-      nouveaux à trouver des inspirations.
+      Vous trouverez ici des outils qui vous permettront de concevoir votre CV 
+      (contenu et forme). Une astuce : partez toujours d’un modèle classique, 
+      que vous prendrez le temps de bien structurer, pour aller progressivement 
+      vers l’originalité. Dans tous les cas, respectez bien l’ordre de 
+      hiérarchisation des éléments clés et le sens de lecture du CV.
     </p>
+    <h3>
+        LES FONDAMENTAUX: FICHES CLEFS
+    </h3>
+    
+    <a href="/fundamentals_CV_Keys.pdf" download="10PointsClesCV">ici</a>
+    <Galery></Galery>
     <Footer></Footer>
 </div>
 </template>
@@ -27,13 +27,15 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
+import Galery from "@/components/Galery.vue";
 import Footer from "@/components/Footer.vue";
 
 @Component({
   components: {
     Header,
     Menu,
-       Footer
+    Galery,
+    Footer
   }
 })
 export default class CV extends Vue {}
