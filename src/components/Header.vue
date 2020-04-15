@@ -48,6 +48,7 @@ h2 {
   font-family: Myriad;
   color: white;
 }
+
 </style>
 
 <script lang="ts">

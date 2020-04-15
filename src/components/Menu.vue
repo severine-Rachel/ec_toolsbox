@@ -16,10 +16,10 @@
           
         </b-dropdown-item>
         
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/LettreMotivation"
           >LETTRE DE MOTIVATION</b-dropdown-item
         >
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/Entretien"
           >ENTRETIEN DE RECRUTEMENT</b-dropdown-item
         >
       </b-nav-item-dropdown>

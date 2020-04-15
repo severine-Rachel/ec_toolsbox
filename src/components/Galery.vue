@@ -1,84 +1,85 @@
 <style>
-* {
-  box-sizing: border-box;
+.fundamentals {
+  width: 10vw;
+  height: 25vh;
+  margin: 2vw;
+  border: solid 1px #bce8ff;
 }
-
-body {
-  margin: 0;
-  font-family: Arial;
+.fundamentals-pdf {
+  width: 10vw;
+  color:red;
+  margin: 2vw;
+  text-align: center;
 }
-#image{
-  width:15vw;
+.post-up {
+  width: 60vw;
+  margin: 0 20vw;
+  border: solid 1px #bce8ff;
 }
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
+.cross{
   position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
+  right: 20vw;
 }
 
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
 </style>
 
 <template>
   <div>
-    <span v-on:click="clicked=true">
-    <img  id="image" src="/fundamentals_CV_Keys.png" alt="art-perf">
+
+    <b-row class="justify-content-md-center">
+      <div v-for="imageElement in galeryPicture" :key="imageElement">
+        <img
+          class="fundamentals"
+          v-on:click="toogle(imageElement)"
+          v-bind:src="imageElement"
+        />
+      </div>
+    </b-row>
+
+    <span class="cross" v-on:click="erased()" v-if="bool">
+      <p>
+        <b-icon icon="x-circle" font-scale="5" variant="danger"> </b-icon>
+      </p>
     </span>
-    <span v-if="clicked">
-    <img v-bind:src="image" atl="art-perf">
-    </span>
+
+    <div v-if="bool">
+      <img class="post-up" v-bind:src="clicked" />
+    </div>
+
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-@Component({ //class juste en desosous décrit un composant vue, décrire tous les data a utiliser
-  
+import { Component, Vue, Prop } from "vue-property-decorator";
+import { BIcon, BIconXCircle } from "bootstrap-vue";
+@Component({
+  components: {
+    BIcon,
+    BIconXCircle
+  }
 })
-export default class Galery extends Vue {  // export default==public class
-  protected image =  "/fundamentals_CV_Keys.png";
-  protected clicked = false;
-}
+export default class Galery extends Vue {
+  // export default==public class
+  public image = "";
+  public clicked = "";
+  public bool = false;
 
+  public toogle(srcImg: string): void {
+    if (this.bool == false) {
+      this.clicked = srcImg;
+      this.bool = true;
+    } else if (this.clicked == srcImg) {
+      this.clicked = "";
+      this.bool = false;
+    } else {
+      this.clicked = srcImg;
+    }
+  }
+  public erased(): void {
+    this.clicked = "";
+    this.bool = false;
+  }
+
+  @Prop() public readonly galeryPicture!: string[];
+}
 </script>

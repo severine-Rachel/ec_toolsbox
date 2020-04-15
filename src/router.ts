@@ -4,6 +4,9 @@ import Home from '@/views/Home/Home.vue';
 import LegalNotice from './views/LegalNotice.vue';
 import Confidentiality from './views/Confidentiality.vue';
 import CV from './views/Appfile/CV.vue';
+import Letter from './views/Appfile/Letter.vue';
+import Interview from './views/Appfile/Interview.vue';
+import { BvComponent } from 'bootstrap-vue';
 Vue.use(VueRouter)
 
 const routes = [
@@ -26,6 +29,16 @@ const routes = [
   path:'/CV',
   name:'CV',
   component: CV
+},
+{
+  path:'/LettreMotivation',
+  name:'Lettre',
+  component: Letter
+},
+{
+  path:'/Entretien',
+  name:'Entretien',
+  component: Interview
 }
 ]
 

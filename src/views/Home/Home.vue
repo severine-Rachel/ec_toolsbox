@@ -32,7 +32,12 @@ h3 {
   margin: 10%;
   padding-top:2%
 }
-
+h4{
+    color: #2e367f;
+  font-family: Myriad;
+  margin: 10%;
+  padding-top:2%
+}
 p {
   text-align: justify;
   color: #2e367f;
