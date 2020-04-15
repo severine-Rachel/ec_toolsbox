@@ -13,52 +13,89 @@
       </strong>
     </p>
     <h3>
-      LES FONDAMENTAUX: FICHES CLEFS
+      LES FONDAMENTAUX : FICHES CLEFS
     </h3>
-    <b-row class="justify-content-md-center">
-      <a
-        href="/pdf_cv/fundamentals_CV_Keys.pdf"
-        class="fundamentals-pdf"
-        download="10PointsClesCV"
-      >
-        <b-icon icon="upload"></b-icon> ClefsCV</a
-      >
-      <a
-        href="/pdf_cv/fundamentals_CV_Classic.pdf"
-        class="fundamentals-pdf"
-        download="TrameClassiqueCV"
-      >
-        <b-icon icon="upload"></b-icon> TrameClassique</a
-      >
-      <a
-        href="/pdf_cv/fundamentals_CV_Grid.pdf"
-        class="fundamentals-pdf"
-        download="grilleAnalyseCV"
-      >
-        <b-icon icon="upload"></b-icon> AnalyseCV</a
-      >
-    </b-row>
+    <Pdf  v-bind:galery-pdf="pdfCV"></Pdf>
 
     <a
       id="cv-galery"
       href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box"
       target="_blank"
     >
-      source
+      source: 
+      <b-icon
+            icon="box-arrow-right"
+          ></b-icon
+        >
+         www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box 
     </a>
-
+   
     <Galery v-bind:galery-picture="galeryCV"></Galery>
 
     <div>
       <h3>
         CONSEILS ET ASTUCES
       </h3>
+
       <h3>
         EXEMPLES DE CV (IUT)
       </h3>
+
+      <Galery v-bind:galery-picture="CVIUT"></Galery>
+
       <h3>
         OUTILS D'AIDE À LA CONCEPTION DE CV
       </h3>
+
+      <p>
+        <strong>
+          Modèles de CV classiques gratuits
+        </strong>
+
+        <a
+          href="https://www.emploitic.com/conseils/modeles-de-cv"
+          alt="emploitic"
+          target="_blank"
+          ><img class="Help_Builder" src="/picture_cv/CVTool1.png"/><b-icon
+            icon="box-arrow-right"
+          ></b-icon
+        ></a>
+      </p>
+
+      <p>
+        <strong>
+          Modèles de CV originaux gratuits
+        </strong>
+        <a
+          href="https://www.creeruncv.com/exemple-de-cv/gratuit/"
+          alt="creeruncv"
+          target="_blank"
+          ><img class="Help_Builder" src="/picture_cv/CVTool2.png"/><b-icon
+            icon="box-arrow-right"
+          ></b-icon
+        ></a>
+        <a
+          href="https://www.cvmaker.fr/exemples-de-cv"
+          alt="cvmaker"
+          target="_blank"
+          ><img class="Help_Builder" src="/picture_cv/CVTool3.png"/><b-icon
+            icon="box-arrow-right"
+          ></b-icon
+        ></a>
+        <a
+          href="https://www.modeles-de-cv.com/"
+          alt="modeles-de-cv"
+          target="_blank"
+          ><img class="Help_Builder" src="/picture_cv/CVTool4.png"/><b-icon
+            icon="box-arrow-right"
+          ></b-icon
+        ></a>
+        <a href="https://www.exempledecv.com/" alt="exempledecv" target="_blank"
+          ><img class="Help_Builder" src="/picture_cv/CVTool5.png"/><b-icon
+            icon="box-arrow-right"
+          ></b-icon
+        ></a>
+      </p>
       <h3>
         LE CV VIDÉO
       </h3>
@@ -69,19 +106,27 @@
         avec aisance à l'oral et éventuellement en plusieurs langues.
       </p>
       <p>
-        Conseils pour un bon CV vidéo:
+        <strong>
+          Conseils pour un bon CV vidéo:
+        </strong>
       </p>
       <p>
-        Exemples de CV vidéo:
+        <strong>
+          Exemples de CV vidéo:
+        </strong>
       </p>
       <h3>
         POUR ALLER PLUS LOIN !
       </h3>
       <p>
-        Comment créer un CV très original ?
+        <strong>
+          Comment créer un CV très original ?
+        </strong>
       </p>
-       <p>
-        Quelques exemples de CV très originaux:
+      <p>
+        <strong>
+          Quelques exemples de CV très originaux:
+        </strong>
       </p>
     </div>
     <Footer></Footer>
@@ -90,8 +135,14 @@
 
 <style lang="scss">
 #cv-galery {
-  position: absolute;
-  right: 31vw;
+  margin-left:10%;
+  
+}
+.Help_Builder {
+  width: 10vw;
+  height: 20vh;
+  margin: 0 0 0 2vw;
+  border: #bce8ff 5px solid;
 }
 </style>
 
@@ -99,24 +150,52 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
+import Pdf from "@/components/Pdf.vue"
 import Galery from "@/components/Galery.vue";
 import Footer from "@/components/Footer.vue";
-import { BIcon, BIconUpload } from "bootstrap-vue";
+import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
     Header,
     Menu,
+    Pdf,
     Galery,
     BIcon,
-    BIconUpload,
+    BIconBoxArrowRight,
     Footer
   }
 })
 export default class CV extends Vue {
   public galeryCV: string[] = [
     "/picture_cv/fundamentals_CV_Keys.png",
-    "/picture_cv/fundamentals_CV_Classic.png",
-    "/picture_cv/fundamentals_CV_Grid.png"
+    "/picture_cv/fundamentals_CV_Grid.png",
+    "/picture_cv/fundamentals_CV_Classic.png"
+    
+  ];
+
+ public pdfCV= [
+    {
+      pdfLink:"/pdf_cv/fundamentals_CV_Keys.pdf",
+      pdfDownload:"10PointsClés",
+      TxtPdf:"Fiche 1 : Les 10 points clés"
+    },
+    {
+      pdfLink:"/pdf_cv/fundamentals_CV_Classic.pdf",
+      pdfDownload:"grillAnalyseCV",
+      TxtPdf: "Fiche 2 : La grille d’analyse du CV"
+    },
+    {      
+      pdfLink:"/pdf_cv/fundamentals_CV_Grid.pdf",
+      pdfDownload:"ModèleTrameClassique",
+      TxtPdf: "Fiche 3 : Modèle de trame classique"
+    }
+  ];
+  public CVIUT: string[] = [
+    "/picture_cv/example_CV_IUT1.png",
+    "/picture_cv/example_CV_IUT2.png",
+    "/picture_cv/example_CV_IUT3.png",
+    "/picture_cv/example_CV_IUT4.png",
+    "/picture_cv/example_CV_IUT55.png"
   ];
 }
 </script>

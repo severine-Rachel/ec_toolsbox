@@ -29,17 +29,17 @@
         text="COMMUNICATION ÉCRITE ET ORALE"
         toggle-class="nav-link-custom"
       >
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/Definition_Communication"
           >QU'EST CE QUE LA COMMUNICATION</b-dropdown-item
         >
-        <b-dropdown-item class="sub-rubric" href="#"
-          >ECRIT PROFESSIONNELS, <br />ACADÉMIQUES ET
+        <b-dropdown-item class="sub-rubric" to="/Ecrit_Pro"
+          >ÉCRIT PROFESSIONNEL, <br />ACADÉMIQUE ET
           D'INVENTION</b-dropdown-item
         >
-        <b-dropdown-item class="sub-rubric" href="#"
-          >PRISE DE PAROLE EN PUBLIQUE</b-dropdown-item
+        <b-dropdown-item class="sub-rubric" to="/Prise_de_Parole"
+          >PRISE DE PAROLE EN PUBLIC</b-dropdown-item
         >
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/Conduite_Reunion"
           >CONDUITE DE R&Eacute;UNION</b-dropdown-item
         >
       </b-nav-item-dropdown>
@@ -49,12 +49,15 @@
         text="COMMUNICATION VISUELLE"
         toggle-class="nav-link-custom"
       >
-        <b-dropdown-item class="sub-rubric" href="#">POSTER</b-dropdown-item>
+        <b-dropdown-item class="sub-rubric" href="#">AFFICHE</b-dropdown-item>
         <b-dropdown-item class="sub-rubric" href="#"
-          >DIAPORAMAS</b-dropdown-item
+          >DIAPORAMA</b-dropdown-item
         >
         <b-dropdown-item class="sub-rubric" href="#"
-          >INFOGRAPHIES</b-dropdown-item
+          >INFOGRAPHIE</b-dropdown-item
+        >
+        <b-dropdown-item class="sub-rubric" href="#"
+          >AUDIOVISUEL</b-dropdown-item
         >
       </b-nav-item-dropdown>
 
@@ -64,10 +67,13 @@
         toggle-class="nav-link-custom"
       >
         <b-dropdown-item class="sub-rubric" href="#"
-          >LA PERFORMANCE ARTISTIQUE</b-dropdown-item
+          >PERFORMANCE ARTISTIQUE</b-dropdown-item
         >
         <b-dropdown-item class="sub-rubric" href="#"
           >PLAISIR DE LIRE</b-dropdown-item
+        >
+        <b-dropdown-item class="sub-rubric" href="#"
+          >CULTURE EN LIGNE</b-dropdown-item
         >
       </b-nav-item-dropdown>
 
@@ -112,7 +118,7 @@
   margin-right: 0;
 }
 .sub-rubric {
-  background-color: #1694d6;
+  background-color: #bce8ff;
   width: 15.8vw;
   text-align: center;
   color: #2e367f;

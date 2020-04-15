@@ -2,6 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
+
     <p>
       <strong>
         Comment écrire une bonne lettre de motivation ? Comment analyser une
@@ -11,6 +12,7 @@
         vous démarquer.
       </strong>
     </p>
+
     <h3>
       LES FONDAMENTAUX: FICHES-CLEFS
     </h3>
@@ -64,19 +66,36 @@
 
     <Galery v-bind:galery-picture="galeryLetter"></Galery>
 
-   <h3>
-        CONSEILS ET ASTUCES
-      </h3>
-        <h3>
-            METTRE EN ADÉQUATION VOTRE LETTRE DE MOTIVATION AVEC LE POSTE : ANALYSE DE L'OFFRE
-        </h3>
-<h3>
-           COMMENT PRÉPARER VOS ARGUMENTS?
-        </h3>
+    <h3>
+      CONSEILS ET ASTUCES
+    </h3>
     <p>
-        Quels mots utiliser pour dynamiser votre lettre de motivation ?
+      <strong>Pour dédramatiser</strong>
+      <a
+        href="https://baborlelefan.com/2013/12/07/enquete-faut-tenter-des-candidatures-originales/"
+        target="_blank"
+        ><b-icon icon="box-arrow-right"></b-icon
+      ></a>
     </p>
-    
+    <p>
+      N’hésitez pas à faire un rappel de la charte graphique de votre CV dans
+      votre lettre de motivation. Modèles de lettres de motivation graphiques :</p>
+      <p>
+      <a href="https://fr.venngage.com/templates/resumes/cover-letters" alt="vennage" target="_blank"><img class="Help_Builder" src="/picture_letter/LetterTool1.png"><b-icon icon="box-arrow-right"></b-icon> </a>
+      <a href="https://fr.venngage.com/blog/modeles-lettres-de-motivation/" alt="vennage" target="_blank"><img class="Help_Builder" src="/picture_letter/LetterTool2.png"><b-icon icon="box-arrow-right"></b-icon> </a>
+    </p>
+
+    <h3>
+      METTRE EN ADÉQUATION VOTRE LETTRE DE MOTIVATION AVEC LE POSTE : ANALYSE DE
+      L'OFFRE
+    </h3>
+    <h3>
+      COMMENT PRÉPARER VOS ARGUMENTS?
+    </h3>
+    <p>
+      Quels mots utiliser pour dynamiser votre lettre de motivation ?
+    </p>
+
     <Footer></Footer>
   </div>
 </template>
@@ -86,6 +105,13 @@
   position: absolute;
   right: 17vw;
 }
+.Help_Builder{
+  width:10vw;
+  height:20vh;
+  margin: 0 0 0 2vw;
+  
+  border:#bce8ff 5px solid;
+}
 </style>
 
 <script lang="ts">
@@ -94,7 +120,7 @@ import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Galery from "@/components/Galery.vue";
 import Footer from "@/components/Footer.vue";
-import { BIcon, BIconUpload } from "bootstrap-vue";
+import { BIcon, BIconUpload, BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
     Header,
@@ -102,6 +128,7 @@ import { BIcon, BIconUpload } from "bootstrap-vue";
     Galery,
     BIcon,
     BIconUpload,
+    BIconBoxArrowRight,
     Footer
   }
 })

@@ -17,7 +17,7 @@
       </b-navbar>
 
       <h1>P. RAFFY-HIDEUX</h1>
-      <h2>Enseignante en lettre, Expression et Communication</h2>
+      <h2>Enseignante en Lettres, Expression et Communication</h2>
     </div>
   </div>
 </template>

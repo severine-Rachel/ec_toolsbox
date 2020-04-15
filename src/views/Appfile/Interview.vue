@@ -14,8 +14,8 @@
         entretien réside essentiellement dans sa préparation ! Préparez-le donc
         comme un grand oral. Si vous souhaitez forger vos propres outils,
         individualisés, et découvrir davantage d’astuces, n’hésitez pas à
-        consulter mon ouvrage : Les Premiers Entretiens de recrutement. Les clés
-        pour se démarquer et réussir.
+        consulter mon ouvrage :<i> Les Premiers Entretiens de recrutement. Les clés
+        pour se démarquer et réussir.</i>
       </strong>
     </p>
     <h3>
@@ -31,6 +31,9 @@
       c’est lui qui donne le tempo des échanges. Vous aurez entre 30 minutes et
       1 heure pour convaincre.
     </p>
+    
+    
+
     <b-row class="justify-content-md-center">
       <a
         href="/pdf_interview/fundamentals_Interview_Keys.pdf"
@@ -90,7 +93,7 @@
       certains secteurs.
     </p>
     <p>
-      <strong> attitudes pour marquer le recruteur :</strong>
+      <strong> Attitudes pour marquer le recruteur </strong>
       <a
         href="https://www.keljob.com/articles/5-attitudes-qui-impressionnent-les-recruteurs-en-entretien-d-embauche"
         target="_blank"
@@ -99,7 +102,7 @@
       </a>
     </p>
     <p>
-      <strong>Comment réussir un entretien à distance :</strong>
+      <strong>Comment réussir un entretien à distance </strong>
       <a
         href="https://www.regionsjob.com/conseils/reussir-entretien-skype.html"
         target="_blank"
@@ -114,10 +117,10 @@
     <h3>
       POUR ALLER PLUS LOIN
     </h3>
+    
     <b-row id="go-further-Interview">
-        <b-col cols="1">
-        </b-col>
-    <b-col cols="3">
+        
+    <b-col cols="4">
         <img id="book-Com"  src="../../assets/book.jpg">
     </b-col>
     <b-col cols="8">
@@ -155,12 +158,13 @@
   right: 17vw;
 }
 #book-Com{
-    width: 25vw;
+    width: 30vw;
     border:solid 1px #bce8ff;
-
+    
 }
 #go-further-Interview{
-    margin:2vw;
+    margin-left:8vw;
+    
 }
 </style>
 
@@ -191,5 +195,6 @@ export default class Interview extends Vue {
     "/picture_interview/fundamentals_Interview_Question2.png",
     "/picture_interview/fundamentals_Interview_What'sit.png"
   ];
+
 }
 </script>

@@ -2,15 +2,10 @@
 .fundamentals {
   width: 10vw;
   height: 25vh;
-  margin: 2vw;
+  margin:  2vw ;
   border: solid 1px #bce8ff;
 }
-.fundamentals-pdf {
-  width: 10vw;
-  color:red;
-  margin: 2vw;
-  text-align: center;
-}
+
 .post-up {
   width: 60vw;
   margin: 0 20vw;

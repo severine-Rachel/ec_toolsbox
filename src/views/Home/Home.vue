@@ -30,7 +30,8 @@ h3 {
   color: #1794d6;
   font-family: Myriad;
   margin: 10%;
-  padding-top:2%
+  padding:5vh 0;
+ 
 }
 h4{
     color: #2e367f;
