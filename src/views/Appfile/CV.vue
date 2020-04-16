@@ -15,6 +15,16 @@
       étudiants qui sont sources de créativité et de nouveauté afin d'aider les
       nouveaux à trouver des inspirations.
     </p>
+<<<<<<< Updated upstream
+=======
+    <h3>
+        LES FONDAMENTAUX: FICHES CLEFS
+    </h3>
+    
+    <a href="/fundamentals_CV_Keys.pdf" download="10PointsClesCV">ici</a>
+    <Galery></Galery>
+    <CVGoFurther></CVGoFurther>
+>>>>>>> Stashed changes
     <Footer></Footer>
 </div>
 </template>
@@ -28,12 +38,19 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Footer from "@/components/Footer.vue";
+import CVGoFurther from "@/views/Appfile/CVGoFurther.vue";
 
 @Component({
   components: {
     Header,
     Menu,
+<<<<<<< Updated upstream
        Footer
+=======
+    Galery,
+    Footer,
+    CVGoFurther
+>>>>>>> Stashed changes
   }
 })
 export default class CV extends Vue {}
