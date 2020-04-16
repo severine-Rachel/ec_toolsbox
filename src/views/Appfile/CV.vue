@@ -142,6 +142,10 @@
   margin: 0 0 0 2vw;
   border: #bce8ff 5px solid;
 }
+.subtitle-link{
+  text-decoration: none !important;
+  color:#2e367f;
+}
 </style>
 
 <script lang="ts">

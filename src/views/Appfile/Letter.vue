@@ -37,11 +37,13 @@
       CONSEILS ET ASTUCES
     </h3>
     <p>
-      <strong>Pour dédramatiser</strong>
       <a
         href="https://baborlelefan.com/2013/12/07/enquete-faut-tenter-des-candidatures-originales/"
         target="_blank"
-        ><b-icon icon="box-arrow-right"></b-icon
+        class="subtitle-link"
+        >
+      <strong>Pour dédramatiser</strong>
+      <b-icon icon="box-arrow-right"></b-icon
       ></a>
     </p>
     <p>
@@ -115,7 +117,7 @@ public indexLetter= [
     IndexImage:"/thumbail.png"
     },
     {
-    IndexTitle: "METTRE EN ADÉQUATION VOTRE LETTRE DE  MOTIVATION AVEC LE POSTE : ANALYSE DE L'OFFRE",
+    IndexTitle: "METTRE EN ADÉQUATION VOTRE LETTRE DE <br /> MOTIVATION AVEC LE POSTE : ANALYSE DE L'OFFRE",
     IndexId: "#analysisLetter",
     IndexImage:"/thumbail.png"
     },

@@ -18,8 +18,7 @@
         pour se démarquer et réussir.</i>
       </strong>
     </p>
-    <Index v-bind:index-list="indexInterview"></Index>
-    <h3 id="keysInterview">
+    <h3>
       LES FONDAMENTAUX: FICHES-CLEFS
     </h3>
     <h4>
@@ -61,28 +60,32 @@
       certains secteurs.
     </p>
     <p>
-      <strong> Attitudes pour marquer le recruteur </strong>
-      <a
+       <a
         href="https://www.keljob.com/articles/5-attitudes-qui-impressionnent-les-recruteurs-en-entretien-d-embauche"
         target="_blank"
+        class="subtitle-link"
       >
+      <strong> Attitudes pour marquer le recruteur </strong>
+     
         <b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>
     <p>
-      <strong>Comment réussir un entretien à distance </strong>
-      <a
+       <a
         href="https://www.regionsjob.com/conseils/reussir-entretien-skype.html"
         target="_blank"
+        class="subtitle-link"
       >
+      <strong>Comment réussir un entretien à distance </strong>
+     
         <b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>
 
-    <h3 id="tipsInterview">
+    <h3>
       CONSEILS ET ASTUCES
     </h3>
-    <h3 id="goFurtherInterview">
+    <h3>
       POUR ALLER PLUS LOIN
     </h3>
     
@@ -139,7 +142,6 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
-import Index from "@/components/Index.vue";
 import Galery from "@/components/Galery.vue";
 import Pdf from "@/components/Pdf.vue";
 import Footer from "@/components/Footer.vue";
@@ -148,7 +150,6 @@ import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
   components: {
     Header,
     Menu,
-    Index,
     Galery,
     Pdf,
     BIcon,
@@ -158,26 +159,6 @@ import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
   }
 })
 export default class Interview extends Vue {
-public indexInterview= [
-    {
-    IndexTitle:  "LES FONDAMENTAUX : FICHES-CLÉS",
-    IndexId: "#keysInterview",
-    IndexImage: "/thumbail.png"
-    },
-    {
-    IndexTitle: "CONSEILS ET ASTUCES",
-    IndexId: "#tipsInterview",
-    IndexImage:"/thumbail.png"
-    },
-    {
-    IndexTitle: "POUR ALLER PLUS LOIN",
-    IndexId: "#goFurtherInterview",
-    IndexImage:"/thumbail.png"
-    }
-
-  ]
-
-
   public galeryInterview: string[] = [
     "/picture_interview/fundamentals_Interview_What'sit.png",
     "/picture_interview/fundamentals_Interview_Keys.png",
