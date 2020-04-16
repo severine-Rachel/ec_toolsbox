@@ -153,6 +153,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Index from "@/components/Index.vue";
+import CVKeys from "@/components/Index.vue";
 import Pdf from "@/components/Pdf.vue"
 import Galery from "@/components/Galery.vue";
 import Footer from "@/components/Footer.vue";

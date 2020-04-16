@@ -19,12 +19,8 @@
       </li>
     </ul>
     </p>
-    <h3>
-      LES PREMIÈRES THÉORIES DE LA COMMUNICATION
-    </h3>
-    <p>
-        
-    </p>
+  
+ 
   </div>
 </template>
 
