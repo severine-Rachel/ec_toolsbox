@@ -117,7 +117,7 @@ public indexLetter= [
     IndexImage:"/thumbail.png"
     },
     {
-    IndexTitle: "METTRE EN ADÉQUATION VOTRE LETTRE DE <br /> MOTIVATION AVEC LE POSTE : ANALYSE DE L'OFFRE",
+    IndexTitle: "METTRE EN ADÉQUATION VOTRE LETTRE DE MOTIVATION AVEC LE POSTE : ANALYSE DE L'OFFRE",
     IndexId: "#analysisLetter",
     IndexImage:"/thumbail.png"
     },
