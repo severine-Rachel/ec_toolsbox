@@ -25,16 +25,17 @@
 .wallpaper {
   text-align: center;
   text-decoration: none !important;
-
+  
 }
 .casethumbnail {
   margin: 1%;
-  padding: 5vh 0;
+  padding: 5vh 1vw !important;
 }
 
 .thumbnailTitle {
   color: white;
   transition: font-size 0.5s ease-in-out;
+  margin:0;
       &:hover {
       font-size:190%;
     
@@ -42,6 +43,7 @@
 }
 .thumbnail {
   width: 100%;
+  
 }
 </style>
 

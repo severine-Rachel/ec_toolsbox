@@ -12,8 +12,8 @@
         vous démarquer.
       </strong>
     </p>
-
-    <h3>
+     <Index v-bind:index-list="indexLetter"></Index>
+    <h3 id="keysLetter">
       LES FONDAMENTAUX: FICHES-CLEFS
     </h3>
 
@@ -33,7 +33,7 @@
 
     <Galery v-bind:galery-picture="galeryLetter"></Galery>
 
-    <h3>
+    <h3 id="tipsLetter">
       CONSEILS ET ASTUCES
     </h3>
     <p>
@@ -52,11 +52,11 @@
       <a href="https://fr.venngage.com/blog/modeles-lettres-de-motivation/" alt="vennage" target="_blank"><img class="Help_Builder" src="/picture_letter/LetterTool2.png"><b-icon icon="box-arrow-right"></b-icon> </a>
     </p>
 
-    <h3>
+    <h3 id="analysisLetter">
       METTRE EN ADÉQUATION VOTRE LETTRE DE MOTIVATION AVEC LE POSTE : ANALYSE DE
       L'OFFRE
     </h3>
-    <h3>
+    <h3 id="argumentLetter">
       COMMENT PRÉPARER VOS ARGUMENTS?
     </h3>
     <p>
@@ -84,6 +84,7 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
+import Index from "@/components/Index.vue";
 import Galery from "@/components/Galery.vue";
 import Pdf from "@/components/Pdf.vue";
 import Footer from "@/components/Footer.vue";
@@ -92,6 +93,7 @@ import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
   components: {
     Header,
     Menu,
+    Index,
     Galery,
     Pdf,
     BIcon,
@@ -101,6 +103,30 @@ import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
   }
 })
 export default class Letter extends Vue {
+public indexLetter= [
+    {
+    IndexTitle:  "LES FONDAMENTAUX : FICHES-CLÉS",
+    IndexId: "#keysLetter",
+    IndexImage: "/thumbail.png"
+    },
+    {
+    IndexTitle: "CONSEILS ET ASTUCES",
+    IndexId: "#tipsLetter",
+    IndexImage:"/thumbail.png"
+    },
+    {
+    IndexTitle: "METTRE EN ADÉQUATION VOTRE LETTRE DE  MOTIVATION AVEC LE POSTE : ANALYSE DE L'OFFRE",
+    IndexId: "#analysisLetter",
+    IndexImage:"/thumbail.png"
+    },
+    {
+    IndexTitle: "COMMENT PRÉPARER VOS ARGUMENTS?",
+    IndexId: "#argumentLetter",
+    IndexImage:"/thumbail.png"
+    }
+
+  ]
+
   public galeryLetter: string[] = [
     "/picture_letter/fundamentals_Letter_Keys.png",
     "/picture_letter/fundamentals_Letter_Grid.png",

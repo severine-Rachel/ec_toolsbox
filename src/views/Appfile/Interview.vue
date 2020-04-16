@@ -18,7 +18,8 @@
         pour se démarquer et réussir.</i>
       </strong>
     </p>
-    <h3>
+    <Index v-bind:index-list="indexInterview"></Index>
+    <h3 id="keysInterview">
       LES FONDAMENTAUX: FICHES-CLEFS
     </h3>
     <h4>
@@ -78,10 +79,10 @@
       </a>
     </p>
 
-    <h3>
+    <h3 id="tipsInterview">
       CONSEILS ET ASTUCES
     </h3>
-    <h3>
+    <h3 id="goFurtherInterview">
       POUR ALLER PLUS LOIN
     </h3>
     
@@ -138,6 +139,7 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
+import Index from "@/components/Index.vue";
 import Galery from "@/components/Galery.vue";
 import Pdf from "@/components/Pdf.vue";
 import Footer from "@/components/Footer.vue";
@@ -146,6 +148,7 @@ import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
   components: {
     Header,
     Menu,
+    Index,
     Galery,
     Pdf,
     BIcon,
@@ -155,6 +158,26 @@ import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
   }
 })
 export default class Interview extends Vue {
+public indexInterview= [
+    {
+    IndexTitle:  "LES FONDAMENTAUX : FICHES-CLÉS",
+    IndexId: "#keysInterview",
+    IndexImage: "/thumbail.png"
+    },
+    {
+    IndexTitle: "CONSEILS ET ASTUCES",
+    IndexId: "#tipsInterview",
+    IndexImage:"/thumbail.png"
+    },
+    {
+    IndexTitle: "POUR ALLER PLUS LOIN",
+    IndexId: "#goFurtherInterview",
+    IndexImage:"/thumbail.png"
+    }
+
+  ]
+
+
   public galeryInterview: string[] = [
     "/picture_interview/fundamentals_Interview_What'sit.png",
     "/picture_interview/fundamentals_Interview_Keys.png",

@@ -98,8 +98,8 @@
   margin-right: 0.5vw;
   width: 15.5vw;
   font-family: Myriad;
-  text-align: center;
- 
+  text-align: center !important;
+  
   &:hover {
     background-image: url("../assets/basic-Graph/buttonhover.png");
     background-size: 100% 100%;
@@ -132,20 +132,23 @@
 .dropdown-menu {
   border-radius: 0px !important;
   border: 0px !important;
-  padding: 0 !important;
+  padding:  0 !important;
 }
 .dropdown-item {
   color: #2e367f !important;
+  padding: 0.25rem 0 !important;
 }
 .show > .nav-link {
   background-image: url("../assets/basic-Graph/buttonhover.png");
   background-size: 100% 100%;
 }
 .nav-link-custom {
-  color: white !important;
+  padding: 0.5rem 0 !important;
+   
 }
 .nav-link {
   color: white !important;
+ 
 }
 .nav-pills .nav-link{
   border-radius:0 !important;

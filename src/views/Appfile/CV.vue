@@ -12,7 +12,7 @@
         CV.
       </strong>
     </p>
-    <!--<Index v-bind:index-list="indexCV"></Index>-->
+    <Index v-bind:index-list="indexCV"></Index>
 
     <h3 id="keysCV">
       LES FONDAMENTAUX : FICHES-CLÉS
@@ -148,7 +148,7 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
-//import Index from "@/components/Index.vue";
+import Index from "@/components/Index.vue";
 import Pdf from "@/components/Pdf.vue"
 import Galery from "@/components/Galery.vue";
 import Footer from "@/components/Footer.vue";
@@ -156,7 +156,7 @@ import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
     Header, Menu,
-    //Index, 
+    Index, 
     Pdf, Galery,
     BIcon, BIconBoxArrowRight,
     Footer

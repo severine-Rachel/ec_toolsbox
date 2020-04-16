@@ -27,7 +27,7 @@
 #article {
   margin-top: 20vh;
 
-  padding: 5%;
+  padding: 4% 0;
   background-image: linear-gradient(#1794d6, #146cb3);
 }
 h5 {
