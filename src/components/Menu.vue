@@ -99,6 +99,7 @@
   width: 15.5vw;
   font-family: Myriad;
   text-align: center;
+ 
   &:hover {
     background-image: url("../assets/basic-Graph/buttonhover.png");
     background-size: 100% 100%;
@@ -122,6 +123,7 @@
   width: 15.8vw;
   text-align: center;
   color: #2e367f;
+  
   &:hover {
     background-color: red;
   }

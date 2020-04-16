@@ -12,38 +12,37 @@
         CV.
       </strong>
     </p>
-    <h3>
-      LES FONDAMENTAUX : FICHES CLEFS
+    <!--<Index v-bind:index-list="indexCV"></Index>-->
+
+    <h3 id="keysCV">
+      LES FONDAMENTAUX : FICHES-CLÉS
     </h3>
-    <Pdf  v-bind:galery-pdf="pdfCV"></Pdf>
+    <Pdf v-bind:galery-pdf="pdfCV"></Pdf>
 
     <a
       id="cv-galery"
-      href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box"
+      href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box/cv.html"
       target="_blank"
     >
-      source: 
-      <b-icon
-            icon="box-arrow-right"
-          ></b-icon
-        >
-         www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box 
+      source:
+      <b-icon icon="box-arrow-right"></b-icon>
+      www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box
     </a>
-   
+
     <Galery v-bind:galery-picture="galeryCV"></Galery>
 
     <div>
-      <h3>
+      <h3 id="tipsCV">
         CONSEILS ET ASTUCES
       </h3>
 
-      <h3>
+      <h3 id="exampleCV">
         EXEMPLES DE CV (IUT)
       </h3>
 
       <Galery v-bind:galery-picture="CVIUT"></Galery>
 
-      <h3>
+      <h3 id="toolCV">
         OUTILS D'AIDE À LA CONCEPTION DE CV
       </h3>
 
@@ -96,7 +95,7 @@
           ></b-icon
         ></a>
       </p>
-      <h3>
+      <h3 id="videoCV">
         LE CV VIDÉO
       </h3>
       <p>
@@ -115,7 +114,7 @@
           Exemples de CV vidéo:
         </strong>
       </p>
-      <h3>
+      <h3 id="go-furtherCV">
         POUR ALLER PLUS LOIN !
       </h3>
       <p>
@@ -135,8 +134,7 @@
 
 <style lang="scss">
 #cv-galery {
-  margin-left:10%;
-  
+  margin-left: 10%;
 }
 .Help_Builder {
   width: 10vw;
@@ -150,27 +148,58 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
+//import Index from "@/components/Index.vue";
 import Pdf from "@/components/Pdf.vue"
 import Galery from "@/components/Galery.vue";
 import Footer from "@/components/Footer.vue";
 import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
-    Header,
-    Menu,
-    Pdf,
-    Galery,
-    BIcon,
-    BIconBoxArrowRight,
+    Header, Menu,
+    //Index, 
+    Pdf, Galery,
+    BIcon, BIconBoxArrowRight,
     Footer
   }
 })
 export default class CV extends Vue {
+  public indexCV= [
+    {
+    IndexTitle:  "LES FONDAMENTAUX : FICHES-CLÉS",
+    IndexId: "#keysCV",
+    IndexImage: "/thumbail.png"
+    },
+    {
+    IndexTitle: "CONSEILS ET ASTUCES",
+    IndexId: "#tipsCV",
+    IndexImage:"/thumbail.png"
+    },
+    {
+    IndexTitle: "EXEMPLES DE CV (IUT)",
+    IndexId: "#exampleCV",
+    IndexImage:"/thumbail.png"
+    },
+    {
+    IndexTitle: "OUTILS D'AIDE À LA CONCEPTION DE CV",
+    IndexId: "#toolCV",
+    IndexImage:"/thumbail.png"
+    },
+    {
+    IndexTitle:"LE CV VIDÉO" ,
+    IndexId: "#videoCV",
+    IndexImage:"/thumbail.png"
+    },
+    {
+    IndexTitle: "POUR ALLER PLUS LOIN !",
+    IndexId: "#go-furtherCV",
+    IndexImage:"/thumbail.png"
+    }
+  ]
   public galeryCV: string[] = [
     "/picture_cv/fundamentals_CV_Keys.png",
     "/picture_cv/fundamentals_CV_Grid.png",
     "/picture_cv/fundamentals_CV_Classic.png"
-    
+
   ];
 
  public pdfCV= [
@@ -184,7 +213,7 @@ export default class CV extends Vue {
       pdfDownload:"grillAnalyseCV",
       TxtPdf: "Fiche 2 : La grille d’analyse du CV"
     },
-    {      
+    {
       pdfLink:"/pdf_cv/fundamentals_CV_Grid.pdf",
       pdfDownload:"ModèleTrameClassique",
       TxtPdf: "Fiche 3 : Modèle de trame classique"

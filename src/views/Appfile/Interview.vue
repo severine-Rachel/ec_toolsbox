@@ -32,53 +32,20 @@
       1 heure pour convaincre.
     </p>
     
-    
+    <Pdf  v-bind:galery-pdf="pdfInterview"></Pdf>
 
-    <b-row class="justify-content-md-center">
-      <a
-        href="/pdf_interview/fundamentals_Interview_Keys.pdf"
-        class="fundamentals-pdf"
-        download="10PointsClesEntretien"
-      >
-        <b-icon icon="upload"></b-icon>ClefsEntretien</a
-      >
-      <a
-        href="/pdf_interview/fundamentals_Interview_Grid.pdf"
-        class="fundamentals-pdf"
-        download="grilleAnalyseEntretien"
-      >
-        <b-icon icon="upload"></b-icon> AnalyseEntretien</a
-      >
-      <a
-        href="/pdf_interview/fundamental_Interview_Question.pdf"
-        class="fundamentals-pdf"
-        download="Question1Entretien"
-      >
-        <b-icon icon="upload"></b-icon> Question1</a
-      >
-
-      <a
-        href="/pdf_interview/fundamental_Interview_Question2.pdf"
-        class="fundamentals-pdf"
-        download="Question2Entretien"
-      >
-        <b-icon icon="upload"></b-icon> Question2</a
-      >
-      <a
-        href="/pdf_interview/fundamental_Interview_What'sit.pdf"
-        class="fundamentals-pdf"
-        download="Qu'estcequ'unEntretien"
-      >
-        <b-icon icon="upload"></b-icon> Définition</a
-      >
-    </b-row>
+   
 
     <a
       id="interview-galery"
       href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box/entretien-de-recrutement.html?search-keywords=entretien+recrutement"
       target="_blank"
     >
-      source
+      source : <b-icon
+            icon="box-arrow-right"
+          ></b-icon
+        >
+         www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box 
     </a>
 
     <Galery v-bind:galery-picture="galeryInterview"></Galery>
@@ -154,8 +121,7 @@
 
 <style lang="scss">
 #interview-galery {
-  position: absolute;
-  right: 17vw;
+  margin-left:10%;
 }
 #book-Com{
     width: 30vw;
@@ -173,28 +139,57 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Galery from "@/components/Galery.vue";
+import Pdf from "@/components/Pdf.vue";
 import Footer from "@/components/Footer.vue";
-import { BIcon, BIconUpload, BIconBoxArrowRight } from "bootstrap-vue";
+import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
     Header,
     Menu,
     Galery,
+    Pdf,
     BIcon,
-    BIconUpload,
+    
     BIconBoxArrowRight,
     Footer
   }
 })
 export default class Interview extends Vue {
   public galeryInterview: string[] = [
+    "/picture_interview/fundamentals_Interview_What'sit.png",
     "/picture_interview/fundamentals_Interview_Keys.png",
-    "/picture_interview/fundamentals_Interview_Grid.png",
     "/picture_interview/fundamentals_Interview_Question.png",
-
     "/picture_interview/fundamentals_Interview_Question2.png",
-    "/picture_interview/fundamentals_Interview_What'sit.png"
+    "/picture_interview/fundamentals_Interview_Grid.png"
   ];
+  public pdfInterview= [
+     {
+      pdfLink:"/pdf_interview/fundamental_Interview_What'sit.pdf",
+      pdfDownload:"Qu'est-ce-qu'un-entretien?",
+      TxtPdf:"Fiche 1 : Qu’est-ce qu’un entretien ? "
+    },
+      {
+      pdfLink: "/pdf_interview/fundamentals_Interview_Keys.pdf",
+      pdfDownload:"10PointsClésEntretien",
+      TxtPdf:"Fiche 2 : Les 10 points clés de l’entretien"
+    },
+      {
+      pdfLink:"/pdf_interview/fundamental_Interview_Question.pdf",
+      pdfDownload:"QuestionType1Entretien",
+      TxtPdf:"Fiche 3 : Les questions types 1"
+    },
+      {
+      pdfLink:"/pdf_interview/fundamental_Interview_Question2.pdf",
+      pdfDownload:"QuestionType2Entretien",
+      TxtPdf:"Fiche 4 : Les questions types 2"
+    },
+      {
+      pdfLink:"/pdf_interview/fundamentals_Interview_Grid.pdf",
+      pdfDownload:"GrilleAnalyseEntretien",
+      TxtPdf:"Fiche 5 : Grille d’analyse recruteur"
+    }
+     
+  ]
 
 }
 </script>

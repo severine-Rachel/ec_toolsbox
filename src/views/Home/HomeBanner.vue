@@ -1,6 +1,7 @@
 <template>
   <img id="band" src="../../assets/basic-Graph/band.png">
 </template>
+
 <style >
 
   #band{

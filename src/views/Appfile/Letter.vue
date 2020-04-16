@@ -17,51 +17,18 @@
       LES FONDAMENTAUX: FICHES-CLEFS
     </h3>
 
-    <b-row class="justify-content-md-center">
-      <a
-        href="/pdf_letter/fundamentals_Letter_Keys.pdf"
-        class="fundamentals-pdf"
-        download="10PointsCleslettés"
-      >
-        <b-icon icon="upload"></b-icon> ClefsLettre</a
-      >
-      <a
-        href="/pdf_letter/fundamentals_letter_Grid.pdf"
-        class="fundamentals-pdf"
-        download="grilleAnalyselettre"
-      >
-        <b-icon icon="upload"></b-icon> AnalyseLettre</a
-      >
-      <a
-        href="/pdf_letter/fundamentals_letter_Spontaneous.pdf"
-        class="fundamentals-pdf"
-        download="LettreSpontanée"
-      >
-        <b-icon icon="upload"></b-icon> LettreSpontanée</a
-      >
-
-      <a
-        href="/pdf_letter/fundamentals_letter_Answer.pdf"
-        class="fundamentals-pdf"
-        download="lettreDeRéponse"
-      >
-        <b-icon icon="upload"></b-icon> lettreDeRéponse</a
-      >
-      <a
-        href="/pdf_letter/fundamentals_letter_Mistakes.pdf"
-        class="fundamentals-pdf"
-        download="Erreursfréquenteslettre"
-      >
-        <b-icon icon="upload"></b-icon> ErreuresTypes</a
-      >
-    </b-row>
+    <Pdf v-bind:galery-pdf="pdfLetter"></Pdf>
 
     <a
       id="letter-galery"
       href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box/lettre-de-motivation.html"
       target="_blank"
     >
-      source
+      source : <b-icon
+            icon="box-arrow-right"
+          ></b-icon
+        >
+         www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box 
     </a>
 
     <Galery v-bind:galery-picture="galeryLetter"></Galery>
@@ -102,8 +69,7 @@
 
 <style lang="scss">
 #letter-galery {
-  position: absolute;
-  right: 17vw;
+  margin-left: 10%;
 }
 .Help_Builder{
   width:10vw;
@@ -119,15 +85,17 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Galery from "@/components/Galery.vue";
+import Pdf from "@/components/Pdf.vue";
 import Footer from "@/components/Footer.vue";
-import { BIcon, BIconUpload, BIconBoxArrowRight } from "bootstrap-vue";
+import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
     Header,
     Menu,
     Galery,
+    Pdf,
     BIcon,
-    BIconUpload,
+    
     BIconBoxArrowRight,
     Footer
   }
@@ -141,5 +109,34 @@ export default class Letter extends Vue {
     "/picture_letter/fundamentals_Letter_Answer.png",
     "/picture_letter/fundamentals_Letter_Mistakes.png"
   ];
+  public pdfLetter= [
+     {
+      pdfLink:"/pdf_letter/fundamentals_Letter_Keys.pdf",
+      pdfDownload:"10PointsClésLettre",
+      TxtPdf:"Fiche 1 : Les 10points clés "
+    },
+      {
+      pdfLink: "/pdf_letter/fundamentals_letter_Grid.pdf",
+      pdfDownload:"GrilleAnalyseLettre",
+      TxtPdf:"Fiche 2 : La grille d’analyse de votre lettre"
+    },
+      {
+      pdfLink:"/pdf_letter/fundamentals_letter_Mistakes.pdf",
+      pdfDownload:"ErreursLettre",
+      TxtPdf:"Fiche 3 : Les erreurs à éviter"
+    },
+      {
+      pdfLink:"/pdf_letter/fundamentals_letter_Spontaneous.pdf",
+      pdfDownload:"lettreSpontanée",
+      TxtPdf:"Fiche 4 : Trame lettre spontanée"
+    },
+      {
+      pdfLink:"/pdf_letter/fundamentals_letter_Answer.pdf",
+      pdfDownload:"LettreRéponseAnnonce",
+      TxtPdf:"Fiche 5 : Trame réponse annonce"
+    }
+     
+  ]
+  
 }
 </script>

@@ -49,8 +49,7 @@ import { Component, Vue, Prop } from "vue-property-decorator";
 import { BIcon, BIconXCircle } from "bootstrap-vue";
 @Component({
   components: {
-    BIcon,
-    BIconXCircle
+    BIcon, BIconXCircle
   }
 })
 export default class Galery extends Vue {
