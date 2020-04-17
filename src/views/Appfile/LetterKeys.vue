@@ -16,6 +16,18 @@
     </a>
 
     <Galery v-bind:galery-picture="galeryLetter"></Galery>
+    <p>Exemples d’accroches, d’argumentaires et de conclusions</p>^
+    <p>
+      <a
+        href="http://platine.univ-lorraine.fr/index.php?id=64s"
+        alt="vennage"
+        target="_blank"
+        ><img
+          class="Help_Builder"
+          src="/picture_letter/fundamentals-u-platine.png"
+        /><b-icon icon="box-arrow-right"></b-icon>
+      </a>
+    </p>
   </div>
 </template>
 
