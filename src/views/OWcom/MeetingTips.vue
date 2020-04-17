@@ -21,7 +21,6 @@ import Footer from "@/components/Footer.vue";
   components: {
     Header,
     Menu,
-
     Footer,
   },
 })

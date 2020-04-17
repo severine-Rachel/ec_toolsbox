@@ -20,6 +20,7 @@
       améliorer vos compétences rédactionnelles.
     </p>
     <ContentsPage v-bind:contents-list="contentsPro"></ContentsPage>
+    <Video v-bind:galery-video="videoPro"></Video>
     <Footer></Footer>
   </div>
 </template>
@@ -31,12 +32,14 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import ContentsPage from "@/components/ContentsPage.vue";
+import Video from "@/components/Video.vue"
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Header,
     Menu,
     ContentsPage,
+    Video,
     Footer,
   },
 })
@@ -63,6 +66,20 @@ export default class Pro extends Vue {
     ContentsImage:"/thumbail.png"
     }
 
+  ]
+  public videoPro=[
+    {
+    videoMiniature:"/thumbail.png",
+    videoSrc:"https://www.youtube.com/embed/fYqNYNCci50",
+    videoTitle:"RoomVR, Mufaya & jetty - Will Of The Wind [Ambient/Orchestral",
+    videoRoot: "Ponies At Dawn"
+    },
+       {
+    videoMiniature:"/thumbail.png",
+    videoSrc:"https://www.youtube.com/embed/3Wen8TSx1AU",
+    videoTitle:"Orchestral",
+    videoRoot: "Cider Party"
+    }
   ]
 }
 </script>
