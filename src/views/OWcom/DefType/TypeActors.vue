@@ -1,0 +1,39 @@
+<template>
+  <div>
+    <h4>
+        LES ACTEURS : COMMUNICATIONS INDIVIDUELLE ET COLLECTIVE
+    </h4>
+    <p>
+        La communication va être fonction du nombre d'émetteurs et du récepteurs :
+        <ol>
+            <li>
+                <u>Communication interpersonnelle</u>
+            </li>
+            Basée sur l'échange entre 2 individus (entretien de recrutement 
+            conversation entre 2 amis...)
+            <li>
+                <u>Communication de groupe</u>
+            </li>
+            L’émetteur s’adresse à un groupe défini, dont la culture est 
+            commune (réunion...)
+            <li>
+                <u>Communication de masse</u>
+            </li>
+            L’émetteur (singulier ou pluriel) vise à toucher le maximum de 
+            récepteurs (vecteurs: presse, radio, cinéma, Internet...)
+        </ol>
+    </p>
+  </div>
+</template>
+
+<style lang="scss">
+
+</style>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+
+@Component({
+})
+export default class TypeActors extends Vue {}
+</script>

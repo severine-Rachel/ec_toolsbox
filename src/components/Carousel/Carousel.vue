@@ -1,5 +1,6 @@
 <template>
     <div class="Carousel">
+    
         <button class="btn_prev btn_carousel" @click.prevent="prev"></button>
         <button class="btn_next btn_carousel" @click.prevent="next"></button>
         <slot></slot>
@@ -7,6 +8,8 @@
 </template>
 
 <script>
+
+
 export default {
     data (){
         return{

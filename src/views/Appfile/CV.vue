@@ -15,17 +15,12 @@
     <Index v-bind:index-list="indexCV"></Index>
 
     <CVKeys></CVKeys>
-    
-    
-      <CVTips></CVTips>
-
-      <CVExample></CVExample>
-      
-      <CVTools></CVTools>
-
-      <CVVideo></CVVideo>
-     
+    <CVTips></CVTips>
+    <CVExample></CVExample>
+    <CVTools></CVTools>
+    <CVVideo></CVVideo>
     <CVGoFurther></CVGoFurther>
+
     <Footer></Footer>
   </div>
 </template>
@@ -35,9 +30,9 @@
   margin-left: 10%;
 }
 
-.subtitle-link{
+.subtitle-link {
   text-decoration: none !important;
-  color:#2e367f;
+  color: #2e367f;
 }
 </style>
 
@@ -56,52 +51,51 @@ import Footer from "@/components/Footer.vue";
 
 @Component({
   components: {
-    Header, Menu,
-    Index, 
+    Header,
+    Menu,
+    Index,
     CVKeys,
     CVTips,
     CVExample,
     CVTools,
     CVVideo,
     CVGoFurther,
-    
-    Footer
-  }
+
+    Footer,
+  },
 })
 export default class CV extends Vue {
-  public indexCV= [
+  public indexCV = [
     {
-    IndexTitle:  "LES FONDAMENTAUX : FICHES-CLÉS",
-    IndexId: "#keysCV",
-    IndexImage: "/thumbail.png"
+      IndexTitle: "LES FONDAMENTAUX : FICHES-CLÉS",
+      IndexId: "#keysCV",
+      IndexImage: "/thumbail.png",
     },
     {
-    IndexTitle: "CONSEILS ET ASTUCES",
-    IndexId: "#tipsCV",
-    IndexImage:"/thumbail.png"
+      IndexTitle: "CONSEILS ET ASTUCES",
+      IndexId: "#tipsCV",
+      IndexImage: "/thumbail.png",
     },
     {
-    IndexTitle: "EXEMPLES DE CV (IUT)",
-    IndexId: "#exampleCV",
-    IndexImage:"/thumbail.png"
+      IndexTitle: "EXEMPLES DE CV (IUT)",
+      IndexId: "#exampleCV",
+      IndexImage: "/thumbail.png",
     },
     {
-    IndexTitle: "OUTILS D'AIDE À LA CONCEPTION DE CV",
-    IndexId: "#toolCV",
-    IndexImage:"/thumbail.png"
+      IndexTitle: "OUTILS D'AIDE À LA CONCEPTION DE CV",
+      IndexId: "#toolCV",
+      IndexImage: "/thumbail.png",
     },
     {
-    IndexTitle:"LE CV VIDÉO" ,
-    IndexId: "#videoCV",
-    IndexImage:"/thumbail.png"
+      IndexTitle: "LE CV VIDÉO",
+      IndexId: "#videoCV",
+      IndexImage: "/thumbail.png",
     },
     {
-    IndexTitle: "POUR ALLER PLUS LOIN !",
-    IndexId: "#go-furtherCV",
-    IndexImage:"/thumbail.png"
-    }
-  ]
- 
-  
+      IndexTitle: "POUR ALLER PLUS LOIN !",
+      IndexId: "#go-furtherCV",
+      IndexImage: "/thumbail.png",
+    },
+  ];
 }
 </script>

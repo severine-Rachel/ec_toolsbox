@@ -37,7 +37,7 @@
 </template>
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-import { BIcon, BIconXCircle } from "bootstrap-vue";
+
 import Carousel from "@/components/Carousel/Carousel.vue";
 import Slide from "@/components/Carousel/Slide.vue";
 @Component({
@@ -102,14 +102,13 @@ export default class CVGoFurther extends Vue {
   }
 }
 </script>
+
 <style>
 .imgCV {
   width: 20vw;
-  
   margin: 10px;
 }
 .imgCV-slide{
     height:80vh;
-    
 }
 </style>

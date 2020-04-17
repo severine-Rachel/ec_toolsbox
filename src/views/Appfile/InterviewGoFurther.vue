@@ -1,0 +1,49 @@
+<template>
+  <div>
+    
+      <h3 id="goFurtherInterview">
+      POUR ALLER PLUS LOIN
+    </h3>
+    
+    <b-row id="go-further-Interview">
+        
+    <b-col cols="4">
+        <img id="book-Com"  src="../../assets/book.jpg">
+    </b-col>
+    <b-col cols="8">
+        <p>
+        Cet ouvrage s’adresse à tous ceux qui doivent se présenter à des entretiens 
+        de recrutement pour la première fois : jeunes diplômés qui entrent sur le marché 
+        de l’emploi, étudiants qui postulent à un stage, à une poursuite d’études ou encore 
+        lycéens face à une épreuve orale de concours. Vous y trouverez des exercices pratiques, 
+        des conseils méthodologiques, des outils concrets, des astuces et des témoignages de professionnels.
+    </p>
+    <p>
+        À partir d’exemples vécus, de tests, de QCM, ou encore des 50 questions 
+        les plus posées en entretien, vous pourrez acquérir des connaissances sur 
+        les méthodes de recrutement et les dernières tendances en la matière. Vous 
+        aiguiserez ainsi votre capacité à vous présenter, à argumenter, à interagir 
+        positivement avec le recruteur ou encore à négocier. Au-delà des recettes toutes 
+        faites, l’objectif de cet ouvrage est de vous faire prendre conscience des enjeux 
+        fondamentaux de l’entretien et de ses codes bien spécifiques. Il doit vous permettre 
+        de trouver, en vous, les ressources afin de vous démarquer des autres candidats en adoptant 
+        l’attitude professionnelle adéquate et en communicant efficacement avec votre interlocuteur.
+    </p>
+    </b-col>
+  </b-row>
+  </div>
+</template>
+
+<style lang="scss">
+#book-Com{
+    width: 30vw;
+    border:solid 1px #bce8ff;
+    
+}
+</style>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+@Component({})
+export default class InterviewGoFurther extends Vue {}
+</script>

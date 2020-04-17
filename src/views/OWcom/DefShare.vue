@@ -1,5 +1,7 @@
 <template>
   <div>
+        <Header></Header>
+    <Menu></Menu>
     <h3>
       COMMUNIQUER, C'EST ÉCHANGER
     </h3>
@@ -19,8 +21,10 @@
       </li>
     </ul>
     </p>
-  
- 
+    <ShareTheory></ShareTheory>
+    <ShareFeedBack></ShareFeedBack>
+    <ShareSchematic></ShareSchematic>
+ <Footer></Footer>
   </div>
 </template>
 
@@ -28,6 +32,21 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-@Component({})
+import Header from "@/components/Header.vue";
+import Menu from "@/components/Menu.vue";
+import ShareTheory from "@/views/OWcom/DefShare/ShareTheory.vue";
+import ShareFeedBack from "@/views/OWcom/DefShare/ShareFeedBack.vue";
+import ShareSchematic from "@/views/OWcom/DefShare/ShareSchematic.vue";
+import Footer from "@/components/Footer.vue";
+@Component({
+  components: {
+    Header,
+    Menu,
+    ShareTheory,
+    ShareFeedBack,
+    ShareSchematic,
+    Footer
+  }
+})
 export default class DefShare extends Vue {}
 </script>
