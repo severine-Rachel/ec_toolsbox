@@ -57,11 +57,13 @@ export default {
     height: 70px;
     background: url(next.png);
     background-size: 70px 70px;
+    border-radius:50%;
 }
 .btn_carousel.btn_prev{
     right: 35%;
     left: auto;
     background: url(prev.png);
     background-size: 70px 70px;
+    border-radius:50%;
 }
 </style>

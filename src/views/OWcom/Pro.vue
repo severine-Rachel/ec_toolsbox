@@ -49,7 +49,7 @@ export default class Pro extends Vue {
     },
     {
     ContentsTitle: "STRATÉGIES D'ÉCRITURE",
-    ContentsPath: "Ecrit/Strategie",
+    ContentsPath: "/Ecrit_Pro/Strategie",
     ContentsImage:"/thumbail.png"
     },
     {

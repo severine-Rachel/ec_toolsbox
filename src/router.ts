@@ -16,8 +16,12 @@ import ProStrategy from './views/OWcom/ProStrategy.vue';
 import ProSpelling from './views/OWcom/ProSpelling.vue';
 import ProExample from './views/OWcom/ProExample.vue';
 import Speech from './views/OWcom/Speech.vue';
+import SpeechDare from './views/OWcom/SpeechDare.vue';
+import SpeechSetting from './views/OWcom/SpeechSetting.vue';
+import SpeechTips from './views/OWcom/SpeechTips.vue';
 import Meeting from './views/OWcom/Meeting.vue';
-
+import MeetingFundamental from './views/OWcom/MeetingFundamental.vue';
+import MeetingTips from './views/OWcom/MeetingTips.vue';
 import { BvComponent } from 'bootstrap-vue';
 Vue.use(VueRouter)
 
@@ -103,10 +107,36 @@ const routes = [
   component: Speech
 },
 {
+  path:'/Prise_de_Parole/Oser_Parler',
+  name:'Oser_Parler',
+  component: SpeechDare
+},
+{
+  path:'/Prise_de_Parole/Parametre_Parole',
+  name:'Parametre_Parole',
+  component: SpeechSetting
+},
+{
+  path:'/Prise_de_Parole/Astuces',
+  name:'Parole_Astuces',
+  component: SpeechTips
+},
+{
   path:'/Conduite_Reunion',
   name:'Conduite_Reunion',
   component: Meeting
 },
+{
+  path:'/Conduite_Reunion/Fondamentaux',
+  name:'Reunion_Fondamentaux',
+  component: MeetingFundamental
+},
+{
+  path:'/Conduite_Reunion/Astuces',
+  name:'Reunion_Astuces',
+  component: MeetingTips
+},
+
 ]
 
 const router = new VueRouter({
