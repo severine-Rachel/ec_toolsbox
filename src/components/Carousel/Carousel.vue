@@ -51,7 +51,7 @@ export default {
 .btn_carousel{
     position: relative;
     border: none;
-    top: 140px;
+    top: 400px;
     left: 35%;
     width: 70px;
     height: 70px;
