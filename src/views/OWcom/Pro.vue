@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h3>ÉCRITS PROFESSIONNELS, ACADÉMIQUE ET D'INVENTION</h3>
+    <h2 class="rubric-title">ÉCRITS PROFESSIONNELS, ACADÉMIQUE ET D'INVENTION</h2>
     <p>
       Aujourd’hui, avec l’essor du numérique, chacun d’entre nous est amené à
       rédiger. Que ce soit dans un cadre privé (SMS, e-mails, etc.), dans un
@@ -20,7 +20,7 @@
       améliorer vos compétences rédactionnelles.
     </p>
     <ContentsPage v-bind:contents-list="contentsPro"></ContentsPage>
-    <Video v-bind:galery-video="videoPro"></Video>
+    
     <Footer></Footer>
   </div>
 </template>
@@ -32,14 +32,14 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import ContentsPage from "@/components/ContentsPage.vue";
-import Video from "@/components/Video.vue"
+
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Header,
     Menu,
     ContentsPage,
-    Video,
+   
     Footer,
   },
 })
@@ -67,19 +67,6 @@ export default class Pro extends Vue {
     }
 
   ]
-  public videoPro=[
-    {
-    videoMiniature:"/thumbail.png",
-    videoSrc:"https://www.youtube.com/embed/fYqNYNCci50",
-    videoTitle:"RoomVR, Mufaya & jetty - Will Of The Wind [Ambient/Orchestral",
-    videoRoot: "Ponies At Dawn"
-    },
-       {
-    videoMiniature:"/thumbail.png",
-    videoSrc:"https://www.youtube.com/embed/3Wen8TSx1AU",
-    videoTitle:"Orchestral",
-    videoRoot: "Cider Party"
-    }
-  ]
+
 }
 </script>

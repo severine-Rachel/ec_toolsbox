@@ -5,17 +5,19 @@
     <HomeBanner></HomeBanner>
     <h3>À propos</h3>
     <p>
-      Ce site à été réalisé dans le but de fournir des supports de cours pour
-      les étudiants de GEII de l’IUT d’Angers et égalemment permettre à d’autres
-      étudiants ou autres utilisateurs de tout horizon d’obtenir des aides dans
-      leurs études et travaux en rapport avec l'expression communication. Il
-      pourra aussi permettre à des enseignants d’expression communication de
-      trouver des idées pour leurs propres cours. Je fais moi-même partie de
-      l'association des enseignants de communication en IUT. Vous trouverez des
-      documents relatant l'ensemble du domaine de la communication, mais aussi
-      des écrits sur l'art. Je met aussi à disposition d'anciens travaux
-      étudiants qui sont sources de créativité et de nouveauté afin d'aider les
-      nouveaux à trouver des inspirations.
+      Ce site a été conçu comme une boîte à outils. Vous y trouverez de
+      nombreuses ressources en expression et communication : fiches-clés,
+      conseils et astuces, vidéos, exemples concrets, etc. qui doivent vous
+      permettre de préparer un solide dossier de candidature, de concevoir des
+      supports de communication pertinents, d’enrichir vos compétences
+      rédactionnelles, d’améliorer votre maîtrise de la langue française ou
+      encore d’élargir votre culture générale.
+    </p>
+    <p>
+      Dédié en premier lieu à mes étudiants, ce site est également utile à tous
+      ceux qui recherchent un stage, un poste ou présentent un concours, qui
+      doivent prendre la parole en public, animer une réunion, produire des
+      supports visuels ou encore des écrits de différentes natures…
     </p>
     <HomeArticle></HomeArticle>
     <Footer></Footer>
@@ -23,21 +25,27 @@
 </template>
 
 <style>
-#welcome-page{
-  position:relative;
+#welcome-page {
+  position: relative;
+}
+.rubric-title {
+  color: #1794d6;
+  font-family: Myriad;
+  margin: 0 10%;
+  padding: 4vh 0;
 }
 h3 {
   color: #1794d6;
   font-family: Myriad;
   margin: 10%;
-  padding:8vh 0;
- 
+  padding: 8vh 0;
 }
-h4{
-    color: #2e367f;
+
+h4 {
+  color: #2e367f;
   font-family: Myriad;
   margin: 10%;
-  padding-top:2%
+  padding-top: 2%;
 }
 p {
   text-align: justify;
@@ -59,8 +67,8 @@ import Footer from "@/components/Footer.vue";
     Menu,
     HomeBanner,
     HomeArticle,
-    Footer
-  }
+    Footer,
+  },
 })
 export default class Home extends Vue {}
 </script>

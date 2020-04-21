@@ -15,9 +15,19 @@
       www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box
     </a>
 
-    <Galery v-bind:galery-picture="galeryLetter"></Galery>
-    <p>Exemples d’accroches, d’argumentaires et de conclusions</p>^
+    <Galery v-bind:galery-picture="galeryLetterSheet"></Galery>
+
     <p>
+      <strong>
+        La mise en page de la lettre de motivation
+      </strong>
+    </p>
+    <p>
+      La lettre doit respecter un équilibre global ; c’est la règle des 3 tiers.
+    </p>
+    <Galery v-bind:galery-picture="galeryLetterModal"></Galery>
+    <p>
+      <strong>Exemples d’accroches, d’argumentaires et de conclusions </strong>
       <a
         href="http://platine.univ-lorraine.fr/index.php?id=64s"
         alt="vennage"
@@ -35,22 +45,29 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
 import Pdf from "@/components/Pdf.vue";
 import Galery from "@/components/Galery.vue";
 @Component({
   components: {
     Pdf,
     Galery,
+    BIcon,
+    BIconBoxArrowRight,
   },
 })
 export default class CVKeys extends Vue {
-  public galeryLetter: string[] = [
+  public galeryLetterSheet: string[] = [
     "/picture_letter/fundamentals_Letter_Keys.png",
     "/picture_letter/fundamentals_Letter_Grid.png",
     "/picture_letter/fundamentals_Letter_Spontaneous.png",
 
     "/picture_letter/fundamentals_Letter_Answer.png",
     "/picture_letter/fundamentals_Letter_Mistakes.png",
+  ];
+  public galeryLetterModal: string[] = [
+    "/picture_Letter/fundamentals_Letter_Modal.png",
+    "/picture_Letter/fundamentals_Letter_Modal2.png",
   ];
 
   public pdfLetter = [

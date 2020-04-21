@@ -3,6 +3,7 @@
     <h3 id="tipsLetter">
       CONSEILS ET ASTUCES
     </h3>
+    <Video v-bind:galery-video="videoLetterTips"></Video>
     <p>
       <a
         href="https://baborlelefan.com/2013/12/07/enquete-faut-tenter-des-candidatures-originales/"
@@ -42,12 +43,37 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Video from "@/components/Video.vue";
 import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
+    Video,
     BIcon,
     BIconBoxArrowRight,
   },
 })
-export default class LetterKeys extends Vue {}
+export default class LetterKeys extends Vue {
+  public videoLetterTips = [
+    {
+      videoSrc: "https://www.youtube.com/embed/cZXIs1LWw8I",
+      videoTitle: "10 astuces pour écrire votre lettre de motivation",
+      videoRoot: "Chaîne : Pôle emploi",
+    },
+    {
+      videoSrc: "https://www.youtube.com/embed/Kuquw_MFX3U",
+      videoTitle: "Comment structurer sa lettre de motivation ?",
+      videoRoot: "Chaîne : digiSchool",
+    },
+    {
+      videoSrc: "https://www.youtube.com/embed/fYKnSfCR3_0",
+      videoTitle: "Les 7 erreurs à éviter dans une lettre de motivation ",
+      videoRoot: "Chaîne : QuestionEntretien",
+    },
+    {
+      videoSrc: "https://www.youtube.com/embed/sE72wb2UsM0",
+      videoTitle: "Les règles d’or de la lettre de motivation :",
+      videoRoot: "Chaîne :  1er emploi, jobs, stages",
+    },
+  ];
+}
 </script>

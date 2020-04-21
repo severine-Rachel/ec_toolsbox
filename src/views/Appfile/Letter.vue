@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-
+<h2 class="rubric-title">LETTRE DE MOTIVATION</h2>
     <p>
       <strong>
         Comment écrire une bonne lettre de motivation ? Comment analyser une

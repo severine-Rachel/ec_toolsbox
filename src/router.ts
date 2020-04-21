@@ -22,6 +22,45 @@ import SpeechTips from './views/OWcom/SpeechTips.vue';
 import Meeting from './views/OWcom/Meeting.vue';
 import MeetingFundamental from './views/OWcom/MeetingFundamental.vue';
 import MeetingTips from './views/OWcom/MeetingTips.vue';
+import Poster from './views/VisuCom/Poster.vue';
+import PosterFundamental from './views/VisuCom/PosterFundamental.vue';
+import PosterTips from './views/VisuCom/PosterTips.vue';
+import PosterInPractise from './views/VisuCom/PosterInPractise.vue';
+import PosterInspiration from './views/VisuCom/PosterInspiration.vue';
+import Projection from './views/VisuCom/Projection.vue';
+import ProjectionFundamental from './views/VisuCom/ProjectionFundamental.vue';
+import ProjectionTips from './views/VisuCom/ProjectionTips.vue';
+import ProjectionInPractise from './views/VisuCom/ProjectionInPractise.vue';
+import Infography from './views/VisuCom/Infography.vue';
+import InfographyFundamental from './views/VisuCom/InfographyFundamental.vue';
+import InfographyTips from './views/VisuCom/InfographyTips.vue';
+import InfographyInPractise from './views/VisuCom/InfographyInPractise.vue';
+import AudioVisual from './views/VisuCom/AudioVisual.vue';
+import AudioVisualFundamental from './views/VisuCom/AudioVisualFundamental.vue';
+import AudioVisualTips from './views/VisuCom/AudioVisualTips.vue';
+import GeneralCulture from './views/Art/GeneralCulture.vue';
+import ArtPerf from './views/Art/ArtPerf.vue';
+import ArtPerfDef from './views/Art/ArtPerfDef.vue';
+import ArtPerfOrigin from './views/Art/ArtPerfOrigin.vue';
+import ArtPerfBibliogr from './views/Art/ArtPerfBibliogr.vue';
+import ArtPerfStudents from './views/Art/ArtPerfStudents.vue';
+import ArtPerfCorp from './views/Art/ArtPerfCorp.vue';
+import ReadPleasure from './views/Art/ReadPleasure.vue';
+import ReadLink from './views/Art/ReadLink.vue';
+import ReadClassic from './views/Art/ReadClassic.vue';
+import ReadAssay from './views/Art/ReadAssay.vue';
+import ReadIslander from './views/Art/ReadIslander.vue';
+import ReadComic from './views/Art/ReadComic.vue';
+import ReadHardened from './views/Art/ReadHardened.vue';
+import OnlineCulture from './views/Art/OnlineCulture.vue';
+import OnlineCultureArt from './views/Art/OnlineCultureArt.vue';
+import OnlineCultureCinema from './views/Art/OnlineCultureCinema.vue';
+import OnlineCultureMusic from './views/Art/OnlineCultureMusic.vue';
+import OnlineCultureHistory from './views/Art/OnlineCultureHistory.vue';
+import OnlineCultureSciences from './views/Art/OnlineCultureSciences.vue';
+import OnlineCultureGeneral from './views/Art/OnlineCultureGeneral.vue';
+import OnlineCultureMedia from './views/Art/OnlineCultureMedia.vue';
+import WhoAmI from './views/Intro/WhoAmI.vue';
 import { BvComponent } from 'bootstrap-vue';
 Vue.use(VueRouter)
 
@@ -136,7 +175,201 @@ const routes = [
   name:'Reunion_Astuces',
   component: MeetingTips
 },
-
+{
+  path:'/Affiche',
+  name: 'Affiche',
+  component: Poster
+},
+{
+  path:'/Affiche/Fondamentaux',
+  name: 'Affiche_Fondamentaux',
+  component: PosterFundamental
+},
+{
+  path:'/Affiche/Astuces',
+  name: 'Affiche_Astuces',
+  component: PosterTips
+},
+{
+  path:'/Affiche/EnPratique',
+  name: 'Affiche_EnPratique',
+  component: PosterInPractise
+},
+{
+  path:'/Affiche/Trouver_lInspiration',
+  name: 'Affiche_Inspiration',
+  component: PosterInspiration
+},
+{
+  path:'/Diaporama',
+  name: 'Diaporama',
+  component: Projection
+},
+{
+  path:'/Diaporama/Fondamentaux',
+  name: 'Diaporama_Fondamentaux',
+  component: ProjectionFundamental
+},
+{
+  path:'/Diaporama/Astuces',
+  name: 'Diaporama_Astuces',
+  component: ProjectionTips
+},
+{
+  path:'/Diaporama/EnPratique',
+  name: 'Diaporama_EnPratique',
+  component: ProjectionInPractise
+},
+{
+  path:'/Infographie',
+  name: 'Infographie',
+  component: Infography
+},
+{
+  path:'/Infographie/Fondamentaux',
+  name: 'Infographie_Fondamentaux',
+  component: InfographyFundamental
+},
+{
+  path:'/Infographie/Astuces',
+  name: 'Infographie_Astuces',
+  component: InfographyTips
+},
+{
+  path:'/Infographie/EnPratique',
+  name: 'Infographie_EnPratique',
+  component: InfographyInPractise
+},
+{
+  path:'/Audiovisuel',
+  name: 'Audiovisuel',
+  component: AudioVisual
+},
+{
+  path:'/Audiovisuel/Fondamentaux',
+  name: 'Audiovisuel_Fondamentaux',
+  component: AudioVisualFundamental
+},
+{
+  path:'/Audiovisuel/Astuces',
+  name: 'Audiovisuel_Astuces',
+  component: AudioVisualTips
+},
+{
+  path:'/CultureGenerale',
+  name: 'CultureGeneral',
+  component: GeneralCulture
+},
+{
+  path: '/PerformanceArtistique',
+  name:'PerformanceArtistique',
+  component: ArtPerf
+},
+{
+  path: '/PerformanceArtistique/Definition',
+  name: 'PerformanceArtistique_Definition',
+  component: ArtPerfDef
+},
+{
+  path: '/PerformanceArtistique/Origines',
+  name: 'PerformanceArtistique_Origines',
+  component: ArtPerfOrigin
+},
+{
+  path: '/PerformanceArtistique/Bibliographie',
+  name: 'PerformanceArtistique_Bibliographie',
+  component: ArtPerfBibliogr
+},
+{
+  path: '/PerformanceArtistique/ExemplesEtudiants',
+  name: 'PerformanceArtistique_ExemplesEtudiants',
+  component: ArtPerfStudents
+},
+{
+  path: '/PerformanceArtistique/CorpusdeTexte',
+  name: 'PerformanceArtistique_CorpusdeTexte',
+  component: ArtPerfCorp
+},
+{
+  path: '/PlaisirdeLire',
+  name: 'PlaisirdeLire',
+  component: ReadPleasure
+},
+{
+  path: '/PlaisirdeLire/RenouerAvecLaLecture',
+  name: 'PlaisirdeLire_RenouerAvecLaLecture',
+  component: ReadLink
+},
+{
+  path: '/PlaisirdeLire/LesClassiques',
+  name: 'PlaisirdeLire_LesClassiques',
+  component: ReadClassic
+},
+{
+  path: '/PlaisirdeLire/LesEssaisEtTemoignages',
+  name: 'PlaisirdeLire_LesEssaisEtTemoignages',
+  component: ReadAssay
+},
+{
+  path: '/PlaisirdeLire/LectureInsulaire',
+  name: 'PlaisirdeLire_LectureInsulaire',
+  component: ReadIslander
+},
+{
+  path: '/PlaisirdeLire/BandesDessinees',
+  name: 'PlaisirdeLire_BandesDessinees',
+  component: ReadComic
+},
+{
+  path: '/PlaisirdeLire/PourLesAguerris',
+  name: 'PlaisirdeLire_PourLesAguerris',
+  component: ReadHardened
+},
+{
+  path: '/CultureenLigne',
+  name: 'CultureenLigne',
+  component: OnlineCulture
+},
+{
+  path: '/CultureenLigne/Art',
+  name: 'CultureenLigne_Art',
+  component: OnlineCultureArt
+},
+{
+  path: '/CultureenLigne/Cinema',
+  name: 'CultureenLigne_Cinema',
+  component: OnlineCultureCinema
+},
+{
+  path: '/CultureenLigne/Musique',
+  name: 'CultureenLigne_Musique',
+  component: OnlineCultureMusic
+},
+{
+  path: '/CultureenLigne/Histoire',
+  name: 'CultureenLigne_Histoire',
+  component: OnlineCultureHistory
+},
+{
+  path: '/CultureenLigne/Sciences',
+  name: 'CultureenLigne_Sciences',
+  component: OnlineCultureSciences
+},
+{
+  path: '/CultureenLigne/CultureGenerale',
+  name: 'CultureenLigne_CultureGenerale',
+  component: OnlineCultureGeneral
+},
+{
+  path: '/CultureenLigne/MediaPresse',
+  name: 'CultureenLigne_MediaPresse',
+  component: OnlineCultureMedia
+},
+{
+  path: '/QuiSuisJe',
+  name: 'QuiSuisJe',
+  component: WhoAmI
+},
 ]
 
 const router = new VueRouter({

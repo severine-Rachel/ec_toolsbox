@@ -16,7 +16,7 @@
         v-bind:download="pdfElement.pdfDownload"
       >
         <b-icon icon="upload"></b-icon> {{ pdfElement.TxtPdf }}
-        </a>
+      </a>
     </div>
   </div>
 </template>
@@ -26,8 +26,10 @@ import { Component, Vue, Prop } from "vue-property-decorator";
 import { BIcon, BIconXCircle, BIconUpload } from "bootstrap-vue";
 @Component({
   components: {
-    BIcon, BIconUpload, BIconXCircle
-  }
+    BIcon,
+    BIconUpload,
+    BIconXCircle,
+  },
 })
 export default class Pdf extends Vue {
   @Prop() public readonly galeryPdf!: {

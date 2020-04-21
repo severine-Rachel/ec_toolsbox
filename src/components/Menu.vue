@@ -9,13 +9,10 @@
         text="DOSSIER DE CANDIDATURE"
         toggle-class="nav-link-custom"
       >
-      
         <b-dropdown-item class="sub-rubric" to="/CV">
-          
-            CV
-          
+          CV
         </b-dropdown-item>
-        
+
         <b-dropdown-item class="sub-rubric" to="/LettreMotivation"
           >LETTRE DE MOTIVATION</b-dropdown-item
         >
@@ -33,8 +30,7 @@
           >QU'EST CE QUE LA COMMUNICATION</b-dropdown-item
         >
         <b-dropdown-item class="sub-rubric" to="/Ecrit_Pro"
-          >ÉCRIT PROFESSIONNEL, <br />ACADÉMIQUE ET
-          D'INVENTION</b-dropdown-item
+          >ÉCRIT PROFESSIONNEL, <br />ACADÉMIQUE ET D'INVENTION</b-dropdown-item
         >
         <b-dropdown-item class="sub-rubric" to="/Prise_de_Parole"
           >PRISE DE PAROLE EN PUBLIC</b-dropdown-item
@@ -49,14 +45,12 @@
         text="COMMUNICATION VISUELLE"
         toggle-class="nav-link-custom"
       >
-        <b-dropdown-item class="sub-rubric" href="#">AFFICHE</b-dropdown-item>
-        <b-dropdown-item class="sub-rubric" href="#"
-          >DIAPORAMA</b-dropdown-item
-        >
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/Affiche">AFFICHE</b-dropdown-item>
+        <b-dropdown-item class="sub-rubric" to="/Diaporama">DIAPORAMA</b-dropdown-item>
+        <b-dropdown-item class="sub-rubric" to="/Infographie"
           >INFOGRAPHIE</b-dropdown-item
         >
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/Audiovisuel"
           >AUDIOVISUEL</b-dropdown-item
         >
       </b-nav-item-dropdown>
@@ -66,20 +60,24 @@
         text="ARTS ET CULTURE"
         toggle-class="nav-link-custom"
       >
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/CultureGenerale"
+          >L'IMPORTANCE DE LA <br />
+          CULTURE EN GÉNÉRALE</b-dropdown-item
+        >
+        <b-dropdown-item class="sub-rubric" to="/PerformanceArtistique"
           >PERFORMANCE ARTISTIQUE</b-dropdown-item
         >
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/PlaisirdeLire"
           >PLAISIR DE LIRE</b-dropdown-item
         >
-        <b-dropdown-item class="sub-rubric" href="#"
+        <b-dropdown-item class="sub-rubric" to="/CultureenLigne"
           >CULTURE EN LIGNE</b-dropdown-item
         >
       </b-nav-item-dropdown>
 
       <b-nav-item id="ceasura"></b-nav-item>
 
-      <b-nav-item class="rubric" id="contact" href="#">QUI SUIS-JE</b-nav-item>
+      <b-nav-item class="rubric" id="contact" to="/QuiSuisJe">QUI SUIS-JE</b-nav-item>
     </b-nav>
   </div>
 </template>
@@ -89,7 +87,7 @@
   position: sticky; //work if it parent-component can scroll (home scroll, not header[that's why it didn't work])
   top: 0; //when menu change from relative to absolute, need the absolute position:top 0;
   z-index: 1000; //put menu above other elements
-  margin-bottom:10vh;
+  margin-bottom: 10vh;
 }
 .rubric {
   background-image: url("../assets/basic-Graph/button.png");
@@ -99,7 +97,7 @@
   width: 15.5vw;
   font-family: Myriad;
   text-align: center !important;
-  
+
   &:hover {
     background-image: url("../assets/basic-Graph/buttonhover.png");
     background-size: 100% 100%;
@@ -123,7 +121,7 @@
   width: 15.8vw;
   text-align: center;
   color: #2e367f;
-  
+
   &:hover {
     background-color: red;
   }
@@ -132,7 +130,7 @@
 .dropdown-menu {
   border-radius: 0px !important;
   border: 0px !important;
-  padding:  0 !important;
+  padding: 0 !important;
 }
 .dropdown-item {
   color: #2e367f !important;
@@ -144,14 +142,12 @@
 }
 .nav-link-custom {
   padding: 0.5rem 0 !important;
-   
 }
 .nav-link {
   color: white !important;
- 
 }
-.nav-pills .nav-link{
-  border-radius:0 !important;
+.nav-pills .nav-link {
+  border-radius: 0 !important;
 }
 </style>
 

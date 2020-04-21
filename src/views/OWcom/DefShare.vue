@@ -1,30 +1,30 @@
 <template>
   <div>
-        <Header></Header>
+    <Header></Header>
     <Menu></Menu>
     <h3>
       COMMUNIQUER, C'EST ÉCHANGER
     </h3>
     <p><u>La communication</u></p>
     <p>
-    <ul>
-      <li>
-        L’étymologie du terme nous renseigne sur le sens à donner à la
-        communication : en latin, <i>communicare</i> signifie « avoir part, partager ».
-        Composé de <i>cum/munus</i> ou <i>cum/municus</i>, il signifie « être en relation avec
-        » (<i>cum</i> : avec, <i>munus</i> : charge, fonction).
-      </li>
-      <li>
-        Au XVIe siècle, la communication désigne littéralement la mise en
-        commun, l’échange mais également une manière d’être ensemble, un mode
-        privilégié de relations sociales.
-      </li>
-    </ul>
+      <ul>
+        <li>
+          L’étymologie du terme nous renseigne sur le sens à donner à la
+          communication : en latin, <i>communicare</i> signifie « avoir part, partager ».
+          Composé de <i>cum/munus</i> ou <i>cum/municus</i>, il signifie « être en relation avec
+          » (<i>cum</i> : avec, <i>munus</i> : charge, fonction).
+        </li>
+        <li>
+          Au XVIe siècle, la communication désigne littéralement la mise en
+          commun, l’échange mais également une manière d’être ensemble, un mode
+          privilégié de relations sociales.
+        </li>
+      </ul>
     </p>
     <ShareTheory></ShareTheory>
     <ShareFeedBack></ShareFeedBack>
     <ShareSchematic></ShareSchematic>
- <Footer></Footer>
+    <Footer></Footer>
   </div>
 </template>
 

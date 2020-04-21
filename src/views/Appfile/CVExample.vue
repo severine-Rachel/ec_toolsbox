@@ -23,6 +23,7 @@ export default class CVExample extends Vue {
     "/picture_cv/example_CV_IUT3.png",
     "/picture_cv/example_CV_IUT4.png",
     "/picture_cv/example_CV_IUT55.png",
+    "/picture_CV/example_CV_IUT6.png",
   ];
 }
 </script>

@@ -1,0 +1,40 @@
+<template>
+  <div>
+    <h3 id="ProjectionInPractise">
+      EN PRATIQUE...
+    </h3>
+    <p>
+      <strong>
+        Exemple de diaporama à éviter :
+      </strong>
+    </p>
+    <p>
+      <strong>
+        Exemples de diaporamas qui fonctionnent bien :
+      </strong>
+    </p>
+    <b-row align-h="center">
+      <iframe
+        src="https://prezi.com/embed/fpwea_gruen_/"
+        id="iframe_container"
+        frameborder="0"
+        webkitallowfullscreen=""
+        mozallowfullscreen=""
+        allowfullscreen=""
+        allow="autoplay; fullscreen"
+        height="315"
+        width="560"
+      ></iframe>
+    </b-row>
+  </div>
+</template>
+<style lang="scss"></style>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+
+@Component({
+  components: {},
+})
+export default class ProjectionInPractise extends Vue {}
+</script>

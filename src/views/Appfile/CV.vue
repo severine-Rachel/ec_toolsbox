@@ -2,6 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
+    <h2 class="rubric-title">CV</h2>
     <p>
       <strong>
         Vous trouverez ici des outils qui vous permettront de concevoir votre CV

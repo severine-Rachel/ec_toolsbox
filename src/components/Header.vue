@@ -16,8 +16,8 @@
         </b-navbar-nav>
       </b-navbar>
 
-      <h1>P. RAFFY-HIDEUX</h1>
-      <h2>Enseignante en Lettres, Expression et Communication</h2>
+      <h1 id="hearder-sub-title">P. RAFFY-HIDEUX</h1>
+      <h2 id="hearder-sub-title">Enseignante en Lettres, Expression et Communication</h2>
     </div>
   </div>
 </template>
@@ -41,8 +41,7 @@
     background-color: #0e6ea1 !important;
   }
 }
-h1,
-h2 {
+#hearder-sub-title {
   margin-bottom: unset !important;
   margin-left: 3rem !important;
   font-family: Myriad;

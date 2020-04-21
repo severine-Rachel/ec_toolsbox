@@ -26,10 +26,14 @@
 import { Component, Vue } from "vue-property-decorator";
 import Pdf from "@/components/Pdf.vue";
 import Galery from "@/components/Galery.vue";
+import {BIcon, BIconBoxArrowRight} from "bootstrap-vue";
 @Component({
     components: {
     Pdf,
-    Galery
+    Galery,
+    BIcon,
+    BIconBoxArrowRight,
+
     }
 })
 export default class CVKeys extends Vue {

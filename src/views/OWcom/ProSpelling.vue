@@ -30,7 +30,7 @@
       Sprenger,<i> Guide pratique de l’orthographe rectifiée</i>, disponible sur
       www.cahiers-pedagogiques.com
     </p>
-    <Pdf v-bind:galery-pdf="pdfMuseum"></Pdf>
+    <Pdf v-bind:galery-pdf="pdfList"></Pdf>
     <Footer></Footer>
   </div>
 </template>
@@ -54,16 +54,16 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ProSpelling extends Vue {
-  public pdfRule = [
+  public pdfList = [
     {
-      pdfLink: "/pdf_cv/fundamentals_CV_Keys.pdf",
+      pdfLink: "/pdf_OWcom/SpellingList.pdf",
       pdfDownload: "RegleOrthographe",
       TxtPdf: "Règles nouvelles orthographe",
     },
   ];
-  public pdfMuseum = [
+  public pdfRule = [
     {
-      pdfLink: "/pdf_cv/fundamentals_CV_Keys.pdf",
+      pdfLink: "/pdf_OWcom/SpellingRule.pdf",
       pdfDownload: "MuseeOrthographe",
       TxtPdf: "Musée de la nouvelle orthographe",
     },

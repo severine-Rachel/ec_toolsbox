@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h3>PRISE DE PAROLE EN PUBLIC</h3>
+    <h2 class="rubric-title">PRISE DE PAROLE EN PUBLIC</h2>
     <ContentsPage v-bind:contents-list="contentsSpeech"></ContentsPage>
     <Footer></Footer>
   </div>

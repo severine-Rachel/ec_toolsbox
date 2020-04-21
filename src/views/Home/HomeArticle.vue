@@ -33,6 +33,7 @@
 h5 {
   color: #1794d6;
   font-family: Myriad;
+  
 }
 .content-article {
   text-align: center;

@@ -55,7 +55,8 @@
         </li>
     </ul>
     </p>
-    <Galery v-bind:galery-picture="galerySocial"></Galery>
+    <img src="/picture_OWcom/schematic/table_seror.png" alt="Tableau_Seror" id="socialpicture"/>
+  
   <p>
       D’après Georges Séror, <i>Communication</i>, Dunod, 2016
   </p>
@@ -64,25 +65,21 @@
 
 <style lang="scss">
 #socialpicture{
-    width: 50vw;
+    width: 40vw;
     margin: 1% 10%;
 }
 </style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Galery from "@/components/Galery.vue"
+
 @Component({
   components: {
-      Galery
+     
   },
 })
 export default class ContexSocial extends Vue {
-    public galerySocial: string[] = [
-    "/picture_OWcom/schematic/table_seror.png",
-    
 
-  ];
 
 }
 </script>

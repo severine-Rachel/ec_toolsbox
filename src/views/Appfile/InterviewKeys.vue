@@ -1,6 +1,6 @@
 <template>
   <div>
-     <h3 id="keysInterview">
+    <h3 id="keysInterview">
       LES FONDAMENTAUX: FICHES-CLEFS
     </h3>
     <h4>
@@ -13,21 +13,16 @@
       c’est lui qui donne le tempo des échanges. Vous aurez entre 30 minutes et
       1 heure pour convaincre.
     </p>
-    
-    <Pdf  v-bind:galery-pdf="pdfInterview"></Pdf>
 
-   
+    <Pdf v-bind:galery-pdf="pdfInterview"></Pdf>
 
     <a
       id="interview-galery"
       href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box/entretien-de-recrutement.html?search-keywords=entretien+recrutement"
       target="_blank"
     >
-      source : <b-icon
-            icon="box-arrow-right"
-          ></b-icon
-        >
-         www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box 
+      source : <b-icon icon="box-arrow-right"></b-icon>
+      www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box
     </a>
 
     <Galery v-bind:galery-picture="galeryInterview"></Galery>
@@ -41,40 +36,48 @@
       peuvent façonner le jugement de certains recruteurs ou qui président à
       certains secteurs.
     </p>
+    <b-row align-h="center">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Ckbbx9kIGnc"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </b-row>
     <p>
-       <a
+      <a
         href="https://www.keljob.com/articles/5-attitudes-qui-impressionnent-les-recruteurs-en-entretien-d-embauche"
         target="_blank"
         class="subtitle-link"
       >
-      <strong> Attitudes pour marquer le recruteur </strong>
-     
+        <strong> 5 Attitudes pour marquer le recruteur </strong>
+
         <b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>
     <p>
-       <a
+      <a
         href="https://www.regionsjob.com/conseils/reussir-entretien-skype.html"
         target="_blank"
         class="subtitle-link"
       >
-      <strong>Comment réussir un entretien à distance </strong>
-     
+        <strong>Comment réussir un entretien à distance </strong>
+
         <b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>
   </div>
 </template>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Pdf from "@/components/Pdf.vue";
 import Galery from "@/components/Galery.vue";
-import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
+import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
     Pdf,
@@ -84,42 +87,39 @@ import { BIcon,  BIconBoxArrowRight } from "bootstrap-vue";
   },
 })
 export default class InterviewKeys extends Vue {
- 
-
   public galeryInterview: string[] = [
     "/picture_interview/fundamentals_Interview_What'sit.png",
     "/picture_interview/fundamentals_Interview_Keys.png",
     "/picture_interview/fundamentals_Interview_Question.png",
     "/picture_interview/fundamentals_Interview_Question2.png",
-    "/picture_interview/fundamentals_Interview_Grid.png"
+    "/picture_interview/fundamentals_Interview_Grid.png",
   ];
-  public pdfInterview= [
-     {
-      pdfLink:"/pdf_interview/fundamental_Interview_What'sit.pdf",
-      pdfDownload:"Qu'est-ce-qu'un-entretien?",
-      TxtPdf:"Fiche 1 : Qu’est-ce qu’un entretien ? "
+  public pdfInterview = [
+    {
+      pdfLink: "/pdf_interview/fundamental_Interview_What'sit.pdf",
+      pdfDownload: "Qu'est-ce-qu'un-entretien?",
+      TxtPdf: "Fiche 1 : Qu’est-ce qu’un entretien ? ",
     },
-      {
+    {
       pdfLink: "/pdf_interview/fundamentals_Interview_Keys.pdf",
-      pdfDownload:"10PointsClésEntretien",
-      TxtPdf:"Fiche 2 : Les 10 points clés de l’entretien"
+      pdfDownload: "10PointsClésEntretien",
+      TxtPdf: "Fiche 2 : Les 10 points clés de l’entretien",
     },
-      {
-      pdfLink:"/pdf_interview/fundamental_Interview_Question.pdf",
-      pdfDownload:"QuestionType1Entretien",
-      TxtPdf:"Fiche 3 : Les questions types 1"
+    {
+      pdfLink: "/pdf_interview/fundamental_Interview_Question.pdf",
+      pdfDownload: "QuestionType1Entretien",
+      TxtPdf: "Fiche 3 : Les questions types 1",
     },
-      {
-      pdfLink:"/pdf_interview/fundamental_Interview_Question2.pdf",
-      pdfDownload:"QuestionType2Entretien",
-      TxtPdf:"Fiche 4 : Les questions types 2"
+    {
+      pdfLink: "/pdf_interview/fundamental_Interview_Question2.pdf",
+      pdfDownload: "QuestionType2Entretien",
+      TxtPdf: "Fiche 4 : Les questions types 2",
     },
-      {
-      pdfLink:"/pdf_interview/fundamentals_Interview_Grid.pdf",
-      pdfDownload:"GrilleAnalyseEntretien",
-      TxtPdf:"Fiche 5 : Grille d’analyse recruteur"
-    }
-     
-  ]
+    {
+      pdfLink: "/pdf_interview/fundamentals_Interview_Grid.pdf",
+      pdfDownload: "GrilleAnalyseEntretien",
+      TxtPdf: "Fiche 5 : Grille d’analyse recruteur",
+    },
+  ];
 }
 </script>

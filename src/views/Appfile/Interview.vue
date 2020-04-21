@@ -2,6 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
+    <h2 class="rubric-title">ENTRETIEN DE RECRUTEMENT</h2>
     <p>
       <strong>
         Vos CV et lettre de motivation ont retenu l’attention du recruteur.

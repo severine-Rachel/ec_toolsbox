@@ -8,6 +8,16 @@
         Comment créer un CV très original ?
       </strong>
     </p>
+    <b-row align-h="center">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/5JG6Ec7xRag"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </b-row>
     <p>
       <strong>
         Quelques exemples de CV très originaux:
@@ -108,7 +118,7 @@ export default class CVGoFurther extends Vue {
   width: 20vw;
   margin: 10px;
 }
-.imgCV-slide{
-    height:80vh;
+.imgCV-slide {
+  height: 80vh;
 }
 </style>

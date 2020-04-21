@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h3>LA CONDUITE DE RÉUNION</h3>
+    <h2 class="rubric-title">CONDUITE DE RÉUNION</h2>
     <ContentsPage v-bind:contents-list="contentsMeeting"></ContentsPage>
     <Footer></Footer>
   </div>
