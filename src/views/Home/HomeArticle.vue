@@ -2,9 +2,9 @@
   <div id="article">
     <b-row class="mb-3" align-h="around">
       <b-col sm="3" class="content-article">
-        <a class="link-article" href="#">
+        <router-link class="link-article" to="/Ecrit_Pro/Fondamentaux#form">
           <h5>MISE EN PAGE DE VOS ÉCRITS PROFESSIONNELS</h5>
-          <p class="article-txt">
+          <p id="article-txt">
             Comment mettre en forme vos lettres de motivation ainsi que vos
             dossiers ? Modèles commentés.
           </p>
@@ -13,12 +13,12 @@
             src="../../assets/Site-Article/Insert1.jpg"
             atl="art-perf"
           />
-        </a>
+        </router-link>
       </b-col>
       <b-col sm="3" class="content-article">
         <a class="link-article" href="#">
           <h5>RÉUSSIR VOS AFFICHES</h5>
-          <p class="article-txt">
+          <p id="article-txt">
             L’exemple d’un concours d’affiches à l’IUT d’Angers : les bonnes
             pratiques et les erreurs à éviter.
           </p>
@@ -32,7 +32,7 @@
       <b-col sm="3" class="content-article">
         <a class="link-article" href="#">
           <h5>QU'EST CE QUE LA PERFORMANCE ARTISTIQUE ?</h5>
-          <p class="article-txt">
+          <p id="article-txt">
              Découvrez cet art hybride en action,
             caractérisé par sa diversité de messages et d’approches.
           </p>
@@ -54,7 +54,7 @@
   padding: 4% 0;
   background-image: linear-gradient(#1794d6, #146cb3);
 }
-.article-txt{
+#article-txt{
   margin: 1rem 0;
 }
 h5 {

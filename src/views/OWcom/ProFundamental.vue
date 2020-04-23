@@ -30,6 +30,7 @@
       Conseils pour améliorer vos compétences rédactionnelles
     </p>
     <Video v-bind:galery-video="videoTipsPro"></Video>
+    <p id="form"></p>
     <h4>La forme</h4>
 
     <h5 id="h5-title">Le modèle de la lettre professionnelle</h5>
