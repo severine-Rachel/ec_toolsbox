@@ -1,6 +1,6 @@
 <template>
-    <div class="Carousel">
-    
+    <div class="Carousel">    
+        <!--Bouton de navigation du carousel-->
         <button class="btn_prev btn_carousel" @click.prevent="prev"></button>
         <button class="btn_next btn_carousel" @click.prevent="next"></button>
         <slot></slot>
@@ -13,19 +13,23 @@
 export default {
     data (){
         return{
-            index: 0,
-            slide: [],
+            index: 0,   //index de la slide affichée
+            slide: [],  //tableau regroupant les slides
         }
     },
+    //définition des slides comme classe fille de la classe carousel
     mounted (){
         this.slide =  this.$children
+        //attribution d'un index a chaque slide
         this.slide.forEach((slide, i)=> {
             slide.index = i
         })
     },
+    //renvoie le nombre de slide du carousel
     computed: {
         slideCount () { return this.slide.length }
     },
+    //fonctions de défilement des slides des boutons
     methods: {
         next (){
             this.index++

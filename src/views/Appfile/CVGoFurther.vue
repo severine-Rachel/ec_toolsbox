@@ -25,16 +25,19 @@
     </p>
     <div style="text-align:center;">
       <b-row class="justify-content-md-center">
+        <!--affichage des images stockées dans galleryCover-->
         <div v-for="cover in galeryCover" :key="cover">
           <img class="imgCV" v-on:click="display(cover)" v-bind:src="cover" />
         </div>
       </b-row>
+      <!--affichage du carousel correspondant a l'image sélectionnée dans 'display()'-->
       <div v-if="bool">
         <Carousel
           v-for="(carousel, index) in galeryCarousel"
           :key="carousel"
           v-show="index === nbCarousel"
         >
+          <!--affichages des slides du carousel sélectionné-->
           <span v-for="slide in galeryCarousel[index]" :key="slide">
             <slide>
               <img class="imgCV-slide" v-bind:src="slide" />
@@ -60,6 +63,7 @@ export default class CVGoFurther extends Vue {
   public clicked = "";
   public bool = false;
   public nbCarousel = 0;
+  //tableaux stockage des images des carousels
   public galeryCover: string[] = [
     "/picture_cv/gofurther_CV/cv-original-burger1.jpg",
     "/picture_cv/gofurther_CV/cv-original-lego.jpg",
@@ -92,6 +96,7 @@ export default class CVGoFurther extends Vue {
     "/picture_cv/gofurther_CV/cv-original-packagin1.jpg",
     "/picture_cv/gofurther_CV/cv-original-packagin2.jpg",
   ];
+  //tableau de stockage des carousel
   public galeryCarousel: string[][] = [
     this.galerySlide1,
     this.galerySlide2,
