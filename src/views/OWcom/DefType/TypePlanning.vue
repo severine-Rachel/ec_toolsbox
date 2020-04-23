@@ -6,7 +6,7 @@
         être   approchée   sur   le   plan   fonctionnel   ou hiérarchique.
     </p>
     <p>
-        Les flux d’informations peuvent être:
+        Les flux d’informations peuvent être :
         <ul>
             <li>
                 verticaux et hiérarchiques (du patron vers l’employé et inversement),
@@ -21,7 +21,7 @@
             </li>
             <li>
                 la communication externe (informations échangées entre l’organisation et son 
-                environnement –clients, fournisseurs, partenaires...)
+                environnement – clients, fournisseurs, partenaires...)
             </li>
         </ul>
     </p>

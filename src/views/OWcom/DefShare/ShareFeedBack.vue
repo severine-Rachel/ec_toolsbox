@@ -15,7 +15,7 @@
     <p>
       Lors  d’un  exposé,  un  étudiant  peut  mesurer  si  son  message  passe  bien  en  
       regardant  les récepteurs:  sourcils  qui  se  froncent,  regard  sur  la  montre,  yeux 
-       en  l’air,  souffle  excédé...sont autant de feed-back que l’orateurpeut interpréter
+       en  l’air,  souffle  excédé... sont autant de feed-back que l’orateur peut interpréter.
     </p>
 
   </div>

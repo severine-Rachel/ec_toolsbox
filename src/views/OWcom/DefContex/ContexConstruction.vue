@@ -32,8 +32,8 @@
               </ul>
       </p>
       <p>
-          L’acte de parole: «N’arrive pas trop tard, s’il te plaît!» 
-          suppose une conception commune du mot «tard».
+          L’acte de parole: « N’arrive pas trop tard, s’il te plaît ! » 
+          suppose une conception commune du mot « tard ».
       </p>
       <div id="quote">
       <p class="quote"> Entre

@@ -87,7 +87,7 @@
   position: sticky; //work if it parent-component can scroll (home scroll, not header[that's why it didn't work])
   top: 0; //when menu change from relative to absolute, need the absolute position:top 0;
   z-index: 1000; //put menu above other elements
-  margin-bottom: 10vh;
+  margin-bottom: 0.5vh;
 }
 .rubric {
   background-image: url("../assets/basic-Graph/button.png");
