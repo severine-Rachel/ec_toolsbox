@@ -1,4 +1,5 @@
 <template>
+    <!--slide visible en fonction de la fonction 'visible'-->
     <div v-show="visible" class="slide">
         <slot>
         </slot>
@@ -13,6 +14,7 @@ export default {
             index: 0, 
         }
     },
+    //retourne vrai si l'index de la slide correspond a l'index du carousel
     computed:{
         visible (): boolean{
             return this.index === (this.$parent as any).index
