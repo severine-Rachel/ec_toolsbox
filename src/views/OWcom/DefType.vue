@@ -4,7 +4,7 @@
     <Menu></Menu>
     <h3>LES TYPES DE COMMUNICATIONS</h3>
     <p>
-      On peut envisager la communication en privilégiant soit:
+      On peut envisager la communication en privilégiant soit :
       <ul>
         <li>
           Les acteurs

@@ -19,16 +19,16 @@
     <p>
       «  Tout  comportement  induit  une  communication.  Même  le  "fait  de  ne 
        pas  parler  ou  de  ne  prêter attention à personne ne constitue pas une
-        exception à ce quenous venons de dire. Un homme attablé dans un bar rempli
+        exception à ce que nous venons de dire. Un homme attablé dans un bar rempli
          de monde et qui regarde droit devant lui, un passager qui dans un avion 
          reste assis dans son fauteuil  les  yeux  fermés,  communiquent  tous  deux
-           un  message:  ils  ne  veulent  parler  à  personne,  et  ne veulent pas 
-           qu'on leur adresse la parole; en général, leurs voisins comprennent le
+           un  message :  ils  ne  veulent  parler  à  personne,  et  ne veulent pas 
+           qu'on leur adresse la parole ; en général, leurs voisins comprennent le
             message et y réagissent normalement en les laissant tranquilles. Manifestement, 
             il y a là un échange de communication, tout autant que dans une communication 
             animée. Quel que soit le comportement d'une personne, il a une signification 
             pour  les  autres.  Par  conséquent,  de  même  qu'il  est  impossible  de  
-            ne  pas  avoir  de  comportement,  il  est impossible de ne pas communiquer».
+            ne  pas  avoir  de  comportement,  il  est impossible de ne pas communiquer.
     </p>
     <p>
       Au-delà  de  ce  qui  est  dit  (le  contenu),  dans  toute  communication  
@@ -41,7 +41,7 @@
           qu'il sera sympathisant, hostile ou indifférent, selon la  transcription 
            qu'en  aura  fait  la  presse,  selon les  commentaires  de  l'opposition,  
            selon  que  ses  propos seront ou non dans l'air du temps etc. Le décodage 
-           résulte de tout un système d'interactions».
+           résulte de tout un système d'interactions ».
     </p>
     <p>
       Mbao, Ma boîte à outils, http://membres.lycos.fr/mbao/waxiome2.htm

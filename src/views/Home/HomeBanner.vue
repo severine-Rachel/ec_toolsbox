@@ -1,14 +1,21 @@
 <template>
+<div>
   <img id="band" src="../../assets/basic-Graph/band.png">
+  <img id="arrow" src="../../assets/arrow.png">
+ </div>
 </template>
 
 <style >
 
   #band{
-    
-    margin-bottom:20vh;
     width: 100%;
     border:solid 1px #bce8ff;
+  }
+  #arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4vw;
   }
 </style>
 

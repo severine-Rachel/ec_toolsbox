@@ -6,7 +6,7 @@
         les   actions   produites  par   un   individu   ou   une organisation :
         <ol>
             <li>
-                <u>Communication verbale  et  non  verbale</u>:  (gestes,  mimiques,  voix):  exposé,  soutenance, 
+                <u>Communication verbale  et  non  verbale </u>:  (gestes,  mimiques,  voix) :  exposé,  soutenance, 
                 entretien, conférence...
             </li>
             <li>

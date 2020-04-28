@@ -4,7 +4,7 @@
     <Menu></Menu>
     <h3>LES FONDAMENTAUX</h3>
     <p>
-      Pour tout écrit, il faut adopter une démarche par objectif:
+      Pour tout écrit, il faut adopter une démarche par objectif :
     </p>
     <img
       id="socialpicture"
@@ -12,8 +12,11 @@
       alt="structuration-discours"
     />
     <p>
-      Source : Mireille Brahic, Mieux rédiger vos écrits professionnels,
+      <i>Source</i> : Mireille Brahic, <i>Mieux rédiger vos écrits professionnels</i>,
       Éditions d’Organisation, 2004.
+    </p>
+    <p>
+      Fiche conseil rédaction
     </p>
     <Pdf v-bind:galery-pdf="pdfPro"></Pdf>
     <p>
@@ -23,10 +26,13 @@
     <p>
       <strong>Pour structurer votre texte, recourez à la carte mentale</strong>
     </p>
+    <p>
+      Conseils pour améliorer vos compétences rédactionnelles
+    </p>
     <Video v-bind:galery-video="videoTipsPro"></Video>
     <h4>La forme</h4>
 
-    <h5>Le modèle de la lettre professionnelle</h5>
+    <h5 id="h5-title">Le modèle de la lettre professionnelle</h5>
 
     <span
       ><img
@@ -38,7 +44,7 @@
         id="socialpicture"
         alt="Model_Lettre"
     /></span>
-    <h5>Le modèle du rapport</h5>
+    <h5 id="h5-title">Le modèle du rapport</h5>
     <p><strong>Dossier page de garde 1</strong></p>
     <p>
       Cette page de garde est trop sobre et les différents niveaux de lecture

@@ -32,12 +32,12 @@
   color: #1794d6;
   font-family: Myriad;
   margin: 0 10%;
-  padding: 4vh 0;
+  padding: 10vh 0;
 }
 h3 {
   color: #1794d6;
   font-family: Myriad;
-  margin: 10%;
+    margin: 10%;
   padding: 8vh 0;
 }
 

@@ -2,25 +2,27 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h2 class="rubric-title">ÉCRITS PROFESSIONNELS, ACADÉMIQUE ET D'INVENTION</h2>
+    <h2 class="rubric-title">
+      ÉCRITS PROFESSIONNELS, ACADÉMIQUE ET D'INVENTION
+    </h2>
     <p>
       Aujourd’hui, avec l’essor du numérique, chacun d’entre nous est amené à
       rédiger. Que ce soit dans un cadre privé (SMS, e-mails, etc.), dans un
       cadre académique (dissertations, essais, rapports, etc.) ou dans un cadre
       professionnel (compte rendu, dossier technique, lettre de motivation,
-      etc.), l’écrit fait partie intégrante de notre environnement
-      quotidien.Pascal disait «Savoir bien écrire, c’est savoir bien penser»et,
-      encore aujourd’hui, savoir bien rédigerest perçu comme une aptitude
-      essentielle, notammentdans le milieu professionnel.Bien rédiger, c’est
-      prendre en compte son destinataire (réfléchir à ses attentes, à ses
-      besoins, lui parler avec ses mots, etc.), lui faciliter le tri de
-      l’information (concision, objet, titre, etc.) ou encore respecter les
-      normes en vigueur (présentation et mise en page, respect de la langue
-      française, etc.).Vous trouverez icides éléments pour vous aider à
-      améliorer vos compétences rédactionnelles.
+      etc.), l’écrit fait partie intégrante de notre environnement quotidien.
+      Pascal disait « Savoir bien écrire, c’est savoir bien penser » et, encore
+      aujourd’hui, savoir bien rédiger est perçu comme une aptitude essentielle,
+      notamment dans le milieu professionnel. Bien rédiger, c’est prendre en
+      compte son destinataire (réfléchir à ses attentes, à ses besoins, lui
+      parler avec ses mots, etc.), lui faciliter le tri de l’information
+      (concision, objet, titre, etc.) ou encore respecter les normes en vigueur
+      (présentation et mise en page, respect de la langue française, etc.). Vous
+      trouverez ici des éléments pour vous aider à améliorer vos compétences
+      rédactionnelles.
     </p>
     <ContentsPage v-bind:contents-list="contentsPro"></ContentsPage>
-    
+
     <Footer></Footer>
   </div>
 </template>
@@ -39,34 +41,32 @@ import Footer from "@/components/Footer.vue";
     Header,
     Menu,
     ContentsPage,
-   
+
     Footer,
   },
 })
 export default class Pro extends Vue {
-  public contentsPro= [
+  public contentsPro = [
     {
-    ContentsTitle:  "LES FONDAMENTAUX",
-    ContentsPath: "/Ecrit_Pro/Fondamentaux",
-    ContentsImage: "/thumbail.png"
+      ContentsTitle: "LES FONDAMENTAUX",
+      ContentsPath: "/Ecrit_Pro/Fondamentaux",
+      ContentsImage: "/thumbail.png",
     },
     {
-    ContentsTitle: "STRATÉGIES D'ÉCRITURE",
-    ContentsPath: "/Ecrit_Pro/Strategie",
-    ContentsImage:"/thumbail.png"
+      ContentsTitle: "STRATÉGIES D'ÉCRITURE",
+      ContentsPath: "/Ecrit_Pro/Strategie",
+      ContentsImage: "/thumbail.png",
     },
     {
-    ContentsTitle: "AMÉLIORER SON ORTHOGRAPHE",
-    ContentsPath: "/Ecrit_Pro/Orthographe",
-    ContentsImage:"/thumbail.png"
+      ContentsTitle: "AMÉLIORER SON ORTHOGRAPHE",
+      ContentsPath: "/Ecrit_Pro/Orthographe",
+      ContentsImage: "/thumbail.png",
     },
     {
-    ContentsTitle: "EXEMPLES DE RÉALISATIONS",
-    ContentsPath: "/Ecrit_Pro/Exemples",
-    ContentsImage:"/thumbail.png"
-    }
-
-  ]
-
+      ContentsTitle: "EXEMPLES DE RÉALISATIONS",
+      ContentsPath: "/Ecrit_Pro/Exemples",
+      ContentsImage: "/thumbail.png",
+    },
+  ];
 }
 </script>

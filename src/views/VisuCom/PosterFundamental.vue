@@ -32,7 +32,7 @@
                 alt="Schema_Hennerber<t"
             >
             <p>
-                Source : D’après HENNEBERT Jérôme, Communication, 1re et 2e années, Paris, Nathan, 2010, p. 167.
+                Source : D’après HENNEBERT Jérôme,<i> Communication, 1re et 2e années</i>, Paris, Nathan, 2010, p. 167.
             </p>
             <li>
                 Définir sa cible 
@@ -67,7 +67,7 @@
                 alt="Schema_Hennerbert"
             >
             <p>
-                Source : D’après HENNEBERT Jérôme, Communication, 1re et 2e années, Paris, Nathan, 2010, p. 163.
+                Source : D’après HENNEBERT Jérôme, <i>Communication, 1re et 2e années</i>, Paris, Nathan, 2010, p. 163.
             </p>
             <p class="into-list">
                 Pour vous aider à choisir les couleurs, utilisez Color scheme designer qui vous orientera sur les compatibilités entre les différents tons qui composeront votre affiche :
@@ -82,7 +82,7 @@
             </p>
             <img 
                 id="socialpicture" 
-                src="picture_VisuCom/schematic/ColorSchemeDesigner_book.png" 
+                src="picture_VisuCom/schematic/fastone.png" 
                 alt="ColorSchemeDesigner"
             >
             <p class="into-list">

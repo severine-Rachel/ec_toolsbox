@@ -7,7 +7,7 @@
     <p>
       Il existe
       <strong>trois sortes de prise de parole en public</strong> définis à
-      partir de deux critères qui sont:
+      partir de deux critères qui sont :
     </p>
     <p>
     <ul>
@@ -17,14 +17,10 @@
       <li>leurs relations</li>
         
         </ul>
-        <ul>
-        <ul>
-          <li><u>La prise de parole en solo:</u></li>
-        </ul>
-      </ul>
+        <strong><u>I - La prise de parole en solo :</u></strong>
     </p>
     <p>
-      Vous êtes seul à parler devant un auditoire:
+      Vous êtes seul à parler devant un auditoire :
     </p>
     <p>
     <ul>
@@ -38,19 +34,16 @@
     </p>
     <p>
       Vous vous trouvez en position d’autorité par rapport à un auditoire qui
-      vousfait confiance.
+      vous fait confiance.
     </p>
     <p>
-    <ul>
-      <ul>
-        <li><u>L’intervention dans un groupe:</u></li>
-      </ul>
-    </ul>
+    <strong><u>II - L’intervention dans un groupe :</u></strong>
+      
     </p>
     <p>
-      C’est a <i>priori</i> une prise de parole libre. Vous êtes théoriquement
-      sur un «pied d’égalité» avec les autres participants qui sont également
-      invités à s’exprimer:
+      C’est à <i>priori</i> une prise de parole libre. Vous êtes théoriquement
+      sur un « pied d’égalité » avec les autres participants qui sont également
+      invités à s’exprimer :
     </p>
     <p>
     <ul>
@@ -63,14 +56,10 @@
         Travail en équipe...
         </li>
         </ul>
-        <ul>
-        <ul>
-          <li><u>L’entretien face à face:</u></li>
-        </ul>
-      </ul>
+        <strong><u>III - L’entretien face à face :</u></strong>
     
     </p>
-    <p>Vous ne vous adressez qu’à une seule personne, présente face à vous:</p>
+    <p>Vous ne vous adressez qu’à une seule personne, présente face à vous :</p>
     <p>
     <ul>
       <li>
@@ -85,7 +74,7 @@
       général, dans ce cas, la prise de parole est plus improvisée. Elle peut
       avoir été préparée en amont mais elle va se faire sans notes.
     </p>
-    <p><strong> Ce qu’il est important d’avoir à l’esprit:</strong></p>
+    <p><strong> Ce qu’il est important d’avoir à l’esprit :</strong></p>
     <p>
     <ul>
       <li>

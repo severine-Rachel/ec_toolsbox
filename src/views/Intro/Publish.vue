@@ -58,26 +58,7 @@
       >
     </h4>
     <p>
-    <b-row id="contain-publish">
-      <b-col cols="8">
-        <p>
-          Les romans francophones d'Axel Gauvin, écrivain réunionnais, sont le
-          lieu d'une plongée dans le monde créole: les activités, les goûts, les
-          coutumes et les moeurs réunionnais y sont explorés et dessinés de
-          façon telle que la culture réunionnaise rayonne à travers toutes ses
-          particularités. Ses "zistoirs" créoles, qui placent toujours l'homme
-          au coeur de leur problématique, sont servies par une langue hybride
-          qui fait habilement surgir au sein du français le lexique, la
-          grammaire et la prosodie créoles. Axel Gauvin est-il un précurseur de
-          la "créolité" qui sera invoquée un peu plus tard, du côté des
-          Antilles, par Jean Bernabé, Raphaël Confiant, et Patrick Chamoiseau ?
-        </p>
-      </b-col>
-      <b-col cols="auto">
-        <img id="book-publish" src="../../assets/book3.jpg" />
-      </b-col>
-    </b-row>
-    <b-row id="contain-publish">
+      <b-row id="contain-publish">
       <b-col cols="auto">
         <img id="book-publish" src="../../assets/book2.jpg" />
       </b-col>
@@ -109,6 +90,26 @@
         </p>
       </b-col>
     </b-row>
+    <b-row id="contain-publish">
+      <b-col cols="8">
+        <p>
+          Les romans francophones d'Axel Gauvin, écrivain réunionnais, sont le
+          lieu d'une plongée dans le monde créole: les activités, les goûts, les
+          coutumes et les moeurs réunionnais y sont explorés et dessinés de
+          façon telle que la culture réunionnaise rayonne à travers toutes ses
+          particularités. Ses "zistoirs" créoles, qui placent toujours l'homme
+          au coeur de leur problématique, sont servies par une langue hybride
+          qui fait habilement surgir au sein du français le lexique, la
+          grammaire et la prosodie créoles. Axel Gauvin est-il un précurseur de
+          la "créolité" qui sera invoquée un peu plus tard, du côté des
+          Antilles, par Jean Bernabé, Raphaël Confiant, et Patrick Chamoiseau ?
+        </p>
+      </b-col>
+      <b-col cols="auto">
+        <img id="book-publish" src="../../assets/book3.jpg" />
+      </b-col>
+    </b-row>
+    
     </p>
     <h5 id="h5-title"><i> Articles</i></h5>
    

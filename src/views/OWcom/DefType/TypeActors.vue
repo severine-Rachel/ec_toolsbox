@@ -20,7 +20,7 @@
                 <u>Communication de masse</u>
             </li>
             L’émetteur (singulier ou pluriel) vise à toucher le maximum de 
-            récepteurs (vecteurs: presse, radio, cinéma, Internet...)
+            récepteurs (vecteurs : presse, radio, cinéma, Internet...)
         </ol>
     </p>
   </div>
