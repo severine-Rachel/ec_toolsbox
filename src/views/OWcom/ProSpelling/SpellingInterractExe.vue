@@ -8,19 +8,20 @@
     <p></p>
 
     <b-card-group deck>
-      <b-card img-src="/thumbail2.png" class="img-card" img-alt="Image" img-top>
-        <a
-          href="https://www.ccdmd.qc.ca/fr/exercices_interactifs/"
-          target="_blank"
-        >
-          <b-card-text class="writeInCard">
-            CCDMD –Exercices interactifspour travailler différents points de
-            l’expression écrite (syntaxe, cohérence textuelle, accords,
-            ponctuation, orthographe, etc.)
-          </b-card-text>
-        </a>
-      </b-card>
-
+    <b-card img-src="/thumbail2.png" class="img-card" img-alt="Image" img-top>
+      <a
+        href="https://www.ccdmd.qc.ca/fr/exercices_interactifs/"
+        target="_blank"
+      >
+        <b-card-text class="writeInCard">
+          CCDMD –Exercices interactifspour travailler différents points de
+          l’expression écrite (syntaxe, cohérence textuelle, accords,
+          ponctuation, orthographe, etc.)
+        </b-card-text>
+      </a>
+    </b-card>
+    </b-card-group>
+    <b-card-group deck>
       <b-card img-src="/thumbail2.png" img-alt="Image" class="img-card" img-top>
         <a
           href="https://www.ccdmd.qc.ca/fr/exercices_interactifs/"
@@ -38,6 +39,7 @@
         </b-card-text>
       </b-card>
     </b-card-group>
+
     <b-card-group deck>
       <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
         <b-card-text class="writeInCard">
@@ -120,6 +122,9 @@
 }
 .card-deck {
   margin: 5% !important;
+}
+.img-card{
+  height:5% !important;
 }
 .writeInCard {
   text-align: center;

@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <HomeBanner></HomeBanner>
-    <h3>À propos</h3>
+    <h3 id="about">À propos</h3>
     <p>
       Ce site a été conçu comme une boîte à outils. Vous y trouverez de
       nombreuses ressources en expression et communication : fiches-clés,
@@ -27,6 +27,8 @@
 <style>
 #welcome-page {
   position: relative;
+  scroll-behavior: smooth;
+  
 }
 .rubric-title {
   color: #1794d6;

@@ -16,7 +16,7 @@
         </router-link>
       </b-col>
       <b-col sm="3" class="content-article">
-        <a class="link-article" href="#">
+        <router-link class="link-article" to="/Affiche/EnPratique">
           <h5>RÉUSSIR VOS AFFICHES</h5>
           <p id="article-txt">
             L’exemple d’un concours d’affiches à l’IUT d’Angers : les bonnes
@@ -27,10 +27,10 @@
             src="../../assets/Site-Article/Insert2.png"
             atl="art-perf"
           />
-        </a>
+        </router-link>
       </b-col>
       <b-col sm="3" class="content-article">
-        <a class="link-article" href="#">
+        <router-link class="link-article" to="/PerformanceArtistique/Definition">
           <h5>QU'EST CE QUE LA PERFORMANCE ARTISTIQUE ?</h5>
           <p id="article-txt">
              Découvrez cet art hybride en action,
@@ -41,7 +41,7 @@
             src="../../assets/Site-Article/Insert3.jpg"
             atl="art-perf"
           />
-        </a>
+        </router-link>
       </b-col>
     </b-row>
   </div>

@@ -1,22 +1,28 @@
 <template>
 <div>
   <img id="band" src="../../assets/basic-Graph/band.png">
-  <img id="arrow" src="../../assets/arrow.png">
+  <a href="#about" id="arrow-link"><img id="arrow" src="../../assets/arrow.png"></a>
  </div>
 </template>
 
-<style >
+<style lang="scss">
 
   #band{
     width: 100%;
     border:solid 1px #bce8ff;
   }
-  #arrow{
+  #arrow-link{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 4vw;
+    margin-left: auto; //auto need width to work
+    margin-right: auto;
   }
+  #arrow{
+
+    width: 4vw;
+  
+  }
+  
 </style>
 
 <script lang="ts">
