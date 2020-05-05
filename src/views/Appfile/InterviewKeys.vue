@@ -1,10 +1,23 @@
 <template>
   <div>
     <h3 id="keysInterview">
-      LES FONDAMENTAUX: FICHES-CLEFS
+      LES FONDAMENTAUX : FICHES-CLEFS
     </h3>
+     <Pdf v-bind:galery-pdf="pdfInterview"></Pdf>
+
+    <Galery v-bind:galery-picture="galeryInterview"></Galery>
+
+    <a
+      class="subtitle-link"
+      href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box/entretien-de-recrutement.html?search-keywords=entretien+recrutement"
+      target="_blank"
+    >
+     <i> Source :</i> 
+      www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box <b-icon icon="box-arrow-right"></b-icon>
+    </a>
+    
     <h4>
-      Les étapes de l’entretien de recrutement:
+      Les étapes de l’entretien de recrutement
     </h4>
     <p>
       Pour limiter les surprises, préparez-vous l’entretien de recrutement qui
@@ -13,20 +26,12 @@
       c’est lui qui donne le tempo des échanges. Vous aurez entre 30 minutes et
       1 heure pour convaincre.
     </p>
-
-    <Pdf v-bind:galery-pdf="pdfInterview"></Pdf>
-
-    <a
-      id="interview-galery"
-      href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box/entretien-de-recrutement.html?search-keywords=entretien+recrutement"
-      target="_blank"
+    <img 
+    class="vertical"
+    src="/picture_interview/step_Interview.png"
     >
-      source : <b-icon icon="box-arrow-right"></b-icon>
-      www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box
-    </a>
-
-    <Galery v-bind:galery-picture="galeryInterview"></Galery>
-
+   
+    
     <h4>
       Quelle tenue adopter ?
     </h4>
@@ -36,7 +41,7 @@
       peuvent façonner le jugement de certains recruteurs ou qui président à
       certains secteurs.
     </p>
-    <b-row align-h="center">
+    <b-row align-h="center" class="insert-video">
       <iframe
         width="560"
         height="315"
@@ -46,28 +51,25 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p>
-      <a
-        href="https://www.keljob.com/articles/5-attitudes-qui-impressionnent-les-recruteurs-en-entretien-d-embauche"
-        target="_blank"
-        class="subtitle-link"
-      >
-        <strong> 5 Attitudes pour marquer le recruteur </strong>
 
-        <b-icon icon="box-arrow-right"></b-icon>
-      </a>
-    </p>
-    <p>
-      <a
-        href="https://www.regionsjob.com/conseils/reussir-entretien-skype.html"
-        target="_blank"
-        class="subtitle-link"
-      >
-        <strong>Comment réussir un entretien à distance </strong>
+    <a
+      href="https://www.keljob.com/articles/5-attitudes-qui-impressionnent-les-recruteurs-en-entretien-d-embauche"
+      target="_blank"
+      class="subtitle-link"
+    >
+      <strong> 5 Attitudes pour marquer le recruteur </strong>
 
-        <b-icon icon="box-arrow-right"></b-icon>
-      </a>
-    </p>
+      <b-icon icon="box-arrow-right"></b-icon>
+    </a>
+    <p></p>
+    <a
+      href="https://www.regionsjob.com/conseils/reussir-entretien-skype.html"
+      target="_blank"
+      class="subtitle-link"
+    >
+      <strong>Comment réussir un entretien à distance </strong>
+      <b-icon icon="box-arrow-right"></b-icon>
+    </a>
   </div>
 </template>
 

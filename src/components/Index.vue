@@ -4,7 +4,7 @@
     <b-row align-h="center">
       <b-col
         cols="5"
-        class="casethumbnail"
+        class="case-thumbnail"
         v-for="indexElement in indexList"
         :key="indexElement"
         v-bind:style="{
@@ -13,7 +13,7 @@
         }"
       >
         <a class="wallpaper" v-bind:href="indexElement.IndexId">
-          <h3 class="thumbnailTitle">{{ indexElement.IndexTitle }}</h3>
+          <h3 class="H3-thumbnail-title">{{ indexElement.IndexTitle }}</h3>
         </a>
       </b-col>
     </b-row>
@@ -25,22 +25,15 @@
 .wallpaper {
   text-align: center;
   text-decoration: none !important;
-  
+  box-sizing: inherit;
 }
-.casethumbnail {
+.case-thumbnail {
   margin: 1%;
   padding: 5vh 1vw !important;
+  
 }
 
-.thumbnailTitle {
-  color: white;
-  transition: font-size 0.5s ease-in-out;
-  margin:0;
-      &:hover {
-      font-size:190%;
-    
-  }
-}
+
 .thumbnail {
   width: 100%;
   

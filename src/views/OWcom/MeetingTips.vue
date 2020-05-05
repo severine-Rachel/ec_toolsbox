@@ -3,9 +3,10 @@
     <Header></Header>
     <Menu></Menu>
     <h3>CONSEILS ET ASTUCES</h3>
+    <h4>Être efficace</h4>
     <Video v-bind:galery-video="videoMeetingTips"></Video>
-    <p></p>
-
+    <h4>Réussir à accrocher l'audience</h4>
+    <Video v-bind:galery-video="videoMeetingListen"></Video>
     <Footer></Footer>
   </div>
 </template>
@@ -38,16 +39,22 @@ export default class MeetingTips extends Vue {
       videoTitle: "Comment animer efficacement une réunion ? 2",
       videoRoot: "Chaîne : L'Express",
     },
-    {
-      videoSrc: "https://www.youtube.com/embed/YjLEeS5oIBQ",
-      videoTitle: "Comment garder vos participants éveillés ?",
-      videoRoot: "Chaîne : Aysseline de Lardemelle ",
-    },
+  
     {
       videoSrc: "https://www.youtube.com/embed/jffoiI3ETr4",
       videoTitle: "Réunion de travail : interview d’un directeur qui a réussi à transformer ses séances.",
       videoRoot: "Chaîne : Organisologie",
     },
+
+  ];
+    public videoMeetingListen = [
+  
+    {
+      videoSrc: "https://www.youtube.com/embed/YjLEeS5oIBQ",
+      videoTitle: "Comment garder vos participants éveillés ?",
+      videoRoot: "Chaîne : Aysseline de Lardemelle ",
+    },
+    
      {
       videoSrc: "https://www.youtube.com/embed/KL0M-w-Rmwo",
       videoTitle: "Animer une réunion : mission impossible ?",

@@ -3,12 +3,11 @@
     <Header></Header>
     <Menu></Menu>
     <h3>LES FONDAMENTAUX</h3>
-
+    <h4>Les fiches clés</h4>
+    <Pdf v-bind:galery-pdf="pdfMeeting"></Pdf>
+    <h4> Erreurs courantes</h4>
     <Video v-bind:galery-video="videoMeetingFund"></Video>
-    <p>
-      <strong>Comment conduire une réunion</strong>
-      
-    </p>
+    <h4>Comment conduire une réunion</h4>
     <b-row align-h="center">
       <div style="width:799.983px">
         <strong style="display:block;margin:12px 0 4px"
@@ -16,6 +15,7 @@
             href="https://slideplayer.fr/slide/2572800/"
             title="Conduire une réunion."
             target="_blank"
+            class="list-link"
             >Conduire une réunion.</a
           ></strong
         ><iframe
@@ -39,6 +39,7 @@
             href="https://slideplayer.fr/slide/8743175/"
             title="Savoir comment conduire une réunion"
             target="_blank"
+            class="list-link"
             >Savoir comment conduire une réunion</a
           ></strong
         ><iframe
@@ -55,7 +56,7 @@
         <div style="padding:5px 0 12px"></div>
       </div>
     </b-row>
-    <Pdf v-bind:galery-pdf="pdfMeeting"></Pdf>
+    
     <Footer></Footer>
   </div>
 </template>

@@ -8,7 +8,10 @@
     <b-row id="go-further-Interview">
         
     <b-col cols="4">
-        <img id="book-Com"  src="../../assets/book.jpg">
+        <img 
+            id="book-Com"  
+            src="../../assets/book.jpg"
+            alt="Les premiers entretiens de recrutement Peggy Raffy-Hideux : Livre sur le recrutements ">
     </b-col>
     <b-col cols="8">
         <p>

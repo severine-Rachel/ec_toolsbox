@@ -6,17 +6,17 @@
     <p>
         La communication va être fonction du nombre d'émetteurs et du récepteurs :
         <ol>
-            <li>
+            <li class="first-list">
                 <u>Communication interpersonnelle</u>
             </li>
             Basée sur l'échange entre 2 individus (entretien de recrutement 
             conversation entre 2 amis...)
-            <li>
+            <li class="first-list">
                 <u>Communication de groupe</u>
-            </li>
+            </li class="first-list">
             L’émetteur s’adresse à un groupe défini, dont la culture est 
             commune (réunion...)
-            <li>
+            <li class="first-list">
                 <u>Communication de masse</u>
             </li>
             L’émetteur (singulier ou pluriel) vise à toucher le maximum de 

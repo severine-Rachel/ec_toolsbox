@@ -101,7 +101,8 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              Flash ou le grand voyage, Charles Duchaussois
+              « Flash ou le grand voyage », Charles Duchaussois
+              
             </strong>
           </p>
           <p class="text-read">
@@ -271,7 +272,7 @@
 
       <b-row class="justify-content-md-start reading">
         <b-col col md="auto"
-          ><img src="/picture_read/Link/Orphelin.png" class="picture-book" />
+          ><img src="/picture_read/Link/Orphelin.jpg" class="picture-book" />
         </b-col>
         <b-col col md="6">
           <p class="text-read">

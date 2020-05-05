@@ -9,10 +9,7 @@
 </template>
 
 <style lang="scss">
-#sharepicture{
-  width:75vw;
-  margin: 4% 10%;
-}</style>
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
@@ -33,17 +30,17 @@ export default class Def extends Vue {
     {
     ContentsTitle:  "COMMUNIQUER, C'EST ÉCHANGER",
     ContentsPath: "/Definition_Communication/Partager",
-    ContentsImage: "/thumbail.png"
+    ContentsImage: "/thumbnail2.png"
     },
     {
     ContentsTitle: "LES TYPES DE COMMUNICATION",
     ContentsPath: "/Definition_Communication/Types_Communication",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail7.png"
     },
     {
     ContentsTitle: "LES SITUATIONS DE COMMUNICATION",
     ContentsPath: "/Definition_Communication/Situation_Communication",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail3.png"
     }
 
   ]

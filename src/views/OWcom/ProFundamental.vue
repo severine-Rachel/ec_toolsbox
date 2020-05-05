@@ -4,11 +4,13 @@
     <Menu></Menu>
     <h3>LES FONDAMENTAUX</h3>
     <p>
-      Pour tout écrit, il faut adopter une démarche par objectif :
+      <strong>
+      Pour tout écrit, il faut adopter une démarche par objectif 
+      </strong>
     </p>
     <img
-      id="socialpicture"
-      src="/picture_OWcom/schematic/schema_pro.png"
+      class="square"
+      src="/picture_OWcom/schematic/schema_pro.jpg"
       alt="structuration-discours"
     />
     <p>
@@ -18,9 +20,9 @@
     <p>
       Fiche conseil rédaction
     </p>
-    <Pdf v-bind:galery-pdf="pdfPro"></Pdf>
+    
     <p>
-      source :
+      <i>Source :</i>
       http://fr.copian.ca/biblio/apprenti/rhdcc/competences_essentielles/conseils_redaction/conseils_redaction.pdf
     </p>
     <p>
@@ -37,59 +39,73 @@
 
     <span
       ><img
+        class="vertical"
         src="/picture_Letter/fundamentals_Letter_Modal.png"
-        id="socialpicture"
         alt="Model_Lettre"/>
       <img
         src="/picture_Letter/fundamentals_Letter_Modal2.png"
-        id="socialpicture"
+         class="vertical"
         alt="Model_Lettre"
     /></span>
     <h5 id="h5-title">Le modèle du rapport</h5>
-    <p><strong>Dossier page de garde 1</strong></p>
+     <p>
+    <h7>Dossier page de garde 1</h7>
+    </p>
     <p>
       Cette page de garde est trop sobre et les différents niveaux de lecture
       non respectés.
     </p>
     <img
       src="/picture_OWcom/Pro/Cover_Page1.png"
-      id="socialpicture"
+      class="vertical"
       alt="Page_De_Garde1"
     />
-    <p><strong>Dossier page de garde 2</strong></p>
+     <p>
+    <h7>Dossier page de garde 2</h7>
+    </p>
     <p>
       Cette page de garde est bien plus attractive. Elle témoigne du soin
       accordé à l’ensemble du dossier.
     </p>
 <img
       src="/picture_OWcom/Pro/Cover_Page2.png"
-      id="socialpicture"
+       class="vertical"
       alt="Page_De_Garde2"
     />
-
-    <p><strong>Dossier Sommaire 1</strong></p>
+ <p>
+    <h7>Dossier Sommaire 1</h7>
+    </p>
     <img
       src="/picture_OWcom/Pro/Summary1.png"
-      id="socialpicture"
+       class="vertical"
       alt="Dossier_Sommaire1"
     />
-    <p><strong>Dossier Sommaire 2</strong></p>
+    <p>
+    <h7>Dossier Sommaire 2</h7>
+    </p>
+    
     <img
       src="/picture_OWcom/Pro/Summary2.png"
-      id="socialpicture"
+       class="vertical"
       alt="Dossier_Sommaire2"
     />
-    <p><strong>Dossier Sommaire 3</strong></p>
+     <p>
+    <h7>Dossier Sommaire 3</h7>
+     </p>
     <img
       src="/picture_OWcom/Pro/Summary3.png"
-      id="socialpicture"
+       class="vertical"
       alt="Dossier_Sommaire3"
     />
     <Footer></Footer>
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+  #h5-title{
+    color: #2e367f;
+  }
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
@@ -111,7 +127,7 @@ export default class ProFundamental extends Vue {
   public pdfPro = [
     {
       pdfLink: "/pdf_OWcom/betterWritePro.pdf",
-      pdfDownload: "FicheConseilRedaction",
+      pdfDownload: "Fiche conseil rédaction",
       TxtPdf: "Fiche conseil rédaction",
     },
   ];

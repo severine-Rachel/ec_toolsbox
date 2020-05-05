@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <h3>HISTOIRE</h3>
-    <p>
+   
       <strong>
         <a
           href="https://www.histoire.fr/"
@@ -13,12 +13,12 @@
           Histoire TV <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+   
     <p>
       Découvrez les programmes et les vidéos de Histoire, la chaîne dédiée aux
       documentaires historiques et au débat culturel.
     </p>
-    <p>
+
       <strong>
         <a
           href="https://www.lhistoire.fr/"
@@ -28,11 +28,11 @@
           Histoire magazine <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+ 
     <p>
       Le magazine de référence des passionnés d'histoire. 
     </p>
-    <p>
+ 
       <strong>
         <a
           href="https://www.histoire-pour-tous.fr/"
@@ -42,13 +42,13 @@
           Histoire pour tous <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+
     <p>
       Histoire de France et de l'humanité des origines à nos jours: articles
       thématiques, guerres, livres, jeux, films, actualité, télé : l'Histoire
       pour Tous !
     </p>
-    <p>
+
       <strong>
         <a
           href="https://www.radioclassique.fr/radio/emissions/franck-ferrand-raconte/"
@@ -58,7 +58,7 @@
           Podcast Franck Ferrand raconte, Radio Classique <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+  
     <p>
       Ce passionné d'Histoire raconte et plonge l’auditeur dans les grandes
       intrigues et les sagas de l’Histoire.

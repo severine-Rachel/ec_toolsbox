@@ -50,22 +50,22 @@ export default class Pro extends Vue {
     {
       ContentsTitle: "LES FONDAMENTAUX",
       ContentsPath: "/Ecrit_Pro/Fondamentaux",
-      ContentsImage: "/thumbail.png",
+      ContentsImage: "/thumbnail1.png",
     },
     {
       ContentsTitle: "STRATÉGIES D'ÉCRITURE",
       ContentsPath: "/Ecrit_Pro/Strategie",
-      ContentsImage: "/thumbail.png",
+      ContentsImage: "/thumbnail3.png",
     },
     {
       ContentsTitle: "AMÉLIORER SON ORTHOGRAPHE",
       ContentsPath: "/Ecrit_Pro/Orthographe",
-      ContentsImage: "/thumbail.png",
+      ContentsImage: "/thumbnail5.png",
     },
     {
       ContentsTitle: "EXEMPLES DE RÉALISATIONS",
       ContentsPath: "/Ecrit_Pro/Exemples",
-      ContentsImage: "/thumbail.png",
+      ContentsImage: "/thumbnail7.png",
     },
   ];
 }

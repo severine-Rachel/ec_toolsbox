@@ -1,18 +1,20 @@
 <template>
   <div>
     <h4>III. ÉVOLUTION ET ÉPOQUE CONTEMPORAINE</h4>
-    <h5 id="h5-title"><u>1. Dans les années 1960-2000</u></h5>
+    <h5 id="h5-title">1. Dans les années 1960-2000</h5>
     <p>
       Certains prolongent le travail d’artistes comme Yves Klein en focalisant
       l’art sur le corps de l’artiste : c’est le body art.
     </p>
-    <p>
+
+    <h7>
       Années 1960-1970 : focus sur le féminisme
-    </p>
-    <p>
-      <b-icon icon="arrow-right"></b-icon> Orlan : le baiser de l’artiste, 1977,
-      Foire internationale de l’art contemporain (FIAC)
-    </p>
+    </h7>
+
+    <h5 class="text-vid">
+      Orlan : le baiser de l’artiste, 1977, Foire internationale de l’art
+      contemporain (FIAC)
+    </h5>
     <b-row align-h="center">
       <iframe
         width="560"
@@ -33,10 +35,10 @@
       Marie-Madeleine, la prostituée.
     </p>
 
-    <h5 id="h5-title"><u>2. Plus contemporain :</u></h5>
-    <p>
-      <strong> Pina Bausch, Kontakthof (1978)</strong>
-    </p>
+    <h5 id="h5-title">2. Plus contemporain :</h5>
+
+    <h7> Pina Bausch, Kontakthof (1978)</h7>
+
     <p>
       <b-icon icon="arrow-right"></b-icon> Kontakthof est une succession de
       petites scènes sans lien apparent, mais reliées indirectement par le thème
@@ -62,12 +64,11 @@
       de 65 ans, entre 15 et 18 ans).
     </p>
 
-    <p>
-      <strong>
-        Marina Abramović au MoMA (Museum of Modern Art à New York) : L’artiste
-        est présent.</strong
-      >
-    </p>
+    <h7>
+      Marina Abramović au MoMA (Museum of Modern Art à New York) : L’artiste est
+      présent.</h7
+    >
+
     <p>
       Marina Abramović est une artiste serbe. Ses premières performances dates
       de 1973 et se révèlent souvent des épreuves d’endurance, à la limite de la
@@ -77,18 +78,18 @@
       un pistolet sur la tempe… Son projet artistique ambitionne de rendre les
       personnes plus libres et de les amener à vaincre leurs peurs.
     </p>
-    <p>
-      <strong>
-        <a
-          href="https://www.ted.com/talks/marina_abramovic_an_art_made_of_trust_vulnerability_and_connection?language=fr"
-          class="subtitle-link"
-          target="_blank"
-        >
-          Conférence Ted de Marina Abramović pour mieux comprendre son approche
-          de l’art perfromance <b-icon icon="box-arrow-right"></b-icon>
-        </a>
-      </strong>
-    </p>
+
+    <strong>
+      <a
+        href="https://www.ted.com/talks/marina_abramovic_an_art_made_of_trust_vulnerability_and_connection?language=fr"
+        class="subtitle-link"
+        target="_blank"
+      >
+        Conférence Ted de Marina Abramović pour mieux comprendre son approche de
+        l’art perfromance <b-icon icon="box-arrow-right"></b-icon>
+      </a>
+    </strong>
+    <p></p>
     <p>
       En 2010, une rétrospective reprenant un certain nombre de ses
       performances, réalisées avec son compagnon de l’époque, un artiste
@@ -119,10 +120,7 @@
       compagnon de route pour un ultime baiser qui devait sceller la fin de leur
       union.
     </p>
-    <p>
-      <b-icon icon="arrow-right"></b-icon> Performance de Marina Abramovic au
-      MoMA en 2010
-    </p>
+    <h5 class="text-vid">Performance de Marina Abramovic au MoMA en 2010</h5>
     <b-row align-h="center">
       <iframe
         width="560"
@@ -146,19 +144,22 @@
       Marina Abramović propose au spectateur de prendre son temps et de casser
       ses habitudes.
     </p>
-    <p>
-      <a
-        href="https://next.liberation.fr/arts/2010/09/04/marina-abramovic-aux-larmes-et-caetera_699003"
-        class="subtitle-link"
-        target="_blank"
-      >
-        Voir portrait Libération <b-icon icon="box-arrow-right"></b-icon>
-      </a>
-    </p>
 
-    <p>
-      <strong> Olivier de Sagazan, Transfiguration, depuis 1990</strong>
-    </p>
+    <a
+      href="https://next.liberation.fr/arts/2010/09/04/marina-abramovic-aux-larmes-et-caetera_699003"
+      class="subtitle-link"
+      target="_blank"
+    >
+      <strong>
+        Voir portrait Libération <b-icon icon="box-arrow-right"></b-icon>
+      </strong>
+    </a>
+    <p></p>
+
+    <h7>
+      Olivier de Sagazan, Transfiguration, depuis 1990
+    </h7>
+
     <p>
       Biologiste de formation, Olivier de Sagazan questionne le corps : de quoi
       est-il fait ? Ayant un temps enseigné au Cameroun, de Sagazan congédie la
@@ -174,7 +175,6 @@
         allow="autoplay; fullscreen"
         allowfullscreen
       ></iframe>
-      
     </b-row>
     <p class="text-vid">
       <a href="https://vimeo.com/57263820">Olivier de Sagazan</a> from
@@ -195,8 +195,8 @@
 </template>
 
 <style lang="scss">
-#h5-title{
-    margin:0 10%;
+#h5-title {
+  margin: 3vh 10%;
 }
 </style>
 

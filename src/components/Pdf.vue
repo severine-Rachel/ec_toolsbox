@@ -1,23 +1,36 @@
 <style>
 .fundamentals-pdf {
   width: 10vw;
-  color: red;
   text-align: center;
-  margin: 5% 0 0 10%;
+  display: block;
+  height: 10vh;
+  margin:  0 2vw ;
+  background-image: url(../assets/pdf.png);
+  background-size: 100% 100%;
+}
+
+.rowcomponents{
+  margin:0 5% 0 10%!important;
+}
+.text-pdf{
+  padding: 9% 0;
 }
 </style>
 
 <template>
   <div>
+    <b-row class="justify-content-md-left  rowcomponents" >
     <div v-for="pdfElement in galeryPdf" :key="pdfElement">
       <a
         class="fundamentals-pdf"
         v-bind:href="pdfElement.pdfLink"
         v-bind:download="pdfElement.pdfDownload"
       >
-        <b-icon icon="upload"></b-icon> {{ pdfElement.TxtPdf }}
+      
+         <h6 class="text-pdf">{{ pdfElement.TxtPdf }} <b-icon icon="upload"></b-icon>  </h6> 
       </a>
     </div>
+    </b-row>
   </div>
 </template>
 

@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <h3>MÉDIAS, PRESSE</h3>
-    <p>
+   
       <strong>
         <a
           href="https://theconversation.com/fr"
@@ -13,7 +13,7 @@
           The Conversation <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+    
     <p>
       Edité par des journalistes expérimentés, The Conversation offre des
       analyses informées et nourrit le débat sur les grands sujets qui touchent
@@ -23,7 +23,7 @@
       Contrairement à ce qu’indique son nom, le site est francophone.
       Possibilité de s’abonner à la Newsletter.
     </p>
-    <p>
+  
       <strong>
         <a
           href="https://www.adaptive-channel.com/kipup"
@@ -33,17 +33,17 @@
           Kipup <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+   
     <p>
       Un bouquet de presse accessible gratuitement pour les étudiants.
     </p>
-    <p>
+   
       <strong>
         <a href="https://www.lemonde.fr/" class="subtitle-link" target="_blank">
           Le Monde <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+  
     <p>
       1er site d'information français. Les articles du journal et toute
       l'actualité en continu : International, France, Société, Economie,

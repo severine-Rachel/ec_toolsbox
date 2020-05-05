@@ -27,14 +27,9 @@
 </template>
 
 <style lang="scss">
-#cv-galery {
-  margin-left: 10%;
-}
 
-.subtitle-link {
-  text-decoration: none !important;
-  color: #2e367f;
-}
+
+
 </style>
 
 <script lang="ts">
@@ -70,32 +65,32 @@ export default class CV extends Vue {
     {
       IndexTitle: "LES FONDAMENTAUX : FICHES-CLÉS",
       IndexId: "#keysCV",
-      IndexImage: "/thumbail.png",
+      IndexImage: "/thumbnail7.png",
     },
     {
       IndexTitle: "CONSEILS ET ASTUCES",
       IndexId: "#tipsCV",
-      IndexImage: "/thumbail.png",
+      IndexImage: "/thumbnail1.png",
     },
     {
       IndexTitle: "EXEMPLES DE CV (IUT)",
       IndexId: "#exampleCV",
-      IndexImage: "/thumbail.png",
+      IndexImage: "/thumbnail2.png",
     },
     {
       IndexTitle: "OUTILS D'AIDE À LA CONCEPTION DE CV",
       IndexId: "#toolCV",
-      IndexImage: "/thumbail.png",
+      IndexImage: "/thumbnail3.png",
     },
     {
       IndexTitle: "LE CV VIDÉO",
       IndexId: "#videoCV",
-      IndexImage: "/thumbail.png",
+      IndexImage: "/thumbnail4.png",
     },
     {
       IndexTitle: "POUR ALLER PLUS LOIN !",
       IndexId: "#go-furtherCV",
-      IndexImage: "/thumbail.png",
+      IndexImage: "/thumbnail5.png",
     },
   ];
 }

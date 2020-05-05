@@ -1,21 +1,22 @@
 <style>
-.text-vid {
+.text-group-vid {
   text-align: center;
+  color: white;
 }
 .video-image {
   width: 17vw;
   height: 17vh;
-  margin: 2vw;
+  margin: 1vh 2vw;
   background-image: url(../assets/Play.png);
   background-size: 100% 100%;
-  border: solid 1px #6a94aa;
+  
   cursor: pointer;
 }
 </style>
 
 <template>
   <div>
-    <b-row class="justify-content-md-center">
+    <b-row class="justify-content-md-center" >
       <div v-for="videoImage in galeryVideo" :key="videoImage">
         <div
           class="video-image"
@@ -27,7 +28,7 @@
             )
           "
         >
-          <p class="text-vid">{{ videoImage.videoTitle }} <br /></p>
+          <h6 class="text-group-vid">{{ videoImage.videoTitle }} <br /></h6>
         </div>
       </div>
     </b-row>

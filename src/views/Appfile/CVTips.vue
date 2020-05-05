@@ -3,6 +3,7 @@
     <h3 id="tipsCV">
       CONSEILS ET ASTUCES
     </h3>
+    <p></p>
     <Video v-bind:galery-video="videoCVTips"></Video>
   </div>
 </template>
@@ -22,6 +23,11 @@ export default class CVKeys extends Vue {
       videoTitle: "Méthodologie du CV",
       videoRoot: "Chaîne : digiSchool",
     },
+     {
+      videoSrc: "https://www.youtube.com/embed/5oHVIuNPtGg",
+      videoTitle: "CV : 30 secondes pour convaincre",
+      videoRoot: "Chaîne :  AXA France",
+    },
     {
       videoSrc: "https://www.youtube.com/embed/l1hhhndMzIs",
       videoTitle: "Les règles d’or du CV",
@@ -32,11 +38,7 @@ export default class CVKeys extends Vue {
       videoTitle: "Les astuces pour rédiger son CV",
       videoRoot: "Chaîne : TVBilan",
     },
-    {
-      videoSrc: "https://www.youtube.com/embed/5oHVIuNPtGg",
-      videoTitle: "CV : 30 secondes pour convaincre",
-      videoRoot: "Chaîne :  AXA France",
-    },
+   
   ];
 }
 </script>

@@ -27,37 +27,37 @@ export default class OnlineCulture extends Vue {
     {
       ContentsTitle:"ARTS",
       ContentsPath:"/CultureenLigne/Art",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail3.png"
     },
     {
       ContentsTitle:"CINÉMA",
       ContentsPath:"/CultureenLigne/Cinema",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail5.png"
     },
     {
       ContentsTitle:"MUSIQUE",
       ContentsPath:"/CultureenLigne/Musique",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail4.png"
     },
     {
       ContentsTitle:"HISTOIRE",
       ContentsPath:"/CultureenLigne/Histoire",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail6.png"
     },
     {
       ContentsTitle:"SCIENCES",
       ContentsPath:"/CultureenLigne/Sciences",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail7.png"
     },
     {
       ContentsTitle:"CULTURE GÉNÉRALE",
       ContentsPath:"/CultureenLigne/CultureGenerale",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail1.png"
     },
     {
       ContentsTitle:"MÉDIAS, PRESSE",
       ContentsPath:"/CultureenLigne/MediaPresse",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail2.png"
     },
    ]
 }

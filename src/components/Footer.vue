@@ -1,14 +1,14 @@
 <template>
-  <div id="footer">
-    <div id="prefooter">
+  <div id="Footer">
+    <div id="FooterTop">
       <b-row>
-        <b-col id="footerlogo" cols="3">
-          <img id="EClogo" src="../assets/basic-Graph/Logo3.png" atl="logo" />
-          <h5 id="logotitle"> <router-link to="/QuiSuisJe" class="link-footer-writer">L'AUTEURE</router-link></h5>
+        <b-col class="divide-footer" cols="3">
+          <img class="Logo" src="../assets/basic-Graph/Logo3.png" atl="Peggy Raffy-Hideux Logo Design" />
+          <h5> <router-link to="/QuiSuisJe" class="link-footer-writer">L'AUTEURE</router-link></h5>
         </b-col>
         <b-col cols="9">
-          <h5 id="aboutweb">CE QUE LE SITE PROPOSE</h5>
-          <p id="aboutweb">
+          <h5 id="H5WebDescrib">CE QUE LE SITE PROPOSE</h5>
+          <p id="WebDescrib">
             Ce site a été conçu comme une boîte à outils. Vous y trouverez de
             nombreuses ressources en expression et communication : fiches-clés,
             conseils et astuces, vidéos, exemples concrets, etc. qui doivent
@@ -20,18 +20,19 @@
         </b-col>
       </b-row>
     </div>
-    <b-row id="postfooter">
-      <b-col cols="3" id="network">
-        <h5 id="postfootertitle">CONTACT</h5>
+    
+    <b-row id="FooterBottom">
+      <b-col cols="3" class="divide-footer">
+        <h5 id="H5FooterBottom">CONTACT</h5>
 
-        <a href="https://fr.linkedin.com/in/peggy-raffy-hideux" target="_blank">
+        <a href="https://fr.linkedin.com/in/peggy-raffy-hideux" target="_blank" alt="LinkedIn Peggy Raffy-Hideux">
           <img
             class="logo-network"
             src="../assets/basic-Graph/Logo_Linkendin.png"
             atl="logo-linkenin"
           />
         </a>
-        <a href="http://fr.viadeo.com/fr/profile/raffy.peggy" target="_blank">
+        <a href="http://fr.viadeo.com/fr/profile/raffy.peggy" target="_blank" alt="Viadeo Peggy Raffy-Hideux">
           <img
             class="logo-network"
             src="../assets/basic-Graph/Logo_Viadeo.png"
@@ -58,8 +59,8 @@
       </b-col>
 
       <b-col cols="9" id="aboutme">
-        <h5 id="sailorfooter"><b-icon icon="list"></b-icon>NAVIGATION</h5>
-        <p id="sailorfootertxt">
+        <h5 id="H5FooterNav"><b-icon icon="list"></b-icon>NAVIGATION</h5>
+        <p id="FooterNav">
           <b-icon icon="diamond"></b-icon>
           <router-link to="/CV" class="link-footer"
             > CV</router-link
@@ -73,7 +74,7 @@
             Entretien
           </router-link>
         </p>
-        <p id="sailorfootertxt">
+        <p id="FooterNav">
           <b-icon icon="diamond"></b-icon>
           <router-link to="/Definition_Communication" class="link-footer">
             La communication
@@ -91,7 +92,7 @@
             Conduite de réunion
           </router-link>
         </p>
-        <p id="sailorfootertxt">
+        <p id="FooterNav">
           <b-icon icon="diamond"></b-icon>
           <router-link to="/Affiche" class="link-footer">
             Affiche
@@ -109,7 +110,7 @@
             Audiovisuel
           </router-link>
         </p>
-        <p id="sailorfootertxt">
+        <p id="FooterNav">
           <b-icon icon="diamond"></b-icon>
           <router-link to="/CultureGenerale" class="link-footer">
             Culture générale
@@ -129,7 +130,7 @@
         </p>
       </b-col>
     </b-row>
-    <b-row id="legalfooter">
+    <b-row id="FooterLegal">
       <b-col cols="3">
         <div>©Peggy Raffy-Hideux</div>
       </b-col>
@@ -160,61 +161,63 @@
 </template>
 
 <style lang="scss">
-#footer {
-  background: #2694cd;
-  color: white;
+#Footer {
   font-size: 9pt;
   text-align: center;
   margin-top: 40vh;
 }
-#prefooter {
+#FooterTop {
   background: #bce8ff;
   padding: 5vh 0;
 }
-#footerlogo {
-  border-right: solid 1px #1d4f8f;
+#FooterBottom {
+  padding: 5vh 0;
+  background: #2694cd;
+  color: white;
 }
-#EClogo {
+#FooterLegal {
+  background-color: #1d4f8f;
+  color: #bce8ff;
+}
+#ECLogo {
   height: 10vh;
 }
-
-#aboutweb {
+#H5WebDescrib{
+  text-align: justify;
+  margin-left: 5.5%;
+  color: #2694cd;
+}
+#WebDescrib {
   text-align: justify;
   margin-left: 5.5%;
 }
-#postfooter {
-  padding: 5vh 0;
-}
-#postfootertitle {
-  color: white;
+#H5FooterBottom {
+    color: white;
   padding-top: 1rem;
   margin-bottom: 0;
   text-align: center;
   padding-left: 0;
 }
-.logo-network {
-  height: 3vh;
-  margin: 1vh 1vw 2vh 1vw;
-  text-align: center;
-}
-#network {
-  border-right: solid 1px #1d4f8f;
-}
-#sailorfooter {
+#H5FooterNav {
   color: white;
   padding-top: 1rem;
   text-align: justify;
   margin-left: 5.5%;
 }
-#sailorfootertxt {
+#FooterNav {
   color: white;
   text-align: justify;
   margin-left: 5.5%;
   margin-bottom: 0.5rem;
 }
-#legalfooter {
-  background-color: #1d4f8f;
-  color: #bce8ff;
+
+.logo-network {
+  height: 3vh;
+  margin: 1vh 1vw 2vh 1vw;
+  text-align: center;
+}
+.divide-footer{
+  border-right: solid 1px #1d4f8f;
 }
 .link-footer {
   color: white !important;
@@ -226,9 +229,7 @@
   color:#2694cd !important;
   
 }
-.row {
-  margin-right: 0 !important;
-}
+
 </style>
 
 <script lang="ts">

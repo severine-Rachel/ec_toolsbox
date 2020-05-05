@@ -9,7 +9,7 @@
     <p>
         L’œuvre peut :
         <ul>
-            <li>
+            <li class="first-list">
                 être présentée en solo ou en groupe, 
             </li>
             <li>
@@ -28,18 +28,19 @@
         </ul>
         L'art performance est, par essence, un art éphémère qui laisse peu d'objets derrière lui.
     </p>
-    <p>
+   
         <a 
+            class="subtitle-link"
             href="http://www.lafabriqueculturelle.tv/capsules/5932/la-perf-en-538" 
             target="_blank"
-        ><b-icon icon="arrow-right"></b-icon>La Fabrique culturelle : qu’est-ce qu’une performance ?
+        >La Fabrique culturelle : qu’est-ce qu’une performance ? <b-icon icon="box-arrow-right"></b-icon>
         </a>
-    </p>
+   
 	
     <p>
         Certains historiens de l'art situent l'origine de l'art performance dans la pratique des rituels ou rites de passage observés depuis l'origine de l'Homme. Selon Richard Martel, auteur du livre Art-action (Les Presses du réel, 2005), l'art performance constitue peut-être la forme artistique la plus ancienne de l'humanité. Les matériaux de base d'une « performance » sont :
         <ul>
-            <li>
+            <li class="first-list">
                 le corps, 
             </li>
             <li>
@@ -56,7 +57,7 @@
      <p>
         Il est difficile de définir précisément la pratique constamment changeante de l'art performance. C’est un art :
         <ul>
-            <li>
+            <li class="first-list">
                 vivant,
             </li>
             <li>
@@ -88,12 +89,12 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import {BIcon, BIconArrowRight} from "bootstrap-vue";
+import {BIcon, BIconBoxArrowRight} from "bootstrap-vue";
 
 @Component({
   components: {
     BIcon,
-    BIconArrowRight,
+    BIconBoxArrowRight,
 
   },
 })

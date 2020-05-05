@@ -6,7 +6,7 @@
     <p>
       <strong>
         Comment écrire une bonne lettre de motivation ? Comment analyser une
-        offre d’emploi pour faire correspondre vos atouts aux nécessités du
+        offre d’emploi pour faire correspondre vos atouts avec les nécessités du
         poste ? Quel aspect visuel donner à votre lettre pour la rendre plus
         attractive ? Découvrez ici les fiches-clés, conseils et astuces pour
         vous démarquer.
@@ -67,22 +67,22 @@ public indexLetter= [
     {
     IndexTitle:  "LES FONDAMENTAUX : FICHES-CLÉS",
     IndexId: "#keysLetter",
-    IndexImage: "/thumbail.png"
+    IndexImage: "/thumbnail4.png"
     },
     {
     IndexTitle: "CONSEILS ET ASTUCES",
     IndexId: "#tipsLetter",
-    IndexImage:"/thumbail.png"
+    IndexImage:"/thumbnail6.png"
     },
     {
-    IndexTitle: "METTRE EN ADÉQUATION VOTRE LETTRE DE \n  MOTIVATION AVEC LE POSTE : ANALYSE DE L'OFFRE",
+    IndexTitle: "METTRE EN ADÉQUATION VOTRE LETTRE DE  MOTIVATION \n AVEC LE POSTE : ANALYSE DE L'OFFRE",
     IndexId: "#analysisLetter",
-    IndexImage:"/thumbail.png"
+    IndexImage:"/thumbnail3.png"
     },
     {
     IndexTitle: "COMMENT PRÉPARER VOS ARGUMENTS?",
     IndexId: "#argumentLetter",
-    IndexImage:"/thumbail.png"
+    IndexImage:"/thumbnail1.png"
     }
 
   ]

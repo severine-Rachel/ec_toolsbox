@@ -68,17 +68,17 @@ public indexInterview= [
     {
     IndexTitle:  "LES FONDAMENTAUX : FICHES-CLÉS",
     IndexId: "#keysInterview",
-    IndexImage: "/thumbail.png"
+    IndexImage: "/thumbnail2.png"
     },
     {
     IndexTitle: "CONSEILS ET ASTUCES",
     IndexId: "#tipsInterview",
-    IndexImage:"/thumbail.png"
+    IndexImage:"/thumbnail6.png"
     },
     {
     IndexTitle: "POUR ALLER PLUS LOIN",
     IndexId: "#goFurtherInterview",
-    IndexImage:"/thumbail.png"
+    IndexImage:"/thumbnail7.png"
     }
 
   ]

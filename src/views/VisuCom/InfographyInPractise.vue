@@ -3,21 +3,24 @@
     <h3 id="InfographyInPractise">
       EN PRATIQUE...
     </h3>
-    <img
-        src="/picture_VisuCom/Poster_PPP.png"
-        id="socialpicture"
-        alt="ExemplePosterPPP"
-        >
-    <p>
-      <a
+    <a
         class="subtitle-link"
         href="https://www.spotpink.com/2017/06/26/compilation-meilleures-infographies-2017/"
         target="_blank"
-      >
+      ><strong>
         Exemples des meilleures infographies 2017
         <b-icon icon="box-arrow-right"></b-icon>
+        </strong>
       </a>
-    </p>
+      <p></p>
+    <img
+        src="/picture_VisuCom/Poster_PPP.jpg"
+        class="vertical"
+        alt="ExemplePosterPPP"
+        >
+    
+      
+    
     
   </div>
 </template>

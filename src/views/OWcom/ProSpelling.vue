@@ -3,34 +3,32 @@
     <Header></Header>
     <Menu></Menu>
     <h3>AMÉLIORER VOTRE ORTHOGRAPHE</h3>
-    <p>
-      <strong>
-        Livre-outil
-      </strong>
-    </p>
-    <p>
-      <a
-        href="https://oraprdnt.uqtr.uquebec.ca/pls/public/docs/GSC26/O0000669899_100_jours.pdf"
-        target="_blank"
-        >Bénédicte Gaillard, <i> 100 jours sans fautes</i>, Guy Saint-Jean
-        Éditeur, 2015.</a
-      >
-    </p>
-    <SpellingInterractExe></SpellingInterractExe>
+    <h4>
+      Livre-outil
+    </h4>
 
+    <a
+      class="subtitle-link"
+      href="https://oraprdnt.uqtr.uquebec.ca/pls/public/docs/GSC26/O0000669899_100_jours.pdf"
+      target="_blank"
+      >Bénédicte Gaillard, <i> 100 jours sans fautes</i>, Guy Saint-Jean
+      Éditeur, 2015. <b-icon icon="box-arrow-right"></b-icon
+    ></a>
+
+   
+
+    <h4>
+      La nouvelle orthographe
+    </h4>
     
-    <p>
-      <strong>
-        La nouvelle orthographe
-      </strong>
-    </p>
-    <Pdf v-bind:galery-pdf="pdfRule"></Pdf>
-    <p>
-      Liste nouvelle orthographe-D’après Danielle Béchennec et Liliane
+  
+      <a class="subtitle-link" href="/pdf_OWcom/SpellingList.pdf" download="Règles nouvelles orthographe">Liste nouvelle orthographe  <b-icon icon="upload"></b-icon> </a>   <p>- D’après Danielle Béchennec et Liliane
       Sprenger,<i> Guide pratique de l’orthographe rectifiée</i>, disponible sur
       www.cahiers-pedagogiques.com
     </p>
-    <Pdf v-bind:galery-pdf="pdfList"></Pdf>
+
+    <Pdf v-bind:galery-pdf="pdfRule"></Pdf>
+     <SpellingInterractExe></SpellingInterractExe>
     <Footer></Footer>
   </div>
 </template>
@@ -43,6 +41,7 @@ import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Pdf from "@/components/Pdf.vue";
 import SpellingInterractExe from "@/views/OWcom/ProSpelling/SpellingInterractExe.vue";
+import { BIcon, BIconBoxArrowRight, BIconUpload } from "bootstrap-vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -50,6 +49,9 @@ import Footer from "@/components/Footer.vue";
     Menu,
     Pdf,
     SpellingInterractExe,
+    BIcon,
+    BIconBoxArrowRight,
+    BIconUpload,
     Footer,
   },
 })
@@ -64,7 +66,7 @@ export default class ProSpelling extends Vue {
   public pdfRule = [
     {
       pdfLink: "/pdf_OWcom/SpellingRule.pdf",
-      pdfDownload: "MuseeOrthographe",
+      pdfDownload: "Musée de la nouvelle orthographe",
       TxtPdf: "Musée de la nouvelle orthographe",
     },
   ];

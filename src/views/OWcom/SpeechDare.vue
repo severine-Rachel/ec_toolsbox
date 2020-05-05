@@ -16,9 +16,10 @@
       </li>
       <li>leurs relations</li>
         
-        </ul>
-        <strong><u>I - La prise de parole en solo :</u></strong>
+    </ul>
     </p>
+    <h4>I - La prise de parole en solo :</h4>
+    
     <p>
       Vous êtes seul à parler devant un auditoire :
     </p>
@@ -36,10 +37,10 @@
       Vous vous trouvez en position d’autorité par rapport à un auditoire qui
       vous fait confiance.
     </p>
-    <p>
-    <strong><u>II - L’intervention dans un groupe :</u></strong>
+    
+    <h4>II - L’intervention dans un groupe :</h4>
       
-    </p>
+    
     <p>
       C’est à <i>priori</i> une prise de parole libre. Vous êtes théoriquement
       sur un « pied d’égalité » avec les autres participants qui sont également
@@ -56,9 +57,10 @@
         Travail en équipe...
         </li>
         </ul>
-        <strong><u>III - L’entretien face à face :</u></strong>
+        </p>
+        <h4>III - L’entretien face à face :</h4>
     
-    </p>
+    
     <p>Vous ne vous adressez qu’à une seule personne, présente face à vous :</p>
     <p>
     <ul>
@@ -109,12 +111,12 @@
       scène de soi.
     </p>
     <img
-      src="/picture_OWcom/public_meeting/dareToSpeak.png"
+      src="/picture_OWcom/public_meeting/dareToSpeak.jpg"
       alt="Osez-Parler"
-      id="socialpicture"
+      class="vertical"
     />
 
-    <p>Gautier Antoine, <i>J’ose parler en public</i>, Paris, Dunod, 2019</p>
+    <p><i>Source : </i>Gautier Antoine, <i>J’ose parler en public</i>, Paris, Dunod, 2019</p>
 
     <Footer></Footer>
   </div>

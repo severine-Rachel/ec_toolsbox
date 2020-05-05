@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <h3>SCIENCES</h3>
-    <p>
+   
       <strong>
         <a
           href="https://www.futura-sciences.com/sciences/actualites/"
@@ -13,11 +13,11 @@
           L’actualité des sciences <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+  
     <p>
       https://www.sciencesetavenir.fr/
     </p>
-    <p>
+  
       <strong>
         <a
           href="http://www.cnrs.fr/fr/page-daccueil"
@@ -27,8 +27,8 @@
           Accédez au Centre National de Recherche Scientifique <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
-    <p>
+  
+    <p></p>
       <strong>
         <a
           href="https://www.youtube.com/channel/UClDk0iyj99stPxD9NQUaVSQ"
@@ -38,7 +38,7 @@
           Assistez à des conférences scientifiques <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+    
     <p>
       Conférences youtube de Roland Lehoucq et Julien Bobroff notamment
       Astrophysicien au CEA de Saclay, Roland Lehoucq tient également une
@@ -52,7 +52,7 @@
       à basse température, en particulier les supraconducteurs et les aimants
       quantiques.
     </p>
-    <p>
+
       <strong>
         <a
           href="https://www.cidehom.com/"
@@ -62,8 +62,8 @@
           L’actualité de l’astronomie <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
-    <p>
+  
+    <p></p>
       <strong>
         <a
           href="https://cnes.fr/fr"
@@ -73,7 +73,7 @@
           Le Centre National d’Études Spatiales <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+    
 
     <Footer></Footer>
   </div>

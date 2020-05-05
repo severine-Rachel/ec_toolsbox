@@ -8,7 +8,7 @@
       <p>
           <b-icon icon="arrow-right"></b-icon> Théorie de Shannon et Weaver.
       </p>
-      <img id="sharepicture" src="/picture_OWcom/schematic/schema_Shannon.png" alt="Schema_Shannon">
+      <img class="horizontal" src="/picture_OWcom/schematic/schema_Shannon.jpg" alt="Schéma Théorie de Shannon et Weaver de la communication">
   </div>
 </template>
 

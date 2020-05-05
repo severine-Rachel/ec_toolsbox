@@ -9,21 +9,19 @@
       nouveaux outils de communication, que vous vous exprimez avec aisance à
       l'oral et éventuellement en plusieurs langues.
     </p>
-    <p>
-      <strong>
-        <a
-          href="https://www.cadremploi.fr/editorial/conseils/conseils-candidature/cv/detail/article/les-10-commandements-du-cv-video.html"
-          target="_blank"
-          class="subtitle-link"
-          >Conseils pour un bon CV vidéo <b-icon icon="box-arrow-right"></b-icon
-        ></a>
-      </strong>
-    </p>
-    <p>
-      <strong>
-        Réaliser son CV vidéo avec Fyte4U
-      </strong>
-    </p>
+
+    <strong>
+      <a
+        href="https://www.cadremploi.fr/editorial/conseils/conseils-candidature/cv/detail/article/les-10-commandements-du-cv-video.html"
+        target="_blank"
+        class="subtitle-link"
+        >Conseils pour un bon CV vidéo <b-icon icon="box-arrow-right"></b-icon
+      ></a>
+    </strong>
+
+    <h5 class="text-vid">
+      Réaliser son CV vidéo avec Fyte4U
+    </h5>
 
     <b-row align-h="center">
       <iframe
@@ -35,15 +33,27 @@
         allowfullscreen
       ></iframe>
     </b-row>
-
+    <p class="text-vid">Chaîne : Fyte4U</p>
     <p>
       <strong>
-        Exemples de CV vidéo:
+        Exemples de CV vidéo
       </strong>
+    </p>
+    <p>
+      Marketing, traduction, design... Tous ces CV vidéo ne manquent pas d'idées
+      et vous fournis la preuve qu'il est toujours possible de trouver des idées
+      pour vour exprimer par l'audiovisuel, peu importe votre domaine d'étude et vos
+      compétences.
     </p>
     <Video v-bind:galery-video="videoCVVideo"></Video>
   </div>
 </template>
+<style lang="scss">
+.text-vid {
+  color: #c21b2c;
+  text-align: center;
+}
+</style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Video from "@/components/Video.vue";

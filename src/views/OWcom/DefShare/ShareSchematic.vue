@@ -11,26 +11,26 @@
         20ᵉ siècle. Il a proposé l’une des  théories  les  plus  connues 
         avec  les  six  fonctions  de  la  communication :
     </p>
-<img id="sharepicture" src="/picture_OWcom/schematic/schema_Jackobson.png" alt="Schema_Shannon">
+<img class="horizontal" src="/picture_OWcom/schematic/schema_Jackobson.png" alt="Schéma de Jakbson">
  <p>
    6 éléments nécessairement impliqués dans tout acte de communication. Ce sont, dans ses 
    termes, l’émetteur, le récepteur, le canal, le code, le contexte, le message.
  </p>
  <p>
  <ul>
-   <li>
+   <li  class="first-list">
      <strong>
        L’émetteur/destinateur/énonciateur :
      </strong>
      instance qui produit le message et qui, dans le cas le plus courant, peut en être tenue pour responsable. 
    </li>
-   <li>
+   <li  class="first-list">
      <strong>
        Le récepteur/destinataire/énonciataire :
      </strong>
      instance qui reçoit le message. 
    </li>
-   <li>
+   <li  class="first-list">
      <strong>
        Le  canal/contact :
      </strong>
@@ -56,7 +56,7 @@
       Un même message peut exploiter simultanément plusieurs canaux ; on parle alors de communication multicanale (par exemple : communications audiovisuelles : deux canaux, auditif et visuel)
 
    </li>
-   <li>
+   <li  class="first-list">
      <strong>
        Le  code :
      </strong>
@@ -78,13 +78,13 @@
        iconique (image) et code linguistique).
 
    </li>
-   <li>
+   <li class="first-list">
      <strong>
        Le contexte/référent :
      </strong>
      c’est ce sur quoi porte le message, ce dont il parle.
    </li>
-   <li>
+   <li class="first-list">
      <strong>
        le message :
      </strong>
@@ -101,7 +101,7 @@
  </p>
  <p>
    <ul>
-     <li>
+     <li class="first-list">
        fonction expressive :
        <ul>
        <li>
@@ -109,17 +109,17 @@
         </li>
        </ul>
      </li>
-     <li>
+     <li class="first-list">
        fonction conative :
         <ul>
        <li>
-       fonction   relative   au   récepteur ;  elle  a  pour  but  d’attirer
+       fonction   relative   aux   récepteurs ;  elle  a  pour  but  d’attirer
          l’attention  du destinataire :  « Garde 
         à  vous »,  « tu  as  vu  ces  étoiles »,  « prenez  de  quoi écrire »
         </li>
        </ul>
      </li>
-     <li>
+     <li class="first-list">
        fonction phatique :
        <ul>
        <li>mise en place et maintien de la 
@@ -127,7 +127,7 @@
        </li>
        </ul>
      </li>
-     <li>
+     <li class="first-list">
        fonction référentielle :
        
        <ul>
@@ -137,15 +137,15 @@
        </li>
        </ul>
      </li>
-     <li>
+     <li class="first-list">
        fonction métalinguistique :
         <ul>
-       <li>le codelui-mêmedevient objet du 
+       <li>le code lui-même devient objet du 
        message : « est-ce que vous me suivez? »
        </li>
        </ul>
      </li>
-     <li>
+     <li class="first-list">
        fonction poétique :
        <ul>
        <li>

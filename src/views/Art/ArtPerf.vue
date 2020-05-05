@@ -25,29 +25,29 @@ import Footer from "@/components/Footer.vue";
 export default class ArtPerf extends Vue {
     public contentsPerf= [
     {
-    ContentsTitle:  "QU'EST-CE QUE LA PERFORMANCE ARTISTIQUE ?",
+    ContentsTitle:  "QU'EST-CE QUE C'EST, LA PERFORMANCE ARTISTIQUE ?",
     ContentsPath: "/PerformanceArtistique/Definition",
-    ContentsImage: "/thumbail.png"
+    ContentsImage: "/thumbnail5.png"
     },
     {
-    ContentsTitle: "EN RÉSUMÉ : LES ORIGINES DE LA PERFORMANCE ARTISTIQUE",
+    ContentsTitle: "EN RÉSUMÉ :  ORIGINES DE LA PERFORMANCE ARTISTIQUE",
     ContentsPath: "/PerformanceArtistique/Origines",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail7.png"
     },
     {
     ContentsTitle: "BIBLIOGRAPHIE INDICATIVE",
     ContentsPath: "/PerformanceArtistique/Bibliographie",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail3.png"
     },
     {
     ContentsTitle: "PERFORMANCES D'ÉTUDIANTS IUT GEII",
     ContentsPath: "/PerformanceArtistique/ExemplesEtudiants",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail1.png"
     },
     {
     ContentsTitle: "CORPUS DE TEXTES SUR LES LIMITES DE L'ART CONTEMPORAIN",
     ContentsPath: "/PerformanceArtistique/CorpusdeTexte",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail2.png"
     },
   ]
 }

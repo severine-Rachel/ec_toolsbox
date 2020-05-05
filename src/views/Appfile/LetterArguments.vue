@@ -1,7 +1,7 @@
 <template>
   <div>
        <h3 id="argumentLetter">
-      COMMENT PRÉPARER VOS ARGUMENTS?
+      COMMENT PRÉPARER VOS ARGUMENTS ?
     </h3>
     <p>
       Quels mots utiliser pour dynamiser votre lettre de motivation ?

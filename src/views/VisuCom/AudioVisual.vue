@@ -37,12 +37,12 @@ export default class AudioVisual extends Vue {
     {
       IndexTitle: "LES FONDAMENTAUX",
       IndexId: "#AudioVisualFundamental",
-      IndexImage: "/thumbail.png",
+      IndexImage: "/thumbnail3.png",
     },
     {
       IndexTitle: "CONSEILS ET ASTUCES",
       IndexId: "#AudioVisualTips",
-      IndexImage: "/thumbail.png",
+      IndexImage: "/thumbnail1.png",
     },
   ];
 }

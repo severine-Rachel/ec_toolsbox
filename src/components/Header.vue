@@ -1,6 +1,6 @@
 <template>
-  <div id="header-template">
-    <div id="header-banner">
+  <div>
+    <div id="HeaderBanner">
       <b-navbar>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
@@ -16,23 +16,28 @@
         </b-navbar-nav>
       </b-navbar>
 
-      <h1 id="hearder-sub-title">P. RAFFY-HIDEUX</h1>
-      <h2 id="hearder-sub-title">Enseignante en Lettres, Expression et Communication</h2>
+      <h1 id="HearderSubTitle">P. RAFFY-HIDEUX</h1>
+      <h2 id="HearderSubTitle">Enseignante en Lettres, Expression et Communication</h2>
     </div>
   </div>
 </template>
 
 <style lang="scss">
-#header-banner {
+#HeaderBanner {
   //banner of website
   background-image: url(../assets/basic-Graph/banner.png);
   background-size: 100% 100%;
   height: 30vh;
 }
 
-@font-face {
+
+
+#HearderSubTitle {
+  margin-bottom: unset !important;
+  margin-left: 3rem !important;
   font-family: Myriad;
-  src: url(../assets/MyriadProBC.otf);
+  color: white;
+  padding-top:0;
 }
 .btn-secondary {
   background-color: #1694d6 !important;
@@ -41,13 +46,6 @@
     background-color: #0e6ea1 !important;
   }
 }
-#hearder-sub-title {
-  margin-bottom: unset !important;
-  margin-left: 3rem !important;
-  font-family: Myriad;
-  color: white;
-}
-
 </style>
 
 <script lang="ts">

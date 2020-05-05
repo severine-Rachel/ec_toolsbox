@@ -11,7 +11,7 @@
       médiatique, l’artiste a-t-il tous les droits ?
     </p>
     <a
-      class="fundamentals-pdf"
+      class="subtitle-link"
       href="/pdf_perf/Contemporary.pdf"
       download="L-Art-Doit-Il-Etre-Sans-Limites"
     >

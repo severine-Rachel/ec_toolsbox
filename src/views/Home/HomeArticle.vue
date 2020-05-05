@@ -11,7 +11,7 @@
           <img
             class="img-art"
             src="../../assets/Site-Article/Insert1.jpg"
-            atl="art-perf"
+            atl="Mise en page ecrit professionnnel"
           />
         </router-link>
       </b-col>
@@ -25,7 +25,7 @@
           <img
             class="img-art"
             src="../../assets/Site-Article/Insert2.png"
-            atl="art-perf"
+            atl="Affiches artistiques"
           />
         </router-link>
       </b-col>
@@ -39,7 +39,7 @@
           <img
             class="img-art"
             src="../../assets/Site-Article/Insert3.jpg"
-            atl="art-perf"
+            atl="performance artistique des étudiants GEII"
           />
         </router-link>
       </b-col>
@@ -50,26 +50,26 @@
 <style lang="scss">
 #article {
   margin-top: 20vh;
-
   padding: 4% 0;
   background-image: linear-gradient(#1794d6, #146cb3);
 }
 #article-txt{
   margin: 1rem 0;
 }
-h5 {
-  color: #1794d6;
-  font-family: Myriad;
+
+.link-article{
+  text-decoration: none !important;
 }
 .content-article {
   text-align: center;
-
   background-color: white;
 }
 .img-art {
   width: 100%;
   margin-bottom: 10%;
+  &:hover{opacity: 0.75;} 
 }
+
 </style>
 
 <script lang="ts">

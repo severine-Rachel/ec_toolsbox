@@ -29,12 +29,12 @@ export default class Meeting extends Vue {
     {
     ContentsTitle:  "LES FONDAMENTAUX",
     ContentsPath: "/Conduite_Reunion/Fondamentaux",
-    ContentsImage: "/thumbail.png"
+    ContentsImage: "/thumbnail5.png"
     },
     {
     ContentsTitle: "CONSEILS ET ASTUCES",
     ContentsPath: "/Conduite_Reunion/Astuces",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail1.png"
     },
     ]
 }

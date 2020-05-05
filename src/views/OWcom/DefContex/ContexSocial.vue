@@ -17,8 +17,9 @@
             <li>
                 notre capacité d’adaptation aux normes linguistiques.
             </li>
-            Différence entre «J’ai eu ce job à l’arrache» et « j’ai obtenu ce poste de justesse ».
         </ul>
+        Différence entre « J’ai eu ce job à l’arrache » et « j’ai obtenu ce poste de justesse ».
+       
     </p>
     <p>
         L’apparence physique est un élément de communication. C’est à partir de ses traits visibles qu’une personne est analysée :
@@ -39,23 +40,25 @@
     <p>
         La part des informations qui passent par des perceptions visuelles est estimée à 55 % ! 
     </p>
-    <img id="socialpicture" src="/picture_OWcom/schematic/schema_Impression.png" alt="information_impression">
+        <img class="square" src="/picture_OWcom/schematic/schema_Impression.jpg" alt="information_impression">
     <p>
-        En conclusion :  pour exercer l’art dela communication, il est primordial d’œuvrer par étape :
-    <ul>
-        <li>L'écoute,
-        </li>
-        <li>La réflexion,
-        </li>
-        <li>L'écriture,
-        </li>
-        <li>L'exposé oral,
-        </li>
-        <li>L'action
-        </li>
-    </ul>
+        En conclusion :  pour exercer l’art de la communication, il est primordial d’œuvrer par étape :
     </p>
-    <img src="/picture_OWcom/schematic/table_seror.png" alt="Tableau_Seror" id="socialpicture"/>
+    <p>
+        <ul>
+            <li>L'écoute,
+            </li>
+            <li>La réflexion,
+            </li>
+            <li>L'écriture,
+            </li>
+            <li>L'exposé oral,
+            </li>
+            <li>L'action
+            </li>
+            </ul>
+    </p>
+    <img class="vertical" src="/picture_OWcom/schematic/table_seror.jpg" alt="Tableau_Seror" />
   
   <p>
       D’après Georges Séror, <i>Communication</i>, Dunod, 2016
@@ -64,10 +67,7 @@
 </template>
 
 <style lang="scss">
-#socialpicture{
-    width: 40vw;
-    margin: 1% 10%;
-}
+
 </style>
 
 <script lang="ts">

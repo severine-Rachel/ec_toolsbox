@@ -4,16 +4,16 @@
       CONSEILS ET ASTUCES
     </h3>
     <Video v-bind:galery-video="videoLetterTips"></Video>
-    <p>
-      <a
-        href="https://baborlelefan.com/2013/12/07/enquete-faut-tenter-des-candidatures-originales/"
-        target="_blank"
-        class="subtitle-link"
-      >
-        <strong>Pour dédramatiser</strong>
-        <b-icon icon="box-arrow-right"></b-icon
-      ></a>
-    </p>
+
+    <a
+      href="https://baborlelefan.com/2013/12/07/enquete-faut-tenter-des-candidatures-originales/"
+      target="_blank"
+      class="subtitle-link"
+    >
+      <strong>Pour dédramatiser 
+      <b-icon icon="box-arrow-right"></b-icon
+    ></strong></a>
+
     <p>
       N’hésitez pas à faire un rappel de la charte graphique de votre CV dans
       votre lettre de motivation. Modèles de lettres de motivation graphiques :
@@ -25,7 +25,7 @@
         target="_blank"
         ><img
           class="Help_Builder"
-          src="/picture_letter/LetterTool1.png"
+          src="/picture_letter/LetterTool1.jpg"
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
       <a
@@ -34,7 +34,7 @@
         target="_blank"
         ><img
           class="Help_Builder"
-          src="/picture_letter/LetterTool2.png"
+          src="/picture_letter/LetterTool2.jpg"
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>
@@ -71,7 +71,7 @@ export default class LetterKeys extends Vue {
     },
     {
       videoSrc: "https://www.youtube.com/embed/sE72wb2UsM0",
-      videoTitle: "Les règles d’or de la lettre de motivation :",
+      videoTitle: "Les règles d’or de la lettre de motivation ",
       videoRoot: "Chaîne :  1er emploi, jobs, stages",
     },
   ];

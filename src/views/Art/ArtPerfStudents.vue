@@ -21,12 +21,10 @@
       une ouverture sur le monde mais aussi et surtout un beau moment de
       partage.
     </p>
-    <p>
-      <strong>
-        Le Perf’Art GEII GEII en images
-      </strong>
-    </p>
-        <b-row align-h="center">
+    <h4>
+      Le Perf’Art GEII GEII en images
+    </h4>
+    <b-row align-h="center">
       <iframe
         width="560"
         height="315"
@@ -37,24 +35,22 @@
       >
       </iframe>
     </b-row>
-    <p class="text-vid">Chaîne :  Perf'Art GEII Angers</p>
-    <p>
-      <strong>
-        Quelques exemples de performances …
-      </strong>
-    </p>
-    <p>
-      <strong>
-        La note d’intention : un outil pour créer sa performance
-      </strong>
-    </p>
+    <p class="text-vid">Chaîne : Perf'Art GEII Angers</p>
+
+    <h4>
+      La note d’intention : un outil pour créer sa performance
+    </h4>
     <a
-        class="fundamentals-pdf"
-        href="/pdf_perf/IntentPerf.pdf"
-        download="NoteIntentionPerfArt"
-      >
-        <b-icon icon="upload"></b-icon> La note d’intention : Perf’Art
-      </a>
+      class="subtitle-link"
+      href="/pdf_perf/IntentPerf.pdf"
+      download="NoteIntentionPerfArt"
+    >
+      La note d’intention : Perf’Art <b-icon icon="upload"></b-icon>
+    </a>
+    <h4>
+      Quelques exemples de performances …
+    </h4>
+    <Video v-bind:galery-video="videoPerf"></Video>
     <Footer></Footer>
   </div>
 </template>
@@ -63,16 +59,42 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
-import {BIcon, BIconUpload} from "bootstrap-vue";
+import Video from "@/components/Video.vue";
+import { BIcon, BIconUpload } from "bootstrap-vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Header,
     Menu,
+    Video,
     BIcon,
     BIconUpload,
     Footer,
   },
 })
-export default class ArtPerfStudents extends Vue {}
+export default class ArtPerfStudents extends Vue {
+ public videoPerf = [
+    {
+      videoSrc: "https://www.youtube.com/embed/fizlZKMboSE",
+      videoTitle: "Océans Bienséants",
+      videoRoot: "Contenu soumis à des droits d'auteur",
+    },
+    {
+      videoSrc: "https://www.youtube.com/embed/uxf2s2HgSqw",
+      videoTitle: "Jetez moi",
+      videoRoot: "Contenu soumis à des droits d'auteur",
+    },
+    {
+      videoSrc: "https://www.youtube.com/embed/juhGAAl08zw",
+      videoTitle: "Évolution technologique et corps",
+      videoRoot: "Contenu soumis à des droits d'auteur",
+    },
+    {
+      videoSrc: "https://www.youtube.com/embed/jKJ6cm-zUdM",
+      videoTitle: "Du champ des possibles",
+      videoRoot: "Contenu soumis à des droits d'auteur",
+    },
+ ]
+
+}
 </script>

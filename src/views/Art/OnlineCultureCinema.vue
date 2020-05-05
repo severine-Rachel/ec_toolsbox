@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <h3>CINÉMA</h3>
-    <p>
+  
       <strong>
         <a
           href="https://www.youtube.com/watch?v=WUnUgy76cBM"
@@ -14,13 +14,13 @@
           cinémathèque française, 2016. <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+    
     <p>
       Documentaire sur l’histoire du cinéma : le documentaire de Stan Neuman
       offre une formidable plongée dans l’histoire du 7e art, à travers celle
       des caméras et des projecteurs.
     </p>
-    <p>
+
       <strong>
         <a
           href="https://www.arte.tv/fr/videos/cinema/"
@@ -30,8 +30,8 @@
           Leçons de cinéma par Arte <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
-    <p>
+   
+      <p></p>
       <strong>
         <a
           href="https://archive.org/details/feature_films"
@@ -41,7 +41,7 @@
           Archive.org <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+  
     <p>
       Près de 6000 films tombés dans le domaine public sont en téléchargement
       sur internet. Des vrais bons classiques ! Archive.org c’est aussi la
@@ -50,7 +50,7 @@
       vidéos, 1 000 000 d’enregistrements audio, dont 92 000 de concerts, 3 000
       000 de livres et 36 000 logiciels.
     </p>
-    <p>
+ 
       <strong>
         <a
           href="http://www.openculture.com/freemoviesonline"
@@ -60,14 +60,14 @@
           Open Culture (site anglophone) <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+  
     <p>
       Plus de 1150 films cultes, courts, longs, obscurs… Openculture.com a pris
       l’initiative de répertorier et classer de nombreux chefs-d’œuvre en
       indiquant le nom du réalisateur, la date de sortie du film et ses
       éventuelles distinctions.
     </p>
-    <p>
+  
       <strong>
         <a
           href="https://www.senscritique.com/liste/La_liste_des_films_disponibles_gratuitement/495126"
@@ -77,7 +77,7 @@
           Sens Critique <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+   
     <p>
       Plus de 600 titres - courts, longs, documentaires, fiction, animation,
       muets - à visionner gratuitement sur internet. Par défaut, la liste est

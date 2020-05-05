@@ -3,11 +3,9 @@
     <h3 id="go-furtherCV">
       POUR ALLER PLUS LOIN !
     </h3>
-    <p>
-      <strong>
+    <h4 class="text-vid">
         Comment créer un CV très original ?
-      </strong>
-    </p>
+      </h4>
     <b-row align-h="center">
       <iframe
         width="560"
@@ -18,6 +16,7 @@
         allowfullscreen
       ></iframe>
     </b-row>
+    <p class="text-vid"> Chaîne : Romain RISSOAN</p>
     <p>
       <strong>
         Quelques exemples de CV très originaux:

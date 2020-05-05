@@ -35,22 +35,22 @@ export default class Poster extends Vue {
     {
     ContentsTitle:  "LES FONDAMENTAUX",
     ContentsPath: "/Affiche/Fondamentaux",
-    ContentsImage: "/thumbail.png"
+    ContentsImage: "/thumbnail3.png"
     },
     {
     ContentsTitle: "CONSEILS ET ASTUCES",
     ContentsPath: "/Affiche/Astuces",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail4.png"
     },
     {
     ContentsTitle: "EN PRATIQUE...",
     ContentsPath: "/Affiche/EnPratique",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail1.png"
     },
        {
     ContentsTitle: "POUR TROUVER L'INSPIRATION...",
     ContentsPath: "/Affiche/Trouver_lInspiration",
-    ContentsImage:"/thumbail.png"
+    ContentsImage:"/thumbnail7.png"
     },
   ]
 

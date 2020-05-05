@@ -3,7 +3,11 @@
     <h3 id="tipsInterview">
       CONSEILS ET ASTUCES
     </h3>
+    <h4>Ce que disent les professionnels</h4>
     <Video v-bind:galery-video="videoInterviewTips"></Video>
+    <h4>Attention !</h4>
+    <Video v-bind:galery-video="videoInterviewErrors"></Video>
+    
     <p><strong>Pour dédramatiser…</strong></p>
     <Video v-bind:galery-video="videoInterviewRelax"></Video>
   </div>
@@ -29,22 +33,14 @@ export default class InterviewTips extends Vue {
       videoTitle: "Trucs de chasseurs de tête",
       videoRoot: "Chaîne : Les Vidéos du Succès",
     },
-    {
-      videoSrc: "https://www.youtube.com/embed/LQqaRuE3Pwk",
-      videoTitle: "Les 10 erreurs à éviter en entretien",
-      videoRoot: "Chaîne : QuestionEntretien",
-    },
+    
     {
       videoSrc: "https://www.youtube.com/embed/XnBAvuiOSGk",
       videoTitle: "Astuces de recruteurs",
       videoRoot: "Chaîne :   cadremploi",
     },
 
-       {
-      videoSrc: "https://www.youtube.com/embed/ag7rkskWsvw",
-      videoTitle: "Parlez-moi de vous : le piège",
-      videoRoot: "Chaîne :  QuestionEntretien",
-    },
+     
     {
       videoSrc: "https://www.youtube.com/embed/bD8_sFAgia0",
       videoTitle: "L’entretien collectif",
@@ -55,19 +51,15 @@ export default class InterviewTips extends Vue {
       videoTitle: "Le truc qui tue en entretien",
       videoRoot: "Chaîne : cadremploi",
     },
-    {
-      videoSrc: "https://www.youtube.com/embed/o8LxPZVNQNk",
-      videoTitle: "Quand votre corps parle :",
-      videoRoot: "Chaîne :   cadremploi",
-    },
+    
       {
       videoSrc: "https://www.youtube.com/embed/916bTmTMLng",
-      videoTitle: "Comment négocier en entretien :",
+      videoTitle: "Comment négocier en entretien",
       videoRoot: "Chaîne : cadremploi",
     },
     {
       videoSrc: "https://www.youtube.com/embed/Lbz30MjQP3k",
-      videoTitle: "Recettes de recrutement avec Michel et Augustin :",
+      videoTitle: "Recettes de recrutement avec Michel et Augustin",
       videoRoot: "Chaîne :   cadremploi",
     },
   ];
@@ -83,5 +75,22 @@ export default class InterviewTips extends Vue {
       videoRoot: "Chaîne : Nikon Film Festival",
     },
   ]
+   public videoInterviewErrors = [
+     {
+      videoSrc: "https://www.youtube.com/embed/LQqaRuE3Pwk",
+      videoTitle: "Les 10 erreurs à éviter en entretien",
+      videoRoot: "Chaîne : QuestionEntretien",
+    },
+      {
+      videoSrc: "https://www.youtube.com/embed/ag7rkskWsvw",
+      videoTitle: "Parlez-moi de vous : le piège",
+      videoRoot: "Chaîne :  QuestionEntretien",
+    },
+    {
+      videoSrc: "https://www.youtube.com/embed/o8LxPZVNQNk",
+      videoTitle: "Quand votre corps parle",
+      videoRoot: "Chaîne :   cadremploi",
+    },
+   ]
 }
 </script>

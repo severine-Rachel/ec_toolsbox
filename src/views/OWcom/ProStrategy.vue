@@ -3,14 +3,12 @@
     <Header></Header>
     <Menu></Menu>
     <h3>STRATÉGIES D'ÉCRITURE</h3>
-    <p>
-      <strong>
-        Les écrits courts
-      </strong>
-    </p>
-    <p>
+    <h4>
+      Les écrits courts
+    </h4>
+    <h5 class="subtitle-h5">
       L’e-mail professionnel
-    </p>
+    </h5>
     <p>
       <a
         href="https://bien-ecrire.fr/rediger-e-mail-professionnel/"
@@ -40,35 +38,49 @@
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>
+    <h5 class="subtitle-h5">
+      L'écriture de documents à télécharger
+    </h5>
     <Pdf v-bind:galery-pdf="pdfStratShort"></Pdf>
-    <p>source: CCDMD</p>
+    <p><i>source:</i> CCDMD</p>
     <Pdf v-bind:galery-pdf="pdfStratSynthesis"></Pdf>
-    <p>
+
       <a
+      class="subtitle-link"
         href="http://hg.moitel.free.fr/lycee_hotellerie/ANNEXES-et-METHODO/methodo_simplifiee-rdiee-une-SYNTHESE.pdf"
         target="_blank"
-        >source: http://hg.moitel.free.fr/
+        ><i>source:</i> http://hg.moitel.free.fr/
         <b-icon icon="box-arrow-right"></b-icon
       ></a>
-    </p>
-    <Pdf v-bind:galery-pdf="pdfStratAssay"></Pdf>
-    <p>
+    <p></p>
+    <Pdf v-bind:galery-pdf="pdfStraAssay"></Pdf>
+   
       <a
+       class="subtitle-link"
         href=" https://www.agirenfrancais.com/wp-content/uploads/2016/10/%C3%A9crire-un-essai.pdf"
         target="_blank"
-        >source: https://www.agirenfrancais.com/
+        ><i>source:</i> https://www.agirenfrancais.com/
         <b-icon icon="box-arrow-right"></b-icon
       ></a>
-    </p>
+      <p></p>
+      <h5 class="subtitle-h5">
+      La copie de concours
+    </h5>
     <Video v-bind:galery-video="videoStratShort"></Video>
-    <p>
-      <strong>
-        Les écrits longs
-      </strong>
-    </p>
+    <h4>Les écrits longs</h4>
+    <h5 class="subtitle-h5">
+      L'écriture de documents à télécharger
+    </h5>
     <Pdf v-bind:galery-pdf="pdfInternshipTech"></Pdf>
-    <p>source: CCDMD</p>
-    <Video v-bind:galery-video="videoStratLong"></Video>
+    <p><i>source:</i> CCDMD</p>
+    <h5 class="subtitle-h5">
+      Les conseils de rédaction d'un mémoire
+    </h5>
+    <Video v-bind:galery-video="videoStratmemory"></Video>
+    <h5 class="subtitle-h5">
+      Autres conseils de rédaction
+    </h5>
+    <Video v-bind:galery-video="videoStratother"></Video>
     <Footer></Footer>
   </div>
 </template>
@@ -130,7 +142,7 @@ export default class ProStrategy extends Vue {
       pdfDownload: "RapportStage",
       TxtPdf: "La rapport de stage",
     },
-      {
+    {
       pdfLink: "/pdf_OWcom/Pro/ProTechnic.pdf",
       pdfDownload: "DocumentTechnique",
       TxtPdf: "Le document technique",
@@ -163,12 +175,8 @@ export default class ProStrategy extends Vue {
       videoRoot: "Chaîne : E-Learning Physique",
     },
   ];
-   public videoStratLong = [
-    {
-      videoSrc: "https://www.youtube.com/embed/wu4TXt31Dcc",
-      videoTitle: "Comment réussir son rapport de stage en 5 points clés",
-      videoRoot: "Chaîne : digiSchool",
-    },
+  public videoStratmemory = [
+  
     {
       videoSrc: "https://www.youtube.com/embed/rgb_BzrvW2g",
       videoTitle: "Rédiger un mémoire – méthodologie",
@@ -184,6 +192,15 @@ export default class ProStrategy extends Vue {
       videoTitle: "10 astuces pour bien rédiger votre mémoire",
       videoRoot: "Chaîne : SYMPA",
     },
+   
+  ];
+  public videoStratother = [
+    {
+      videoSrc: "https://www.youtube.com/embed/wu4TXt31Dcc",
+      videoTitle: "Comment réussir son rapport de stage en 5 points clés",
+      videoRoot: "Chaîne : digiSchool",
+    },
+    
     {
       videoSrc: "https://www.youtube.com/embed/EO4HtMI02H8",
       videoTitle: "Comment rédiger pour le Web ?",

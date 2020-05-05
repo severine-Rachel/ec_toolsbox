@@ -19,7 +19,7 @@
         <a
           href="https://fr.wikisource.org/wiki/Wikisource:Accueil"
           target="_blank"
-          class="subtitle-link"
+          class="list-link"
           >Wikisource <b-icon icon="box-arrow-right"></b-icon
         ></a>
       </li>
@@ -27,7 +27,7 @@
         <a
           href="http://www.gutenberg.org/browse/languages/fr"
           target="_blank"
-          class="subtitle-link"
+          class="list-link"
           >Projet Gutenberg <b-icon icon="box-arrow-right"></b-icon
         ></a>
       </li>
@@ -35,7 +35,7 @@
         <a
           href="https://gallica.bnf.fr/blog/14052014/pres-de-3-000-livres-en-epub-telecharger-dans-gallica?mode=desktop"
           target="_blank"
-          class="subtitle-link"
+          class="list-link"
           >Gallica <b-icon icon="box-arrow-right"></b-icon
         ></a>
       </li>
@@ -43,7 +43,7 @@
         <a
           href="https://www.ebooksgratuits.com/"
           target="_blank"
-          class="subtitle-link"
+          class="list-link"
           >Ebooksgratuits <b-icon icon="box-arrow-right"></b-icon
         ></a>
       </li>
@@ -51,7 +51,7 @@
         <a
           href="https://www.furet.com/ebooks-gratuits"
           target="_blank"
-          class="subtitle-link"
+          class="list-link"
           >Le Furet <b-icon icon="box-arrow-right"></b-icon
         ></a>
       </li>
@@ -59,13 +59,13 @@
         <a
           href="https://livre.fnac.com/n286016/Petit-prix-et-bons-plans-ebooks/Tous-les-Ebooks-gratuits"
           target="_blank"
-          class="subtitle-link"
+          class="list-link"
           >La Fnac <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </li>
 
       <li>
-        <a href="https://www.dupuis.com/" target="_blank" class="subtitle-link"
+        <a href="https://www.dupuis.com/" target="_blank" class="list-link"
           >Dupuis <b-icon icon="box-arrow-right"></b-icon
         ></a>
       </li>
@@ -73,7 +73,7 @@
         <a
           href="https://librairie.lapin.org/"
           target="_blank"
-          class="subtitle-link"
+          class="list-link"
           >Les éditions Lapin mettent gratuitement à disposition de nombreuses
           bandes dessinées en ligne. <b-icon icon="box-arrow-right"></b-icon
         ></a>
@@ -87,6 +87,7 @@
 <style lang="scss">
 .picture-book{
   width:15vw;
+  box-shadow: 1px 1px 5px;
 }
 .reading{
   margin: 5% 5%;
@@ -117,32 +118,32 @@ export default class ReadPleasure extends Vue {
     {
       ContentsTitle:"POUR RENOUER AVEC LA LECTURE...",
       ContentsPath:"/PlaisirdeLire/RenouerAvecLaLecture",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail4.png"
     },
     {
       ContentsTitle:"LES CLASSIQUES",
       ContentsPath:"/PlaisirdeLire/LesClassiques",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail5.png"
     },
     {
       ContentsTitle:"TÉMOIGNAGES/ESSAIS",
       ContentsPath:"/PlaisirdeLire/LesEssaisEtTemoignages",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail2.png"
     },
     {
       ContentsTitle:"LECTURES INSULAIRES (RÉUNION, HAÏTI)",
       ContentsPath:"/PlaisirdeLire/LectureInsulaire",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail1.png"
     },
     {
       ContentsTitle:"LES BANDES DESSINÉES",
       ContentsPath:"/PlaisirdeLire/BandesDessinees",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail7.png"
     },
     {
       ContentsTitle:"POUR LES LECTEURS LES PLUS AGUERRIS...",
       ContentsPath:"/PlaisirdeLire/PourLesAguerris",
-      ContentsImage: "/thumbail.png"
+      ContentsImage: "/thumbnail3.png"
     },
   ]
 }

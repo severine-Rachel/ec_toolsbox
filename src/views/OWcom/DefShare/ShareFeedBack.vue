@@ -11,7 +11,7 @@
       feed-back,  en  1950,  sous  forme  de boucle reliant l’émetteur et le récepteur. 
       Cette  boucle  de  rétroaction  permet  de  vérifier  si  la  communication  est  réussie.
     </p>
-    <img id="sharepicture" src="/picture_OWcom/schematic/schema_wiener.png" alt="Schema_Wiener">
+    <img class="horizontal" src="/picture_OWcom/schematic/schema_wiener.png" alt="Schéma de Wiener">
     <p>
       Lors  d’un  exposé,  un  étudiant  peut  mesurer  si  son  message  passe  bien  en  
       regardant  les récepteurs:  sourcils  qui  se  froncent,  regard  sur  la  montre,  yeux 

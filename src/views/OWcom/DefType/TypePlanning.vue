@@ -15,7 +15,11 @@
                 horizontaux et fonctionnels (entre les différents services d’une même 
                 organisation, entre les individus au même niveau hiérarchique)
             </li>
+            </ul>
+            
             On peut aussi distinguer :
+           
+            <ul>
             <li>
                 la communication interne,
             </li>

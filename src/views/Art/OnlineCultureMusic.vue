@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <h3>MUSIQUE</h3>
-    <p>
+    
       <strong>
         <a
           href="https://artips.fr/Musiktips/"
@@ -13,24 +13,24 @@
           Musiktips <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+   
     <p>
       Musiktips est un site internet qui propose aux internautes de s'abonner
       gratuitement pour recevoir trois fois par semaine dans leurs boites
       e-mail, une newsletter comprenant une explication courte et originale d’un
       artiste ou d’un morceau de musique célèbre ou peu connu.
     </p>
-    <p>
+   
       <strong>
         <a href="www.tsugi.fr" class="subtitle-link" target="_blank">
           Tsugi <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+   
     <p>
       Toute la musique d'aujourd'hui… et de demain.
     </p>
-    <p>
+ 
       <strong>
         <a
           href="https://www.youtube.com/playlist?list=PLWlqwXzikEuBZ-Edcr1_knBLU_AWBzHW_"
@@ -40,7 +40,7 @@
           Playlist Youtube <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    </p>
+    
     <p>
       Plus de 380 lives et documentaires électronique réunis en une unique
       playlist Youtube.
@@ -56,13 +56,13 @@
       ligne.
       <ul>
         <li>
-          <a href="https://blinest.com/" target="_blank">
-            https://blinest.com/
+          <a href="https://blinest.com/" target="_blank" class="list-link">
+            https://blinest.com/ <b-icon icon="box-arrow-right"></b-icon>
           </a>
         </li>
         <li>
-          <a href="https://www.massivemusicquiz.com/" target="_blank">
-            https://www.massivemusicquiz.com/
+          <a href="https://www.massivemusicquiz.com/" target="_blank" class="list-link">
+            https://www.massivemusicquiz.com/ <b-icon icon="box-arrow-right"></b-icon>
           </a>
         </li>
       </ul>

@@ -2,13 +2,14 @@
 .fundamentals {
   width: 10vw;
   height: 25vh;
-  margin:  2vw ;
+  margin:  1vh 2vw ;
   border: solid 1px #bce8ff;
+  cursor: pointer;
 }
 
 .post-up {
   width: 60vw;
-  margin: 0 20vw;
+  margin: 0 20vw 1% ;
   border: solid 1px #bce8ff;
 }
 .cross{
@@ -21,7 +22,7 @@
 <template>
   <div>
 
-    <b-row class="justify-content-md-center">
+    <b-row class="justify-content-md-left rowcomponents">
       <div v-for="imageElement in galeryPicture" :key="imageElement">
         <img
           class="fundamentals"
@@ -33,7 +34,7 @@
 
     <span class="cross" v-on:click="erased()" v-if="bool">
       <p>
-        <b-icon icon="x-circle" font-scale="5" variant="danger"> </b-icon>
+        <b-icon icon="x-square-fill" font-scale="4" variant="danger"> </b-icon>
       </p>
     </span>
 
@@ -46,10 +47,10 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-import { BIcon, BIconXCircle } from "bootstrap-vue";
+import { BIcon, BIconXSquareFill } from "bootstrap-vue";
 @Component({
   components: {
-    BIcon, BIconXCircle
+    BIcon, BIconXSquareFill
   }
 })
 export default class Galery extends Vue {

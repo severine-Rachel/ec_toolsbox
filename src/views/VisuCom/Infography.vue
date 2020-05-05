@@ -41,17 +41,17 @@ export default class Infography extends Vue {
     {
     IndexTitle:  "LES FONDAMENTAUX",
     IndexId: "#InfographyFundamental",
-    IndexImage: "/thumbail.png"
+    IndexImage: "/thumbnail4.png"
     },
     {
     IndexTitle: "CONSEILS ET ASTUCES",
     IndexId: "#InfographyTips",
-    IndexImage:"/thumbail.png"
+    IndexImage:"/thumbnail6.png"
     },
     {
     IndexTitle:  "EN PRATIQUE",
     IndexId: "#InfographyInPractise",
-    IndexImage:"/thumbail.png"
+    IndexImage:"/thumbnail7.png"
     },
 
   ]

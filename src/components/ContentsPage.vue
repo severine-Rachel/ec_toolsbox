@@ -9,11 +9,12 @@
         :key="contentsElement"
         v-bind:style="{
           'background-image': 'url(' + contentsElement.ContentsImage + ')',
-          'background-size': '100% 100%'
+          'background-size': '100% 100%',
+          
         }"
       >
         <b-link class="wallpaper" v-bind:to="contentsElement.ContentsPath">
-          <h3 class="thumbnailTitle">{{ contentsElement.ContentsTitle }}</h3>
+          <h3 class="H3-thumbnail-title">{{ contentsElement.ContentsTitle }}</h3>
         </b-link>
       </b-col>
     </b-row>
@@ -32,15 +33,7 @@
   padding: 5vh 1vw !important;
 }
 
-.thumbnailTitle {
-  color: white;
-  transition: font-size 0.5s ease-in-out;
-  margin:0;
-      &:hover {
-      font-size:190%;
-    
-  }
-}
+
 .thumbnail {
   width: 100%;
   

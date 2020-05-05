@@ -3,34 +3,30 @@
     <h3 id="AudioVisualFundamental">
       LES FONDAMENTAUX
     </h3>
-    <p>
-      <strong>
-        Le spot publicitaire, le film institutionnel, Céline Clavel
-      </strong>
-    </p>
+    <h4>
+      Le spot publicitaire, le film institutionnel, Céline Clavel
+    </h4>
     <a
-      class="fundamentals-pdf"
+      class="subtitle-link"
       href="/pdf_AV/Commercial.pdf"
       download="SpotPublicitaire"
     >
       Préparer spot pub, institutionnel
       <b-icon icon="upload"></b-icon>
     </a>
-    <p>
-      <strong>
+    <h4>
         Le reportage
-      </strong>
-    </p>
-    <p>
+    </h4>
+
     <a
       href="https://movilab.org/index.php?title=Cr%C3%A9er_un_reportage_audiovisuel"
       target="_blank"
       class="subtitle-link"
       >Créer un reportage audiovisuel <b-icon icon="box-arrow-right"></b-icon
     ></a>
-    </p>
+    <p></p>
     <a
-      class="fundamentals-pdf"
+      class="subtitle-link"
       href="/pdf_AV/Reportage.pdf"
       download="ReportageVideo"
     >
@@ -38,27 +34,20 @@
       Loire, 2002
       <b-icon icon="upload"></b-icon>
     </a>
-    <p>
-      <strong>
+    <h4>
         La capsule vidéo
-      </strong>
-    </p>
-    <Video v-bind:galery-video="videoVideo"></Video>
-    <a
-      class="fundamentals-pdf"
-      href="/pdf_AV/Capsule.pdf"
-      download="CapsuleVideo"
-    >
+    </h4>
+    <a class="subtitle-link" href="/pdf_AV/Capsule.pdf" download="CapsuleVideo">
       Capsule vidéo pédagogique
       <b-icon icon="upload"></b-icon>
     </a>
-    <p>
-      <strong>
+    <Video v-bind:galery-video="videoVideo"></Video>
+
+    <h4>
         Le court métrage
-      </strong>
-    </p>
+    </h4>
     <a
-      class="fundamentals-pdf"
+      class="subtitle-link"
       href="/pdf_AV/ShortFilm.pdf"
       download="CourtMetrage"
     >
@@ -66,7 +55,7 @@
       1ERS PLANS – ANGERS
       <b-icon icon="upload"></b-icon>
     </a>
-    <h3 class="text-vid">6 étapes pour écrire un scénario de court métrage</h3>
+    <h5 class="text-vid">6 étapes pour écrire un scénario de court métrage</h5>
     <b-row align-h="center">
       <iframe
         width="560"
@@ -78,10 +67,11 @@
       ></iframe>
     </b-row>
     <p class="text-vid">Chaîne : Pros et Heros</p>
-    <p>
-      Comment composer son story-board ? - TUMMINELLO Wendy, Techniques de
-      storyboards, Eyrolles, 2007
-    </p>
+    <h4>
+      Comment composer son story-board ? 
+    </h4>
+    <p><strong>TUMMINELLO Wendy, Techniques de
+      storyboards, Eyrolles, 2007</strong></p>
     <div style="text-align:center;">
       <div style="margin:8px 0px 4px;">
         <a

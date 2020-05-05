@@ -90,7 +90,7 @@
   margin-bottom: 0.5vh;
 }
 .rubric {
-  background-image: url("../assets/basic-Graph/button.png");
+  background-image: url("../assets/basic-Graph/button2.png");
   background-size: 100% 100%;
   border-radius: 0px;
   margin-right: 0.5vw;
@@ -99,13 +99,13 @@
   text-align: center !important;
 
   &:hover {
-    background-image: url("../assets/basic-Graph/buttonhover.png");
+    background-image: url("../assets/basic-Graph/buttonhover2.png");
     background-size: 100% 100%;
   }
 }
 #home {
   //rubric home
-  background-image: url("../assets/basic-Graph/buttonhover.png");
+  background-image: url("../assets/basic-Graph/buttonhover2.png");
   background-size: 100% 100%;
 }
 #ceasura {
@@ -137,7 +137,7 @@
   padding: 0.25rem 0 !important;
 }
 .show > .nav-link {
-  background-image: url("../assets/basic-Graph/buttonhover.png");
+  background-image: url("../assets/basic-Graph/buttonhover2.png");
   background-size: 100% 100%;
 }
 .nav-link-custom {

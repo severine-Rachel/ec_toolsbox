@@ -1,31 +1,35 @@
 <template>
   <div>
     <h3 id="keysLetter">
-      LES FONDAMENTAUX: FICHES-CLEFS
+      LES FONDAMENTAUX : FICHES-CLEFS
     </h3>
-
+    <p>
+      « Comment structurer ma lettre ? Devrais-je changer de paragraphe pour
+      parler telle partie ? N'est ce pas un peu déjà vu ? » Ces fiches vous
+      donneront des réponses par rapport à la forme et le fond de votre lettre de motivation.
+    </p>
     <Pdf v-bind:galery-pdf="pdfLetter"></Pdf>
 
+    <Galery v-bind:galery-picture="galeryLetterSheet"></Galery>
     <a
-      id="letter-galery"
+      class="subtitle-link"
       href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box/lettre-de-motivation.html"
       target="_blank"
     >
-      source : <b-icon icon="box-arrow-right"></b-icon>
+      <i>Source : </i>
       www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box
+      <b-icon icon="box-arrow-right"></b-icon>
     </a>
-
-    <Galery v-bind:galery-picture="galeryLetterSheet"></Galery>
-
-    <p>
-      <strong>
-        La mise en page de la lettre de motivation
-      </strong>
-    </p>
+    <h4>
+      La mise en page de la lettre de motivation
+    </h4>
     <p>
       La lettre doit respecter un équilibre global ; c’est la règle des 3 tiers.
     </p>
     <Galery v-bind:galery-picture="galeryLetterModal"></Galery>
+    <p>
+      Après s'être interressé à la forme, il faut argumenter le fond de vos motivations. Vous trouverez des exemples de contenu en suivant ce lien.
+    </p>
     <p>
       <strong>Exemples d’accroches, d’argumentaires et de conclusions </strong>
       <a
@@ -34,7 +38,7 @@
         target="_blank"
         ><img
           class="Help_Builder"
-          src="/picture_letter/fundamentals-u-platine.png"
+          src="/picture_letter/fundamentals-u-platine.jpg"
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>
@@ -58,16 +62,16 @@ import Galery from "@/components/Galery.vue";
 })
 export default class CVKeys extends Vue {
   public galeryLetterSheet: string[] = [
-    "/picture_letter/fundamentals_Letter_Keys.png",
-    "/picture_letter/fundamentals_Letter_Grid.png",
-    "/picture_letter/fundamentals_Letter_Spontaneous.png",
+    "/picture_letter/fundamentals_Letter_Keys.jpg",
+    "/picture_letter/fundamentals_Letter_Grid.jpg",
+    "/picture_letter/fundamentals_Letter_Spontaneous.jpg",
 
-    "/picture_letter/fundamentals_Letter_Answer.png",
-    "/picture_letter/fundamentals_Letter_Mistakes.png",
+    "/picture_letter/fundamentals_Letter_Answer.jpg",
+    "/picture_letter/fundamentals_Letter_Mistakes.jpg",
   ];
   public galeryLetterModal: string[] = [
-    "/picture_Letter/fundamentals_Letter_Modal.png",
-    "/picture_Letter/fundamentals_Letter_Modal2.png",
+    "/picture_Letter/fundamentals_Letter_Modal.jpg",
+    "/picture_Letter/fundamentals_Letter_Modal2.jpg",
   ];
 
   public pdfLetter = [

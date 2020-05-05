@@ -8,7 +8,7 @@
         Cette frise est loin d’être exhaustive. Il faudrait y ajouter les Actionnistes viennois,  Christo ou encore d’autres grands noms de l’art performance mais il donne un aperçu des performances qui ont marqué l’Histoire de cet art. 
       </strong>
     </p>
-    <img src="/picture_perf/timeline.png" id="sharepicture" alt="Frise">
+    <img src="/picture_perf/timeline.png" class="horizontal" alt="Frise">
     <Footer></Footer>
   </div>
 </template>

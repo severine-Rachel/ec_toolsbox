@@ -3,10 +3,8 @@
     <Header></Header>
     <Menu></Menu>
     <h2 class="rubric-title">LE DIAPORAMA</h2>
-    <Index v-bind:index-list="indexProjection"></Index>
-    <ProjectionFundamental></ProjectionFundamental>
-    <ProjectionTips></ProjectionTips>
-    <ProjectionInPractise></ProjectionInPractise>
+    <ContentsPage v-bind:contents-list="ContentsPageProjection"></ContentsPage>
+  
     <Footer></Footer>
   </div>
 </template>
@@ -17,7 +15,7 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
-import Index from "@/components/Index.vue";
+import ContentsPage from "@/components/ContentsPage.vue";
 import ProjectionFundamental from "@/views/VisuCom/ProjectionFundamental.vue";
 import ProjectionTips from "@/views/VisuCom/ProjectionTips.vue";
 import ProjectionInPractise from "@/views/VisuCom/ProjectionInPractise.vue";
@@ -26,7 +24,7 @@ import Footer from "@/components/Footer.vue";
   components: {
     Header,
     Menu,
-    Index,
+    ContentsPage,
     ProjectionFundamental,
     ProjectionTips,
     ProjectionInPractise,
@@ -34,21 +32,21 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Projection extends Vue {
-  public indexProjection = [
+  public ContentsPageProjection = [
     {
-      IndexTitle: "LES FONDAMENTAUX",
-      IndexId: "#ProjectionFundamental",
-      IndexImage: "/thumbail.png",
+      ContentsTitle: "LES FONDAMENTAUX",
+      ContentsPath: "/Diaporama/Fondamentaux",
+      ContentsImage: "/thumbnail5.png",
     },
     {
-      IndexTitle: "CONSEILS ET ASTUCES",
-      IndexId: "#ProjectionTips",
-      IndexImage: "/thumbail.png",
+      ContentsTitle: "CONSEILS ET ASTUCES",
+      ContentsPath: "/Diaporama/Astuces",
+      ContentsImage: "/thumbnail1.png",
     },
     {
-      IndexTitle: "EN PRATIQUE...",
-      IndexId: "#ProjectionInPractise",
-      IndexImage: "/thumbail.png",
+      ContentsTitle: "EN PRATIQUE...",
+      ContentsPath: "/Diaporama/EnPratique",
+      ContentsImage: "/thumbnail7.png",
     },
   ];
 }

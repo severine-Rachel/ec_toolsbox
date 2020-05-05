@@ -1,30 +1,50 @@
 <template>
   <div>
-    <p>
-      <strong>
-        Exercices interactifs
-      </strong>
-    </p>
-    <p></p>
+    <h4>
+      Exercices interactifs
+    </h4>
+    <p style="color:red">Attention: Ces exercices utilisent <i>Flash</i></p>
 
     <b-card-group deck>
-    <b-card img-src="/thumbail2.png" class="img-card" img-alt="Image" img-top>
-      <a
-        href="https://www.ccdmd.qc.ca/fr/exercices_interactifs/"
-        target="_blank"
-      >
-        <b-card-text class="writeInCard">
-          CCDMD –Exercices interactifspour travailler différents points de
-          l’expression écrite (syntaxe, cohérence textuelle, accords,
-          ponctuation, orthographe, etc.)
-        </b-card-text>
-      </a>
-    </b-card>
-    </b-card-group>
-    <b-card-group deck>
-      <b-card img-src="/thumbail2.png" img-alt="Image" class="img-card" img-top>
+      <b-card img-src="/thumbail20.png" id="oneimgcard" img-alt="Image" img-top>
         <a
           href="https://www.ccdmd.qc.ca/fr/exercices_interactifs/"
+          target="_blank"
+        >
+          <b-card-text class="writeInCard">
+            CCDMD –Exercices interactifs pour travailler différents points de
+            l’expression écrite (syntaxe, cohérence textuelle, accords,
+            ponctuation, orthographe, etc.)
+          </b-card-text>
+        </a>
+      </b-card>
+    </b-card-group>
+
+    <b-card-group deck>
+      <b-card img-src="/thumbail21.png" img-alt="Image" id="oneimgcard" img-top>
+        <a href="http://ecriplus.fr/ressources/" target="_blank">
+          <b-card-text class="writeInCard">
+            J’améliore mon français écrit avec ÉCRI+
+          </b-card-text></a
+        >
+      </b-card>
+
+      <b-card img-src="/thumbail21.png" img-alt="Image" id="oneimgcard" img-top>
+        <a
+          href="https://www.ccdmd.qc.ca/fr/exercices_pdf/?id=33"
+          target="_blank"
+        >
+          <b-card-text class="writeInCard">
+            Série d’exercices sous forme PDF avec corrigés
+          </b-card-text>
+        </a>
+      </b-card>
+    </b-card-group>
+
+    <b-card-group deck>
+      <b-card img-src="/thumbail22.png" img-alt="Image" id="oneimgcard" img-top>
+        <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1073&action=animer"
           target="_blank"
         >
           <b-card-text class="writeInCard">
@@ -33,84 +53,143 @@
         >
       </b-card>
 
-      <b-card img-src="/thumbail2.png" img-alt="Image" class="img-card" img-top>
-        <b-card-text class="writeInCard">
-          Défi orthographe d’usage
-        </b-card-text>
+      <b-card img-src="/thumbail22.png" img-alt="Image" id="oneimgcard" img-top>
+        <a href="https://defiorthographe.ccdmd.qc.ca/" target="_blank">
+          <b-card-text class="writeInCard">
+            Défi orthographe d’usage
+          </b-card-text>
+        </a>
+      </b-card>
+
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+        <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1076&action=animer"
+          target="_blank"
+        >
+          <b-card-text class="writeInCard">
+            Méli-mélo orthographique
+          </b-card-text>
+        </a>
       </b-card>
     </b-card-group>
 
     <b-card-group deck>
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
-        <b-card-text class="writeInCard">
-          Méli-mélo orthographique
-        </b-card-text>
-      </b-card>
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+       <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1070&action=animer"
+          target="_blank"
+        >
         <b-card-text class="writeInCard">
           Conjugaison avec contexte
         </b-card-text>
+       </a>
       </b-card>
 
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+       <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1069&action=animer"
+          target="_blank"
+        >
         <b-card-text class="writeInCard">
           Conjugaison sans contexte
         </b-card-text>
+       </a>
       </b-card>
-    </b-card-group>
-    <b-card-group deck>
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
-        <b-card-text class="writeInCard">
-          Genre des mots
-        </b-card-text>
-      </b-card>
-
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+       <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1067&action=animer"
+          target="_blank"
+        >
         <b-card-text class="writeInCard">
           Participes passés
         </b-card-text>
+       </a>
       </b-card>
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
+    </b-card-group>
+
+    <b-card-group deck>
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+      <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1071&action=animer"
+          target="_blank"
+        >
+        <b-card-text class="writeInCard">
+          Genre des mots
+        </b-card-text>
+      </a>
+      </b-card>
+
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+       <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1068&action=animer"
+          target="_blank"
+        >
         <b-card-text class="writeInCard">
           Pluriels particuliers
         </b-card-text>
-      </b-card>
-    </b-card-group>
-    <b-card-group deck>
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
-        <b-card-text class="writeInCard">
-          Choisir les prépositions appropriées
-        </b-card-text>
+        </a>
       </b-card>
 
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
-        <b-card-text class="writeInCard">
-          Constructions fautives
-        </b-card-text>
-      </b-card>
-
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+      <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1085&action=animer"
+          target="_blank"
+        >
         <b-card-text class="writeInCard">
           Jeu du dictionnaire
         </b-card-text>
+      </a>
       </b-card>
     </b-card-group>
+  
     <b-card-group deck>
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
+      <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
+       <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1092&action=animer"
+          target="_blank"
+        >
         <b-card-text class="writeInCard">
           Apportez des nuances
         </b-card-text>
+       </a>
       </b-card>
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
+      <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
+      <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1095&action=animer"
+          target="_blank"
+        >
         <b-card-text class="writeInCard">
           Précision du vocabulaire
         </b-card-text>
+      </a>
       </b-card>
-      <b-card img-src="/thumbail2.png" img-alt="Image" img-top>
+    
+    </b-card-group>
+
+      <b-card-group deck>
+      <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
+       <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1083&action=animer"
+          target="_blank"
+        >
         <b-card-text class="writeInCard">
-          Série d’exercices sous forme PDF avec corrigés
+          Choisir les prépositions appropriées
         </b-card-text>
+       </a>
       </b-card>
+
+      <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
+      <a
+          href="https://deficonstructions.ccdmd.qc.ca/"
+          target="_blank"
+        >
+        <b-card-text class="writeInCard">
+          Constructions fautives
+        </b-card-text>
+      </a>
+      </b-card>
+
+      
     </b-card-group>
   </div>
 </template>
@@ -123,11 +202,15 @@
 .card-deck {
   margin: 5% !important;
 }
-.img-card{
-  height:5% !important;
+.img-card {
+  height: 5vh !important;
+}
+#oneimgcard {
+  height: 10vh !important;
 }
 .writeInCard {
   text-align: center;
+  margin: 0;
 }
 </style>
 
