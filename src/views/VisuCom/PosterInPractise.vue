@@ -31,7 +31,12 @@ export default class PosterInPractise extends Vue {}
     <h4>
       Affiches à analyser : Le Perf’Art GEII
     </h4>
-
+    <p>
+      À l'initiative du concours de performance artistique organiser par la
+      section GEII de l'IUT, les étudiants sont conviés à participer à un concours 
+      d'affiches pour l'évènement. Choisissez une affiche et vous trouverez ci-dessous 
+      l'évaluation de l'affiche.
+    </p>
     <InPractisePerf></InPractisePerf>
 
     <h4>
@@ -75,8 +80,7 @@ export default class PosterInPractise extends Vue {}
 
 <style lang="scss">
 .modal-image {
-  height:80vh;
-    
+  height: 80vh;
 }
 .modal-dialog,
 .modal-md {

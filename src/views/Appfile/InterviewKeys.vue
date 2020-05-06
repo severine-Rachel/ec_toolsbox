@@ -3,7 +3,7 @@
     <h3 id="keysInterview">
       LES FONDAMENTAUX : FICHES-CLEFS
     </h3>
-     <Pdf v-bind:galery-pdf="pdfInterview"></Pdf>
+    <Pdf v-bind:galery-pdf="pdfInterview"></Pdf>
 
     <Galery v-bind:galery-picture="galeryInterview"></Galery>
 
@@ -12,13 +12,15 @@
       href="https://www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box/entretien-de-recrutement.html?search-keywords=entretien+recrutement"
       target="_blank"
     >
-     <i> Source :</i> 
-      www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box <b-icon icon="box-arrow-right"></b-icon>
+      <i> Source :</i>
+      www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box
+      <b-icon icon="box-arrow-right"></b-icon>
     </a>
-    
+
     <h4>
       Les étapes de l’entretien de recrutement
     </h4>
+
     <p>
       Pour limiter les surprises, préparez-vous l’entretien de recrutement qui
       se décompose généralement en 5 temps forts. Ces étapes peuvent apparaitre
@@ -26,12 +28,8 @@
       c’est lui qui donne le tempo des échanges. Vous aurez entre 30 minutes et
       1 heure pour convaincre.
     </p>
-    <img 
-    class="vertical"
-    src="/picture_interview/step_Interview.png"
-    >
-   
-    
+    <img class="vertical" src="/picture_interview/step_Interview.png" />
+
     <h4>
       Quelle tenue adopter ?
     </h4>

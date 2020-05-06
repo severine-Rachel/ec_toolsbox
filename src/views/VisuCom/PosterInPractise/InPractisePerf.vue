@@ -1657,7 +1657,14 @@
     /></b-modal>
   </div>
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+  .card {
+    cursor : pointer;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    width:7% !important;
+  }
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";

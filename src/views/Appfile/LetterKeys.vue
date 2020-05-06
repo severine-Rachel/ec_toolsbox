@@ -26,7 +26,7 @@
     <p>
       La lettre doit respecter un équilibre global ; c’est la règle des 3 tiers.
     </p>
-    <Galery v-bind:galery-picture="galeryLetterModal"></Galery>
+    <FundamentalLetter></FundamentalLetter>
     <p>
       Après s'être interressé à la forme, il faut argumenter le fond de vos motivations. Vous trouverez des exemples de contenu en suivant ce lien.
     </p>
@@ -51,6 +51,7 @@
 import { Component, Vue } from "vue-property-decorator";
 import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
 import Pdf from "@/components/Pdf.vue";
+import FundamentalLetter from "@/views/OWcom/ProFundamental/FundamentalLetter.vue"
 import Galery from "@/components/Galery.vue";
 @Component({
   components: {
@@ -58,6 +59,7 @@ import Galery from "@/components/Galery.vue";
     Galery,
     BIcon,
     BIconBoxArrowRight,
+    FundamentalLetter
   },
 })
 export default class CVKeys extends Vue {
@@ -69,10 +71,7 @@ export default class CVKeys extends Vue {
     "/picture_letter/fundamentals_Letter_Answer.jpg",
     "/picture_letter/fundamentals_Letter_Mistakes.jpg",
   ];
-  public galeryLetterModal: string[] = [
-    "/picture_Letter/fundamentals_Letter_Modal.jpg",
-    "/picture_Letter/fundamentals_Letter_Modal2.jpg",
-  ];
+ 
 
   public pdfLetter = [
     {

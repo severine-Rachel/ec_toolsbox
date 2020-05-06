@@ -28,25 +28,13 @@
     <p>
       <strong>Pour structurer votre texte, recourez à la carte mentale</strong>
     </p>
-    <p>
-      Conseils pour améliorer vos compétences rédactionnelles
-    </p>
+   
     <Video v-bind:galery-video="videoTipsPro"></Video>
     <p id="form"></p>
     <h4>La forme</h4>
 
     <h5 id="h5-title">Le modèle de la lettre professionnelle</h5>
-
-    <span
-      ><img
-        class="vertical"
-        src="/picture_Letter/fundamentals_Letter_Modal.png"
-        alt="Model_Lettre"/>
-      <img
-        src="/picture_Letter/fundamentals_Letter_Modal2.png"
-         class="vertical"
-        alt="Model_Lettre"
-    /></span>
+    <FundamentalLetter></FundamentalLetter>
     <h5 id="h5-title">Le modèle du rapport</h5>
      <p>
     <h7>Dossier page de garde 1</h7>
@@ -55,11 +43,13 @@
       Cette page de garde est trop sobre et les différents niveaux de lecture
       non respectés.
     </p>
+    <b-row>
     <img
       src="/picture_OWcom/Pro/Cover_Page1.png"
-      class="vertical"
+      class="interractive"
       alt="Page_De_Garde1"
     />
+    </b-row>
      <p>
     <h7>Dossier page de garde 2</h7>
     </p>
@@ -67,34 +57,39 @@
       Cette page de garde est bien plus attractive. Elle témoigne du soin
       accordé à l’ensemble du dossier.
     </p>
+    <b-row>
 <img
       src="/picture_OWcom/Pro/Cover_Page2.png"
-       class="vertical"
+       class="interractive"
       alt="Page_De_Garde2"
     />
+    </b-row>
  <p>
     <h7>Dossier Sommaire 1</h7>
     </p>
+    <b-row>
     <img
       src="/picture_OWcom/Pro/Summary1.png"
-       class="vertical"
+       class="interractive"
       alt="Dossier_Sommaire1"
     />
+    </b-row>
     <p>
     <h7>Dossier Sommaire 2</h7>
     </p>
-    
+    <b-row>
     <img
       src="/picture_OWcom/Pro/Summary2.png"
-       class="vertical"
+       class="interractive"
       alt="Dossier_Sommaire2"
     />
+    </b-row>
      <p>
     <h7>Dossier Sommaire 3</h7>
      </p>
     <img
       src="/picture_OWcom/Pro/Summary3.png"
-       class="vertical"
+       class="interractive"
       alt="Dossier_Sommaire3"
     />
     <Footer></Footer>
@@ -105,12 +100,19 @@
   #h5-title{
     color: #2e367f;
   }
+  .interractive{
+    width: 596px;
+    height: 781px;
+    margin: 50px 0px 50px 200px;
+    box-shadow: 1px 1px 10px;
+  }
 </style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
+import FundamentalLetter from "@/views/OWcom/ProFundamental/FundamentalLetter.vue"
 import Video from "@/components/Video.vue";
 import Pdf from "@/components/Pdf.vue";
 import Footer from "@/components/Footer.vue";
@@ -118,6 +120,7 @@ import Footer from "@/components/Footer.vue";
   components: {
     Header,
     Menu,
+    FundamentalLetter,
     Pdf,
     Video,
     Footer,
