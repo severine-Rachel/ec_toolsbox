@@ -43,7 +43,7 @@ h3 {
   color: #1794d6;
   font-family: Myriad;
   margin: 0 10%;
-  padding: 8vh 0 4vh 0;
+  padding: 8vh 0 2vh 0;
 }
 .H3-thumbnail-title {
   color: white;
@@ -95,8 +95,9 @@ table {
   margin-right: auto;
 }
 td{
-  padding:2%;
+  padding:1%;
   text-align: center;
+  
 }
 .color-fire{
   height:15vh;

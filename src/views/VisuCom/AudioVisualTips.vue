@@ -3,18 +3,16 @@
     <h3 id="AudioVisualTips">
       CONSEILS ET ASTUCES
     </h3>
-    <p>
-      <strong>
-        Astuces de réalisateur
-      </strong>
-    </p>
+    <h4>
+        Astuces de réalisateurs
+      </h4>
 
     <a
       class="subtitle-link"
       href="https://devenir-realisateur.com/"
       target="_blank"
     >
-      Toutes les astuces techniques pour réaliser son film amateur.
+      Toutes les astuces techniques pour réaliser son film amateur sur le site devenir-realisateur.com.
       <b-icon icon="box-arrow-right"></b-icon>
     </a>
 
@@ -35,7 +33,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-Magisto" triggers="hover" placement="top">
+        <b-popover target="popover-Magisto" triggers="hover" placement="bottom">
           Magisto
         </b-popover>
 
@@ -51,7 +49,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-PowerDirector" triggers="hover" placement="top">
+        <b-popover target="popover-PowerDirector" triggers="hover" placement="bottom">
           PowerDirector
         </b-popover>
 
@@ -67,7 +65,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-PremiereRush" triggers="hover" placement="top">
+        <b-popover target="popover-PremiereRush" triggers="hover" placement="bottom">
           Première Rush
         </b-popover>
 
@@ -84,7 +82,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-LumaFusion" triggers="hover" placement="top">
+        <b-popover target="popover-LumaFusion" triggers="hover" placement="bottom">
           LumaFusion
         </b-popover>
 
@@ -100,7 +98,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-Kinemaster" triggers="hover" placement="top">
+        <b-popover target="popover-Kinemaster" triggers="hover" placement="bottom">
           Kinemaster
         </b-popover>
       </b-row>

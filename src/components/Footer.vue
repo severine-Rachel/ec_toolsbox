@@ -40,7 +40,7 @@
           />
         </a>
         <div>
-          <b-icon icon="envelope"></b-icon> peggy.raffy-hideux@univ-angers.fr
+          <b-icon icon="envelope"></b-icon> raffypeggy@yahoo.fr / peggyraffy@gmail.com
         </div>
         <div><b-icon icon="geo-alt"></b-icon> Angers</div>
         <div>

@@ -5,13 +5,13 @@
       class="interractive"
       alt="Page_De_Garde1"
     />
-    <b-button class="date" variant="danger" id="popover-Date"></b-button>
+    <b-button class="date" variant="warning" id="popover-Date"></b-button>
     <b-popover target="popover-Date" triggers="hover" placement="left">
       Lieu, date. Le tout aligné sur la droite
     </b-popover>
     <b-button
       class="adress-exp"
-      variant="danger"
+      variant="warning"
       id="popover-Adress-Exp"
     ></b-button>
     <b-popover target="popover-Adress-Exp" triggers="hover" placement="left">
@@ -28,7 +28,7 @@
     </b-popover>
     <b-button
       class="adress-dest-2"
-      variant="danger"
+      variant="warning"
       id="popover-Adress-Dest2"
     ></b-button>
     <b-popover target="popover-Adress-Dest2" triggers="hover" placement="right">
@@ -36,14 +36,14 @@
     </b-popover>
     <b-button
       class="adress-dest-3"
-      variant="danger"
+      variant="warning"
       id="popover-Adress-Dest3"
     ></b-button>
     <b-popover target="popover-Adress-Dest3" triggers="hover" placement="right">
       Espace avant la désignation du destinataire précis. Indiquez le poste de
       votre interlocuteur
     </b-popover>
-    <b-button class="object" variant="danger" id="popover-Object"></b-button>
+    <b-button class="object" variant="warning" id="popover-Object"></b-button>
     <b-popover target="popover-Object" triggers="hover" placement="right">
       Objet : un verbe normalisé doit indiquer l'objectif du courier. Ici :
       candidater
@@ -53,7 +53,7 @@
       1er tiers : l'en-tête de la lettre. Eventuellement, ce 1er tiers peut
       englober la formule d'appel
     </b-popover>
-    <b-button class="corps" variant="danger" id="popover-Corps"></b-button>
+    <b-button class="corps" variant="warning" id="popover-Corps"></b-button>
     <b-popover target="popover-Corps" triggers="hover" placement="right">
       Le corps de la lettre doit être décomposé en paragraphes signifiants.
       Privilégier l'interligne entre paragraphe et saut de ligne
@@ -64,15 +64,15 @@
       2e tiers : le corps de la lettre. Le texte doit être justifié
       informatiquement
     </b-popover>
-    <b-button class="form" variant="danger" id="popover-Form"></b-button>
+    <b-button class="form" variant="warning" id="popover-Form"></b-button>
     <b-popover target="popover-Form" triggers="hover" placement="right">
       Formule d'appel
     </b-popover>
-    <b-button class="disp" variant="danger" id="popover-Disp"></b-button>
+    <b-button class="disp" variant="warning" id="popover-Disp"></b-button>
     <b-popover target="popover-Disp" triggers="hover" placement="right">
       Indications disponibilités et formule de politesse
     </b-popover>
-    <b-button class="sign" variant="danger" id="popover-Sign"></b-button>
+    <b-button class="sign" variant="warning" id="popover-Sign"></b-button>
     <b-popover target="popover-Sign" triggers="hover" placement="right">
       Signature manuscrite au-dessus de la signature informatique (prévoir la
       place suffisante lors de l'impression papier). Alignement à droite

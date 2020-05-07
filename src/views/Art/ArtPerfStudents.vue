@@ -22,7 +22,7 @@
       partage.
     </p>
     <h4>
-      Le Perf’Art GEII GEII en images
+      Le Perf’Art GEII en images
     </h4>
     <b-row align-h="center">
       <iframe
@@ -48,7 +48,27 @@
       La note d’intention : Perf’Art <b-icon icon="upload"></b-icon>
     </a>
     <h4>
-      Quelques exemples de performances …
+      Exemple de performance
+    </h4>
+    <p>
+      <strong> « W@tched »</strong>. Souriez... Vous êtes filmés. Ou comment
+      dénoncer la surveillance de masse ? Performance réalisée par des étudiants
+      en IUT GEII (Arthur, Léo et Mathias) dans la ville d'Angers puis sur scène
+      avec une douzaine de performeurs...
+    </p>
+    <b-row align-h="center">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/0AH8fNb-GHs"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </b-row>
+    <p class="text-vid"> Contenu soumis à des droits d'auteurs</p>
+    <h4>
+      Autres exemples de performances …
     </h4>
     <Video v-bind:galery-video="videoPerf"></Video>
     <Footer></Footer>
@@ -73,7 +93,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ArtPerfStudents extends Vue {
- public videoPerf = [
+  public videoPerf = [
     {
       videoSrc: "https://www.youtube.com/embed/fizlZKMboSE",
       videoTitle: "Océans Bienséants",
@@ -94,7 +114,6 @@ export default class ArtPerfStudents extends Vue {
       videoTitle: "Du champ des possibles",
       videoRoot: "Contenu soumis à des droits d'auteur",
     },
- ]
-
+  ];
 }
 </script>

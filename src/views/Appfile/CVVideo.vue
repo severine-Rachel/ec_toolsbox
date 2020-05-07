@@ -41,8 +41,8 @@
     </p>
     <p>
       Marketing, traduction, design... Tous ces CV vidéo ne manquent pas d'idées
-      et vous fournis la preuve qu'il est toujours possible de trouver des idées
-      pour vour exprimer par l'audiovisuel, peu importe votre domaine d'étude et vos
+      et vous fournissent la preuve qu'il est toujours possible de trouver des idées
+      pour vour exprimer par l'audiovisuel, peu importent votre domaine d'études et vos
       compétences.
     </p>
     <Video v-bind:galery-video="videoCVVideo"></Video>

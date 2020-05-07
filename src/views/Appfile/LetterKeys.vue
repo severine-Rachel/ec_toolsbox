@@ -1,12 +1,11 @@
 <template>
   <div>
     <h3 id="keysLetter">
-      LES FONDAMENTAUX : FICHES-CLEFS
+      LES FONDAMENTAUX : FICHES-CLÉS
     </h3>
     <p>
-      « Comment structurer ma lettre ? Devrais-je changer de paragraphe pour
-      parler telle partie ? N'est ce pas un peu déjà vu ? » Ces fiches vous
-      donneront des réponses par rapport à la forme et le fond de votre lettre de motivation.
+      « <i>Comment structurer ma lettre ? Comment faire ressortir mes arguments ? N'est ce pas un peu déjà vu ?</i> ». Ces fiches vous
+      apporteront des clés, tant sur la forme que sur le fond, pour rédiger votre lettre de motivation.
     </p>
     <Pdf v-bind:galery-pdf="pdfLetter"></Pdf>
 
@@ -24,11 +23,11 @@
       La mise en page de la lettre de motivation
     </h4>
     <p>
-      La lettre doit respecter un équilibre global ; c’est la règle des 3 tiers.
+      La lettre doit respecter un équilibre global ; c’est la règle des 3 tiers. Les marqueurs bleus vous apporteront des conseils sur la structuration de votre lettre et les marqueurs jaunes sur sa mise en page. 
     </p>
     <FundamentalLetter></FundamentalLetter>
     <p>
-      Après s'être interressé à la forme, il faut argumenter le fond de vos motivations. Vous trouverez des exemples de contenu en suivant ce lien.
+      Pour vous aider à rédiger votre lettre, voici quelques clés et exemples types.
     </p>
     <p>
       <strong>Exemples d’accroches, d’argumentaires et de conclusions </strong>

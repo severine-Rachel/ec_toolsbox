@@ -117,10 +117,15 @@ export default class CVGoFurther extends Vue {
 }
 </script>
 
-<style>
+<style lang="scss">
 .imgCV {
   width: 20vw;
   margin: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px;
+  &:hover{
+    box-shadow: 1px 1px 20px;
+  }
 }
 .imgCV-slide {
   height: 80vh;

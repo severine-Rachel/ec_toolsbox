@@ -34,64 +34,39 @@
     <h4>La forme</h4>
 
     <h5 id="h5-title">Le modèle de la lettre professionnelle</h5>
+    <p>Les marqueurs bleus vous apporteront des conseils sur la structuration de votre lettre et les marqueurs jaunes sur sa mise en page.  </p>
     <FundamentalLetter></FundamentalLetter>
     <h5 id="h5-title">Le modèle du rapport</h5>
-     <p>
+
     <h7>Dossier page de garde 1</h7>
-    </p>
+   
     <p>
       Cette page de garde est trop sobre et les différents niveaux de lecture
       non respectés.
     </p>
-    <b-row>
-    <img
-      src="/picture_OWcom/Pro/Cover_Page1.png"
-      class="interractive"
-      alt="Page_De_Garde1"
-    />
-    </b-row>
-     <p>
+    <FundamentalCoverPage1></FundamentalCoverPage1>
+    <p></p>
     <h7>Dossier page de garde 2</h7>
-    </p>
+   
     <p>
       Cette page de garde est bien plus attractive. Elle témoigne du soin
       accordé à l’ensemble du dossier.
     </p>
     <b-row>
-<img
-      src="/picture_OWcom/Pro/Cover_Page2.png"
-       class="interractive"
-      alt="Page_De_Garde2"
-    />
+  <FundamentalCoverPage2></FundamentalCoverPage2>
     </b-row>
- <p>
+
     <h7>Dossier Sommaire 1</h7>
-    </p>
-    <b-row>
-    <img
-      src="/picture_OWcom/Pro/Summary1.png"
-       class="interractive"
-      alt="Dossier_Sommaire1"
-    />
-    </b-row>
-    <p>
+
+    <Summary1></Summary1>
+    
     <h7>Dossier Sommaire 2</h7>
-    </p>
-    <b-row>
-    <img
-      src="/picture_OWcom/Pro/Summary2.png"
-       class="interractive"
-      alt="Dossier_Sommaire2"
-    />
-    </b-row>
-     <p>
+   
+      <Summary2></Summary2>
+  
     <h7>Dossier Sommaire 3</h7>
-     </p>
-    <img
-      src="/picture_OWcom/Pro/Summary3.png"
-       class="interractive"
-      alt="Dossier_Sommaire3"
-    />
+
+    <Summary3></Summary3>
     <Footer></Footer>
   </div>
 </template>
@@ -113,6 +88,11 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import FundamentalLetter from "@/views/OWcom/ProFundamental/FundamentalLetter.vue"
+import FundamentalCoverPage1 from "@/views/OWcom/ProFundamental/FundamentalCoverPage1.vue"
+import FundamentalCoverPage2 from "@/views/OWcom/ProFundamental/FundamentalCoverPage2.vue"
+import Summary1 from "@/views/OWcom/ProFundamental/Summary1.vue"
+import Summary2 from "@/views/OWcom/ProFundamental/Summary2.vue"
+import Summary3 from "@/views/OWcom/ProFundamental/Summary3.vue"
 import Video from "@/components/Video.vue";
 import Pdf from "@/components/Pdf.vue";
 import Footer from "@/components/Footer.vue";
@@ -121,6 +101,11 @@ import Footer from "@/components/Footer.vue";
     Header,
     Menu,
     FundamentalLetter,
+    FundamentalCoverPage1,
+    FundamentalCoverPage2,
+    Summary1,
+    Summary2,
+    Summary3,
     Pdf,
     Video,
     Footer,

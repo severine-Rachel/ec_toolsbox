@@ -4,12 +4,12 @@
       EXEMPLES DE CV (IUT)
     </h3>
     <p>
-      On compte 8 000 étudiants de DUT GEII en France chaque année, malgré le cursus
-      similaire choisi par ces étudiants, il est toujours possible de présenter
-      un CV bien à eux. Le plus important est de faire des compromis entre la
-      personnalité et la rigueure que le monde professionel attend par rapport
-      au domaine d'expertise. Ces exemples vous donneront des pistes pour un CV 
-      personnalisé et en rapport avec le domaine d'étude suivi.
+      Chaque année, en France, des millions d'étudiants postulent à un stage ou
+      à un premier emploi. À expérience et  diplômes équivalents,
+      ils peuvent faire la différence en personnalisant bien leur CV. Le plus important
+      est de faire des compromis entre votre personnalité et la rigueur que le
+      monde professionnel attend par rapport au domaine d'expertise. Ces exemples
+      de CV réalisés par des étudiants d'IUT vous apporteront des pistes pour élaborer un CV personnalisé et attractif.
     </p>
     <Galery v-bind:galery-picture="CVIUT"></Galery>
   </div>

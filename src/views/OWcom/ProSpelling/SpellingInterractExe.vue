@@ -3,7 +3,7 @@
     <h4>
       Exercices interactifs
     </h4>
-    <p style="color:red">Attention: Ces exercices utilisent <i>Flash</i></p>
+    <p style="color:red">Attention : Ces exercices utilisent <i>Flash</i></p>
 
     <b-card-group deck>
       <b-card img-src="/thumbail20.png" id="oneimgcard" img-alt="Image" img-top>

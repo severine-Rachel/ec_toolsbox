@@ -3,6 +3,7 @@
     <h3 id="keysInterview">
       LES FONDAMENTAUX : FICHES-CLEFS
     </h3>
+    <p> Vous trouverez par ces fiches, le moyen de vous préparer aux questions types ainsi que le comportement à adopter.</p>
     <Pdf v-bind:galery-pdf="pdfInterview"></Pdf>
 
     <Galery v-bind:galery-picture="galeryInterview"></Galery>
@@ -28,7 +29,7 @@
       c’est lui qui donne le tempo des échanges. Vous aurez entre 30 minutes et
       1 heure pour convaincre.
     </p>
-    <img class="vertical" src="/picture_interview/step_Interview.png" />
+    <img class="vertical" src="/picture_interview/step_Interview.png" id="centre"/>
 
     <h4>
       Quelle tenue adopter ?
@@ -71,7 +72,9 @@
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+
+  </style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";

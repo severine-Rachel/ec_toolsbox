@@ -35,6 +35,11 @@
   
   border:#bce8ff 5px solid;
 }
+#TableLetter{
+  padding:1%;
+  text-align:center;
+  margin: 0 5%;
+}
 </style>
 
 <script lang="ts">

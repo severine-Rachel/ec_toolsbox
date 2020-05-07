@@ -4,10 +4,10 @@
       OUTILS D'AIDE À LA CONCEPTION DE CV
     </h3>
     <p>
-      Il faut parfois choisir entre un CV direct et compréhensif qui fera
-      ressortir vos compétences ou un CV plus original qui vous permettra de
-      vous exprimer davantage. Ces sites vous proposent plusieurs modèles afin
-      de gagner du temps.
+      Il vous faut parfois choisir entre un CV classique et facilement lisible
+      ou un CV plus original et attractif qui vous permettra d'exprimer
+      davantage votre créativité. Vous trouverez ci-dessous plusieurs modèles
+      pour vous aider à concevoir votre CV.
     </p>
     <p>
       <strong>

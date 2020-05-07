@@ -95,16 +95,16 @@
             >
 
             <p class="into-list">
-                <strong>
+               
                     <a 
                         href="http://www.surlimage.info/ecrits/couleur.html" 
                         target="_blank" 
                         style="text-decoration: none !important; color: #2e367f;"
                     >
-                        De la couleur dans l’image <b-icon icon="box-arrow-right"></b-icon
+                        De la couleur dans l’image (pour aller plus loin...) <b-icon icon="box-arrow-right"></b-icon
                         >       
                     </a>
-                </strong>
+               
             </p>
 
             <li class="first-list">

@@ -60,7 +60,9 @@
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
@@ -91,8 +93,9 @@ export default class ProExample extends Vue {
   public galeryTitres: string[] = [
     "Magazine de GEII de l'IUT",
     "Critique de cinéma",
-    "Analyse comparative d'articles de presse",
-    "Le dossier de presse"
+    "Le dossier de presse",
+    "Analyse d'articles de presse",
+    
 
   ];
   //tableaux de stockage des images des carousels
@@ -115,8 +118,9 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Magazine/Magazine16.jpg",
   ];
   public carouselCriticCinema: string[] = [
-    "/picture_OWcom/Criticism/CinemaCriticism1.jpg",
-    "/picture_OWcom/Criticism/CinemaCriticism2.jpg",
+    "/picture_OWcom/Criticism/CinemaCriticismGard.jpg",
+    "/picture_OWcom/Criticism/CinemaCriticism1.png",
+    "/picture_OWcom/Criticism/CinemaCriticism2.png",
   ];
   public carouselPress1: string[] = [
     "/picture_OWcom/Press/_PressRobotic1.jpg",
@@ -243,6 +247,8 @@ public galery: string[][][]=[
   this.galeryCritic,
   this.galeryPressFolder,
   this.galeryPress,
+  
+  
 ];
 
 public displayGalery(src: string[][]): void {
@@ -260,7 +266,7 @@ public displayCarousel(src: string[]): void {
 }
 }
 </script>
-<style>
+<style lang="scss">
   .img_exemple{
     height: 450px;
     width: auto;
@@ -286,11 +292,16 @@ public displayCarousel(src: string[]): void {
     margin-left: auto;
   }
   .mos_content{
-    border-color: rgb(56, 133, 172);
+    border-color: #2694cd;
     border-style: solid;
+    border-radius: 6px;
+    cursor: pointer;
     background-color: #BCE8FF ;
     padding: 10px !important;
     margin: 10px !important;
+    &:hover{
+      border-color: #2e367f;
+    }
   }
   .div-align{
     width: 100%;

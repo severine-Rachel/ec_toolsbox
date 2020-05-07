@@ -5,7 +5,7 @@
     </h3>
     <p>
      Trois fiches, à consulter ou à télécharger, 
-      qui vous permettes de vous posez les bonnes
+      qui vous permettent de vous poser les bonnes
       questions sur la forme et le fond de votre CV. 
     </p>
     <Pdf v-bind:galery-pdf="pdfCV"></Pdf>

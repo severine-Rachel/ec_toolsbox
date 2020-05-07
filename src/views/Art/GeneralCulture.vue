@@ -26,7 +26,7 @@
       <b-button v-b-modal.modal-2>Lire l'article</b-button>
     </p>
     <h5 class="subtitle-h5">
-      Jessica Gourdon, « Je ne connaissais rien, c'était humiliant », Le Monde,
+     Alice Raybaud, « Je ne connaissais rien, c'était humiliant », Le Monde,
       21 mai 2019.
     </h5>
     <p>

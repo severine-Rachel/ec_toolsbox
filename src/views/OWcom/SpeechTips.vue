@@ -39,17 +39,17 @@
         Capucine Gourmelon, étudiante en école de commerce à Nantes, s’en
         souvient comme si c’était hier. En 2017, alors qu’elle étudiait en
         première année à Audencia Business School, à Nantes, elle s’est
-        présentée au concours d’éloquence de son établissement – « un défi
-        personnel ». Elle fut alors frappée par ce qui s’y déroulait : plus elle
+        présentée au concours d’éloquence de son établissement – « <i>un défi
+        personnel</i> ». Elle fut alors frappée par ce qui s’y déroulait : plus elle
         grimpait dans la compétition, plus le nombre de filles s’amenuisait. La
         demi­finale en comptait quatre pour le double de garçons. En finale, il
         n’y avait que deux filles sur sept candidats. Capucine a continué son
         ascension jusqu’à la finale interécoles. Là, sur les neuf finalistes,
-        deux seulement étaient des filles. « Elles n’osent pas, là où les
-        garçons ne se posent même pas la question », constate l’étudiante, qui
-        se dit aujourd’hui ravie de cette expérience. « J’ai beaucoup appris sur
+        deux seulement étaient des filles. «<i> Elles n’osent pas, là où les
+        garçons ne se posent même pas la question </i>», constate l’étudiante, qui
+        se dit aujourd’hui ravie de cette expérience. « <i>J’ai beaucoup appris sur
         moi, sur la gestion du stress. J’ai pris confiance. Faire des
-        présentations en réunion n’est plus un problème. »
+        présentations en réunion n’est plus un problème.</i> »
       </p>
       <p>
         Concours d’éloquence, cours de prise de parole, séances de coaching ou
@@ -64,9 +64,9 @@
         Réduire les inégalités
       </h4>
       <p>
-        « Avec l’accent mis sur les soft skills, la capacité à argumenter, à
+        «<i> Avec l’accent mis sur les soft skills, la capacité à argumenter, à
         interagir et donc l’aisance à l’oral sont de plus en plus encouragées
-        dans les cursus », remarque Anne­Lucie Wack, la présidente de la
+        dans les cursus</i> », remarque Anne­Lucie Wack, la présidente de la
         Conférence des grandes écoles (CGE). Mais si l’aisance à l’oral devient
         une compétence de plus en plus prisée dans le monde professionnel, elle
         n’en est pas moins source de discriminations, sociales, mais aussi de
@@ -83,36 +83,36 @@
         gestuelle, le rythme, la respiration, l’argumentation. On développe les
         techniques pour parler debout devant un public, en réunion ou à
         l’occasion d’un débat. Eric Cobast a été stupéfait par la proportion de
-        femmes dans ces nouvelles formations destinées aux cadres : « Elles
+        femmes dans ces nouvelles formations destinées aux cadres : «<i> Elles
         constituent la majorité des élèves. Elles viennent chercher de
         l’assurance et veulent sans doute rétablir de l’égalité dans l’échange.
-        »
+       </i> »
       </p>
       <p>
         A Sciences Po, les étudiants sont traditionnellement formés à l’oral dès
-        le début de leur cursus. « Dès la semaine d’intégration, des ateliers
+        le début de leur cursus. «<i> Dès la semaine d’intégration, des ateliers
         sont consacrés à la prise de parole. Et nous avons au moins un exposé
-        par matière et par semestre à faire », raconte Agathe Chapalain,
+        par matière et par semestre à faire</i> », raconte Agathe Chapalain,
         étudiante rue SaintGuillaume, à Paris. Bien consciente des fortes
         inégalités d’accès à cet « art oratoire », dont la maîtrise dépend
-        beaucoup « de la filière d’études, de l’origine sociale mais aussi du
-        genre », elle préside l’Association de démocratisation de l’art
+        beaucoup «<i> de la filière d’études, de l’origine sociale mais aussi du
+        genre</i> », elle préside l’Association de démocratisation de l’art
         oratoire, une structure qui mène diverses actions pour former des jeunes
-        à la prise de parole. « Les femmes s’autocensurent davantage et se
+        à la prise de parole. «<i> Les femmes s’autocensurent davantage et se
         sentent moins légitimes en public. Or, ne pas avoir les armes pour
         s’exprimer, c’est ne pas avoir les mêmes opportunités, notamment dans la
-        vie professionnelle. » Une prise de position qui résonne avec son
+        vie professionnelle.</i> » Une prise de position qui résonne avec son
         expérience personnelle. Timide au lycée, Agathe Chapalain trouvait
-        frustrant de ne pas arriver à s’affirmer : « Ma personnalité s’en
+        frustrant de ne pas arriver à s’affirmer : «<i> Ma personnalité s’en
         trouvait diminuée. J’ai mis six ans à atteindre le niveau d’aisance que
-        je souhaitais », assure cette femme qui s’exprime désormais devant des
+        je souhaitais</i> », assure cette femme qui s’exprime désormais devant des
         amphithéâtres pleins et dispense des formations à l’art oratoire dans
         des foyers de jeunes filles, de jeunes travailleurs ou encore pour
         l’association Business and Professionnel Women.
       </p>
       <p>
-        « Les femmes étudiant dans les grandes écoles réussissent très bien et
-        se retrouvent souvent en tête de promo », souligne AnneLucie Wack,
+        « <i>Les femmes étudiant dans les grandes écoles réussissent très bien et
+        se retrouvent souvent en tête de promo</i> », souligne AnneLucie Wack,
         présidente de la CGE. Pourtant, dès l’entrée dans la vie active, les
         inégalités sont déjà significatives, comme le montre la dernière enquête
         d’insertion de la CGE. Soixante­quatorze pour cent des diplômées qui ont
@@ -127,56 +127,56 @@
       <p>
         L’expression orale n’est évidemment pas le seul facteur qui explique ces
         inégalités, mais elle n’est pas négligeable, selon Béatrice Duboisset,
-        fondatrice du TEDx ChampsElyséesWomen. « L’aisance à l’oral ne sert pas
+        fondatrice du TEDx ChampsElyséesWomen. «<i> L’aisance à l’oral ne sert pas
         simplement à prendre la parole en public. Cette compétence se révèle
         utile pour manager une équipe, défendre des idées, argumenter face à un
         client. Pour aider les femmes à briser le plafond de verre, il faut
-        travailler sur les facteurs qui conditionnent leur confiance. » Viviane
+        travailler sur les facteurs qui conditionnent leur confiance.</i> » Viviane
         de Beaufort, fondatrice des Women Essec Executive Programs, qui dispense
         dans cette école de commerce des formations à destination des femmes
-        cadres, ne dit pas autre chose. « Prendre la parole, c’est montrer qu’on
+        cadres, ne dit pas autre chose. «<i> Prendre la parole, c’est montrer qu’on
         est leader. Or, les femmes sont davantage sujettes au complexe de
-        l’imposteur – est­ce que ce que je vais dire est légitime ? – et au
+        l’imposteur – est­ ce que ce que je vais dire est légitime ? – et au
         complexe de la bonne élève – je suis courtoise, je ne lève pas le ton,
-        j’attends mon tour pour parler. » Cette problématique de genre est,
+        j’attends mon tour pour parler.</i> » Cette problématique de genre est,
         selon elle, largement liée à des rapports de domination. Un groupe
         détient le pouvoir et n’ouvre pas la porte à l’autre ; plus le
         déséquilibre est important, plus ces mécanismes sont puissants. La
         difficulté de prendre la parole pour une femme dans une réunion composée
         en majorité d’hommes en est l’illustration. « Dans des équipes plus
         féminines, le phénomène a tendance à disparaître », observe Viviane de
-        Beaufort. Et de compléter : « Si nous devons rattraper avec nos
+        Beaufort. Et de compléter : «<i> Si nous devons rattraper avec nos
         formations ces inégalités, c’est qu’au moment de la petite enfance, les
-        bons signaux n’ont pas été envoyés aux filles. » Dans chaque programme
+        bons signaux n’ont pas été envoyés aux filles.</i> » Dans chaque programme
         de l’Essec consacré aux femmes cadres, l’aisance à l’oral est abordée.
         Dans une des formations destinée à celles qui souhaitent accéder aux
         conseils d’administration, Viviane de Beaufort fait réfléchir les
-        participantes sur « l’expression de l’ambition ».
+        participantes sur «<i> l’expression de l’ambition</i> ».
       </p>
       <p>
         Consacrer des formations spécifiques aux femmes ou proposer des cursus à
-        tout le monde fait partie des dilemmes des responsables de formations. «
+        tout le monde fait partie des dilemmes des responsables de formations. « <i>
         Plutôt que de former les femmes pour qu’elles ressemblent à des hommes,
         il faut changer les codes professionnels pour les rendre plus inclusifs.
         Pour ce faire, nous devons préparer nos futures élites, femmes comme
         hommes, à une meilleure compréhension de ces mécanismes de
-        discrimination », estime, quant à elle, Hélène Périvier, directrice d’un
+        discrimination</i> », estime, quant à elle, Hélène Périvier, directrice d’un
         programme de recherche sur le genre à Sciences Po. Elle vient de lancer
-        un certificat « égalité femmes­hommes et politiques publiques » qu’elle
+        un certificat « égalité femmes­-hommes et politiques publiques » qu’elle
         codirige avec l’ancienne ministre Najat Vallaud­Belkacem. Le cursus
         allie savoir universitaire, rencontre de personnalités et mentorat. Les
         élèves travaillent particulièrement sur la prise de parole en public.
       </p>
       <p>
         Parfois, quelques heures suffisent à produire le déclic. Audencia
-        Business School a aussi mis en place un atelier « negotraining » gratuit
+        Business School a aussi mis en place un atelier «<i> negotraining</i> » gratuit
         de trois heures réservé aux femmes de la métropole nantaise. Depuis
         septembre 2017, un millier de professionnelles, surtout des cadres, ont
-        été formées, par groupe de quinze. « On leur fait prendre conscience que
+        été formées, par groupe de quinze. «<i> On leur fait prendre conscience que
         ce que l’on pense être une problématique individuelle est d’ordre
         sociétal et culturel, souligne Anne­Laure Guihéneuf, enseignante dans
         cette école de commerce. Puis nous les faisons travailler sur
-        l’argumentation et le pitch, à travers des jeux de rôle. » L’enjeu :
+        l’argumentation et le pitch, à travers des jeux de rôle.</i> » L’enjeu :
         être plus percutante, plus convaincante, plus sûre de soi dans son
         discours. Six mois après l’atelier, une femme sur deux a renégocié sa
         rémunération, et seule une sur dix n’a rien obtenu.

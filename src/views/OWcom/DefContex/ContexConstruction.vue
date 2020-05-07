@@ -61,7 +61,7 @@
       </p>
       <p class="quote3">Extrait de <i>l’Encyclopédiedu savoir relatif et absolu</i>
       </p>
-<img class="horizontal" src="/picture_OWcom/schematic/schema_com.jpg" alt="Schema_Werber">
+<img class="square" src="/picture_OWcom/schematic/schema_com.png" alt="Schema_Werber">
   </div>
 </template>
 
