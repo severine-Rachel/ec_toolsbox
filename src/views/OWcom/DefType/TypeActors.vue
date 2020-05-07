@@ -13,7 +13,8 @@
             conversation entre 2 amis...)
             <li class="first-list">
                 <u>Communication de groupe</u>
-            </li class="first-list">
+            </li>
+            <li class="first-list">
             L’émetteur s’adresse à un groupe défini, dont la culture est 
             commune (réunion...)
             <li class="first-list">

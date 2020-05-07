@@ -3,7 +3,10 @@
     <h3 id="keysInterview">
       LES FONDAMENTAUX : FICHES-CLEFS
     </h3>
-    <p> Vous trouverez par ces fiches, le moyen de vous préparer aux questions types ainsi que le comportement à adopter.</p>
+    <p>
+      Vous trouverez par ces fiches, le moyen de vous préparer aux questions
+      types ainsi que le comportement à adopter.
+    </p>
     <Pdf v-bind:galery-pdf="pdfInterview"></Pdf>
 
     <Galery v-bind:galery-picture="galeryInterview"></Galery>
@@ -29,7 +32,62 @@
       c’est lui qui donne le tempo des échanges. Vous aurez entre 30 minutes et
       1 heure pour convaincre.
     </p>
-    <img class="vertical" src="/picture_interview/step_Interview.png" id="centre"/>
+
+    <img
+      class="vertical"
+      src="/picture_interview/step_Interview_Intro.png"
+      id="center"
+    />
+    <ul class="list-int">
+      <li class="step-int">
+        Étape 1
+
+        <img
+          class="vertical img-int"
+          src="/picture_interview/step_Interview_1.png"
+          id="center"
+        />
+      </li>
+      <li class="step-int">
+        Étape 2
+        <img
+          class="vertical img-int"
+          src="/picture_interview/step_Interview_2.png"
+          id="center"
+        />
+      </li>
+      <li class="step-int">
+        Étape 3
+        <img
+          class="vertical img-int"
+          src="/picture_interview/step_Interview_3.png"
+          id="center"
+        />
+      </li>
+      <li class="step-int">
+        Étape 4
+        <img
+          class="vertical img-int"
+          src="/picture_interview/step_Interview_4.png"
+          id="center"
+        />
+      </li>
+      <li class="step-int">
+        Étape 5
+        <img
+          class="vertical img-int"
+          src="/picture_interview/step_Interview_5.png"
+          id="center"
+        />
+      </li>
+    </ul>
+    <img
+      class="vertical"
+      src="/picture_interview/step_Interview_end.png"
+      id="center"
+    />
+
+   
 
     <h4>
       Quelle tenue adopter ?
@@ -50,7 +108,7 @@
         allowfullscreen
       ></iframe>
     </b-row>
-
+    <p class="text-vid">Chaîne : </p>
     <a
       href="https://www.keljob.com/articles/5-attitudes-qui-impressionnent-les-recruteurs-en-entretien-d-embauche"
       target="_blank"
@@ -69,12 +127,43 @@
       <strong>Comment réussir un entretien à distance </strong>
       <b-icon icon="box-arrow-right"></b-icon>
     </a>
+    <img src="/picture_interview/clothes_Interview_Women.png" class="horizontal" alt="Comment s'habiller en entretien femme">
+    <img src="/picture_interview/clothes_Interview_Men.png" class="horizontal" alt="Comment s'habiller en entretien homme">
   </div>
 </template>
 
 <style lang="scss">
-
-  </style>
+#center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0;
+  margin-bottom: 0;
+  display: block;
+  border: solid 1px #1794d6;
+}
+.step-int {
+  list-style-type: none;
+  text-align: center;
+  font-family: myriad;
+  background-color: #2e367f;
+  margin: 0 29.5vw;
+  color: #bce8ff;
+  cursor: default;
+}
+.list-int {
+  padding: 0;
+  margin:0;
+}
+.img-int {
+  display: none !important;
+  position: relative;
+  transition: all .5s !important;
+}
+.list-int .step-int:hover .img-int {
+  display: block !important;
+  position: relative;
+}
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
