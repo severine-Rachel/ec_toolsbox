@@ -3,6 +3,15 @@
     <Header></Header>
     <Menu></Menu>
     <h2 class="rubric-title">L'AUDIOVISUEL</h2>
+    <p><strong>
+      La réalisation d’un montage vidéo ne s’improvise pas. Selon l’objectif à
+      atteindre, le message essentiel à faire passer et la cible visée, il faut
+      déterminer un axe et un scénario qui vont conditionner les prises de vues
+      et le choix des plans. En communication, les réalisations audiovisuelles
+      sont multiples. Il peut s’agir de spots publicitaires, de films
+      institutionnels, de reportages, de capsules vidéo ou encore de courts
+      métrages…</strong>
+    </p>
     <Index v-bind:index-list="indexAudioVisu"></Index>
     <p></p>
     <AudioVisualFundamental></AudioVisualFundamental>

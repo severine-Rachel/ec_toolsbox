@@ -3,6 +3,16 @@
     <h4>
       Exercices interactifs
     </h4>
+    <p>
+      Le CCDMD créé par un collectif d’auteurs est un site qui met à la
+      disposition des élèves et des enseignants plus de 1100 documents. Ces
+      ressources, destinées principalement à l’apprentissage de la langue
+      française et conçues par des enseignants de cégeps, sont utiles à
+      l’ensemble des usagers soucieux d’améliorer leurs connaissances en
+      français. Une large base d’exercices PDF accompagnés de leurs corrigés
+      ainsi que de nombreux exercices interactifs vous permettront d’améliorer
+      vos compétences orthographiques et vos compétences rédactionnelles.
+    </p>
     <p style="color:red">Attention : Ces exercices utilisent <i>Flash</i></p>
 
     <b-card-group deck>
@@ -75,121 +85,115 @@
 
     <b-card-group deck>
       <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
-       <a
+        <a
           href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1070&action=animer"
           target="_blank"
         >
-        <b-card-text class="writeInCard">
-          Conjugaison avec contexte
-        </b-card-text>
-       </a>
-      </b-card>
-
-      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
-       <a
-          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1069&action=animer"
-          target="_blank"
-        >
-        <b-card-text class="writeInCard">
-          Conjugaison sans contexte
-        </b-card-text>
-       </a>
-      </b-card>
-      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
-       <a
-          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1067&action=animer"
-          target="_blank"
-        >
-        <b-card-text class="writeInCard">
-          Participes passés
-        </b-card-text>
-       </a>
-      </b-card>
-    </b-card-group>
-
-    <b-card-group deck>
-      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
-      <a
-          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1071&action=animer"
-          target="_blank"
-        >
-        <b-card-text class="writeInCard">
-          Genre des mots
-        </b-card-text>
-      </a>
-      </b-card>
-
-      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
-       <a
-          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1068&action=animer"
-          target="_blank"
-        >
-        <b-card-text class="writeInCard">
-          Pluriels particuliers
-        </b-card-text>
+          <b-card-text class="writeInCard">
+            Conjugaison avec contexte
+          </b-card-text>
         </a>
       </b-card>
 
       <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
-      <a
+        <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1069&action=animer"
+          target="_blank"
+        >
+          <b-card-text class="writeInCard">
+            Conjugaison sans contexte
+          </b-card-text>
+        </a>
+      </b-card>
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+        <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1067&action=animer"
+          target="_blank"
+        >
+          <b-card-text class="writeInCard">
+            Participes passés
+          </b-card-text>
+        </a>
+      </b-card>
+    </b-card-group>
+
+    <b-card-group deck>
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+        <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1071&action=animer"
+          target="_blank"
+        >
+          <b-card-text class="writeInCard">
+            Genre des mots
+          </b-card-text>
+        </a>
+      </b-card>
+
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+        <a
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1068&action=animer"
+          target="_blank"
+        >
+          <b-card-text class="writeInCard">
+            Pluriels particuliers
+          </b-card-text>
+        </a>
+      </b-card>
+
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
+        <a
           href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1085&action=animer"
           target="_blank"
         >
-        <b-card-text class="writeInCard">
-          Jeu du dictionnaire
-        </b-card-text>
-      </a>
+          <b-card-text class="writeInCard">
+            Jeu du dictionnaire
+          </b-card-text>
+        </a>
       </b-card>
     </b-card-group>
-  
+
     <b-card-group deck>
       <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
-       <a
+        <a
           href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1092&action=animer"
           target="_blank"
         >
-        <b-card-text class="writeInCard">
-          Apportez des nuances
-        </b-card-text>
-       </a>
+          <b-card-text class="writeInCard">
+            Apportez des nuances
+          </b-card-text>
+        </a>
       </b-card>
       <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
-      <a
+        <a
           href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1095&action=animer"
           target="_blank"
         >
-        <b-card-text class="writeInCard">
-          Précision du vocabulaire
-        </b-card-text>
-      </a>
+          <b-card-text class="writeInCard">
+            Précision du vocabulaire
+          </b-card-text>
+        </a>
       </b-card>
-    
     </b-card-group>
 
-      <b-card-group deck>
+    <b-card-group deck>
       <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
-       <a
+        <a
           href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1083&action=animer"
           target="_blank"
         >
-        <b-card-text class="writeInCard">
-          Choisir les prépositions appropriées
-        </b-card-text>
-       </a>
+          <b-card-text class="writeInCard">
+            Choisir les prépositions appropriées
+          </b-card-text>
+        </a>
       </b-card>
 
       <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
-      <a
-          href="https://deficonstructions.ccdmd.qc.ca/"
-          target="_blank"
-        >
-        <b-card-text class="writeInCard">
-          Constructions fautives
-        </b-card-text>
-      </a>
+        <a href="https://deficonstructions.ccdmd.qc.ca/" target="_blank">
+          <b-card-text class="writeInCard">
+            Constructions fautives
+          </b-card-text>
+        </a>
       </b-card>
-
-      
     </b-card-group>
   </div>
 </template>

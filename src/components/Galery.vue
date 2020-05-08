@@ -29,6 +29,7 @@
           v-on:click="toogle(imageElement)"
           v-bind:src="imageElement"
         />
+
       </div>
     </b-row>
 
@@ -47,10 +48,10 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-import { BIcon, BIconXSquareFill } from "bootstrap-vue";
+import { BIcon, BIconXSquareFill, BIconSearch  } from "bootstrap-vue";
 @Component({
   components: {
-    BIcon, BIconXSquareFill
+    BIcon, BIconXSquareFill, BIconSearch 
   }
 })
 export default class Galery extends Vue {

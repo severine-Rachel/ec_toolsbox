@@ -11,9 +11,9 @@
       class="subtitle-link"
       href="https://devenir-realisateur.com/"
       target="_blank"
-    >
+    ><strong>
       Toutes les astuces techniques pour réaliser son film amateur sur le site devenir-realisateur.com.
-      <b-icon icon="box-arrow-right"></b-icon>
+      <b-icon icon="box-arrow-right"></b-icon></strong>
     </a>
 
     <h4>
