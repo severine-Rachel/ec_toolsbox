@@ -6,7 +6,7 @@
     </div>    
 </template>
 
-<script lang="ts">
+<script>
 import Carousel from "@/components/Carousel/Carousel.vue";
 export default {
     data (){
@@ -16,8 +16,8 @@ export default {
     },
     //retourne vrai si l'index de la slide correspond a l'index du carousel
     computed:{
-        visible (): boolean{
-            return this.index === (this.$parent as any).index
+        visible (){
+            return this.index === (this.$parent).index
         }
     }
 }
