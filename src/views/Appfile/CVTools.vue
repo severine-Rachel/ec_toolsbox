@@ -6,8 +6,8 @@
     <p>
       Il vous faut parfois choisir entre un CV classique et facilement lisible
       ou un CV plus original et attractif qui vous permettra d'exprimer
-      davantage votre créativité. Vous trouverez ci-dessous plusieurs sites de modèles
-      pour vous aider à concevoir votre CV.
+      davantage votre créativité. Vous trouverez ci-dessous plusieurs sites de
+      modèles pour vous aider à concevoir votre CV.
     </p>
     <p>
       <strong>
@@ -18,9 +18,11 @@
         href="https://www.emploitic.com/conseils/modeles-de-cv"
         alt="emploitic"
         target="_blank"
-        ><img class="Help_Builder" src="/picture_cv/CVTool1.jpg"/><b-icon
-          icon="box-arrow-right"
-        ></b-icon
+        draggable="false"
+        ><img
+          class="Help_Builder"
+          src="/picture_cv/CVTool1.jpg"
+          draggable="false"/><b-icon icon="box-arrow-right"></b-icon
       ></a>
     </p>
 
@@ -32,27 +34,37 @@
         href="https://www.creeruncv.com/exemple-de-cv/gratuit/"
         alt="creeruncv"
         target="_blank"
-        ><img class="Help_Builder" src="/picture_cv/CVTool2.jpg"/><b-icon
-          icon="box-arrow-right"
-        ></b-icon
+        draggable="false"
+        ><img
+          class="Help_Builder"
+          draggable="false"
+          src="/picture_cv/CVTool2.jpg"/><b-icon icon="box-arrow-right"></b-icon
       ></a>
       <a
         href="https://www.cvmaker.fr/exemples-de-cv"
         alt="cvmaker"
         target="_blank"
-        ><img class="Help_Builder" src="/picture_cv/CVTool3.jpg"/><b-icon
-          icon="box-arrow-right"
-        ></b-icon
+        draggable="false"
+        ><img
+          class="Help_Builder"
+          src="/picture_cv/CVTool3.jpg"
+          draggable="false"/><b-icon icon="box-arrow-right"></b-icon
       ></a>
       <a
         href="https://www.modeles-de-cv.com/"
         alt="modeles-de-cv"
         target="_blank"
-        ><img class="Help_Builder" src="/picture_cv/CVTool4.jpg"/><b-icon
-          icon="box-arrow-right"
-        ></b-icon
+        draggable="false"
+        ><img
+          class="Help_Builder"
+          src="/picture_cv/CVTool4.jpg"
+          draggable="false"/><b-icon icon="box-arrow-right"></b-icon
       ></a>
-      <a href="https://www.exempledecv.com/" alt="exempledecv" target="_blank"
+      <a
+        href="https://www.exempledecv.com/"
+        alt="exempledecv"
+        target="_blank"
+        draggable="false"
         ><img class="Help_Builder" src="/picture_cv/CVTool5.jpg"/><b-icon
           icon="box-arrow-right"
         ></b-icon

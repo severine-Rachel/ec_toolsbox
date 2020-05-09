@@ -4,6 +4,7 @@
       src="/picture_OWcom/Pro/Cover_Page1.png"
       class="interractive"
       alt="mauvaise page de garde"
+       draggable="false"
     />
     <b-button
       class="name-cov-page-1"
@@ -52,7 +53,7 @@
 .name-cov-page-1 {
   width: 150px;
   height: 50px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 550px;
   top: 145px;
@@ -62,7 +63,7 @@
 .title-cov-page-1 {
   width: 300px;
   height: 120px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 600px;
   top: 320px;
@@ -72,7 +73,7 @@
 .logo-cov-page-1 {
   width: 500px;
   height: 120px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 1000px;
   top: 670px;

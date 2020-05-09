@@ -12,6 +12,7 @@
       class="square"
       src="/picture_OWcom/schematic/schema_pro.jpg"
       alt="structuration-discours"
+      draggable="false"
     />
     <p>
       <i>Source</i>&nbsp;: Mireille Brahic, <i>Mieux rédiger vos écrits professionnels</i>,

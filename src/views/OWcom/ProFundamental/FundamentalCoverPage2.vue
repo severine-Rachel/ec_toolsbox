@@ -4,6 +4,7 @@
       src="/picture_OWcom/Pro/Cover_Page2.png"
       class="interractive"
       alt="bonne page de garde"
+       draggable="false"
     />
     <b-button class="graph-cov-page-2" id="popover-GraphCovPage2"> </b-button>
 
@@ -41,7 +42,7 @@
 .graph-cov-page-2 {
   width: 600px;
   height: 140px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 600px;
   top: 60px;
@@ -51,7 +52,7 @@
 .sub-title-cov-page-2 {
   width: 305px;
   height: 60px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 1050px;
   top: 350px;
@@ -61,7 +62,7 @@
 .ico-cov-page-2{
     width: 400px;
   height: 220px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: -300px;
   top: -473px;
@@ -71,7 +72,7 @@
 .logo-cov-page-2 {
   width: 150px;
   height: 120px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: -220px;
   top: -220px;

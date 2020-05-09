@@ -11,7 +11,7 @@
         20ᵉ siècle. Il a proposé l’une des  théories  les  plus  connues 
         avec  les  six  fonctions  de  la  communication&nbsp;:
     </p>
-<img class="horizontal" src="/picture_OWcom/schematic/schema_Jackobson.png" alt="Schéma de Jakbson">
+<img class="horizontal" draggable="false" src="/picture_OWcom/schematic/schema_Jackobson.png" alt="Schéma de Jakbson">
  <p>
    6 éléments nécessairement impliqués dans tout acte de communication. Ce sont, dans ses 
    termes, l’émetteur, le récepteur, le canal, le code, le contexte, le message.

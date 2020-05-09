@@ -17,6 +17,7 @@
   left:20%;
   z-index:11;
  cursor: pointer;
+ 
 }
 .element-galery{
    width: 10vw;
@@ -54,6 +55,7 @@
         />
         <img
         class="superposition"
+        draggable="false"
         v-on:click="toogle(imageElement)"
         src="../assets/snag.png">
       </div>

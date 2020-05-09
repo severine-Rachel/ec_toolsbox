@@ -4,6 +4,7 @@
       src="/picture_OWcom/Pro/Summary2.png"
       class="interractive"
       alt="mauvais sommaire"
+       draggable="false"
     />
     <b-button
       class="title-summary-2"
@@ -59,7 +60,7 @@
 .title-summary-2 {
   width: 100px;
   height: 30px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 530px;
   top: 115px;
@@ -69,7 +70,7 @@
 .intro-summary-2 {
   width: 125px;
   height: 30px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 630px;
   top: 150px;
@@ -79,7 +80,7 @@
 .plan-summary-2 {
   width: 100px;
   height: 30px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 725px;
   top: 340px;
@@ -89,7 +90,7 @@
 .part-summary-2 {
   width: 30px;
   height: 400px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 855px;
   top: 180px;
@@ -99,7 +100,7 @@
 .num-summary-2 {
   width: 30px;
   height: 500px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 430px;
   top: 120px;

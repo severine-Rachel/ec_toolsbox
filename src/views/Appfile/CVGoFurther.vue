@@ -26,7 +26,7 @@
       <b-row class="justify-content-md-center">
         <!--affichage des images stockées dans galleryCover-->
         <div v-for="cover in galeryCover" :key="cover">
-          <img class="imgCV" v-on:click="display(cover)" v-bind:src="cover" />
+          <img class="imgCV" v-on:click="display(cover)" v-bind:src="cover"  draggable="false"/>
         </div>
       </b-row>
       <!--affichage du carousel correspondant a l'image sélectionnée dans 'display()'-->
@@ -39,7 +39,7 @@
           <!--affichages des slides du carousel sélectionné-->
           <span v-for="slide in galeryCarousel[index]" :key="slide">
             <slide>
-              <img class="imgCV-slide" v-bind:src="slide" />
+              <img class="imgCV-slide" v-bind:src="slide"  draggable="false" />
             </slide>
           </span>
         </Carousel>

@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <h3>LES PARAMÈTRES DE LA PRISE DE PAROLE EN PUBLIC</h3>
-    <img class="square" src="/picture_OWcom/good-meeting.png">
+    <img class="square" src="/picture_OWcom/good-meeting.png" draggable="false">
 
     <Footer></Footer>
   </div>

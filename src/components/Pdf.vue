@@ -23,6 +23,7 @@
     <div v-for="pdfElement in galeryPdf" :key="pdfElement">
       <a
         class="fundamentals-pdf"
+        draggable="false"
         v-bind:href="pdfElement.pdfLink"
         v-bind:download="pdfElement.pdfDownload"
       >

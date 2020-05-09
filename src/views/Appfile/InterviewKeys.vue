@@ -37,6 +37,7 @@
       class="vertical"
       src="/picture_interview/step_Interview_Intro.png"
       id="center"
+       draggable="false"
     />
     <ul class="list-int">
       <li class="step-int">
@@ -46,6 +47,7 @@
           class="vertical img-int"
           src="/picture_interview/step_Interview_1.png"
           id="center"
+           draggable="false"
         />
       </li>
       <li class="step-int">
@@ -54,6 +56,7 @@
           class="vertical img-int"
           src="/picture_interview/step_Interview_2.png"
           id="center"
+           draggable="false"
         />
       </li>
       <li class="step-int">
@@ -62,6 +65,7 @@
           class="vertical img-int"
           src="/picture_interview/step_Interview_3.png"
           id="center"
+           draggable="false"
         />
       </li>
       <li class="step-int">
@@ -70,6 +74,7 @@
           class="vertical img-int"
           src="/picture_interview/step_Interview_4.png"
           id="center"
+           draggable="false"
         />
       </li>
       <li class="step-int">
@@ -78,6 +83,7 @@
           class="vertical img-int"
           src="/picture_interview/step_Interview_5.png"
           id="center"
+           draggable="false"
         />
       </li>
     </ul>
@@ -85,6 +91,7 @@
       class="vertical"
       src="/picture_interview/step_Interview_end.png"
       id="center"
+       draggable="false"
     />
 
    
@@ -127,8 +134,8 @@
       <strong>Comment réussir un entretien à distance </strong>
       <b-icon icon="box-arrow-right"></b-icon>
     </a>
-    <img src="/picture_interview/clothes_Interview_Women.png" class="horizontal" alt="Comment s'habiller en entretien femme">
-    <img src="/picture_interview/clothes_Interview_Men.png" class="horizontal" alt="Comment s'habiller en entretien homme">
+    <img src="/picture_interview/clothes_Interview_Women.png" class="horizontal" alt="Comment s'habiller en entretien femme"  draggable="false">
+    <img src="/picture_interview/clothes_Interview_Men.png" class="horizontal" alt="Comment s'habiller en entretien homme"  draggable="false">
   </div>
 </template>
 

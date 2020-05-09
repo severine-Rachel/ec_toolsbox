@@ -4,6 +4,7 @@
       src="/picture_OWcom/Pro/Letter.png"
       class="interractive"
       alt="Page_De_Garde1"
+       draggable="false"
     />
     <b-button class="date" variant="warning" id="popover-Date"></b-button>
     <b-popover target="popover-Date" triggers="hover" placement="left">
@@ -88,7 +89,7 @@
 .date {
   width: 20px;
   height: 50px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 205px;
   top: 70px;
@@ -98,7 +99,7 @@
 .adress-exp {
   width: 20px;
   height: 100px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 600px;
   top: 90px;
@@ -108,7 +109,7 @@
 .alinea {
   width: 20px;
   height: 50px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 595px;
   top: 330px;
@@ -118,7 +119,7 @@
 .adress-dest {
   width: 20px;
   height: 80px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 380px;
   top: 165px;
@@ -128,7 +129,7 @@
 .adress-dest-2 {
   width: 20px;
   height: 40px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 280px;
   top: 165px;
@@ -138,7 +139,7 @@
 .adress-dest-3 {
   width: 20px;
   height: 40px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 180px;
   top: 205px;
@@ -148,7 +149,7 @@
 .object {
   width: 20px;
   height: 40px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 730px;
   top: 265px;
@@ -158,7 +159,7 @@
 .fst-3 {
   width: 20px;
   height: 260px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 185px;
   top: 50px;
@@ -168,7 +169,7 @@
 .corps {
   width: 20px;
   height: 290px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 240px;
   top: 370px;
@@ -178,7 +179,7 @@
 .scd-3 {
   width: 20px;
   height: 260px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 235px;
   top: 310px;
@@ -188,7 +189,7 @@
 .form {
   width: 20px;
   height: 30px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 710px;
   top: 330px;
@@ -198,7 +199,7 @@
 .disp {
   width: 20px;
   height: 50px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 855px;
   top: 635px;
@@ -208,7 +209,7 @@
 .sign{
     width: 20px;
   height: 60px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 345px;
   top: 750px;
@@ -218,7 +219,7 @@
 .thr-3 {
   width: 20px;
   height: 260px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 335px;
   top: 570px;

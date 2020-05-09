@@ -6,10 +6,10 @@
     </h3>
     <b-row>
       <b-col col="6">
-        <img src="/picture_letter/Adequacy_Letter_Announce.png" class="vertical" id="VirginPage">
+        <img src="/picture_letter/Adequacy_Letter_Announce.png" class="vertical" id="VirginPage"  draggable="false">
       </b-col>
       <b-col col="6">
-        <img src="/picture_letter/Adequacy_Letter_Prepare.png" class="vertical" id="VirginPage">
+        <img src="/picture_letter/Adequacy_Letter_Prepare.png" class="vertical" id="VirginPage"  draggable="false">
       </b-col>
     </b-row>
   </div>

@@ -12,7 +12,7 @@
         <div class="mos_content" v-on:click="displayGalery(Galery)">
           <div class="img_align" v-for="carousel in Galery" :key="carousel">
             <span>
-              <img class="mosaique" v-bind:src="carousel[0]" />
+              <img class="mosaique" v-bind:src="carousel[0]" draggable="false" />
             </span>
           </div>
         </div>
@@ -29,7 +29,7 @@
             v-for="carousel in Galery" :key="carousel"
             v-on:click="displayCarousel(carousel)"
             >
-            <img class="imgCV" v-bind:src="carousel[0]" />
+            <img class="imgCV" v-bind:src="carousel[0]" draggable="false" />
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@
             >
             <span v-for="slide in carousel" :key="slide">
               <slide>
-                <img class="img_slide" v-bind:src="slide" />
+                <img class="img_slide" v-bind:src="slide" draggable="false" />
               </slide>
             </span>
           </Carousel>

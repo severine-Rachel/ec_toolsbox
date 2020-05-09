@@ -4,6 +4,7 @@
       src="/picture_OWcom/Pro/Summary1.png"
       class="interractive"
       alt="mauvais sommaire"
+       draggable="false"
     />
     <b-button
       class="sum-summary-1"
@@ -36,7 +37,7 @@
 .sum-summary-1 {
   width: 50px;
   height: 305px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 530px;
   top: 175px;
@@ -46,7 +47,7 @@
 .part-summary-1 {
   width: 250px;
   height: 160px;
-  opacity: 50%;
+  opacity: 90%;
   position: relative;
   right: 500px;
   top: 330px;

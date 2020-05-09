@@ -2,10 +2,11 @@
   <div>
     <img 
       id="Band" 
+      draggable="false"
       src="../../assets/basic-Graph/band.png" 
       alt="Expression Communciation Boîtes à outils ; les premiers entretiens de recrutement"/>
     <a href="#about" id="ArrowLink"
-      ><img id="Arrow" src="../../assets/arrow.png" alt="descendre"
+      ><img id="Arrow" src="../../assets/arrow.png" alt="descendre" draggable="false"
     /></a>
   </div>
 </template>

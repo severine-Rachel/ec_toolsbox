@@ -34,10 +34,10 @@
       <a
         href="http://platine.univ-lorraine.fr/index.php?id=64s"
         alt="vennage"
-        target="_blank"
+        target="_blank"  draggable="false"
         ><img
           class="Help_Builder"
-          src="/picture_letter/fundamentals-u-platine.jpg"
+          src="/picture_letter/fundamentals-u-platine.jpg" draggable="false"
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>

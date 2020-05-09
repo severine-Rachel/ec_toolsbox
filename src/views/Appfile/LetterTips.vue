@@ -9,6 +9,7 @@
       href="https://baborlelefan.com/2013/12/07/enquete-faut-tenter-des-candidatures-originales/"
       target="_blank"
       class="subtitle-link"
+     
     >
       <strong>Pour dédramatiser 
       <b-icon icon="box-arrow-right"></b-icon
@@ -22,19 +23,19 @@
       <a
         href="https://fr.venngage.com/templates/resumes/cover-letters"
         alt="vennage"
-        target="_blank"
+        target="_blank" draggable="false"
         ><img
-          class="Help_Builder"
-          src="/picture_letter/LetterTool1.jpg"
+          class="Help_Builder"  
+          src="/picture_letter/LetterTool1.jpg" draggable="false"
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
       <a
         href="https://fr.venngage.com/blog/modeles-lettres-de-motivation/"
         alt="vennage"
-        target="_blank"
+        target="_blank" draggable="false"
         ><img
-          class="Help_Builder"
-          src="/picture_letter/LetterTool2.jpg"
+          class="Help_Builder"  
+          src="/picture_letter/LetterTool2.jpg" draggable="false"
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>

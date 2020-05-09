@@ -40,7 +40,7 @@
     <p>
         La part des informations qui passent par des perceptions visuelles est estimée à 55 %&nbsp;! 
     </p>
-        <img class="square" src="/picture_OWcom/schematic/schema_Impression.jpg" alt="information_impression">
+        <img class="square" draggable="false" src="/picture_OWcom/schematic/schema_Impression.jpg" alt="information_impression">
     <p>
         En conclusion&nbsp;:  pour exercer l’art de la communication, il est primordial d’œuvrer par étape&nbsp;:
     </p>
@@ -58,7 +58,7 @@
             </li>
             </ul>
     </p>
-    <img class="vertical" src="/picture_OWcom/schematic/table_seror.jpg" alt="Tableau_Seror" />
+    <img class="vertical" draggable="false" src="/picture_OWcom/schematic/table_seror.jpg" alt="Tableau_Seror" />
   
   <p>
       D’après Georges Séror, <i>Communication</i>, Dunod, 2016

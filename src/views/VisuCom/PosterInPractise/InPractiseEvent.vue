@@ -39,6 +39,7 @@ export default class InPractiseEvent extends Vue {}
             img-src="/picture_Visu/Poster/Poster3.jpg"
             img-alt="Affiche Challenge Robotique"
             img-top
+            draggable="false"
           >
             <footer class="blockquote-footer">
               Challenge robotique
