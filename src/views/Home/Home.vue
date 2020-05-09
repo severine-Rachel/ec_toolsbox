@@ -6,7 +6,7 @@
     <h3 id="about">À propos</h3>
     <p>
       Ce site a été conçu comme une boîte à outils. Vous y trouverez de
-      nombreuses ressources en expression et communication : fiches-clés,
+      nombreuses ressources en expression et communication&nbsp;: fiches-clés,
       conseils et astuces, vidéos, exemples concrets, etc. qui doivent vous
       permettre de préparer un solide dossier de candidature, de concevoir des
       supports de communication pertinents, d’enrichir vos compétences
@@ -58,7 +58,7 @@ h3 {
 h4 {
   color: #c21b2c;
   font-family: Myriad;
-  margin: 10%;
+  margin: 0 10%;
   padding: 3vh 0 0 0;
 }
 h5 {
@@ -88,7 +88,7 @@ h7 {
 p {
   text-align: justify;
   color: #2e367f;
-  margin: 10%;
+  margin: 0 10%;
 }
 table {
   margin-left: auto; //auto need width to work

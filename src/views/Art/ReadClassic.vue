@@ -12,7 +12,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « La vie devant soi », Romain Gary
+              «&nbsp;La vie devant soi&nbsp;», Romain Gary
             </strong>
           </p>
           <p class="text-read">
@@ -20,7 +20,7 @@
             Aujourd’hui, elle gère une pension pour les enfants dont les mères
             ne peuvent pas s'occuper, comme Momo, un môme d’une dizaine d’années
             qui aime Madame Rosa plus que tout. C’est d’ailleurs lui le
-            narrateur cru et touchant de « La vie devant soi », une œuvre
+            narrateur cru et touchant de «&nbsp;La vie devant soi&nbsp;», une œuvre
             bouleversante et déstabilisante.
           </p>
         </b-col>
@@ -32,7 +32,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le Portrait de Dorian Gray », Oscar Wilde
+              «&nbsp;Le Portrait de Dorian Gray&nbsp;», Oscar Wilde
             </strong>
           </p>
           <p class="text-read">
@@ -40,8 +40,8 @@
             réalise miraculeusement chaque jour. Le jeune dandy profite de la
             chance qui lui est donnée pour jouir de tous les plaisirs de la vie,
             alors que seul son portrait semble porter les stigmates du temps qui
-            passe. « Les folies sont les seules choses qu’on ne regrette jamais
-            », écrit Oscar Wilde dans ce qui restera son seul roman, hymne à
+            passe. «&nbsp;Les folies sont les seules choses qu’on ne regrette jamais
+           &nbsp;», écrit Oscar Wilde dans ce qui restera son seul roman, hymne à
             l’hédonisme.
           </p>
         </b-col>
@@ -53,12 +53,12 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « 1984 », George Orwell
+              «&nbsp;1984&nbsp;», George Orwell
             </strong>
           </p>
           <p class="text-read">
-            Roman essentiel de science-fiction, « 1984 » touche à la
-            surveillance façon « Big Brother », mais aussi à la délation, à la
+            Roman essentiel de science-fiction, «&nbsp;1984&nbsp;» touche à la
+            surveillance façon «&nbsp;Big Brother&nbsp;», mais aussi à la délation, à la
             propagande et à l’étouffement de tout sens critique. En bref, tout
             ce qui est, encore aujourd'hui, utilisé pour la mise en place d’une
             pensée unique. Moderne et troublant.
@@ -73,15 +73,15 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le Père Goriot », Balzac
+              «&nbsp;Le Père Goriot&nbsp;», Balzac
             </strong>
           </p>
           <p class="text-read">
             La maison Vauquer est une pension parisienne où se côtoient des
             résidents que tout oppose, et pourtant inexorablement liés. Tous ont
-            leurs secrets et leurs faiblesses : Rastignac, obsédé par la haute
-            société, délaisse ses études pour tenter de s’y intégrer ; Vautrin
-            cache un passé douloureux ; le Père Goriot s’est ruiné pour ses
+            leurs secrets et leurs faiblesses&nbsp;: Rastignac, obsédé par la haute
+            société, délaisse ses études pour tenter de s’y intégrer&nbsp;; Vautrin
+            cache un passé douloureux&nbsp;; le Père Goriot s’est ruiné pour ses
             filles ingrates.
           </p>
           <p class="text-read">
@@ -99,7 +99,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Sur la route », Jack Kerouac
+              «&nbsp;Sur la route&nbsp;», Jack Kerouac
             </strong>
           </p>
           <p class="text-read">
@@ -116,14 +116,14 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le Joueur d’échecs », Stefan Zweig
+              «&nbsp;Le Joueur d’échecs&nbsp;», Stefan Zweig
             </strong>
           </p>
           <p class="text-read">
             Qui est cet inconnu capable d'en remontrer au grand Czentovic, le
             champion mondial des échecs, véritable prodige aussi fruste
-            qu'antipathique ? Peut-on croire, comme il l'affirme, qu'il n'a pas
-            joué depuis plus de vingt ans ? Voilà un mystère que les passagers
+            qu'antipathique&nbsp;? Peut-on croire, comme il l'affirme, qu'il n'a pas
+            joué depuis plus de vingt ans&nbsp;? Voilà un mystère que les passagers
             oisifs de ce paquebot de luxe essaient de percer…
           </p>
         </b-col>
@@ -136,7 +136,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Belle du Seigneur », Albert Cohen
+              «&nbsp;Belle du Seigneur&nbsp;», Albert Cohen
             </strong>
           </p>
           <p class="text-read">
@@ -155,16 +155,16 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « L’écume des jours », Boris Vian
+              «&nbsp;L’écume des jours&nbsp;», Boris Vian
             </strong>
           </p>
           <p class="text-read">
-            Deux histoires d’amour s’entremêlent : Colin est un jeune homme
+            Deux histoires d’amour s’entremêlent&nbsp;: Colin est un jeune homme
             élégant, rentier, qui met fin à son célibat en épousant Chloé,
             rencontrée à une fête, tandis que son ami Chick, fanatique transi du
             philosophe vedette Jean-Sol Partre, entretient une relation avec
             Alise. Tout irait pour le mieux sans les forces conjuguées de la
-            maladie (Chloé est victime d’un « nénuphar » qui lui dévore le
+            maladie (Chloé est victime d’un «&nbsp;nénuphar&nbsp;» qui lui dévore le
             poumon) et du consumérisme (Chick consume ses ressources dans sa
             passion pour Jean-Paul Sartre) qui s’acharnent sur les quatre amis.
           </p>
@@ -178,7 +178,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Gatsby le magnifique », Francis Scott Fitzgerald
+              «&nbsp;Gatsby le magnifique&nbsp;», Francis Scott Fitzgerald
             </strong>
           </p>
           <p class="text-read">
@@ -186,9 +186,9 @@
             d'argent, un mystérieux personnage s'installe à Long Island dans un
             domaine incroyable d'extravagance. Qui est ce charmant et légendaire
             Gatsby, incarnation du pouvoir et de la réussite, dont les fêtes
-            attirent toute la société locale ? Les rumeurs les plus folles
-            circulent. Un espion ? Un gentleman anglais ? Un héros de guerre? Un
-            mythomane ? Une vérité plus profonde se cache derrière l'orgueil et
+            attirent toute la société locale&nbsp;? Les rumeurs les plus folles
+            circulent. Un espion&nbsp;? Un gentleman anglais&nbsp;? Un héros de guerre? Un
+            mythomane&nbsp;? Une vérité plus profonde se cache derrière l'orgueil et
             la magnificence de Gatsby, celle d'un ancien adolescent pauvre et
             d'un amant trahi qui ressemble beaucoup à Fitzgerald lui-même.
           </p>
@@ -202,7 +202,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Mrs Dalloway », Virginia Woolf
+              «&nbsp;Mrs Dalloway&nbsp;», Virginia Woolf
             </strong>
           </p>
           <p class="text-read">

@@ -24,6 +24,7 @@
 
     <b-row class="justify-content-md-left rowcomponents">
       <div v-for="imageElement in galeryPicture" :key="imageElement">
+        
         <img
           class="fundamentals"
           v-on:click="toogle(imageElement)"

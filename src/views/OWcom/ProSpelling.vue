@@ -8,7 +8,7 @@
   </p><p>
 Les erreurs d’orthographe, c’est-à-dire des erreurs lexicales ou d’usage (vert, vers, verre) ou grammaticales (accords, conjugaisons, homophones grammaticaux), parfois combinées à des fautes mécaniques (omission ou inversion de lettres) décrédibilisent celui qui les commet.
 </p><p>
-« Nous sommes bouchers de père en fils » et « Nous sommes bouchés de père en fils » sont loin d’avoir la même signification… À quelques lettres d’écart près, le message sera bien différent. Certes, le contexte peut aider le lecteur à comprendre ce qu’a voulu dire l’auteur d’un texte cependant, le scripteur doit veiller à respecter les règles linguistiques en vigueur pour se faire bien comprendre et rendre plus fluide la communication avec son interlocuteur. Un bon écrit est celui qui est immédiatement compréhensible et lisible par son destinataire mais également celui qui donne une image de sérieux et de rigueur. 
+«&nbsp;Nous sommes bouchers de père en fils&nbsp;» et «&nbsp;Nous sommes bouchés de père en fils&nbsp;» sont loin d’avoir la même signification… À quelques lettres d’écart près, le message sera bien différent. Certes, le contexte peut aider le lecteur à comprendre ce qu’a voulu dire l’auteur d’un texte cependant, le scripteur doit veiller à respecter les règles linguistiques en vigueur pour se faire bien comprendre et rendre plus fluide la communication avec son interlocuteur. Un bon écrit est celui qui est immédiatement compréhensible et lisible par son destinataire mais également celui qui donne une image de sérieux et de rigueur. 
 
 
     </p>

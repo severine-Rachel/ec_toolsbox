@@ -42,14 +42,14 @@
       L'écriture de documents à télécharger
     </h5>
     <Pdf v-bind:galery-pdf="pdfStratShort"></Pdf>
-    <p><i>source:</i> CCDMD</p>
+    <p><i>source&nbsp;:</i> CCDMD</p>
     <Pdf v-bind:galery-pdf="pdfStratSynthesis"></Pdf>
 
       <a
       class="subtitle-link"
         href="http://hg.moitel.free.fr/lycee_hotellerie/ANNEXES-et-METHODO/methodo_simplifiee-rdiee-une-SYNTHESE.pdf"
         target="_blank"
-        ><i>source:</i> http://hg.moitel.free.fr/
+        ><i>source&nbsp;:</i> http://hg.moitel.free.fr/
         <b-icon icon="box-arrow-right"></b-icon
       ></a>
     <p></p>
@@ -72,7 +72,7 @@
       L'écriture de documents à télécharger
     </h5>
     <Pdf v-bind:galery-pdf="pdfInternshipTech"></Pdf>
-    <p><i>source:</i> CCDMD</p>
+    <p><i>source&nbsp;:</i> CCDMD</p>
     <h5 class="subtitle-h5">
       Les conseils de rédaction d'un mémoire
     </h5>
@@ -167,12 +167,12 @@ export default class ProStrategy extends Vue {
     {
       videoSrc: "https://www.youtube.com/embed/huU8hja6TXU",
       videoTitle: "La copie de concours (1re partie)",
-      videoRoot: "Chaîne : E-Learning Physique",
+      videoRoot: "Chaîne&nbsp;: E-Learning Physique",
     },
     {
       videoSrc: "https://www.youtube.com/embed/LMWJB8pvXks",
       videoTitle: "La copie de concours ? (2e partie - MP/PC/PSI)",
-      videoRoot: "Chaîne : E-Learning Physique",
+      videoRoot: "Chaîne&nbsp;: E-Learning Physique",
     },
   ];
   public videoStratmemory = [
@@ -180,17 +180,17 @@ export default class ProStrategy extends Vue {
     {
       videoSrc: "https://www.youtube.com/embed/rgb_BzrvW2g",
       videoTitle: "Rédiger un mémoire – méthodologie",
-      videoRoot: "Chaîne : digiSchool",
+      videoRoot: "Chaîne&nbsp;: digiSchool",
     },
     {
       videoSrc: "https://www.youtube.com/embed/V4KN8c2GMIM",
       videoTitle: "Comment rédiger un mémoire ?",
-      videoRoot: "Chaîne :  Scribbr - Relecture & Correction",
+      videoRoot: "Chaîne&nbsp;:  Scribbr - Relecture & Correction",
     },
     {
       videoSrc: "https://www.youtube.com/embed/R4fHq8LcDRM",
       videoTitle: "10 astuces pour bien rédiger votre mémoire",
-      videoRoot: "Chaîne : SYMPA",
+      videoRoot: "Chaîne&nbsp;: SYMPA",
     },
    
   ];
@@ -198,13 +198,13 @@ export default class ProStrategy extends Vue {
     {
       videoSrc: "https://www.youtube.com/embed/wu4TXt31Dcc",
       videoTitle: "Comment réussir son rapport de stage en 5 points clés",
-      videoRoot: "Chaîne : digiSchool",
+      videoRoot: "Chaîne&nbsp;: digiSchool",
     },
     
     {
       videoSrc: "https://www.youtube.com/embed/EO4HtMI02H8",
       videoTitle: "Comment rédiger pour le Web ?",
-      videoRoot: "Chaîne : Lucie Rondelet",
+      videoRoot: "Chaîne&nbsp;: Lucie Rondelet",
     },
   ];
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 id="keysInterview">
-      LES FONDAMENTAUX : FICHES-CLEFS
+      LES FONDAMENTAUX&nbsp;: FICHES-CLEFS
     </h3>
     <p>
       Vous trouverez par ces fiches, le moyen de vous préparer aux questions

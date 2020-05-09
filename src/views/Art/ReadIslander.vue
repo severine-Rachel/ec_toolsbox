@@ -11,7 +11,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Chasseur de noirs », Daniel Vaxelaire
+              «&nbsp;Chasseur de noirs&nbsp;», Daniel Vaxelaire
             </strong>
           </p>
           <p class="text-read">
@@ -37,7 +37,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Saisons sauvages », Kettly Mars
+              «&nbsp;Saisons sauvages&nbsp;», Kettly Mars
             </strong>
           </p>
           <p class="text-read">
@@ -64,7 +64,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « L’aimé », Axel Gauvin
+              «&nbsp;L’aimé&nbsp;», Axel Gauvin
             </strong>
           </p>
           <p class="text-read">
@@ -88,7 +88,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Rosalie l’infâme », Évelyne Trouillot
+              «&nbsp;Rosalie l’infâme&nbsp;», Évelyne Trouillot
             </strong>
           </p>
           <p class="text-read">
@@ -111,7 +111,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Rapatriés », Néhémy Pierre-Dahomey
+              «&nbsp;Rapatriés&nbsp;», Néhémy Pierre-Dahomey
             </strong>
           </p>
           <p class="text-read">
@@ -134,7 +134,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « La couleur de l’aube », Yanick Lahens
+              «&nbsp;La couleur de l’aube&nbsp;», Yanick Lahens
             </strong>
           </p>
           <p class="text-read">
@@ -154,7 +154,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « L’énigme du retour », Dany Laferrière
+              «&nbsp;L’énigme du retour&nbsp;», Dany Laferrière
             </strong>
           </p>
           <p class="text-read">
@@ -177,7 +177,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Pays sans chapeau », Dany Laferrière
+              «&nbsp;Pays sans chapeau&nbsp;», Dany Laferrière
             </strong>
           </p>
           <p class="text-read">
@@ -201,7 +201,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Bicentenaire », Lyonel Trouillot
+              «&nbsp;Bicentenaire&nbsp;», Lyonel Trouillot
             </strong>
           </p>
           <p class="text-read">
@@ -227,7 +227,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Mille eaux », Émile Ollivier
+              «&nbsp;Mille eaux&nbsp;», Émile Ollivier
             </strong>
           </p>
           <p class="text-read">
@@ -244,7 +244,7 @@
         <b-col col md="6"> 
           <p class="text-read">
             <strong>
-              « Les cloches de La Brésilienne », Gary Victor
+              «&nbsp;Les cloches de La Brésilienne&nbsp;», Gary Victor
             </strong>
           </p>
           <p class="text-read">
@@ -268,7 +268,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Gouverneurs de la Rosée », Jacques Roumain
+              «&nbsp;Gouverneurs de la Rosée&nbsp;», Jacques Roumain
             </strong>
           </p>
           <p class="text-read">
@@ -290,14 +290,14 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Compère Général Soleil », Jacques Stephen Alexis
+              «&nbsp;Compère Général Soleil&nbsp;», Jacques Stephen Alexis
             </strong>
           </p>
           <p class="text-read">
             C'est à Paris, où il réside de 1946 à 1954 que Jacques Stéphen
             Alexis écrit ce premier roman qui apparaît comme le prolongement
-            mais aussi la clôture de l'espoir entrouvert par « Gouverneur de la
-            Rosée » de Jacques Roumain. S'appuyant sur un événement historique
+            mais aussi la clôture de l'espoir entrouvert par «&nbsp;Gouverneur de la
+            Rosée&nbsp;» de Jacques Roumain. S'appuyant sur un événement historique
             épouvantable – le massacre des travailleurs haïtiens de la canne, en
             1937, en République Dominicaine –, il raconte comment cet événement
             s'inscrit dans la logique des dictatures fascistes, et plus

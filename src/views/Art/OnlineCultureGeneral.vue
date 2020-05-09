@@ -15,7 +15,7 @@
       </strong>
     
     <p>
-      Applications pour écouter vos podcasts : Podcast Addict, Podcloud ou voir
+      Applications pour écouter vos podcasts&nbsp;: Podcast Addict, Podcloud ou voir
       https://www.eeko-podcast.fr/
     </p>
     
@@ -45,7 +45,7 @@
       </strong>
   
     <p>
-      Le podcast de culture générale incontournable : clarté, concision,
+      Le podcast de culture générale incontournable&nbsp;: clarté, concision,
       stimulation intellectuelle. Des réponses pertinentes et dynamiques à des
       questions relatives à de nombreux sujets en 2 minutes.
     </p>
@@ -57,7 +57,7 @@
       </strong>
   
     <p>
-      Podcasts sur des thèmes variés : Histoire, Philosophie, Littérature, Arts…
+      Podcasts sur des thèmes variés&nbsp;: Histoire, Philosophie, Littérature, Arts…
       Ces podcasts vous permettent d’apprendre facilement sans avoir besoin
       d’avoir déjà étudié le sujet. En 5 minutes, vous découvrez l’essentiel
       d’un sujet.
@@ -93,7 +93,7 @@
     <p>
       Le projet XXL de Google chapeaute à peu près tout ce qu'il est possible de
       découvrir à distance. Visitez des dizaines de musées, admirez des œuvres
-      d'art en ultra-haute définition… Bref : voyagez à travers l'art et la
+      d'art en ultra-haute définition… Bref&nbsp;: voyagez à travers l'art et la
       science...
     </p>
     

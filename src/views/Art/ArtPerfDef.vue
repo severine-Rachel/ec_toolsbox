@@ -2,20 +2,20 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h3>QU'EST-CE QUE LA PERFORMANCE ARTISTIQUE ?</h3>
+    <h3>QU'EST-CE QUE LA PERFORMANCE ARTISTIQUE&nbsp;?</h3>
     <p>
       <strong>
         L’art-performance – ou performance artistique – tire son nom de
-        l’anglais « to perform » qui désigne une manière particulière de se
+        l’anglais «&nbsp;to perform&nbsp;» qui désigne une manière particulière de se
         mettre en scène. Art protéiforme et pluriel, il a longtemps résisté à
         toute tentative de modélisation. L’art-performance se pratique depuis le
         début du XXe siècle et certains anthropologues font remonter son origine
         à une période bien plus ancienne puisqu’ils défendent l’idée selon
         laquelle toute manifestation rituelle relèverait de la performance.
         Pourtant, ce n’est qu’en 2010 que sa définition a été actée par le
-        Journal Officiel de la République française en tant qu’ « événement
+        Journal Officiel de la République française en tant qu’ «&nbsp;événement
         artistique qui recourt à différents modes d’expression dont l’exécution
-        constitue l’œuvre elle-même » (voir Jean-Marie Pradier. « La performance
+        constitue l’œuvre elle-même&nbsp;» (voir Jean-Marie Pradier. « La performance
         ou la renaissance de l’action », 2013). La performance artistique
         englobe un large éventail de disciplines et de techniques – littérature,
         poésie, théâtre, musique, danse, architecture, peinture, vidéo, cinéma,

@@ -1,15 +1,15 @@
 <template>
   <div>
       <h4>LA CO-CONSTRUCTION DU SENS ET LES PROCESSUS INTERPRÉTATIFS</h4>
-      <p>La communication: un processus d’adaptation permanent</p>
-      <p>Les individus produisent :</p>
+      <p>La communication&nbsp;: un processus d’adaptation permanent</p>
+      <p>Les individus produisent&nbsp;:</p>
       <p>
           <ul>
               <li>
-                  du sens ;
+                  du sens&nbsp;;
                   </li>
                 <li>
-                    co-construisent du sens ;
+                    co-construisent du sens&nbsp;;
                 </li>
                 <li>
                     partagent des significations.
@@ -17,14 +17,14 @@
               </ul>
       </p>
       <p>Et doivent mettre en place des réajustements permanents, 
-          à partir :</p>
+          à partir&nbsp;:</p>
       <p>
           <ul>
               <li>
-                  de reformulations ;
+                  de reformulations&nbsp;;
                   </li>
                 <li>
-                   de questionnements ;
+                   de questionnements&nbsp;;
                 </li>
                 <li>
                     d'objections.
@@ -32,8 +32,8 @@
               </ul>
       </p>
       <p>
-          L’acte de parole: « N’arrive pas trop tard, s’il te plaît ! » 
-          suppose une conception commune du mot « tard ».
+          L’acte de parole: «&nbsp;N’arrive pas trop tard, s’il te plaît&nbsp;!&nbsp;» 
+          suppose une conception commune du mot «&nbsp;tard&nbsp;».
       </p>
       <div id="quote">
       <p class="quote"> Entre

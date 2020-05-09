@@ -11,7 +11,7 @@
     </p>
     <p>
       Vous pourrez accéder à certains de ces livres numérisés (et à plein
-      d’autres) gratuitement grâce aux sites suivants :
+      d’autres) gratuitement grâce aux sites suivants&nbsp;:
     </p>
     <p>
     <ul>

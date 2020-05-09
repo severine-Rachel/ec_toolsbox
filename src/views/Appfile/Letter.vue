@@ -5,10 +5,10 @@
 <h2 class="rubric-title">LETTRE DE MOTIVATION</h2>
     <p>
       <strong>
-        Comment écrire une bonne lettre de motivation ? Comment analyser une
+        Comment écrire une bonne lettre de motivation&nbsp;? Comment analyser une
         offre d’emploi pour faire correspondre vos atouts avec les nécessités du
-        poste ? Quel aspect visuel donner à votre lettre pour la rendre plus
-        attractive ? Découvrez ici les fiches-clés, conseils et astuces pour
+        poste&nbsp;? Quel aspect visuel donner à votre lettre pour la rendre plus
+        attractive&nbsp;? Découvrez ici les fiches-clés, conseils et astuces pour
         vous démarquer.
       </strong>
     </p>

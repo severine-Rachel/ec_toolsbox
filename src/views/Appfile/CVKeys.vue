@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 id="keysCV">
-      LES FONDAMENTAUX : FICHES-CLÉS
+      LES FONDAMENTAUX&nbsp;: FICHES-CLÉS
     </h3>
     <p>
      Trois fiches, à consulter ou à télécharger, 

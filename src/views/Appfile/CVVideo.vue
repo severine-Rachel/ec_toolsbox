@@ -33,7 +33,7 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid">Chaîne : Fyte4U</p>
+    <p class="text-vid">Chaîne&nbsp;: Fyte4U</p>
     <p>
       <strong>
         Exemples de CV vidéo

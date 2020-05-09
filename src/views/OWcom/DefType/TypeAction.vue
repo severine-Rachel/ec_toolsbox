@@ -3,10 +3,10 @@
     <h4>LES ACTES DE COMMUNICATION</h4>
     <p>
         La   communication   peut   aussi  se  définir   par   
-        les   actions   produites  par   un   individu   ou   une organisation :
+        les   actions   produites  par   un   individu   ou   une organisation &nbsp;:
         <ol>
             <li class="first-list">
-                <u>Communication verbale  et  non  verbale </u>:  (gestes,  mimiques,  voix) :  exposé,  soutenance, 
+                <u>Communication verbale  et  non  verbale </u>:  (gestes,  mimiques,  voix) &nbsp;:  exposé,  soutenance, 
                 entretien, conférence...
             </li>
             <li class="first-list">

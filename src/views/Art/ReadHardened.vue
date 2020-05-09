@@ -11,7 +11,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Les Bienveillantes », Jonathan Littell
+              «&nbsp;Les Bienveillantes&nbsp;», Jonathan Littell
             </strong>
           </p>
           <p class="text-read">
@@ -29,7 +29,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Voyage au bout de la nuit », Céline
+              «&nbsp;Voyage au bout de la nuit&nbsp;», Céline
             </strong>
           </p>
           <p class="text-read">
@@ -55,7 +55,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Homme invisible, pour qui chantes-tu ? », Ralph Ellison
+              «&nbsp;Homme invisible, pour qui chantes-tu ?&nbsp;», Ralph Ellison
             </strong>
           </p>
           <p class="text-read">
@@ -79,7 +79,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le tambour », Gϋnter Grass
+              «&nbsp;Le tambour&nbsp;», Gϋnter Grass
             </strong>
           </p>
           <p class="text-read">

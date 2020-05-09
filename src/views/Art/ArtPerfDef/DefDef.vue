@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h4>I. DÉFINITION</h4>
+    <h4>I.&nbsp;DÉFINITION</h4>
     <p>
       Tradition artistique interdisciplinaire qui trouve son origine dans des
       pratiques artistiques d'avant-garde de la première moitié du XXe siècle
       comme le futurisme, le Dada, le surréalisme, le Bahaus…
     </p>
     <p>
-        L’œuvre peut :
+        L’œuvre peut&nbsp;:
         <ul>
             <li class="first-list">
                 être présentée en solo ou en groupe, 
@@ -22,7 +22,7 @@
                 ou d’éléments visuels réalisés par l’artiste, seul ou en collaboration, 
             </li>
             <li>
-                produite dans des lieux les plus divers, des galeries d’art aux musées et aux espaces « alternatifs ». 
+                produite dans des lieux les plus divers, des galeries d’art aux musées et aux espaces «&nbsp;alternatifs&nbsp;». 
             </li>
 
         </ul>
@@ -33,12 +33,12 @@
             class="subtitle-link"
             href="http://www.lafabriqueculturelle.tv/capsules/5932/la-perf-en-538" 
             target="_blank"
-        >La Fabrique culturelle : qu’est-ce qu’une performance ? <b-icon icon="box-arrow-right"></b-icon>
+        >La Fabrique culturelle&nbsp;: qu’est-ce qu’une performance&nbsp;? <b-icon icon="box-arrow-right"></b-icon>
         </a>
    
 	
     <p>
-        Certains historiens de l'art situent l'origine de l'art performance dans la pratique des rituels ou rites de passage observés depuis l'origine de l'Homme. Selon Richard Martel, auteur du livre Art-action (Les Presses du réel, 2005), l'art performance constitue peut-être la forme artistique la plus ancienne de l'humanité. Les matériaux de base d'une « performance » sont :
+        Certains historiens de l'art situent l'origine de l'art performance dans la pratique des rituels ou rites de passage observés depuis l'origine de l'Homme. Selon Richard Martel, auteur du livre Art-action (Les Presses du réel, 2005), l'art performance constitue peut-être la forme artistique la plus ancienne de l'humanité. Les matériaux de base d'une «&nbsp;performance&nbsp;» sont&nbsp;:
         <ul>
             <li class="first-list">
                 le corps, 
@@ -55,7 +55,7 @@
         </ul>
     </p>
      <p>
-        Il est difficile de définir précisément la pratique constamment changeante de l'art performance. C’est un art :
+        Il est difficile de définir précisément la pratique constamment changeante de l'art performance. C’est un art&nbsp;:
         <ul>
             <li class="first-list">
                 vivant,
@@ -77,7 +77,7 @@
             </li>
 
         </ul>
-        À cause de leurs caractères souvent « monstratifs », faisant appel à une certaine forme de représentation, certaines performances empruntent parfois des éléments au langage théâtral. Mais, contrairement au théâtre où le temps est construit de manière purement fictionnelle, le temps et l'espace in situ constituent souvent les éléments essentiels de la pratique de l'art performance.
+        À cause de leurs caractères souvent «&nbsp;monstratifs&nbsp;», faisant appel à une certaine forme de représentation, certaines performances empruntent parfois des éléments au langage théâtral. Mais, contrairement au théâtre où le temps est construit de manière purement fictionnelle, le temps et l'espace in situ constituent souvent les éléments essentiels de la pratique de l'art performance.
     </p>
     <p>
         Dans la performance artistique, on valorise l’authenticité du geste de la performance contre l’artificialité et le simulacre de la théâtralité.

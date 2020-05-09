@@ -11,7 +11,7 @@
       cadre académique (dissertations, essais, rapports, etc.) ou dans un cadre
       professionnel (compte rendu, dossier technique, lettre de motivation,
       etc.), l’écrit fait partie intégrante de notre environnement quotidien.
-      Pascal disait « Savoir bien écrire, c’est savoir bien penser » et, encore
+      Pascal disait «&nbsp;Savoir bien écrire, c’est savoir bien penser&nbsp;» et, encore
       aujourd’hui, savoir bien rédiger est perçu comme une aptitude essentielle,
       notamment dans le milieu professionnel. Bien rédiger, c’est prendre en
       compte son destinataire (réfléchir à ses attentes, à ses besoins, lui

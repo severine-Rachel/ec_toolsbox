@@ -16,7 +16,7 @@
       </strong>
     
     <p>
-      Documentaire sur l’histoire du cinéma : le documentaire de Stan Neuman
+      Documentaire sur l’histoire du cinéma&nbsp;: le documentaire de Stan Neuman
       offre une formidable plongée dans l’histoire du 7e art, à travers celle
       des caméras et des projecteurs.
     </p>
@@ -44,7 +44,7 @@
   
     <p>
       Près de 6000 films tombés dans le domaine public sont en téléchargement
-      sur internet. Des vrais bons classiques ! Archive.org c’est aussi la
+      sur internet. Des vrais bons classiques &nbsp;! Archive.org c’est aussi la
       mémoire du web et la mémoire du cinéma en une seule bibliothèque
       virtuelle. En plus des long-métrages, vous pourrez trouver plus de 500 000
       vidéos, 1 000 000 d’enregistrements audio, dont 92 000 de concerts, 3 000
@@ -91,10 +91,10 @@
     </p>
     <p>
      <ul>
-        <li>Stop motion studio : une application pour réaliser très simplement un film en stop motion.  </li>
-        <li> Flipaclip : application pour créer des dessins animés.</li>
-        <li>Meme generator : de quoi vous amuser à créer vos propres meme pour communiquer avec vos proches  </li>
-        <li> Applications de montage gratuites pour Android, Iphone et Ipad : Magisto, PowerDirector, Première Rush,LumaFusion, Kinemaster….  </li> 
+        <li>Stop motion studio&nbsp;: une application pour réaliser très simplement un film en stop motion.  </li>
+        <li> Flipaclip&nbsp;: application pour créer des dessins animés.</li>
+        <li>Meme generator&nbsp;: de quoi vous amuser à créer vos propres meme pour communiquer avec vos proches  </li>
+        <li> Applications de montage gratuites pour Android, Iphone et Ipad&nbsp;: Magisto, PowerDirector, Première Rush,LumaFusion, Kinemaster….  </li> 
       </ul>
     </p>
     <Footer></Footer>

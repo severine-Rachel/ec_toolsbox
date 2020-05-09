@@ -7,7 +7,7 @@
     <p>
       Il existe
       <strong>trois sortes de prise de parole en public</strong> définis à
-      partir de deux critères qui sont :
+      partir de deux critères qui sont&nbsp;:
     </p>
     <p>
     <ul>
@@ -18,10 +18,10 @@
         
     </ul>
     </p>
-    <h4>I - La prise de parole en solo :</h4>
+    <h4>I - La prise de parole en solo&nbsp;:</h4>
     
     <p>
-      Vous êtes seul à parler devant un auditoire :
+      Vous êtes seul à parler devant un auditoire&nbsp;:
     </p>
     <p>
     <ul>
@@ -38,13 +38,13 @@
       vous fait confiance.
     </p>
     
-    <h4>II - L’intervention dans un groupe :</h4>
+    <h4>II - L’intervention dans un groupe&nbsp;:</h4>
       
     
     <p>
       C’est à <i>priori</i> une prise de parole libre. Vous êtes théoriquement
       sur un « pied d’égalité » avec les autres participants qui sont également
-      invités à s’exprimer :
+      invités à s’exprimer&nbsp;:
     </p>
     <p>
     <ul>
@@ -58,10 +58,10 @@
         </li>
         </ul>
         </p>
-        <h4>III - L’entretien face à face :</h4>
+        <h4>III - L’entretien face à face&nbsp;:</h4>
     
     
-    <p>Vous ne vous adressez qu’à une seule personne, présente face à vous :</p>
+    <p>Vous ne vous adressez qu’à une seule personne, présente face à vous&nbsp;:</p>
     <p>
     <ul>
       <li>
@@ -76,7 +76,7 @@
       général, dans ce cas, la prise de parole est plus improvisée. Elle peut
       avoir été préparée en amont mais elle va se faire sans notes.
     </p>
-    <p><strong> Ce qu’il est important d’avoir à l’esprit :</strong></p>
+    <p><strong> Ce qu’il est important d’avoir à l’esprit&nbsp;:</strong></p>
     <p>
     <ul>
       <li>
@@ -116,7 +116,7 @@
       class="vertical"
     />
 
-    <p><i>Source : </i>Gautier Antoine, <i>J’ose parler en public</i>, Paris, Dunod, 2019</p>
+    <p><i>Source&nbsp;: </i>Gautier Antoine, <i>J’ose parler en public</i>, Paris, Dunod, 2019</p>
 
     <Footer></Footer>
   </div>

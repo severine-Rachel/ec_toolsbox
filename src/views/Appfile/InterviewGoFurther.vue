@@ -16,7 +16,7 @@
     <b-col cols="8">
         <p>
         Cet ouvrage s’adresse à tous ceux qui doivent se présenter à des entretiens 
-        de recrutement pour la première fois : jeunes diplômés qui entrent sur le marché 
+        de recrutement pour la première fois&nbsp;: jeunes diplômés qui entrent sur le marché 
         de l’emploi, étudiants qui postulent à un stage, à une poursuite d’études ou encore 
         lycéens face à une épreuve orale de concours. Vous y trouverez des exercices pratiques, 
         des conseils méthodologiques, des outils concrets, des astuces et des témoignages de professionnels.

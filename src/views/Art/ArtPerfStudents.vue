@@ -15,7 +15,7 @@
     </p>
     <p>
       Par leur engagement sur scène, les étudiants défendent leur point de vue
-      sur des thèmes riches et variés qui leur tiennent à cœur :
+      sur des thèmes riches et variés qui leur tiennent à cœur&nbsp;:
       surconsommation, sens de la vie, addiction aux réseaux sociaux, souffrance
       animale ou encore harcèlement scolaire… Une grande fête de la créativité,
       une ouverture sur le monde mais aussi et surtout un beau moment de
@@ -38,20 +38,20 @@
     <p class="text-vid">Chaîne : Perf'Art GEII Angers</p>
 
     <h4>
-      La note d’intention : un outil pour créer sa performance
+      La note d’intention&nbsp;: un outil pour créer sa performance
     </h4>
     <a
       class="subtitle-link"
       href="/pdf_perf/IntentPerf.pdf"
       download="NoteIntentionPerfArt"
     >
-      La note d’intention : Perf’Art <b-icon icon="upload"></b-icon>
+      La note d’intention&nbsp; Perf’Art <b-icon icon="upload"></b-icon>
     </a>
     <h4>
       Exemple de performance
     </h4>
     <p>
-      <strong> « W@tched »</strong>. Souriez... Vous êtes filmés. Ou comment
+      <strong> «&nbsp;W@tched&nbsp;»</strong>. Souriez... Vous êtes filmés. Ou comment
       dénoncer la surveillance de masse ? Performance réalisée par des étudiants
       en IUT GEII (Arthur, Léo et Mathias) dans la ville d'Angers puis sur scène
       avec une douzaine de performeurs...
@@ -68,7 +68,7 @@
     </b-row>
     <p class="text-vid"> Contenu soumis à des droits d'auteurs</p>
     <h4>
-      Autres exemples de performances …
+      Autres exemples de performances…
     </h4>
     <Video v-bind:galery-video="videoPerf"></Video>
     <Footer></Footer>

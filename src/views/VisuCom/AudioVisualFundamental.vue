@@ -8,11 +8,11 @@
     </h4>
     <p>
       Le message publicitaire relève de la communication commerciale ou
-      institutionnelle. Son objectif : promouvoir, faire adhérer, créer
+      institutionnelle. Son objectif&nbsp;: promouvoir, faire adhérer, créer
       l’émotion ou encore démontrer une expertise, des connaissances.
       Aujourd’hui, nous sommes submergés par les annonces publicitaires. Comment
-      se démarquer ? Quelle méthode adopter pour réaliser un spot publicitaire
-      ou un film institutionnel pertinents ?
+      se démarquer&nbsp;? Quelle méthode adopter pour réaliser un spot publicitaire
+      ou un film institutionnel pertinents&nbsp;?
     </p>
     <a
       class="subtitle-link"
@@ -29,8 +29,8 @@
       Le reportage est un moyen de transmission d'informations très rigoureux,
       qui nécessite la synthèse d'informations diverses, qui doivent ensuite
       faire l'objet d'un traitement linguistique et audiovisuel. Comment
-      préparer et filmer un entretien ? Quels sont les différents types
-      d’entretien ? Quelles prises de vues privilégier ?
+      préparer et filmer un entretien&nbsp;? Quels sont les différents types
+      d’entretien&nbsp;? Quelles prises de vues privilégier&nbsp;?
     </p>
     <a
       href="https://movilab.org/index.php?title=Cr%C3%A9er_un_reportage_audiovisuel"
@@ -54,8 +54,8 @@
     <p>
       La capsule vidéo est une séquence, généralement courte et scénarisée, qui
       permet de traiter de manière condensée, d’un sujet ou d’un thème donné.
-      Quelles sont les règles d’un tel exercice ? Quels sont les différents
-      types de capsules vidéo ? Quels outils choisir ?
+      Quelles sont les règles d’un tel exercice&nbsp;? Quels sont les différents
+      types de capsules vidéo&nbsp;? Quels outils choisir&nbsp;?
     </p>
     <a
       class="subtitle-link"
@@ -67,12 +67,12 @@
     </a>
     <p></p>
     <p>
-      Pourquoi créer des capsules pédagogiques ? En dehors des enseignements,
+      Pourquoi créer des capsules pédagogiques&nbsp;? En dehors des enseignements,
       ces capsules pédagogiques peuvent servir à expliquer à un utilisateur
       comment fonctionne un produit, à exposer des services à des clients ou
       encore à transmettre des connaissances qui dépassent largement le cadre
       scolaire à un public… À quelles exigences doivent répondre les capsules
-      pédagogiques ? Quels outils choisir ?
+      pédagogiques&nbsp;? Quels outils choisir&nbsp;?
     </p>
     <a class="subtitle-link" href="/pdf_AV/Capsule.pdf" download="CapsuleVideo">
       <strong>Capsule vidéo pédagogique
@@ -110,9 +110,9 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid">Chaîne : Pros et Heros</p>
+    <p class="text-vid">Chaîne&nbsp;: Pros et Heros</p>
     <h4>
-      Comment composer son story-board ?
+      Comment composer son story-board&nbsp;?
     </h4>
     <p>
       <strong
@@ -124,7 +124,7 @@
         <a
           href="https://www.calameo.com/books/0053223625f0f98f0cbd8"
           target="_blank"
-          >Chapitre 3 : Les caractéristiques fondamentales du plan</a
+          >Chapitre 3&nbsp;: Les caractéristiques fondamentales du plan</a
         >
       </div>
       <iframe
@@ -160,13 +160,13 @@ export default class AudioVisualFundamental extends Vue {
   public videoVideo = [
     {
       videoSrc: "https://www.youtube.com/embed/PUPuemxfm2c",
-      videoTitle: "Comment faire une capsule vidéo ?",
-      videoRoot: "Chaîne : La classe de JJonet",
+      videoTitle: "Comment faire une capsule vidéo&nbsp;?",
+      videoRoot: "Chaîne&nbsp;: La classe de JJonet",
     },
     {
       videoSrc: "https://www.youtube.com/embed/YRQb8cHhwj0",
       videoTitle: "La capsule animée",
-      videoRoot: " Chaîne : Jerome Blanstier",
+      videoRoot: " Chaîne&nbsp;: Jerome Blanstier",
     },
   ];
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 id="analysisLetter">
-      METTRE EN ADÉQUATION VOTRE LETTRE DE MOTIVATION AVEC LE POSTE : ANALYSE DE
+      METTRE EN ADÉQUATION VOTRE LETTRE DE MOTIVATION AVEC LE POSTE&nbsp;: ANALYSE DE
       L'OFFRE
     </h3>
     <b-row>

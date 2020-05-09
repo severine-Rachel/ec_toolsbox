@@ -5,7 +5,7 @@
     <h3>CONSEILS ET ASTUCES</h3>
     <p>
       <strong>
-        Comment créer une affiche en 20 minutes ?
+        Comment créer une affiche en 20 minutes&nbsp;?
       </strong>
     </p>
     <b-row align-h="center">
@@ -20,7 +20,7 @@
     </b-row>
     <p>
       <strong>
-        Les créateurs d’affiches en ligne :
+        Les créateurs d’affiches en ligne&nbsp;:
       </strong>
     </p>
     <p>

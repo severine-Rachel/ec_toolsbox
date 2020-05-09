@@ -11,7 +11,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Tramp », Jean-Charles Kraehn
+              «&nbsp;Tramp&nbsp;», Jean-Charles Kraehn
             </strong>
           </p>
           <p class="text-read">
@@ -32,7 +32,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Magasin Général », Loisel et Tripp
+              «&nbsp;Magasin Général&nbsp;», Loisel et Tripp
             </strong>
           </p>
           <p class="text-read">
@@ -50,7 +50,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Aldébaran », Léo
+              «&nbsp;Aldébaran&nbsp;», Léo
             </strong>
           </p>
           <p class="text-read">
@@ -73,13 +73,13 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Aya de Yopogoun », Marguerite Abouet, Clément Oubrerie
+              «&nbsp;Aya de Yopogoun&nbsp;», Marguerite Abouet, Clément Oubrerie
             </strong>
           </p>
           <p class="text-read">
             Ça sent les vacances à Yopougon, quartier populaire d'Abidjan ! La
-            nuit venue, les gazelles vont danser au « Secouez-vous », au « Ça va
-            chauffer », avant d'embrasser leurs conquêtes à l'hôtel aux mille
+            nuit venue, les gazelles vont danser au «&nbsp;Secouez-vous&nbsp;», au «&nbsp;Ça va
+            chauffer&nbsp;», avant d'embrasser leurs conquêtes à l'hôtel aux mille
             étoiles. Seule la sage Aya reste chez elle pour étudier...
           </p>
           <p class="text-read">
@@ -97,7 +97,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Où le regard ne porte pas », Georges Abolin
+              «&nbsp;Où le regard ne porte pas&nbsp;», Georges Abolin
             </strong>
           </p>
           <p class="text-read">
@@ -120,7 +120,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Les vieux fourneaux », Wilfrid Lupano, Paul Cauuet
+              «&nbsp;Les vieux fourneaux&nbsp;», Wilfrid Lupano, Paul Cauuet
             </strong>
           </p>
           <p class="text-read">
@@ -145,7 +145,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Alim le tanneur », Virginie Augustin, Wilfrid Lupano
+              «&nbsp;Alim le tanneur&nbsp;», Virginie Augustin, Wilfrid Lupano
             </strong>
           </p>
           <p class="text-read">
@@ -166,7 +166,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Blacksad », Juan Díaz Canales
+              «&nbsp;Blacksad&nbsp;», Juan Díaz Canales
             </strong>
           </p>
           <p class="text-read">
@@ -190,7 +190,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Peter Pan », Loisel
+              «&nbsp;Peter Pan&nbsp;», Loisel
             </strong>
           </p>
           <p class="text-read">
@@ -211,7 +211,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le sommeil du monstre », Enki Bilal
+              «&nbsp;Le sommeil du monstre&nbsp;», Enki Bilal
             </strong>
           </p>
           <p class="text-read">
@@ -235,7 +235,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le sommet des Dieux », Jirô Taniguchi, Baku Yumemakura
+              «&nbsp;Le sommet des Dieux&nbsp;», Jirô Taniguchi, Baku Yumemakura
             </strong>
           </p>
           <p class="text-read">
@@ -260,7 +260,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le troisième testament », Xavier Dorison, Alex Alice
+              «&nbsp;Le troisième testament&nbsp;», Xavier Dorison, Alex Alice
             </strong>
           </p>
           <p class="text-read">
@@ -289,7 +289,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Universal War One », Denis Bajram
+              «&nbsp;Universal War One&nbsp;», Denis Bajram
             </strong>
           </p>
           <p class="text-read">
@@ -311,7 +311,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Sambre », Yslaire, Yann
+              «&nbsp;Sambre&nbsp;», Yslaire, Yann
             </strong>
           </p>
           <p class="text-read">

@@ -6,7 +6,7 @@
     <p>
       Il vous faut parfois choisir entre un CV classique et facilement lisible
       ou un CV plus original et attractif qui vous permettra d'exprimer
-      davantage votre créativité. Vous trouverez ci-dessous plusieurs modèles
+      davantage votre créativité. Vous trouverez ci-dessous plusieurs sites de modèles
       pour vous aider à concevoir votre CV.
     </p>
     <p>

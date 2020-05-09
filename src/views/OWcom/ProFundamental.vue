@@ -14,7 +14,7 @@
       alt="structuration-discours"
     />
     <p>
-      <i>Source</i> : Mireille Brahic, <i>Mieux rédiger vos écrits professionnels</i>,
+      <i>Source</i>&nbsp;: Mireille Brahic, <i>Mieux rédiger vos écrits professionnels</i>,
       Éditions d’Organisation, 2004.
     </p>
     <p>
@@ -22,7 +22,7 @@
     </p>
     
     <p>
-      <i>Source :</i>
+      <i>Source&nbsp;:</i>
       http://fr.copian.ca/biblio/apprenti/rhdcc/competences_essentielles/conseils_redaction/conseils_redaction.pdf
     </p>
     <p>
@@ -123,12 +123,12 @@ export default class ProFundamental extends Vue {
     {
       videoSrc: "https://www.youtube.com/embed/B5LUC22dmdg",
       videoTitle: "Conseils pour améliorer vos compétences rédactionnelles",
-      videoRoot: "Chaîne :  Lucie Rondelet",
+      videoRoot: "Chaîne&nbsp;:  Lucie Rondelet",
     },
     {
       videoSrc: "https://www.youtube.com/embed/vFWoWZFDKB8",
-      videoTitle: "Mad mapping : les 3 types de cartes mentales",
-      videoRoot: "Chaîne :   Cyril Maitre",
+      videoTitle: "Mad mapping&nbsp;: les 3 types de cartes mentales",
+      videoRoot: "Chaîne&nbsp;:   Cyril Maitre",
     },
   ];
 }

@@ -9,7 +9,6 @@
   margin: 1vh 2vw;
   background-image: url(../assets/Play.png);
   background-size: 100% 100%;
-  
   cursor: pointer;
 }
 </style>

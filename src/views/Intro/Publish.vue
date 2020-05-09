@@ -10,7 +10,7 @@
         <b-col cols="8">
           <p>
             Cet ouvrage s’adresse à tous ceux qui doivent se présenter à des
-            entretiens de recrutement pour la première fois : jeunes diplômés
+            entretiens de recrutement pour la première fois&nbsp;: jeunes diplômés
             qui entrent sur le marché de l’emploi, étudiants qui postulent à un
             stage, à une poursuite d’études ou encore lycéens face à une épreuve
             orale de concours. Vous y trouverez des exercices pratiques, des
@@ -39,18 +39,18 @@
 
     <p>
       <strong
-        >« Concours de performances artistiques à l’IUT : l’art comme clé
-        d’entrée dans la compétence »</strong
+        >«&nbsp;Concours de performances artistiques à l’IUT&nbsp;: l’art comme clé
+        d’entrée dans la compétence&nbsp;»</strong
       >, Didactique 3, L’Harmattan, ouvrage coordonné par Clémentine Hougue
       (Association des Enseignants de Communication des IUT).
     </p>
     <p>
       <strong>
-        « La rédaction de critiques de cinéma à l’IUT : renforcer les capacités
-        d’analyse et les compétences rédactionnelles des étudiants »</strong
+        «&nbsp;La rédaction de critiques de cinéma à l’IUT&nbsp;: renforcer les capacités
+        d’analyse et les compétences rédactionnelles des étudiants&nbsp;»</strong
       >, Pratiques de la communication, De l’écriture créative aux écrits
-      professionnels : comment développer les compétences rédactionnelles des
-      étudiants ? [Revue en ligne], 2020, bientôt disponible sur
+      professionnels&nbsp;: comment développer les compétences rédactionnelles des
+      étudiants&nbsp;? [Revue en ligne], 2020, bientôt disponible sur
       https://pratiquescom.hypotheses.org.
     </p>
     <h4>
@@ -66,7 +66,7 @@
             Cette étude vise à établir une archéologie de la réflexivité du réel
             dans le récit haïtien d’aujourd’hui. Jusque dans les années 1960 et
             l’arrivée de François Duvalier au pouvoir, la tradition réaliste
-            haïtienne s’inscrit dans deux espaces de positivité majeurs : le
+            haïtienne s’inscrit dans deux espaces de positivité majeurs&nbsp;: le
             réalisme socialiste et le réalisme merveilleux. L’objet de cet
             ouvrage consiste à interroger les métamorphoses du récit haïtien
             dans ses affinités et dans ses oppositions aux réalismes des pères
@@ -102,7 +102,7 @@
             la grammaire et la prosodie créoles. Axel Gauvin est-il un
             précurseur de la "créolité" qui sera invoquée un peu plus tard, du
             côté des Antilles, par Jean Bernabé, Raphaël Confiant, et Patrick
-            Chamoiseau ?
+            Chamoiseau&nbsp;?
           </p>
         </b-col>
         <b-col cols="auto">
@@ -114,20 +114,20 @@
 
     <p>
       <strong
-        >« Du déchiffrement du monde et du démantèlement discursif : le roman
-        haïtien contemporain contre l’obscurantisme »</strong
-      >, Haïti : la révolte en mots et en couleurs, Revue Inter-Lignes n°13,
-      Toulouse, Laboratoire Art, Culture et Transmission : Les Presses
+        >«&nbsp;Du déchiffrement du monde et du démantèlement discursif&nbsp;: le roman
+        haïtien contemporain contre l’obscurantisme&nbsp;»</strong
+      >, Haïti&nbsp;: la révolte en mots et en couleurs, Revue Inter-Lignes n°13,
+      Toulouse, Laboratoire Art, Culture et Transmission&nbsp;: Les Presses
       Universitaires de l'Institut Catholique de Toulouse, Artège Presse,
       automne 2014, p.42-55.
     </p>
     <p>
-      <strong>Notes de lecture :</strong> à partir d’ouvrages de P. Chamoiseau,
+      <strong>Notes de lecture&nbsp;:</strong> à partir d’ouvrages de P. Chamoiseau,
       R. Confiant, L.-P. Dalembert. Publiées dans Cultures Sud, revue du
       Ministère des Affaires étrangères (2007-2008).
     </p>
     <p>
-      <strong>Biobibliographie « Axel Gauvin ».</strong> Publiée sur Île en île,
+      <strong>Biobibliographie «&nbsp;Axel Gauvin&nbsp;».</strong> Publiée sur Île en île,
       portail de l’Université de New York.
     </p>
     <h3>

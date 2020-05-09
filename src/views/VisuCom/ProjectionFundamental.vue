@@ -46,7 +46,7 @@
       href="http://immac-pau.net/images/presentation/college/DNB/Fiche_diaporama_hist_arts.pdf"
       target="_blank"
     >
-      <i>Source:</i>
+      <i>Source&nbsp;:</i>
 
       immac-pau.net <b-icon icon="box-arrow-right"></b-icon>
     </a>

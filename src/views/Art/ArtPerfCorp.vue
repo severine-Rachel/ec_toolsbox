@@ -8,7 +8,7 @@
       bouleversement et dissidence, vient combattre une certaine forme de
       résignation et d’aliénation qui guette nos sociétés numérisées,
       robotisées, voire déshumanisées… Entre réflexion existentielle et buzz
-      médiatique, l’artiste a-t-il tous les droits ?
+      médiatique, l’artiste a-t-il tous les droits&nbsp;?
     </p>
     <a
       class="subtitle-link"

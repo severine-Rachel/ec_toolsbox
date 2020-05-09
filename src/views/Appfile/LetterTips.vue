@@ -16,7 +16,7 @@
 
     <p>
       N’hésitez pas à faire un rappel de la charte graphique de votre CV dans
-      votre lettre de motivation. Modèles de lettres de motivation graphiques :
+      votre lettre de motivation. Modèles de lettres de motivation graphiques&nbsp;:
     </p>
     <p>
       <a

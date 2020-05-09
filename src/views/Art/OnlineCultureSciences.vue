@@ -45,9 +45,9 @@
       rubrique scientifique dans la revue de science-fiction Bifrost. Il préside
       par ailleurs le festival international de science-fiction Les Utopiales à
       Nantes. Julien Bobroff est physicien, professeur à l'Université
-      Paris-Saclay où il anime depuis 2013 l'équipe de recherche « La Physique
+      Paris-Saclay où il anime depuis 2013 l'équipe de recherche «&nbsp;La Physique
       Autrement » au Laboratoire de Physique des Solides (CNRS et Université
-      Paris-Saclay). De 1994 à 2013, il a travaillé dans l'équipe « Nouveaux
+      Paris-Saclay). De 1994 à 2013, il a travaillé dans l'équipe «&nbsp;Nouveaux
       états de la matière » pour étudier les propriétés quantiques de la matière
       à basse température, en particulier les supraconducteurs et les aimants
       quantiques.

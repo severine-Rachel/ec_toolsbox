@@ -1,10 +1,10 @@
 <template>
   <div>
     <h3 id="go-furtherCV">
-      POUR ALLER PLUS LOIN !
+      POUR ALLER PLUS LOIN&nbsp;!
     </h3>
     <h4 class="text-vid">
-        Comment créer un CV très original ?
+        Comment créer un CV très original&nbsp;?
       </h4>
     <b-row align-h="center">
       <iframe

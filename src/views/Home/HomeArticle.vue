@@ -19,7 +19,7 @@
         <router-link class="link-article" to="/Affiche/EnPratique">
           <h5>RÉUSSIR VOS AFFICHES</h5>
           <p id="article-txt">
-            L’exemple d’un concours d’affiches à l’IUT d’Angers : les bonnes
+            L’exemple d’un concours d’affiches à l’IUT d’Angers&nbsp;: les bonnes
             pratiques et les erreurs à éviter.
           </p>
           <img
@@ -31,7 +31,7 @@
       </b-col>
       <b-col sm="3" class="content-article">
         <router-link class="link-article" to="/PerformanceArtistique/Definition">
-          <h5>QU'EST CE QUE LA PERFORMANCE ARTISTIQUE ?</h5>
+          <h5>QU'EST CE QUE LA PERFORMANCE ARTISTIQUE&nbsp;?</h5>
           <p id="article-txt">
              Découvrez cet art hybride en action,
             caractérisé par sa diversité de messages et d’approches.

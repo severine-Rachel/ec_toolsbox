@@ -27,7 +27,7 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid">Chaîne : WORKLAB</p>
+    <p class="text-vid">Chaîne&nbsp;: WORKLAB</p>
     <h5 class="text-vid">
       Créer une animation dynamique avec Prezi
     </h5>
@@ -41,7 +41,7 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid">Chaîne : Laurene Fayolle</p>
+    <p class="text-vid">Chaîne&nbsp;: Laurene Fayolle</p>
 
     <h4>Modèles à télécharger</h4>
     <p>

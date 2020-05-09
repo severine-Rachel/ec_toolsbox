@@ -45,8 +45,8 @@
 
     <p>
       Histoire de France et de l'humanité des origines à nos jours: articles
-      thématiques, guerres, livres, jeux, films, actualité, télé : l'Histoire
-      pour Tous !
+      thématiques, guerres, livres, jeux, films, actualité, télé&nbsp;: l'Histoire
+      pour Tous&nbsp;!
     </p>
 
       <strong>

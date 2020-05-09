@@ -46,7 +46,7 @@
   
     <p>
       1er site d'information français. Les articles du journal et toute
-      l'actualité en continu : International, France, Société, Economie,
+      l'actualité en continu&nbsp;: International, France, Société, Economie,
       Culture, Environnement...
     </p>
     <Footer></Footer>

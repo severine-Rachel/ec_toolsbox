@@ -5,7 +5,7 @@
     </h3>
     <h4>Ce que disent les professionnels</h4>
     <Video v-bind:galery-video="videoInterviewTips"></Video>
-    <h4>Attention ! Les erreurs à éviter</h4>
+    <h4>Attention&nbsp;! Les erreurs à éviter</h4>
     <Video v-bind:galery-video="videoInterviewErrors"></Video>
     
     <h4>Pour dédramatiser…</h4>

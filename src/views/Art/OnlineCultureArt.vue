@@ -33,7 +33,7 @@
     </strong>
     <p>
       Panorama de l’art couvre tout le champ de l’histoire de l’art, de la
-      préhistoire jusqu’à nos jours : architectures, sculptures, peintures,
+      préhistoire jusqu’à nos jours&nbsp;: architectures, sculptures, peintures,
       vitraux, tapisseries… Des centaines d’images en grand format et de haute
       qualité pour le simple plaisir de regarder, comparer, découvrir et rêver.
     </p>
@@ -75,8 +75,8 @@
 
     <p>
       Le magazine des Beaux-Arts en ligne est consacré aux arts visuels sous
-      toutes leurs formes et périodes. Il permet, notamment dans sa partie «
-      Encyclo », de re-découvrir des artistes ou des mouvements artistiques.
+      toutes leurs formes et périodes. Il permet, notamment dans sa partie «&nbsp;
+      Encyclo&nbsp;», de re-découvrir des artistes ou des mouvements artistiques.
     </p>
 
     <strong>
@@ -105,8 +105,8 @@
       Le musée des Arts décoratifs est un musée parisien qui a pour objectif la
       valorisation des beaux-arts appliqués et le développement de liens entre
       industrie et culture, création et production. Vous pouvez y retrouver des
-      dossiers thématiques comme « Marques et personnages de la publicité » ou
-      encore « Une histoire de bijoux ».
+      dossiers thématiques comme «&nbsp;Marques et personnages de la publicité » ou
+      encore «&nbsp;Une histoire de bijoux&nbsp;».
     </p>
 
     <strong>

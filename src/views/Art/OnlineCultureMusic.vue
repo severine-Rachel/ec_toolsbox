@@ -47,7 +47,7 @@
     </p>
     <p>
       <strong>
-        Testez vos connaissances musicales !
+        Testez vos connaissances musicales&nbsp;!
       </strong>
     </p>
     <p>

@@ -12,7 +12,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Si c’est un homme », Primo Levi
+              «&nbsp;Si c’est un homme&nbsp;», Primo Levi
             </strong>
           </p>
           <p class="text-read">
@@ -28,7 +28,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Aucun de nous ne reviendra », Charlotte Delbo
+              «&nbsp;Aucun de nous ne reviendra&nbsp;», Charlotte Delbo
             </strong>
           </p>
           <p class="text-read">
@@ -52,11 +52,11 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Ceux de 14 », Maurice Genevoix
+              «&nbsp;Ceux de 14&nbsp;», Maurice Genevoix
             </strong>
           </p>
           <p class="text-read">
-            1er août 1914 : la France décrète la mobilisation générale. Le 2
+            1er août 1914&nbsp;: la France décrète la mobilisation générale. Le 2
             août, Genevoix, brillant normalien qui n'a pas 24 ans, rejoint le
             106e régiment d'infanterie comme sous-lieutenant… Neuf mois plus
             tard, il est grièvement blessé et est réformé. Fin de la guerre pour
@@ -75,7 +75,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le lambeau », Philippe Lançon
+              «&nbsp;Le lambeau&nbsp;», Philippe Lançon
             </strong>
           </p>
           <p class="text-read">
@@ -101,7 +101,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Votre cerveau n'a pas fini de vous étonner », Boris Cyrulnik,
+              «&nbsp;Votre cerveau n'a pas fini de vous étonner&nbsp;», Boris Cyrulnik,
               Pierre Bustany et al.
             </strong>
           </p>
@@ -122,7 +122,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Libérez votre cerveau », Idriss Aberkane
+              «&nbsp;Libérez votre cerveau&nbsp;», Idriss Aberkane
             </strong>
           </p>
           <p class="text-read">
@@ -130,9 +130,9 @@
             soixante-treizième d'un nombre à cinq cents chiffres en moins de
             trois minutes. Ils ont pourtant le même cerveau que nous. Alors,
             comment font-ils, ceux qui pensent plus vite, qui se concentrent
-            plus longtemps ou bien développent une mémoire phénoménale ? Ils
+            plus longtemps ou bien développent une mémoire phénoménale&nbsp;? Ils
             utilisent leur cerveau de façon différente et harmonieuse, selon des
-            principes « neuroergonomiques ». Pour penser mieux, éduquer mieux,
+            principes «&nbsp;neuroergonomiques&nbsp;». Pour penser mieux, éduquer mieux,
             vivre mieux, pas besoin d'être un génie, il suffit d'utiliser les
             formidables ressources que la nature a mises sous notre crâne. Nous
             en sommes tous capables.
@@ -147,14 +147,14 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Vous n’aurez pas ma haine », Antoine Leiris
+              «&nbsp;Vous n’aurez pas ma haine&nbsp;», Antoine Leiris
             </strong>
           </p>
           <p class="text-read">
             Le lendemain du drame du 13 novembre 2015 qui a coûté la vie à son
             épouse, le journaliste Antoine Leiris délivrait un touchant
-            témoignage sur la toile, avec une lettre ouverte « Vous n'aurez pas
-            ma haine ». Il se raconte désormais dans un récit qui porte le même
+            témoignage sur la toile, avec une lettre ouverte «&nbsp;Vous n'aurez pas
+            ma haine&nbsp;». Il se raconte désormais dans un récit qui porte le même
             titre, un essai touchant et bouleversant où il raconte sa nouvelle
             vie, entre l'absence de l'être aimé et la volonté de vivre, pour son
             fils, pour des lendemains qui chanteront à nouveau.
@@ -169,7 +169,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Une saison de machettes », Jean Hatzfeld
+              «&nbsp;Une saison de machettes&nbsp;», Jean Hatzfeld
             </strong>
           </p>
           <p class="text-read">
@@ -179,7 +179,7 @@
             "Libération", avait déjà rendu compte de ce génocide sans précédent
             en donnant la parole aux rescapés des massacres de la région de
             Nyamata dans un témoignage bouleversant, "Dans le nu de la vie.
-            Récit des marais rwandais" : sur une population de 59 000 personnes,
+            Récit des marais rwandais"&nbsp;: sur une population de 59 000 personnes,
             50 000 avaient été tuées par leurs voisins hutus.
           </p>
           <p class="text-read">
@@ -201,11 +201,11 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Sur le bout de la langue », Bertrand Perier
+              «&nbsp;Sur le bout de la langue&nbsp;», Bertrand Perier
             </strong>
           </p>
           <p class="text-read">
-            « Les mots sont mes plus chers compagnons. Tous les jours, je joue
+            «&nbsp;Les mots sont mes plus chers compagnons. Tous les jours, je joue
             avec les mots, je les manie avec délectation, dans une cour de
             justice, dans l’arène médiatique, dans les jurys de concours
             d’éloquence. Les mots m’ont révélé, m’ont fait sortir de ma réserve

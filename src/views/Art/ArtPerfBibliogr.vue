@@ -27,29 +27,29 @@
       </strong>
     </p>
     <p>
-      IET Christian, ROQUES Sylvie, « Présentation », Communications 2013/1
+      IET Christian, ROQUES Sylvie, «&nbsp;Présentation&nbsp;», Communications 2013/1
       (n°92), pp. 5-8.
     </p>
     <p>
-      MASSOUTRE Guylaine, « La performance en images. Performances. L’Art en
+      MASSOUTRE Guylaine, « &nbsp;La performance en images. Performances. L’Art en
       action et Ein Fest in Wuppertal. 25 Jahre Tanztheater. Pina Bausch. 9 bis
-      31 Oktober 1998 », Jeu (n°97), pp. 113-116.
+      31 Oktober 1998 &nbsp;», Jeu (n°97), pp. 113-116.
     </p>
     <p>
-      ORLAN, entretien avec Roques Sylvie, « Les préjugés ébranlés par
-      l’Art-Action. Entretien », Communications 2013/1 (n°92), pp. 219-229.
+      ORLAN, entretien avec Roques Sylvie, «&nbsp;Les préjugés ébranlés par
+      l’Art-Action. Entretien&nbsp;», Communications 2013/1 (n°92), pp. 219-229.
     </p>
     <p>
-      PEQUIGNOT Bruno, « De la performance dans les arts. Limites et réussites
-      d’une contestation », Communications 2013/1 (n°92), pp. 9-20.
+      PEQUIGNOT Bruno, «&nbsp;De la performance dans les arts. Limites et réussites
+      d’une contestation&nbsp;», Communications 2013/1 (n°92), pp. 9-20.
     </p>
     <p>
-      PRADIER Jean-Marie, « La performance ou la renaissance de l’action »,
+      PRADIER Jean-Marie, «&nbsp;La performance ou la renaissance de l’action&nbsp;»,
       Communications 2013/1 (n°92), pp. 277-290.
     </p>
     <p>
-      SPIELMANN Guy, « L’événement spectacle. Pertinence du concept et de la
-      théorie de la performance », Communications 2013/1 (n°92), pp. 193-204
+      SPIELMANN Guy, «&nbsp;L’événement spectacle. Pertinence du concept et de la
+      théorie de la performance&nbsp;», Communications 2013/1 (n°92), pp. 193-204
     </p>
 
     <p>
@@ -59,8 +59,8 @@
       </strong>
     </p>
     <p>
-      RAFFY-HIDEUX Peggy, « Concours de performances artistiques à l’IUT : l’art
-      comme clé d’entrée dans les compétences », Didactiques de la communication
+      RAFFY-HIDEUX Peggy, «&nbsp;Concours de performances artistiques à l’IUT : l’art
+      comme clé d’entrée dans les compétences&nbsp;», Didactiques de la communication
       3, Paris, L’Harmattan, coll. Uni(d)ivers(c)ité, 2019, pp. 37-51.
     </p>
     <Footer></Footer>

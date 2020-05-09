@@ -6,7 +6,7 @@
     <p>
       <strong>
         Vous trouverez ici des outils qui vous permettront de concevoir votre CV
-        (contenu et forme). Une astuce : partez toujours d’un modèle classique,
+        (contenu et forme). Une astuce&nbsp;: partez toujours d’un modèle classique,
         que vous prendrez le temps de bien structurer, pour aller
         progressivement vers l’originalité. Dans tous les cas, respectez bien
         l’ordre de hiérarchisation des éléments clés et le sens de lecture du

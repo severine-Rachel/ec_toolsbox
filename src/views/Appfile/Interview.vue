@@ -6,16 +6,16 @@
     <p>
       <strong>
         Vos CV et lettre de motivation ont retenu l’attention du recruteur.
-        Bravo ! Il ne vous reste plus qu’une dernière étape : l’entretien de
+        Bravo&nbsp;! Il ne vous reste plus qu’une dernière étape&nbsp;: l’entretien de
         recrutement. Laissez le stress de côté et réjouissez-vous de cette
         rencontre importante qui va forcément être enrichissante pour vous : au
         mieux, elle vous permettra d’accéder à la formation de vos rêves, au
         stage ou au poste convoités, au pire, elle vous permettra d’améliorer
-        encore vos techniques d’entretien ! Quoiqu’il en soit, le succès d’un
-        entretien réside essentiellement dans sa préparation ! Préparez-le donc
+        encore vos techniques d’entretien&nbsp;! Quoiqu’il en soit, le succès d’un
+        entretien réside essentiellement dans sa préparation&nbsp;! Préparez-le donc
         comme un grand oral. Si vous souhaitez forger vos propres outils,
         individualisés, et découvrir davantage d’astuces, n’hésitez pas à
-        consulter mon ouvrage :<i> Les Premiers Entretiens de recrutement. Les clés
+        consulter mon ouvrage&nbsp;:<i> Les Premiers Entretiens de recrutement. Les clés
         pour se démarquer et réussir.</i>
       </strong>
     </p>

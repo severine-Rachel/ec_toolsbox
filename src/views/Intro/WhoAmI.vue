@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h3>QUI SUIS-JE ?</h3>
+    <h3>QUI SUIS-JE&nbsp;?</h3>
     <p>
       Enseignante certifiée de Lettres modernes, docteure en Littérature
       française, générale et comparée et titulaire d’un DESS en Édition et

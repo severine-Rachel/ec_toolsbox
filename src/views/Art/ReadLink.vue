@@ -11,7 +11,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Zulu », Caryl Férey
+              «&nbsp;Zulu&nbsp;», Caryl Férey
             </strong>
           </p>
           <p class="text-read">
@@ -38,12 +38,12 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Au revoir là-haut », Pierre Lemaître
+              «&nbsp;Au revoir là-haut&nbsp;», Pierre Lemaître
             </strong>
           </p>
           <p class="text-read">
-            « Pour le commerce, la guerre présente beaucoup d'avantages, même
-            après. » Sur les ruines du plus grand carnage du XX° siècle, deux
+            «&nbsp;Pour le commerce, la guerre présente beaucoup d'avantages, même
+            après.&nbsp;» Sur les ruines du plus grand carnage du XX° siècle, deux
             rescapés des tranchées, passablement abîmés, prennent leur revanche
             en réalisant une escroquerie aussi spectaculaire qu'amorale.
           </p>
@@ -56,7 +56,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Toute la lumière que nous ne pouvons voir », Anthony Doerr
+              «&nbsp;Toute la lumière que nous ne pouvons voir&nbsp;», Anthony Doerr
             </strong>
           </p>
           <p class="text-read">
@@ -78,7 +78,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « J’irai cracher sur vos tombes », Boris Vian
+              «&nbsp;J’irai cracher sur vos tombes&nbsp;», Boris Vian
             </strong>
           </p>
           <p class="text-read">
@@ -86,7 +86,7 @@
             blanche et les cheveux blonds, quitte sa ville natale après la mort
             de son frère noir de peau qui a été lynché parce qu'il était
             amoureux d'une blanche. Arrivé dans cette autre ville, Lee, qui a «
-            franchi la ligne » (se revendiquer blanc), devient libraire et entre
+            franchi la ligne&nbsp;» (se revendiquer blanc), devient libraire et entre
             dans la petite bande locale de jeunes en manque d'alcool et
             sexuellement très actifs. Son but est de venger la mort de son
             frère.
@@ -101,7 +101,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Flash ou le grand voyage », Charles Duchaussois
+              «&nbsp;Flash ou le grand voyage&nbsp;», Charles Duchaussois
               
             </strong>
           </p>
@@ -113,8 +113,8 @@
             trafiquants d'armes, il participe dans les montagnes du Liban à la
             récolte du hachisch… C'est enfin l'épisode de Katmandou et
             l'évocation saisissante de l'univers des drogués : l'opium et le
-            hachisch qui font « planer », le « flash » de la première piqûre, le
-            « grand voyage » du L.S.D. Jamais peut-être un homme, sauvé in
+            hachisch qui font «&nbsp;planer&nbsp;», le «&nbsp;flash&nbsp;» de la première piqûre, le
+            «&nbsp;grand voyage&nbsp;» du L.S.D. Jamais peut-être un homme, sauvé in
             extremis, n'était allé aussi loin et n'avait pu revenir pour dire ce
             qui se passe là-bas.
           </p>
@@ -128,7 +128,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Petit pays », Gaël Faye
+              «&nbsp;Petit pays&nbsp;», Gaël Faye
             </strong>
           </p>
           <p class="text-read">
@@ -137,7 +137,7 @@
             confortable quartier d’expatriés. Gabriel passe le plus clair de son
             temps avec ses copains, une joyeuse bande occupée à faire les quatre
             cents coups. Un quotidien paisible, une enfance douce qui vont se
-            disloquer en même temps que ce « petit pays » d’Afrique brutalement
+            disloquer en même temps que ce «&nbsp;petit pays&nbsp;» d’Afrique brutalement
             malmené par l’Histoire.
           </p>
         </b-col>
@@ -150,14 +150,14 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Inconnu à cette adresse », K. Kressman Taylor
+              «&nbsp;Inconnu à cette adresse&nbsp;», K. Kressman Taylor
             </strong>
           </p>
           <p class="text-read">
             Une longue et solide complicité unit Max et Martin, deux associés
             marchands d'art. En 1932, Martin retourne vivre en Allemagne, tandis
-            que Max, juif américain, demeure en Californie. « Je crois que
-            Hitler est bon pour le pays, mais je n'en suis pas sûr », lui confie
+            que Max, juif américain, demeure en Californie. «&nbsp;Je crois que
+            Hitler est bon pour le pays, mais je n'en suis pas sûr&nbsp;», lui confie
             bientôt Martin. Un sombre pressentiment envahit Max à mesure que son
             compagnon espace leur correspondance. L'Histoire aura-t-elle raison
             de leur amitié ?
@@ -172,7 +172,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Les Piliers de la Terre », Ken Follett
+              «&nbsp;Les Piliers de la Terre&nbsp;», Ken Follett
             </strong>
           </p>
           <p class="text-read">
@@ -190,7 +190,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Cadres noirs », Pierre Lemaître
+              «&nbsp;Cadres noirs&nbsp;», Pierre Lemaître
             </strong>
           </p>
           <p class="text-read">
@@ -214,7 +214,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « L’Alchimiste », Paulo Coelho
+              «&nbsp;L’Alchimiste&nbsp;», Paulo Coelho
             </strong>
           </p>
           <p class="text-read">
@@ -232,7 +232,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Les Fourmis », Bernard Werber
+              «&nbsp;Les Fourmis&nbsp;», Bernard Werber
             </strong>
           </p>
           <p class="text-read">
@@ -250,11 +250,11 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « La vérité sur l’affaire Harry Quebert », Joël Dicker
+              «&nbsp;La vérité sur l’affaire Harry Quebert&nbsp;», Joël Dicker
             </strong>
           </p>
           <p class="text-read">
-            « La vérité sur l’affaire Harry Quebert », Joël Dicker À New York,
+            «&nbsp;La vérité sur l’affaire Harry Quebert&nbsp;», Joël Dicker À New York,
             au printemps 2008, lorsque l'Amérique bruisse des prémices de
             l'élection présidentielle, Marcus Goldman, jeune écrivain à succès,
             est dans la tourmente : il est incapable d'écrire le nouveau roman
@@ -277,7 +277,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « L’aîné des orphelins », Tierno Monénembo
+              «&nbsp;L’aîné des orphelins&nbsp;», Tierno Monénembo
             </strong>
           </p>
           <p class="text-read">
@@ -301,11 +301,11 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « La liste de Schindler », Thomas Keneally
+              «&nbsp;La liste de Schindler&nbsp;», Thomas Keneally
             </strong>
           </p>
           <p class="text-read">
-            « La liste de Schindler » est un hommage à l'Allemand Oskar
+            «&nbsp;La liste de Schindler&nbsp;» est un hommage à l'Allemand Oskar
             Schindler. Durant la Seconde Guerre mondiale, ce dernier utilisa sa
             position dominante et ses relations parmi les SS pour sauver mille
             deux cents Juifs d'une mort certaine. La liste recensait les
@@ -324,7 +324,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « La cuisinière d’Himmler », Frantz-Olivier Giesbert
+              «&nbsp;La cuisinière d’Himmler&nbsp;», Frantz-Olivier Giesbert
             </strong>
           </p>
           <p class="text-read">
@@ -348,7 +348,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Hygiène de l’assassin », Amélie Nothomb
+              «&nbsp;Hygiène de l’assassin&nbsp;», Amélie Nothomb
             </strong>
           </p>
           <p class="text-read">
@@ -376,7 +376,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Ne le dis à personne », Harlan Coben
+              «&nbsp;Ne le dis à personne&nbsp;», Harlan Coben
             </strong>
           </p>
           <p class="text-read">
@@ -402,7 +402,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Chanson douce », Leïla Slimani
+              «&nbsp;Chanson douce&nbsp;», Leïla Slimani
             </strong>
           </p>
           <p class="text-read">
@@ -424,7 +424,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Mille soleils splendides », Khaled Hosseini
+              «&nbsp;Mille soleils splendides&nbsp;», Khaled Hosseini
             </strong>
           </p>
           <p class="text-read">
@@ -451,7 +451,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Syngué sabour. Pierre de patience », Atiq Rahimi
+              «&nbsp;Syngué sabour. Pierre de patience&nbsp;», Atiq Rahimi
             </strong>
           </p>
           <p class="text-read">
@@ -471,7 +471,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Novecento : pianiste », Alessandro Baricco
+              «&nbsp;Novecento : pianiste&nbsp;», Alessandro Baricco
             </strong>
           </p>
           <p class="text-read">
@@ -492,7 +492,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Fight Club », Chuck Palahniuk
+              «&nbsp;Fight Club&nbsp;», Chuck Palahniuk
             </strong>
           </p>
           <p class="text-read">
@@ -509,7 +509,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le Parfum », Patrick Süskind
+              «&nbsp;Le Parfum&nbsp;», Patrick Süskind
             </strong>
           </p>
           <p class="text-read">
@@ -527,7 +527,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Le quatrième mur », Sorj Chalandon
+              «&nbsp;Le quatrième mur&nbsp;», Sorj Chalandon
             </strong>
           </p>
           <p class="text-read">
@@ -551,7 +551,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « La Maladroite », Alexandre Seurat
+              «&nbsp;La Maladroite&nbsp;», Alexandre Seurat
             </strong>
           </p>
           <p class="text-read">
@@ -571,7 +571,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « La Chambre des officiers », Marc Dugain
+              «&nbsp;La Chambre des officiers&nbsp;», Marc Dugain
             </strong>
           </p>
           <p class="text-read">
@@ -582,7 +582,7 @@
             pour couvrir le tout, un ciel métallique uniforme qui se déverse à
             intervalles réguliers comme si Dieu n'en finissait plus de
             s'acharner sur le simple soldat. C'est cette guerre-là que je n'ai
-            pas connue ». Marc Dugain, quarante et un ans, retrace avec ce
+            pas connue&nbsp;». Marc Dugain, quarante et un ans, retrace avec ce
             premier roman la destinée particulière de son grand-père.
           </p>
         </b-col>
@@ -595,7 +595,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Frère d’âme », David Diop
+              «&nbsp;Frère d’âme&nbsp;», David Diop
             </strong>
           </p>
           <p class="text-read">
@@ -619,7 +619,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « 99 francs », Frédéric Beigbeder
+              «&nbsp;99 francs&nbsp;», Frédéric Beigbeder
             </strong>
           </p>
           <p class="text-read">
@@ -644,7 +644,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Verre cassé », Alain Mabanckou
+              «&nbsp;Verre cassé&nbsp;», Alain Mabanckou
             </strong>
           </p>
           <p class="text-read">
@@ -665,7 +665,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Où on va papa ? », Jean-Louis Fournier
+              «&nbsp;Où on va papa ?&nbsp;», Jean-Louis Fournier
             </strong>
           </p>
           <p class="text-read">
@@ -694,7 +694,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Les mains du miracle », Joseph Kessel
+              «&nbsp;Les mains du miracle&nbsp;», Joseph Kessel
             </strong>
           </p>
           <p class="text-read">
@@ -718,7 +718,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Un secret », Philippe Grimbert
+              «&nbsp;Un secret&nbsp;», Philippe Grimbert
             </strong>
           </p>
           <p class="text-read">
@@ -742,7 +742,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « L’Adversaire », Emmanuel Carrère
+              «&nbsp;L’Adversaire&nbsp;», Emmanuel Carrère
             </strong>
           </p>
           <p class="text-read">
@@ -765,7 +765,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              « Chagrin d’école », Daniel Pennac
+              «&nbsp;Chagrin d’école&nbsp;», Daniel Pennac
             </strong>
           </p>
           <p class="text-read">
