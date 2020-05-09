@@ -9,7 +9,12 @@
   margin: 1vh 2vw;
   background-image: url(../assets/Play.png);
   background-size: 100% 100%;
+  border-radius:6%;
   cursor: pointer;
+}
+.video-image:hover{
+   filter: brightness(90%);
+   border-radius:6%;
 }
 </style>
 

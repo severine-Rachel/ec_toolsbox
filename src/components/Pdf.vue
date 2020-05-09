@@ -4,7 +4,7 @@
   text-align: center;
   display: block;
   height: 10vh;
-  margin:  0 2vw ;
+  margin:  1vh 0 1vh 2vw;
   background-image: url(../assets/pdf.png);
   background-size: 100% 100%;
 }

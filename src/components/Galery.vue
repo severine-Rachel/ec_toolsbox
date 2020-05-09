@@ -3,18 +3,40 @@
   width: 10vw;
   height: 25vh;
   margin:  1vh 2vw ;
-  border: solid 1px #bce8ff;
+  
   cursor: pointer;
+  position: relative;
+  z-index: 10;
 }
+.superposition{
+  width: 10vw;
+  height: 25vh;
+  opacity: 0.1;
+  position: relative; 
+  top:-104%;
+  left:20%;
+  z-index:11;
+ cursor: pointer;
+}
+.element-galery{
+   width: 10vw;
+  height: 25vh;
+  margin:  1vh 2vw 1vh 0;
 
+}
+.superposition:hover{
+  opacity:0.3;
+}
 .post-up {
   width: 60vw;
-  margin: 0 20vw 1% ;
+  margin: 1% 20vw 1% ;
   border: solid 1px #bce8ff;
 }
 .cross{
   position: absolute;
-  right: 20vw;
+  right: 20.5vw;
+  margin-top: 2%;
+  cursor: pointer;
 }
 
 </style>
@@ -23,14 +45,17 @@
   <div>
 
     <b-row class="justify-content-md-left rowcomponents">
-      <div v-for="imageElement in galeryPicture" :key="imageElement">
+      <div class="element-galery" v-for="imageElement in galeryPicture" :key="imageElement">
         
         <img
           class="fundamentals"
-          v-on:click="toogle(imageElement)"
+         
           v-bind:src="imageElement"
         />
-
+        <img
+        class="superposition"
+        v-on:click="toogle(imageElement)"
+        src="../assets/snag.png">
       </div>
     </b-row>
 
