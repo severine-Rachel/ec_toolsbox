@@ -7,7 +7,7 @@
     <p>
       Il existe
       <strong>trois sortes de prise de parole en public</strong> définis à
-      partir de deux critères qui sont&nbsp;:
+      partir de deux critères qui sont{{'\xa0'}}:
     </p>
     <p>
     <ul>
@@ -18,10 +18,10 @@
         
     </ul>
     </p>
-    <h4>I - La prise de parole en solo&nbsp;:</h4>
+    <h4>I - La prise de parole en solo{{'\xa0'}}:</h4>
     
     <p>
-      Vous êtes seul à parler devant un auditoire&nbsp;:
+      Vous êtes seul à parler devant un auditoire{{'\xa0'}}:
     </p>
     <p>
     <ul>
@@ -38,13 +38,13 @@
       vous fait confiance.
     </p>
     
-    <h4>II - L’intervention dans un groupe&nbsp;:</h4>
+    <h4>II - L’intervention dans un groupe{{'\xa0'}}:</h4>
       
     
     <p>
       C’est à <i>priori</i> une prise de parole libre. Vous êtes théoriquement
       sur un « pied d’égalité » avec les autres participants qui sont également
-      invités à s’exprimer&nbsp;:
+      invités à s’exprimer{{'\xa0'}}:
     </p>
     <p>
     <ul>
@@ -58,10 +58,10 @@
         </li>
         </ul>
         </p>
-        <h4>III - L’entretien face à face&nbsp;:</h4>
+        <h4>III - L’entretien face à face{{'\xa0'}}:</h4>
     
     
-    <p>Vous ne vous adressez qu’à une seule personne, présente face à vous&nbsp;:</p>
+    <p>Vous ne vous adressez qu’à une seule personne, présente face à vous{{'\xa0'}}:</p>
     <p>
     <ul>
       <li>
@@ -76,7 +76,7 @@
       général, dans ce cas, la prise de parole est plus improvisée. Elle peut
       avoir été préparée en amont mais elle va se faire sans notes.
     </p>
-    <p><strong> Ce qu’il est important d’avoir à l’esprit&nbsp;:</strong></p>
+    <p><strong> Ce qu’il est important d’avoir à l’esprit{{'\xa0'}}:</strong></p>
     <p>
     <ul>
       <li>
@@ -114,10 +114,11 @@
       src="/picture_OWcom/public_meeting/dareToSpeak.jpg"
       alt="Osez-Parler"
       class="vertical"
+      draggable="false" 
     />
 
-    <p><i>Source&nbsp;: </i>Gautier Antoine, <i>J’ose parler en public</i>, Paris, Dunod, 2019</p>
-
+    <p><i>Source{{'\xa0'}}: </i>Gautier Antoine, <i>J’ose parler en public</i>, Paris, Dunod, 2019</p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevSpeechDare"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -129,6 +130,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import { BIcon, BIconArrowRight } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -136,8 +138,18 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIcon,
     BIconArrowRight,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class SpeechDare extends Vue {}
+export default class SpeechDare extends Vue {
+  public nxtprevSpeechDare = {
+    BoolPrev: false,
+    BoolNext:  true,
+    PrevImage: "",
+    NextImage: "/thumbnail4.png",
+    PrevLink: "",
+    NextLink: "/Prise_de_Parole/Parametre_Parole",
+  };
+}
 </script>

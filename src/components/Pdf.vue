@@ -20,7 +20,7 @@
 <template>
   <div>
     <b-row class="justify-content-md-left  rowcomponents" >
-    <div v-for="pdfElement in galeryPdf" :key="pdfElement">
+    <div v-for="pdfElement in galeryPdf" :key="pdfElement.pdfLink">
       <a
         class="fundamentals-pdf"
         draggable="false"

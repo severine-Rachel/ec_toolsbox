@@ -4,7 +4,7 @@
       <b-carousel
         id="carousel-1"
         v-model="slide"
-       &nbsp;:interval="4000"
+       :interval="4000"
         controls
         indicators
         background="#bce8ff"
@@ -321,6 +321,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterGreen.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -395,7 +396,7 @@
         et l’électricité qu’avec la performance artistique à proprement parler.
         Le texte situé dans l’encadré vert est trop petit et présente des
         redites par rapport au titre de l’affiche. Le cahier des charges n’a pas
-        été respecté&nbsp;: ce n’est pas le bon titre et il manque un slogan. Les
+        été respecté{{'\xa0'}}: ce n’est pas le bon titre et il manque un slogan. Les
         marges sont bien marquées.
       </p>
     </b-modal>
@@ -404,10 +405,11 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterExplosive.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
-      <h7> <strong>Affiche 2&nbsp;: </strong> </h7>
+      <h7> <strong>Affiche 2{{'\xa0'}}: </strong> </h7>
       <table border="1">
         <tr>
           <td>
@@ -466,7 +468,7 @@
       </table>
       <p>
         Le texte blanc sur fond jaune est peu lisible et passe au second plan,
-        derrière le slogan. Chaque police a une histoire&nbsp;; celle-ci est très
+        derrière le slogan. Chaque police a une histoire{{'\xa0'}}; celle-ci est très
         marquée années 1980. Il faut plus de contraste. Les préposition (à) et
         virgule (,) doivent être supprimées. L’affiche doit être synthétique et
         le texte réduit au minimum. Les images Clipart confèrent à l’affiche un
@@ -474,7 +476,7 @@
         couleurs peu en harmonie. L’insertion d’un écran d’ordinateur noir et
         blanc en bas de page, sur lequel apparaît le slogan, ne fait pas sens
         ici. Il peut même faire penser à la mise en page des formules de
-        prévention choc telles que «&nbsp;Fumer tue&nbsp;» apposées sur les paquets de
+        prévention choc telles que «{{'\xa0'}}Fumer tue{{'\xa0'}}» apposées sur les paquets de
         cigarettes. C’est donc peu incitatif. Le slogan accroche directement le
         regard. Or, c’est le titre de l’événement qui devrait être directement
         lisible. D’autant plus que le slogan s’adresse davantage à l’étudiant
@@ -490,6 +492,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterOldSchool.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -555,12 +558,12 @@
         On retrouve ici des similitudes avec l’affiche 1. Même si les niveaux de
         lecture sont légèrement mieux définis, la hiérarchisation du texte n’est
         pas suffisamment claire. Plutôt que trois ou quatre images disséminées
-        sur l’affiche, privilégiez une Image globalepercutante qui sera mise en valeur.
+        sur l’affiche, privilégiez une Image globale percutante qui sera mise en valeur.
         Ici, les Cliparts, les gros aplats de couleurs ainsi que les contours du
         texte confèrent à cette affiche un aspect un peu démodé qui reprend des
         codes des années 1980. Par ailleurs, les choix iconographiques ne
         traduisent pas l’essence de la performance artistique tandis que le
-        slogan «&nbsp;Venez raviver votre flamme artistique&nbsp;!&nbsp;» ne fait écho à rien
+        slogan «{{'\xa0'}}Venez raviver votre flamme artistique{{'\xa0'}}!{{'\xa0'}}» ne fait écho à rien
         d’autre dans l’affiche.
       </p>
     </b-modal>
@@ -569,6 +572,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterMonochrome.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -630,27 +634,27 @@
         </tr>
       </table>
       <p>
-        Le sens de lecture de cette affiche est clair&nbsp;; l’essentiel du message
+        Le sens de lecture de cette affiche est clair{{'\xa0'}}; l’essentiel du message
         est bien lisible. Le titre est bien mis en valeur. Le sous-titre
-        présente une erreur d’orthographe courante&nbsp;: l’absence de pluriel à «
-        performances artistiques&nbsp;». Or, lorsque la préposition «&nbsp;de&nbsp;» est suivie
+        présente une erreur d’orthographe courante{{'\xa0'}}: l’absence de pluriel à «
+        performances artistiques{{'\xa0'}}». Or, lorsque la préposition «{{'\xa0'}}de{{'\xa0'}}» est suivie
         d’un groupe nominal dénombrable, ce dernier est toujours au pluriel si
-        l’accord pluriel s’impose lorsqu’on ajoute «&nbsp;qui contient/présente&nbsp;» («
-        un concours qui présente des performances artistiques&nbsp;»). La disposition
+        l’accord pluriel s’impose lorsqu’on ajoute «{{'\xa0'}}qui contient/présente{{'\xa0'}}» («
+        un concours qui présente des performances artistiques{{'\xa0'}}»). La disposition
         des blocs sur l’affiche est déséquilibrée et présente un vide important
         en sa partie inférieure. Ce peut être un parti pris. Mais ici, il manque
         une illustration ou une touche artistique qui va renforcer la perception
         du sens de l’événement. La mise en page générale est trop classique et
-        épurée (aplat rouge sans aucune référence au domaine artistique)&nbsp;; elle
+        épurée (aplat rouge sans aucune référence au domaine artistique){{'\xa0'}}; elle
         fait davantage penser à la couverture d’un livre. Les logos sont trop
         petits et peu lisibles, notamment celui de gauche car il n’y a pas
         suffisamment de contraste (violet sur fond rouge). Concernant le slogan
-        «&nbsp;Son, action, Image globaleet objet&nbsp;», l’idée d’une association de mots-clés
+        «{{'\xa0'}}Son, action, Image globaleet objet{{'\xa0'}}», l’idée d’une association de mots-clés
         est intéressante mais ces derniers doivent être plus précis, percutants
-        et en lien avec le sujet de l’affiche. Exemple&nbsp;: «&nbsp;Un parcours tout
-        tracé&nbsp;: rêver, câbler, exprimer&nbsp;» qui implique bien l’idée de décalage
+        et en lien avec le sujet de l’affiche. Exemple{{'\xa0'}}: «{{'\xa0'}}Un parcours tout
+        tracé{{'\xa0'}}: rêver, câbler, exprimer{{'\xa0'}}» qui implique bien l’idée de décalage
         entre le monde du génie électrique/informatique et celui de l’art tout
-        en les «&nbsp;câblant&nbsp;».
+        en les «{{'\xa0'}}câblant{{'\xa0'}}».
       </p>
     </b-modal>
     <b-modal id="my-modal5" hide-footer hide-header
@@ -658,6 +662,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterRefined.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -672,6 +677,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterVoltage.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -754,11 +760,12 @@
       ><b-row class="justify-content-md-center">
       <img
         class="modal-image"
+        draggable="false"
         src="/picture_Visu/Poster/perfArt/PosterFloral.jpg"
       />
       </b-row>
       <br>
-      <h7> <strong>Affiche 7&nbsp;: </strong> </h7>
+      <h7> <strong>Affiche 7{{'\xa0'}}: </strong> </h7>
       <table border="1">
         <tr>
           <td>
@@ -818,18 +825,18 @@
       <p>
         Le sens de lecture de cette affiche est respecté. Les informations
         apparaissent bien dans l’ordre du plus essentiel au plus secondaire. La
-        police, si elle revêt bien un caractère «&nbsp;artistique&nbsp;», n’est cependant
+        police, si elle revêt bien un caractère «{{'\xa0'}}artistique{{'\xa0'}}», n’est cependant
         pas très lisible, notamment sur le fond bleu. Gardez-la uniquement pour
-        le titre. Attention aux polices qui ne proposent pas d’accent («&nbsp;pret&nbsp;»
+        le titre. Attention aux polices qui ne proposent pas d’accent («{{'\xa0'}}pret{{'\xa0'}}»
         = gênant). Il faut toujours être vigilant au contraste entre l’Image globaleet
         le texte qui s’y superpose. Par ailleurs, on a le sentiment d’une
         superposition sans grand rapport entre l’Image globalede fond et le texte.
         Aucun élément (forme, couleur…) ne permet de lier les deux. Le slogan
-        est lui aussi en décalage&nbsp;: «&nbsp;Prêt pour ce genre de performance&nbsp;?&nbsp;» et
-        utilise un déterminant démonstratif «&nbsp;ce&nbsp;» qui ne renvoie à aucune
+        est lui aussi en décalage{{'\xa0'}}: «{{'\xa0'}}Prêt pour ce genre de performance{{'\xa0'}}?{{'\xa0'}}» et
+        utilise un déterminant démonstratif «{{'\xa0'}}ce{{'\xa0'}}» qui ne renvoie à aucune
         réalité précise, identifiable. La question n’a pas de fondement.
-        Attention, par ailleurs, à l’accord dans ce genre d’interpellation&nbsp;: et
-        pourquoi pas «&nbsp;prêts&nbsp;» ou «&nbsp;prêt.e.s&nbsp;»&nbsp;? Dans l’idéal, trouvez des
+        Attention, par ailleurs, à l’accord dans ce genre d’interpellation{{'\xa0'}}: et
+        pourquoi pas «{{'\xa0'}}prêts{{'\xa0'}}» ou «{{'\xa0'}}prêt.e.s{{'\xa0'}}»{{'\xa0'}}? Dans l’idéal, trouvez des
         synonymes ou des formulations permettant de contourner cette difficulté.
         Enfin, le thème iconographique retenu (tâches de couleurs en forme de
         fleurs) est peu en lien avec la performance artistique ni
@@ -841,6 +848,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterAsia.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -904,12 +912,12 @@
       <p>
         L’imagerie de cette affiche n’est pas en adéquation avec le thème. Ici,
         nous avons une série d’éléments qui orientent l’appréhension du message
-        vers une lecture particulière fondée sur des symboliques fortes&nbsp;: aplat
+        vers une lecture particulière fondée sur des symboliques fortes{{'\xa0'}}: aplat
         de couleur qui fait penser à la laque rouge Chine, forme ronde centrale
         qui renvoie au drapeau japonais, duo de traits parallèles marqués en
         leur extrémité qui ressemblent à une paire de baguettes ou encore police
         calligraphique, on pourrait presque confondre, en une lecture rapide, «
-        artistique&nbsp;» avec «&nbsp;asiatique&nbsp;». Lorsque vous concevez une affiche, ayez
+        artistique{{'\xa0'}}» avec «{{'\xa0'}}asiatique{{'\xa0'}}». Lorsque vous concevez une affiche, ayez
         en tête les symboles et les présupposés communs qui peuvent orienter sa
         lecture en première intention. Vous pouvez jouer avec les a priori du
         récepteur pour créer une connivence avec lui mais, quoi qu’il en soit,
@@ -923,6 +931,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterStatuesque.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -992,15 +1001,15 @@
         ont du sens par rapport à l’ensemble. Elles sont généralement peu
         modernes et leur finesse n’en fait pas un allié de la Lisibilité du contenu.
         L’équilibre du bandeau blanc en partie inférieure de l’affiche est à
-        revoir&nbsp;; il ne contient que les logos (qui sont trop petits) et la
+        revoir{{'\xa0'}}; il ne contient que les logos (qui sont trop petits) et la
         mention de reprographie. Par conséquent, il paraît assez vide en sa
-        partie droite. La mention «&nbsp;Le programme complet…&nbsp;» aurait pu davantage
+        partie droite. La mention «{{'\xa0'}}Le programme complet…{{'\xa0'}}» aurait pu davantage
         trouver sa place dans le bandeau. Même si les couleurs sont
         harmonieuses, elles restent assez éteintes par rapport au thème de
         l’affiche. Il faut davantage jouer sur les contrastes en apportant
         notamment une couleur complémentaire pour réveiller l’ensemble. Les
         statuettes en bois, par essence immobiles, vont même à l’encontre du
-        slogan qui évoque le «&nbsp;mouvement&nbsp;» et l’ «&nbsp;énergie&nbsp;». Cette affiche
+        slogan qui évoque le «{{'\xa0'}}mouvement{{'\xa0'}}» et l’ «{{'\xa0'}}énergie{{'\xa0'}}». Cette affiche
         n’est pas marquante. Elle risque de ne pas s’imprimer dans l’esprit du
         récepteur.
       </p>
@@ -1010,6 +1019,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterFright.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -1076,7 +1086,7 @@
         sur fond bleu foncé n’est pas très lisible. L’insertion d’un bandeau
         vertical plus clair en partie inférieure aurait sans doute permis une
         meilleure Lisibilité du contenu. L’équilibre de la page fonctionne bien et le choix
-        de la police est en harmonie avec le thème «&nbsp;Halloween électrique&nbsp;»
+        de la police est en harmonie avec le thème «{{'\xa0'}}Halloween électrique{{'\xa0'}}»
         ainsi qu’avec le slogan (auquel il faudrait rajouter un S).
         L’orthographe d’une affiche doit être contrôlée, lue et relue. Elle doit
         être irréprochable. En dehors de ces problèmes de Lisibilité du contenu, cette
@@ -1089,6 +1099,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterWall-E.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -1154,11 +1165,11 @@
         robotique qu’à un concours de performances artistiques. Bel équilibre
         sur la page. Attention à l’orthographe. Votre affiche doit être
         irréprochable. Il doit aussi respecter le cahier des charges en
-        affichant le titre exact de l’évenement. Le slogan «&nbsp;À la fin, il n’en
-        restera qu’un&nbsp;!&nbsp;» est trop petit et convenu (vu et revu). Pour
+        affichant le titre exact de l’évenement. Le slogan «{{'\xa0'}}À la fin, il n’en
+        restera qu’un{{'\xa0'}}!{{'\xa0'}}» est trop petit et convenu (vu et revu). Pour
         interpeller le récepteur du message, votre slogan doit être percutant.
         Sortez des lieux communs et n’hésitez pas à associer des éléments a
-        priori incompatibles&nbsp;! Cela peut donner lieu à de belles trouvailles.
+        priori incompatibles{{'\xa0'}}! Cela peut donner lieu à de belles trouvailles.
         Les couleurs peuvent, par endroits, manquer un peu de contraste pour
         accrocher le regard. De manière générale, évitez les nuances de marron,
         trop ternes. Il faut renforcer le contraste.
@@ -1169,6 +1180,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterChaplin.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -1232,8 +1244,8 @@
       <p>
         Même si le visuel est graphiquement très intéressant et interpellant, le
         recours à la figure de Charlie Chaplin fait immédiatement penser à
-        l’univers du cinéma. La dimension «&nbsp;performances artistiques&nbsp;» n’est pas
-        bien représentée ni défendue par le slogan «&nbsp;GEII à l’œuvre&nbsp;», assez
+        l’univers du cinéma. La dimension «{{'\xa0'}}performances artistiques{{'\xa0'}}» n’est pas
+        bien représentée ni défendue par le slogan «{{'\xa0'}}GEII à l’œuvre{{'\xa0'}}», assez
         banal. Le texte est trop épars et on regrette le mélange de polices dans
         le titre de l’événement, en partie supérieure de l’affiche. On harmonise
         au maximum les polices de caractères sur une même affiche. S’il y a une
@@ -1241,7 +1253,7 @@
         être déplacés dans le carré noir de gauche pour assurer un meilleur
         équilibre de la page et une meilleure Lisibilité du contenu. L’affiche multiplie
         les codes (Chaplin, Mondrian). Il y a trop d’éléments forts. Privilégiez
-        la mise en valeur d’un seul élément (exemple&nbsp;: visage en noir et blanc
+        la mise en valeur d’un seul élément (exemple{{'\xa0'}}: visage en noir et blanc
         sur fond composite).
       </p>
     </b-modal>
@@ -1250,6 +1262,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterDance.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -1318,9 +1331,9 @@
         par rapport au thème. Cette affiche met en œuvre les codes des salles de
         spectacle. Il faut éviter la police noire du titre sur fond sombre, peu
         lisible, ainsi que l’aspect sombre, sobre, voire austère, de l’image. Le
-        slogan est trop proche de la définition de l’événement&nbsp;; il n’interpelle
+        slogan est trop proche de la définition de l’événement{{'\xa0'}}; il n’interpelle
         pas. S’il parle aux étudiants en génie électrique et informatique
-        industrielle (un «&nbsp;courant alternatif&nbsp;»), il n’interpellera sans doute
+        industrielle (un «{{'\xa0'}}courant alternatif{{'\xa0'}}»), il n’interpellera sans doute
         pas un public plus large.
       </p>
     </b-modal>
@@ -1329,6 +1342,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterAutomnal.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -1396,7 +1410,7 @@
         tout, l’esprit de l’affiche n’est pas en lien avec le thème. Il aurait
         fallu apporter une touche graphique et artistique à l’ensemble pour
         renvoyer à l’univers de la performance artistique. On trouve ici le code
-        de l’automne et de la nature&nbsp;; cela renvoie plus à un événement lié au
+        de l’automne et de la nature{{'\xa0'}}; cela renvoie plus à un événement lié au
         végétal. La gestion des informations chiffrées (date, horaires) est
         intéressante. Il manque le slogan. Les logos sont peu lisibles.
       </p>
@@ -1406,6 +1420,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterMosaic.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -1467,7 +1482,7 @@
         </tr>
       </table>
       <p>
-        Même s’il est simple, cette affiche est efficace&nbsp;; il présente un aspect
+        Même s’il est simple, cette affiche est efficace{{'\xa0'}}; il présente un aspect
         graphique intéressant. La charte graphique est tout à fait cohérente. On
         retrouve un rappel du contour mosaïque dans le choix de la police de
         caractères et sa couleur, dans le fond jaune qui lui répond en écho ou
@@ -1476,8 +1491,8 @@
         texte trop dense (il faudrait notamment enlever les prépositions – de, à
         – ainsi que le déterminant – le –). De surcroît, cet espace de texte
         mériterait un jeu entre la police en gras et en maigre pour différencier
-        les différents niveaux d’information. Le slogan «&nbsp;Le GEII est aussi un
-        artiste&nbsp;!&nbsp;» est peu interpellant.
+        les différents niveaux d’information. Le slogan «{{'\xa0'}}Le GEII est aussi un
+        artiste{{'\xa0'}}!{{'\xa0'}}» est peu interpellant.
       </p>
     </b-modal>
     <b-modal id="my-modal16" hide-footer hide-header
@@ -1485,6 +1500,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterInflamed.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -1547,8 +1563,8 @@
       </table>
       <p>
         Cette affiche est créative et pertinente. Les couleurs sont bien
-        contrastées et elles interpellent. Le slogan «&nbsp;L’art, la flamme de notre
-        passion&nbsp;» ainsi que la police de caractères sont bien en lien avec
+        contrastées et elles interpellent. Le slogan «{{'\xa0'}}L’art, la flamme de notre
+        passion{{'\xa0'}}» ainsi que la police de caractères sont bien en lien avec
         l’illustration. Il faudrait néanmoins varier la police de caractères
         pour mettre certains éléments en valeur (titre/slogan). Il faut
         également respecter les codes de présentation des lieu et date
@@ -1566,6 +1582,7 @@
       <img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterArty.jpg"
+        draggable="false"
       />
       </b-row>
       <br>
@@ -1644,26 +1661,27 @@
       ><img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterWinner1.jpg"
+        draggable="false"
     /></b-modal>
     <b-modal id="my-modal19" hide-footer hide-header
       ><img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterWinner2.jpg"
+        draggable="false"
     /></b-modal>
     <b-modal id="my-modal20" hide-footer hide-header
       ><img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterWinner3.jpg"
+        draggable="false"
     /></b-modal>
   </div>
 </template>
-<style lang="scss">
+<style lang="scss"  scoped>
   .card {
     cursor: pointer;
   }
-  .carousel-control-prev, .carousel-control-next{
-    width:7%!important;
-  }
+  
 </style>
 
 <script lang="ts">

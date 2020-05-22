@@ -8,6 +8,16 @@
     <h4>
       Exemple de diaporama à éviter
     </h4>
+    <p>
+      Un diaporama ne doit contenir que quelques mots-clés qui présentent les
+      idées directrices de l'oral. Le diaporama est avant tout un support visuel
+      pour l’auditoire{{'\xa0'}}; il doit lui permettre de visualiser vos idées. Il doit
+      être lisible (pas de superpositions d'éléments) et respecter une structure
+      cohérente d’une diapositive à l’autre afin de ne pas perdre l’auditoire.
+      On doit y trouver une unité tant dans le style rédactionnel que dans
+      l’aspect visuel (respect de la charte graphique, pas de mélange aléatoire
+      de polices, par exemple)…
+    </p>
     <b-row align-h="center">
       <iframe
         src="https://docs.google.com/presentation/d/e/2PACX-1vQm3k_HME4Z5K1oPa3zjqKjHYU55Ka9JlUoGe2EaJ5UMhL2vuWAkP-K2_PbWDjHniYopSLuD5MpOa0r/embed?start=true&loop=false&delayms=5000"
@@ -123,6 +133,9 @@
         </b-col>
       </b-row>
     </p>
+    <NextPrevBtn
+      v-bind:nxtprev-list="nxtprevProjectionInPractise"
+    ></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -132,13 +145,24 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Header,
     Menu,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class ProjectionInPractise extends Vue {}
+export default class ProjectionInPractise extends Vue {
+  public nxtprevProjectionInPractise = {
+    BoolPrev: true,
+    BoolNext: false,
+    PrevImage: "/thumbnail1.png",
+    NextImage: "",
+    PrevLink: "/Diaporama/Astuces",
+    NextLink: "",
+  };
+}
 </script>

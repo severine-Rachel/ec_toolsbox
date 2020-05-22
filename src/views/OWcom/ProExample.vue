@@ -1,67 +1,86 @@
 <template>
-  <div>
+  <div id="ProExample">
     <Header></Header>
     <Menu></Menu>
     <h3>EXEMPLES DE RÉALISATIONS</h3>
     <p></p>
     <div style="text-align: center">
-    <b-row class="justify-content-md-center">
-    <!--affichage des images stockées dans galleryCover-->
-      <div class="colonne" v-for="(Galery, index) in galery" :key="Galery">
-        <h4>{{galeryTitres[index]}}</h4>
-        <div class="mos_content" v-on:click="displayGalery(Galery)">
-          <div class="img_align" v-for="carousel in Galery" :key="carousel">
-            <span>
-              <img class="mosaique" v-bind:src="carousel[0]" draggable="false" />
+      <b-row class="justify-content-md-center">
+        <!--affichage des images stockées dans galleryCover-->
+        <div class="colonne" v-for="(Galery, index) in galery" :key="Galery">
+          <h4>{{ galeryTitres[index] }}</h4>
+          <a href="#ScrollImage" class="scroll-vid">
+            <div class="mos_content" v-on:click="displayGalery(Galery)">
+              <div class="img_align" v-for="carousel in Galery" :key="carousel">
+                <span>
+                  <img
+                    class="mosaique"
+                    v-bind:src="carousel[0]"
+                    draggable="false"
+                  />
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </b-row>
+      <b-row id="ScrollImage">
+        <div class="img_align" v-if="galerySelected">
+          <div
+            v-for="(Galery, index) in galery"
+            :key="Galery"
+            v-show="index === nbGalery"
+          >
+            <div
+              class="img_align"
+              v-for="carousel in Galery"
+              :key="carousel"
+              v-on:click="displayCarousel(carousel)"
+            >
+              <a href="#ScrollCarousel" class="scroll-vid">
+                <img class="imgCV" v-bind:src="carousel[0]" draggable="false" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </b-row>
+      <b-row id="ScrollCarousel">
+        <div v-if="carouselSelected" class="div-align">
+          <div v-for="(Galery, index) in galery" :key="Galery">
+            <span v-if="index === nbGalery">
+              <Carousel
+                v-for="(carousel, index) in Galery"
+                :key="carousel"
+                v-show="nbCarousel - 1 === index"
+              >
+                <span v-for="slide in carousel" :key="slide">
+                  <slide>
+                    <img
+                      class="img_slide"
+                      v-bind:src="slide"
+                      draggable="false"
+                    />
+                  </slide>
+                </span>
+              </Carousel>
             </span>
           </div>
         </div>
-      </div>
-    </b-row>
-    <b-row>
-      <div class="img_align" v-if="galerySelected">
-        <div 
-        v-for="(Galery,index) in galery" :key="Galery" 
-        v-show="index === nbGalery"
-        >
-
-          <div class="img_align" 
-            v-for="carousel in Galery" :key="carousel"
-            v-on:click="displayCarousel(carousel)"
-            >
-            <img class="imgCV" v-bind:src="carousel[0]" draggable="false" />
-          </div>
-        </div>
-      </div>
-    </b-row>
-    <b-row>
-      <div v-if="carouselSelected" class="div-align">
-        <div v-for="(Galery,index) in galery" :key="Galery">
-          <span v-if="index === nbGalery">
-          <Carousel
-            v-for="(carousel,index) in Galery" 
-            :key="carousel"
-            v-show="(nbCarousel-1) === index"
-            >
-            <span v-for="slide in carousel" :key="slide">
-              <slide>
-                <img class="img_slide" v-bind:src="slide" draggable="false" />
-              </slide>
-            </span>
-          </Carousel>
-          </span>
-        </div>
-      </div>
-    </b-row>
-    <!--affichage du carousel correspondant a l'image sélectionnée dans 'display()'-->
-  </div>
-
-  <Footer></Footer>
+      </b-row>
+      <!--affichage du carousel correspondant a l'image sélectionnée dans 'display()'-->
+    </div>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProExample"></NextPrevBtn>
+    <Footer></Footer>
   </div>
 </template>
 
 <style lang="scss">
-
+#ProExample {
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100vh;
+  position: relative;
+}
 </style>
 
 <script lang="ts">
@@ -73,6 +92,7 @@ import Galery from "@/components/Galery.vue";
 import Footer from "@/components/Footer.vue";
 import Carousel from "@/components/Carousel/Carousel.vue";
 import Slide from "@/components/Carousel/Slide.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 @Component({
   components: {
     Header,
@@ -81,6 +101,7 @@ import Slide from "@/components/Carousel/Slide.vue";
     Galery,
     Footer,
     Carousel,
+    NextPrevBtn,
     Slide,
   },
 })
@@ -89,14 +110,12 @@ export default class ProExample extends Vue {
   public carouselSelected = false;
   public nbCarousel = 0;
   public nbGalery = 0;
-  public nb=0;
+  public nb = 0;
   public galeryTitres: string[] = [
     "Magazine de GEII de l'IUT",
     "Critique de cinéma",
     "Le dossier de presse",
     "Analyse d'articles de presse",
-    
-
   ];
   //tableaux de stockage des images des carousels
   public carouselMagazine1: string[] = [
@@ -164,21 +183,7 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Press/PressArt12.jpg",
     "/picture_OWcom/Press/PressArt12.jpg",
   ];
-  public carouselPressCovid1: string[] = [
-    "/picture_OWcom/Press/PressCovid19Correction1.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction2.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction3.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction4.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction5.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction6.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction7.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction8.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction9.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction10.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction11.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction12.jpg",
-    "/picture_OWcom/Press/PressCovid19Correction12.jpg",
-  ];
+
   public carouselPressCovid2: string[] = [
     "/picture_OWcom/Press/PressCovid19Final1.jpg",
     "/picture_OWcom/Press/PressCovid19Final2.jpg",
@@ -195,20 +200,7 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Press/PressCovid19Final12.jpg",
     "/picture_OWcom/Press/PressCovid19Final13.jpg",
   ];
-  public carouselPressTurc1: string[] = [
-    "/picture_OWcom/Press/PressTurcCorrection1.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection2.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection3.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection4.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection5.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection6.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection7.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection8.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection9.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection10.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection11.jpg",
-    "/picture_OWcom/Press/PressTurcCorrection12.jpg",
-  ];
+
   public carouselPressTurc2: string[] = [
     "/picture_OWcom/Press/PressTurcFinal1.jpg",
     "/picture_OWcom/Press/PressTurcFinal2.jpg",
@@ -224,86 +216,87 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Press/PressTurcFinal12.jpg",
   ];
   //tableau de stockage des carousels
-public galeryPressFolder: string[][]=[
-  this.carouselPress1,
-  this.carouselPress2,
-  this.carouselPress3,
-];
-public galeryPress: string[][]=[
-  this.carouselPressCovid1,
-  this.carouselPressCovid2,
-  this.carouselPressTurc1,
-  this.carouselPressTurc2,
-];
+  public galeryPressFolder: string[][] = [
+    this.carouselPress1,
+    this.carouselPress2,
+    this.carouselPress3,
+  ];
+  public galeryPress: string[][] = [
+    this.carouselPressCovid2,
 
-public galeryMagazine: string[][] =[
-    this.carouselMagazine1,
-];
-public galeryCritic: string[][]=[
-    this.carouselCriticCinema,
-];
-public galery: string[][][]=[
-  this.galeryMagazine,
-  this.galeryCritic,
-  this.galeryPressFolder,
-  this.galeryPress,
-  
-  
-];
+    this.carouselPressTurc2,
+  ];
 
-public displayGalery(src: string[][]): void {
+  public galeryMagazine: string[][] = [this.carouselMagazine1];
+  public galeryCritic: string[][] = [this.carouselCriticCinema];
+  public galery: string[][][] = [
+    this.galeryMagazine,
+    this.galeryCritic,
+    this.galeryPressFolder,
+    this.galeryPress,
+  ];
+
+  public displayGalery(src: string[][]): void {
     this.carouselSelected = false;
     this.nbGalery = this.galery.indexOf(src);
     if (this.galerySelected == false) {
       this.galerySelected = true;
     }
-}
-public displayCarousel(src: string[]): void {
-    this.nbCarousel = (this.galery[this.nbGalery].indexOf(src))+1;
+  }
+  public displayCarousel(src: string[]): void {
+    this.nbCarousel = this.galery[this.nbGalery].indexOf(src) + 1;
     if (this.carouselSelected == false) {
       this.carouselSelected = true;
     }
-}
+  }
+  public nxtprevProExample = {
+    BoolPrev: true,
+    BoolNext: false,
+    PrevImage: "/thumbnail5.png",
+    NextImage: "",
+    PrevLink: "/Ecrit_Pro/Orthographe",
+    NextLink: "",
+  };
 }
 </script>
 <style lang="scss">
-  .img_exemple{
-    height: 450px;
-    width: auto;
-    margin: 40px;
+.img_exemple {
+  height: 450px;
+  width: auto;
+  margin: 40px;
+}
+.img_slide {
+  width: 50%;
+}
+.mosaique {
+  height: 200px;
+  max-width: 120px;
+  max-height: 160px;
+  width: auto;
+  height: auto;
+  margin: 0px !important;
+}
+.colonne {
+  width: 22% !important;
+}
+.img_align {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mos_content {
+  border-color: #2694cd;
+  border-style: solid;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #bce8ff;
+  padding: 10px !important;
+  margin: 10px !important;
+  &:hover {
+    border-color: #2e367f;
   }
-  .img_slide{
-    width: 50%;
-  }
-  .mosaique{
-    height: 200px;
-    max-width:120px;
-    max-height:160px;
-    width: auto;
-    height: auto;
-    margin: 0px !important;
-  }
-  .colonne{
-    width:22% !important;
-  }
-  .img_align{
-    display: inline-block;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .mos_content{
-    border-color: #2694cd;
-    border-style: solid;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #BCE8FF ;
-    padding: 10px !important;
-    margin: 10px !important;
-    &:hover{
-      border-color: #2e367f;
-    }
-  }
-  .div-align{
-    width: 100%;
-  }
+}
+.div-align {
+  width: 100%;
+}
 </style>

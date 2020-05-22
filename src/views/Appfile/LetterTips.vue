@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div id="LetterTips">
+    <Header></Header>
+    <Menu></Menu>
     <h3 id="tipsLetter">
       CONSEILS ET ASTUCES
     </h3>
@@ -9,48 +11,68 @@
       href="https://baborlelefan.com/2013/12/07/enquete-faut-tenter-des-candidatures-originales/"
       target="_blank"
       class="subtitle-link"
-     
     >
-      <strong>Pour dédramatiser 
-      <b-icon icon="box-arrow-right"></b-icon
-    ></strong></a>
+      <strong>Pour dédramatiser <b-icon icon="box-arrow-right"></b-icon></strong
+    ></a>
 
     <p>
       N’hésitez pas à faire un rappel de la charte graphique de votre CV dans
-      votre lettre de motivation. Modèles de lettres de motivation graphiques&nbsp;:
+      votre lettre de motivation. Modèles de lettres de motivation graphiques{{
+        "\xa0"
+      }}:
     </p>
     <p>
       <a
         href="https://fr.venngage.com/templates/resumes/cover-letters"
         alt="vennage"
-        target="_blank" draggable="false"
+        target="_blank"
+        draggable="false"
         ><img
-          class="Help_Builder"  
-          src="/picture_letter/LetterTool1.jpg" draggable="false"
+          class="Help_Builder"
+          src="/picture_letter/LetterTool1.jpg"
+          draggable="false"
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
       <a
         href="https://fr.venngage.com/blog/modeles-lettres-de-motivation/"
         alt="vennage"
-        target="_blank" draggable="false"
+        target="_blank"
+        draggable="false"
         ><img
-          class="Help_Builder"  
-          src="/picture_letter/LetterTool2.jpg" draggable="false"
+          class="Help_Builder"
+          src="/picture_letter/LetterTool2.jpg"
+          draggable="false"
         /><b-icon icon="box-arrow-right"></b-icon>
       </a>
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevLetterTips"></NextPrevBtn>
+    <Footer></Footer>
   </div>
 </template>
-
+<style lang="scss">
+#LetterTips {
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100vh;
+}
+</style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Video from "@/components/Video.vue";
 import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
+import Header from "@/components/Header.vue";
+import Menu from "@/components/Menu.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
+import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Video,
     BIcon,
     BIconBoxArrowRight,
+    Header,
+    Menu,
+    NextPrevBtn,
+    Footer,
   },
 })
 export default class LetterKeys extends Vue {
@@ -62,7 +84,7 @@ export default class LetterKeys extends Vue {
     },
     {
       videoSrc: "https://www.youtube.com/embed/Kuquw_MFX3U",
-      videoTitle: "Comment structurer sa lettre de motivation ?",
+      videoTitle: "Comment structurer votre lettre de motivation\xa0?",
       videoRoot: "Chaîne : digiSchool",
     },
     {
@@ -76,5 +98,13 @@ export default class LetterKeys extends Vue {
       videoRoot: "Chaîne :  1er emploi, jobs, stages",
     },
   ];
+  public nxtprevLetterTips = {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail4.png",
+    NextImage: "/thumbnail3.png",
+    PrevLink: "/Lettre_de_Motivation/Fondamentaux",
+    NextLink: "/Lettre_de_Motivation/Analyse",
+  };
 }
 </script>

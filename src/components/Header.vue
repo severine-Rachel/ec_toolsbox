@@ -10,14 +10,18 @@
               placeholder="Rechercher"
             ></b-form-input>
             <b-button size="sm" class="my-2 my-sm-0" type="submit"
-              ><b-icon icon="search"></b-icon></b-button
-            >
+              ><b-icon icon="search"></b-icon
+            ></b-button>
           </b-nav-form>
         </b-navbar-nav>
       </b-navbar>
 
-      <h1 id="HearderSubTitle">P. RAFFY-HIDEUX</h1>
-      <h2 id="HearderSubTitle">Enseignante en Lettres, Expression et Communication</h2>
+      <router-link to="/" id="LinkTitle"
+        ><h1 class="hearder-sub-title" id="H1Header">P. RAFFY-HIDEUX</h1></router-link
+      >
+      <h2 class="hearder-sub-title" id="H2Header">
+        Enseignante en Lettres, Expression et Communication
+      </h2>
     </div>
   </div>
 </template>
@@ -27,18 +31,29 @@
   //banner of website
   background-image: url(../assets/basic-Graph/banner.png);
   background-size: 100% 100%;
-  height: 30vh;
+  height: 20vh;
 }
 
-
-
-#HearderSubTitle {
+.hearder-sub-title {
   margin-bottom: unset !important;
   margin-left: 3rem !important;
   font-family: Myriad;
   color: white;
-  padding-top:0;
+  padding-top: 0;
+  
+  
 }
+#H1Header{
+  font-size:1.9rem;
+}
+#H2Header{
+  font-size: 1.4rem;
+}
+  #LinkTitle:hover {
+    text-decoration: none !important;
+ 
+  }
+
 .btn-secondary {
   background-color: #1694d6 !important;
   border: none !important;
@@ -64,8 +79,8 @@ Vue.component("b-form-input", BFormInput);
 @Component({
   components: {
     BIcon,
-    BIconSearch
-  }
+    BIconSearch,
+  },
 })
 export default class Header extends Vue {
   // export default==public class

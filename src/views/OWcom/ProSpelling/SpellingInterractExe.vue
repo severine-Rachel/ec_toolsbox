@@ -204,7 +204,7 @@
   padding: 0 !important;
 }
 .card-deck {
-  margin: 5% !important;
+  margin: 2% 5% !important;
 }
 .img-card {
   height: 5vh !important;

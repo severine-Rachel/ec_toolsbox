@@ -6,7 +6,7 @@
         cols="5"
         class="case-thumbnail"
         v-for="indexElement in indexList"
-        :key="indexElement"
+        :key="indexElement.IndexTitle"
         v-bind:style="{
           'background-image': 'url(' + indexElement.IndexImage + ')',
           'background-size': '100% 100%'
@@ -25,7 +25,7 @@
 .wallpaper {
   text-align: center;
   text-decoration: none !important;
-  box-sizing: inherit;
+ 
 }
 .case-thumbnail {
   margin: 1%;

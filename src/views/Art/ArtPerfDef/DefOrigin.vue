@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h4>II.&nbsp;ORIGINES</h4>
+    <h4>II.{{'\xa0'}}ORIGINES</h4>
 
        <p>
-        La performance s’enracine&nbsp;:
+        La performance s’enracine{{'\xa0'}}:
         <ul>
             <li class="first-list">
                 dans la radicalité des soirées futuristes et dadaïstes du début du XXe siècle en Europe. 
@@ -18,18 +18,18 @@
     <h5 class="text-vid">
         Dada at the Cabaret Voltaire
     </h5>
-    <b-row align-h="center">
+    <b-row align-h="center" class="breath">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/uaBMF3yYPow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
     </b-row>
    
-   <p></p>
+   
     <p>
-        Breton l'avait bien senti dès 1919&nbsp;: le but avoué de Dada était de "tuer l'art". En quelques années, de 1915 à 1923, le mouvement dadaïste ébranle les fondations esthétiques de son temps, qu'elles aient été traditionnelles ou d'avant-garde, et amorce une révolution qui, du surréalisme au Pop Art, va, en un demi-siècle, bouleverser notre vision du monde.
+        Breton l'avait bien senti dès 1919{{'\xa0'}}: le but avoué de Dada était de "tuer l'art". En quelques années, de 1915 à 1923, le mouvement dadaïste ébranle les fondations esthétiques de son temps, qu'elles aient été traditionnelles ou d'avant-garde, et amorce une révolution qui, du surréalisme au Pop Art, va, en un demi-siècle, bouleverser notre vision du monde.
     </p>
     <h5 class="subtitle-h5">L’école du Bauhaus (Oskar Schlemmer en tête de file) </h5>
     <p>
-        En allemand, «&nbsp;Bau&nbsp;» signifie «&nbsp;bâtiment&nbsp;», «&nbsp;construction&nbsp;» et «&nbsp;Haus&nbsp;», «&nbsp;maison&nbsp;». Le Bauhaus, c’est donc la «&nbsp;maison du bâtir&nbsp;», mais c’est surtout une école complètement atypique qui rêve de réformer l’enseignement pour mettre en œuvre des idées révolutionnaires.
+        En allemand, «{{'\xa0'}}Bau{{'\xa0'}}» signifie «{{'\xa0'}}bâtiment{{'\xa0'}}», «{{'\xa0'}}construction{{'\xa0'}}» et «{{'\xa0'}}Haus{{'\xa0'}}», «{{'\xa0'}}maison{{'\xa0'}}». Le Bauhaus, c’est donc la «{{'\xa0'}}maison du bâtir{{'\xa0'}}», mais c’est surtout une école complètement atypique qui rêve de réformer l’enseignement pour mettre en œuvre des idées révolutionnaires.
     </p>
     <h5 class="text-vid">
         Oskar Schlemmer - Das triadische Ballett (1922)
@@ -47,14 +47,14 @@
     </b-row>
     <p class="text-vid"> Chaîne : Vens</p>
     <p>
-        Ballet qui se fonde sur une approche pluridisciplinaire du mouvement. Se basant sur des harmonies à 3&nbsp;: l'unité de la danse, de la musique et du costume, 3 parties, et 3 danseurs. Il arrive à une description métaphysique d'un équilibre des contraires, entre concepts abstraits et pulsions affectives.
+        Ballet qui se fonde sur une approche pluridisciplinaire du mouvement. Se basant sur des harmonies à 3{{'\xa0'}}: l'unité de la danse, de la musique et du costume, 3 parties, et 3 danseurs. Il arrive à une description métaphysique d'un équilibre des contraires, entre concepts abstraits et pulsions affectives.
     </p>
     <p>
         La performance artistique se développe en Europe et aux États-Unis dans les années 1950 (même si Japon n’est pas en reste – voir la compagnie Gutaï).
     </p>
     <h5 class="subtitle-h5">Yves Klein</h5>
     <p>
-        Klein déclare que sa seule présence physique sur le stand qui lui est attribué à l’exposition «&nbsp;Motion in Vision - Vision in Motion&nbsp;» d'Anvers de 1959, est l’œuvre correspondant à sa contribution. En 1960, Les Anthropométries en bleu de femmes nues qu'il réalise en public à la Galerie Internationale d’Art Contemporain, au son de sa symphonie monoton-silence, correspondent également à une performance artistique.
+        Klein déclare que sa seule présence physique sur le stand qui lui est attribué à l’exposition «{{'\xa0'}}Motion in Vision - Vision in Motion{{'\xa0'}}» d'Anvers de 1959, est l’œuvre correspondant à sa contribution. En 1960, Les Anthropométries en bleu de femmes nues qu'il réalise en public à la Galerie Internationale d’Art Contemporain, au son de sa symphonie monoton-silence, correspondent également à une performance artistique.
     </p>
     <h5 class="text-vid">  Yves Klein. Anthropométrie de l'époque bleue (1960) black & white
     </h5>
@@ -87,7 +87,7 @@
     </b-row>
     <p class="text-vid"> Chaîne :   Catherine Heard</p>
     <p>
-        Durant ces sessions, les artistes Gilbert & George, alors couverts de peinture dorée se meuvent tels des automates, tout en reprenant la chanson Underneath the Arches des artistes britanniques Flanagan et Allen. Les artistes souhaitent ainsi&nbsp;:
+        Durant ces sessions, les artistes Gilbert & George, alors couverts de peinture dorée se meuvent tels des automates, tout en reprenant la chanson Underneath the Arches des artistes britanniques Flanagan et Allen. Les artistes souhaitent ainsi{{'\xa0'}}:
         <ul>
             <li>révéler le mécanisme de l’art, </li>
             <li>démystifier la sensibilité picturale, </li>

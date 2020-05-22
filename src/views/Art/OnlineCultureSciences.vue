@@ -45,9 +45,9 @@
       rubrique scientifique dans la revue de science-fiction Bifrost. Il préside
       par ailleurs le festival international de science-fiction Les Utopiales à
       Nantes. Julien Bobroff est physicien, professeur à l'Université
-      Paris-Saclay où il anime depuis 2013 l'équipe de recherche «&nbsp;La Physique
+      Paris-Saclay où il anime depuis 2013 l'équipe de recherche «{{'\xa0'}}La Physique
       Autrement » au Laboratoire de Physique des Solides (CNRS et Université
-      Paris-Saclay). De 1994 à 2013, il a travaillé dans l'équipe «&nbsp;Nouveaux
+      Paris-Saclay). De 1994 à 2013, il a travaillé dans l'équipe «{{'\xa0'}}Nouveaux
       états de la matière » pour étudier les propriétés quantiques de la matière
       à basse température, en particulier les supraconducteurs et les aimants
       quantiques.
@@ -73,7 +73,7 @@
           Le Centre National d’Études Spatiales <b-icon icon="box-arrow-right"></b-icon>
         </a>
       </strong>
-    
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureScience"></NextPrevBtn>
 
     <Footer></Footer>
   </div>
@@ -84,6 +84,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import {BIcon, BIconBoxArrowRight} from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -91,8 +92,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIconBoxArrowRight,
     BIcon,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class OnlineCultureSciences extends Vue {}
+export default class OnlineCultureSciences extends Vue {
+  public nxtprevOnlineCultureScience =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail6.png",
+    NextImage: "/thumbnail1.png",
+    PrevLink: "/CultureenLigne/Histoire",
+    NextLink: "/CultureenLigne/CultureGenerale",
+  };
+}
 </script>

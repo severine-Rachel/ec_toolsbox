@@ -3,13 +3,9 @@
     <Header></Header>
     <Menu></Menu>
     <h2 class="rubric-title">L'INFOGRAPHIE</h2>
-    <p>
-      
-    </p>
-    <Index v-bind:index-list="indexInfography"></Index>
-    <InfographyFundamental></InfographyFundamental>
-    <InfographyTips></InfographyTips>
-    <InfographyInPractise></InfographyInPractise>
+
+    <ContentsPage v-bind:contents-list="contentsInfography"></ContentsPage>
+
     <Footer></Footer>
   </div>
 </template>
@@ -20,41 +16,34 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
-import Index from "@/components/Index.vue";
-import InfographyFundamental from "@/views/VisuCom/InfographyFundamental.vue";
-import InfographyTips from "@/views/VisuCom/InfographyTips.vue";
-import InfographyInPractise from "@/views/VisuCom/InfographyInPractise.vue";
+import ContentsPage from "@/components/ContentsPage.vue";
+
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Header,
     Menu,
-    Index,
-    InfographyFundamental,
-    InfographyTips,
-    InfographyInPractise,
+    ContentsPage,
     Footer,
   },
 })
 export default class Infography extends Vue {
-  public indexInfography= [
+  public contentsInfography = [
     {
-    IndexTitle:  "LES FONDAMENTAUX",
-    IndexId: "#InfographyFundamental",
-    IndexImage: "/thumbnail4.png"
+      ContentsTitle: "LES FONDAMENTAUX DE L'INFOGRAPHIE",
+      ContentsPath: "/Infographie/Fondamentaux",
+      ContentsImage: "/thumbnail4.png",
     },
     {
-    IndexTitle: "CONSEILS ET ASTUCES",
-    IndexId: "#InfographyTips",
-    IndexImage:"/thumbnail6.png"
+      ContentsTitle: "CONSEILS ET ASTUCES",
+      ContentsPath: "/Infographie/Astuces",
+      ContentsImage: "/thumbnail6.png",
     },
     {
-    IndexTitle:  "EN PRATIQUE",
-    IndexId: "#InfographyInPractise",
-    IndexImage:"/thumbnail7.png"
+      ContentsTitle: "EN PRATIQUE",
+      ContentsPath: "/Infographie/EnPratique",
+      ContentsImage: "/thumbnail7.png",
     },
-
-  ]
-
+  ];
 }
 </script>

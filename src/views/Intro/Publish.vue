@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>PUBLICATIONS</h3>
+    <h3 id="Publish">PUBLICATIONS</h3>
     <h4>Dans le domaine de l’expression communication</h4>
     <p>
       <b-row id="contain-publish">
@@ -10,12 +10,12 @@
         <b-col cols="8">
           <p>
             Cet ouvrage s’adresse à tous ceux qui doivent se présenter à des
-            entretiens de recrutement pour la première fois&nbsp;: jeunes diplômés
-            qui entrent sur le marché de l’emploi, étudiants qui postulent à un
-            stage, à une poursuite d’études ou encore lycéens face à une épreuve
-            orale de concours. Vous y trouverez des exercices pratiques, des
-            conseils méthodologiques, des outils concrets, des astuces et des
-            témoignages de professionnels.
+            entretiens de recrutement pour la première fois{{ "\xa0" }}: jeunes
+            diplômés qui entrent sur le marché de l’emploi, étudiants qui
+            postulent à un stage, à une poursuite d’études ou encore lycéens
+            face à une épreuve orale de concours. Vous y trouverez des exercices
+            pratiques, des conseils méthodologiques, des outils concrets, des
+            astuces et des témoignages de professionnels.
           </p>
           <p>
             À partir d’exemples vécus, de tests, de QCM, ou encore des 50
@@ -39,19 +39,20 @@
 
     <p>
       <strong
-        >«&nbsp;Concours de performances artistiques à l’IUT&nbsp;: l’art comme clé
-        d’entrée dans la compétence&nbsp;»</strong
-      >, Didactique 3, L’Harmattan, ouvrage coordonné par Clémentine Hougue
-      (Association des Enseignants de Communication des IUT).
+        >«{{ "\xa0" }}Concours de performances artistiques à l’IUT{{ "\xa0" }}:
+        l’art comme clé d’entrée dans la compétence{{ "\xa0" }}»</strong
+      >, <i>Didactique 3</i>, L’Harmattan, ouvrage coordonné par Clémentine
+      Hougue (Association des Enseignants de Communication des IUT), 2019.
     </p>
     <p>
       <strong>
-        «&nbsp;La rédaction de critiques de cinéma à l’IUT&nbsp;: renforcer les capacités
-        d’analyse et les compétences rédactionnelles des étudiants&nbsp;»</strong
-      >, Pratiques de la communication, De l’écriture créative aux écrits
-      professionnels&nbsp;: comment développer les compétences rédactionnelles des
-      étudiants&nbsp;? [Revue en ligne], 2020, bientôt disponible sur
-      https://pratiquescom.hypotheses.org.
+        «{{ "\xa0" }}La rédaction de critiques de cinéma à l’IUT{{ "\xa0" }}:
+        renforcer les capacités d’analyse et les compétences rédactionnelles des
+        étudiants{{ "\xa0" }}»</strong
+      >,<i> Pratiques de la communication</i>, De l’écriture créative aux écrits
+      professionnels{{ "\xa0" }}: comment développer les compétences
+      rédactionnelles des étudiants{{ "\xa0" }}? [Revue en ligne], septembre
+      2020, disponible sur https://pratiquescom.hypotheses.org.
     </p>
     <h4>
       Dans le domaine de la Littérature française, francophone et comparée
@@ -66,9 +67,10 @@
             Cette étude vise à établir une archéologie de la réflexivité du réel
             dans le récit haïtien d’aujourd’hui. Jusque dans les années 1960 et
             l’arrivée de François Duvalier au pouvoir, la tradition réaliste
-            haïtienne s’inscrit dans deux espaces de positivité majeurs&nbsp;: le
-            réalisme socialiste et le réalisme merveilleux. L’objet de cet
-            ouvrage consiste à interroger les métamorphoses du récit haïtien
+            haïtienne s’inscrit dans deux espaces de positivité majeurs{{
+              "\xa0"
+            }}: le réalisme socialiste et le réalisme merveilleux. L’objet de
+            cet ouvrage consiste à interroger les métamorphoses du récit haïtien
             dans ses affinités et dans ses oppositions aux réalismes des pères
             fondateurs, Jacques Roumain et Jacques Stephen Alexis, afin de
             définir l’influence que ces derniers ont exercée sur les écrivains,
@@ -102,7 +104,7 @@
             la grammaire et la prosodie créoles. Axel Gauvin est-il un
             précurseur de la "créolité" qui sera invoquée un peu plus tard, du
             côté des Antilles, par Jean Bernabé, Raphaël Confiant, et Patrick
-            Chamoiseau&nbsp;?
+            Chamoiseau{{ "\xa0" }}?
           </p>
         </b-col>
         <b-col cols="auto">
@@ -114,21 +116,29 @@
 
     <p>
       <strong
-        >«&nbsp;Du déchiffrement du monde et du démantèlement discursif&nbsp;: le roman
-        haïtien contemporain contre l’obscurantisme&nbsp;»</strong
-      >, Haïti&nbsp;: la révolte en mots et en couleurs, Revue Inter-Lignes n°13,
-      Toulouse, Laboratoire Art, Culture et Transmission&nbsp;: Les Presses
-      Universitaires de l'Institut Catholique de Toulouse, Artège Presse,
-      automne 2014, p.42-55.
+        >«{{ "\xa0" }}Du déchiffrement du monde et du démantèlement discursif{{
+          "\xa0"
+        }}: le roman haïtien contemporain contre l’obscurantisme{{
+          "\xa0"
+        }}»</strong
+      >,
+      <i
+        >Haïti{{ "\xa0" }}: la révolte en mots et en couleurs, Revue
+        Inter-Lignes n°13</i
+      >, Toulouse, Laboratoire Art, Culture et Transmission{{ "\xa0" }}: Les
+      Presses Universitaires de l'Institut Catholique de Toulouse, Artège
+      Presse, automne 2014, p.42-55.
     </p>
     <p>
-      <strong>Notes de lecture&nbsp;:</strong> à partir d’ouvrages de P. Chamoiseau,
-      R. Confiant, L.-P. Dalembert. Publiées dans Cultures Sud, revue du
-      Ministère des Affaires étrangères (2007-2008).
+      <strong>Notes de lecture{{ "\xa0" }}:</strong> à partir d’ouvrages de P.
+      Chamoiseau, R. Confiant, L.-P. Dalembert. Publiées dans<i>
+        Cultures Sud, revue du Ministère des Affaires étrangères</i
+      >
+      (2007-2008).
     </p>
     <p>
-      <strong>Biobibliographie «&nbsp;Axel Gauvin&nbsp;».</strong> Publiée sur Île en île,
-      portail de l’Université de New York.
+      <strong>Biobibliographie «{{ "\xa0" }}Axel Gauvin{{ "\xa0" }}».</strong>
+      Publiée sur <i>Île en île</i>, portail de l’Université de New York.
     </p>
     <h3>
       POUR ALLER PLUS LOIN EN EXPRESSION-COMMUNICATION…
@@ -161,8 +171,26 @@
       lettres et arts). La revue peut ainsi accueillir aussi bien des articles
       d’enseignants que de chercheurs.
     </p>
+
+    <h2>Contact Peggy Raffy-Hideux</h2>
+    <div>
+      <label>Email</label>
+      <br />
+      <b-form-input type="email" class="textarea" name="email" v-model="email" required></b-form-input>
+      <label>Message</label>
+      <br />
+      <b-form-textarea
+        class="textarea"
+        name="message"
+        v-model="message"
+        required
+      ></b-form-textarea>
+      <input id="InputSubmit" type="submit" v-on:click="form()" />
+    </div>
+    <!--php program in form.php-->
   </div>
 </template>
+
 <style lang="scss">
 #book-publish {
   width: 20vw;
@@ -171,11 +199,40 @@
 #contain-publish {
   margin: 5%;
 }
+label {
+  color: #2e367f;
+  margin: 1% 10%;
+}
+#InputSubmit,
+select {
+  margin: 1% 10% !important;
+}
+.textarea {
+  margin: 1% 10%;
+  max-width: 80%;
+}
 </style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Axios, { AxiosResponse } from "axios";
+import { BFormTextarea, BForm } from "bootstrap-vue";
 @Component({
-  components: {},
+  components: {
+    BForm,
+    BFormTextarea,
+  },
 })
-export default class Publish extends Vue {}
+export default class Publish extends Vue {
+  public email="";
+  public message="";
+  public form() {
+    Axios.get("http://www.cyromus.fr/api/form.php")/*, {
+      _message: this.message,
+      _email: this.email
+    })*/.then((response: AxiosResponse)=>{
+      console.log(response.data);
+      
+    });
+  }
+}
 </script>

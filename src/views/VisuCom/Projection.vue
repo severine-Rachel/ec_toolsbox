@@ -34,7 +34,7 @@ import Footer from "@/components/Footer.vue";
 export default class Projection extends Vue {
   public ContentsPageProjection = [
     {
-      ContentsTitle: "LES FONDAMENTAUX",
+      ContentsTitle: "LES FONDAMENTAUX DU DIAPORAMA",
       ContentsPath: "/Diaporama/Fondamentaux",
       ContentsImage: "/thumbnail5.png",
     },

@@ -4,7 +4,7 @@
           LA FONCTION SOCIALE DE LA COMMUNICATION
       </h4>
     <p>
-        Le langage, comme l’allure physique, se dotent d’une fonction sociale dans la communication&nbsp;: 
+        Le langage, comme l’allure physique, se dotent d’une fonction sociale dans la communication{{'\xa0'}}: 
     </p>
     <p>
         <ul>
@@ -18,11 +18,11 @@
                 notre capacité d’adaptation aux normes linguistiques.
             </li>
         </ul>
-        Différence entre «&nbsp;J’ai eu ce job à l’arrache&nbsp;» et «&nbsp;j’ai obtenu ce poste de justesse&nbsp;».
+        Différence entre «{{'\xa0'}}J’ai eu ce job à l’arrache{{'\xa0'}}» et «{{'\xa0'}}j’ai obtenu ce poste de justesse{{'\xa0'}}».
        
     </p>
     <p>
-        L’apparence physique est un élément de communication. C’est à partir de ses traits visibles qu’une personne est analysée&nbsp;:
+        L’apparence physique est un élément de communication. C’est à partir de ses traits visibles qu’une personne est analysée{{'\xa0'}}:
         </p>
     <p>
         <ul>
@@ -38,11 +38,11 @@
            </ul>
     </p>
     <p>
-        La part des informations qui passent par des perceptions visuelles est estimée à 55 %&nbsp;! 
+        La part des informations qui passent par des perceptions visuelles est estimée à 55 %{{'\xa0'}}! 
     </p>
         <img class="square" draggable="false" src="/picture_OWcom/schematic/schema_Impression.jpg" alt="information_impression">
     <p>
-        En conclusion&nbsp;:  pour exercer l’art de la communication, il est primordial d’œuvrer par étape&nbsp;:
+        En conclusion{{'\xa0'}}:  pour exercer l’art de la communication, il est primordial d’œuvrer par étape{{'\xa0'}}:
     </p>
     <p>
         <ul>

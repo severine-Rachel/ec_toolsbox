@@ -62,6 +62,10 @@ export default {
     background: url(next.png);
     background-size: 70px 70px;
     border-radius:50%;
+    
+}
+.btn_carousel.btn_next{
+    outline: none;
 }
 .btn_carousel.btn_prev{
     right: 35%;
@@ -69,5 +73,6 @@ export default {
     background: url(prev.png);
     background-size: 70px 70px;
     border-radius:50%;
+    outline: none;
 }
 </style>

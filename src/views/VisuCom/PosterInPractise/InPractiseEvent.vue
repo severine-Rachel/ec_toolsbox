@@ -26,6 +26,7 @@ export default class InPractiseEvent extends Vue {}
 }
 #blockfooteragainst{
   color:white !important;
+  font-size:1.5rem;
 }
 
 </style>
@@ -39,7 +40,7 @@ export default class InPractiseEvent extends Vue {}
             img-src="/picture_Visu/Poster/Poster3.jpg"
             img-alt="Affiche Challenge Robotique"
             img-top
-            draggable="false"
+            
           >
             <footer class="blockquote-footer">
               Challenge robotique
@@ -90,6 +91,7 @@ export default class InPractiseEvent extends Vue {}
             img-src="/picture_Visu/Poster/Poster5.jpg"
             img-alt="Affiche Forum de l'Orientation Post-DUT"
             img-top
+            
           >
             <footer class="blockquote-footer">
               Forum de l'Orientation Post-DUT
@@ -139,7 +141,7 @@ export default class InPractiseEvent extends Vue {}
               id="anti-poster"
             >
             <footer class="blockquote-footer" id="blockfooteragainst">
-              Contre exemple
+             <strong> Contre exemple</strong>
             </footer>
               
          </b-card>

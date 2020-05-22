@@ -11,7 +11,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Tramp&nbsp;», Jean-Charles Kraehn
+              «{{'\xa0'}}Tramp{{'\xa0'}}», Jean-Charles Kraehn
             </strong>
           </p>
           <p class="text-read">
@@ -32,7 +32,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Magasin Général&nbsp;», Loisel et Tripp
+              «{{'\xa0'}}Magasin Général{{'\xa0'}}», Loisel et Tripp
             </strong>
           </p>
           <p class="text-read">
@@ -50,7 +50,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Aldébaran&nbsp;», Léo
+              «{{'\xa0'}}Aldébaran{{'\xa0'}}», Léo
             </strong>
           </p>
           <p class="text-read">
@@ -73,13 +73,13 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Aya de Yopogoun&nbsp;», Marguerite Abouet, Clément Oubrerie
+              «{{'\xa0'}}Aya de Yopogoun{{'\xa0'}}», Marguerite Abouet, Clément Oubrerie
             </strong>
           </p>
           <p class="text-read">
             Ça sent les vacances à Yopougon, quartier populaire d'Abidjan ! La
-            nuit venue, les gazelles vont danser au «&nbsp;Secouez-vous&nbsp;», au «&nbsp;Ça va
-            chauffer&nbsp;», avant d'embrasser leurs conquêtes à l'hôtel aux mille
+            nuit venue, les gazelles vont danser au «{{'\xa0'}}Secouez-vous{{'\xa0'}}», au «{{'\xa0'}}Ça va
+            chauffer{{'\xa0'}}», avant d'embrasser leurs conquêtes à l'hôtel aux mille
             étoiles. Seule la sage Aya reste chez elle pour étudier...
           </p>
           <p class="text-read">
@@ -97,7 +97,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Où le regard ne porte pas&nbsp;», Georges Abolin
+              «{{'\xa0'}}Où le regard ne porte pas{{'\xa0'}}», Georges Abolin
             </strong>
           </p>
           <p class="text-read">
@@ -120,7 +120,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Les vieux fourneaux&nbsp;», Wilfrid Lupano, Paul Cauuet
+              «{{'\xa0'}}Les vieux fourneaux{{'\xa0'}}», Wilfrid Lupano, Paul Cauuet
             </strong>
           </p>
           <p class="text-read">
@@ -145,7 +145,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Alim le tanneur&nbsp;», Virginie Augustin, Wilfrid Lupano
+              «{{'\xa0'}}Alim le tanneur{{'\xa0'}}», Virginie Augustin, Wilfrid Lupano
             </strong>
           </p>
           <p class="text-read">
@@ -166,7 +166,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Blacksad&nbsp;», Juan Díaz Canales
+              «{{'\xa0'}}Blacksad{{'\xa0'}}», Juan Díaz Canales
             </strong>
           </p>
           <p class="text-read">
@@ -190,7 +190,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Peter Pan&nbsp;», Loisel
+              «{{'\xa0'}}Peter Pan{{'\xa0'}}», Loisel
             </strong>
           </p>
           <p class="text-read">
@@ -211,7 +211,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Le sommeil du monstre&nbsp;», Enki Bilal
+              «{{'\xa0'}}Le sommeil du monstre{{'\xa0'}}», Enki Bilal
             </strong>
           </p>
           <p class="text-read">
@@ -235,7 +235,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Le sommet des Dieux&nbsp;», Jirô Taniguchi, Baku Yumemakura
+              «{{'\xa0'}}Le sommet des Dieux{{'\xa0'}}», Jirô Taniguchi, Baku Yumemakura
             </strong>
           </p>
           <p class="text-read">
@@ -260,7 +260,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Le troisième testament&nbsp;», Xavier Dorison, Alex Alice
+              «{{'\xa0'}}Le troisième testament{{'\xa0'}}», Xavier Dorison, Alex Alice
             </strong>
           </p>
           <p class="text-read">
@@ -289,7 +289,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Universal War One&nbsp;», Denis Bajram
+              «{{'\xa0'}}Universal War One{{'\xa0'}}», Denis Bajram
             </strong>
           </p>
           <p class="text-read">
@@ -311,7 +311,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Sambre&nbsp;», Yslaire, Yann
+              «{{'\xa0'}}Sambre{{'\xa0'}}», Yslaire, Yann
             </strong>
           </p>
           <p class="text-read">
@@ -327,7 +327,7 @@
       </b-row>
 
     </p>
-
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadComic"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -337,6 +337,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import { BIcon, BIconUpload } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -344,8 +345,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIcon,
     BIconUpload,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class ReadComic extends Vue {}
+export default class ReadComic extends Vue {
+  public nxtprevReadComic =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail1.png",
+    NextImage: "/thumbnail3.png",
+    PrevLink: "/PlaisirdeLire/LectureInsulaire",
+    NextLink: "/PlaisirdeLire/PourLesAguerris",
+  };
+}
 </script>

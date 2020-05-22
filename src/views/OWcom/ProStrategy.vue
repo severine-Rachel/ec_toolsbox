@@ -1,11 +1,17 @@
 <template>
-  <div>
+  <div id="ProStrategy">
     <Header></Header>
     <Menu></Menu>
     <h3>STRATÉGIES D'ÉCRITURE</h3>
     <h4>
       Les écrits courts
     </h4>
+    <p>
+      Lettre, e-mail, résumé, compte-rendu, etc., quelle que soit sa forme,
+      l’écrit court répond aux mêmes exigences qu’un écrit long. Il doit viser
+      un objectif clair, être structuré, adapté à la cible et respecter des
+      critères de mise en forme bien précis…
+    </p>
     <h5 class="subtitle-h5">
       L’e-mail professionnel
     </h5>
@@ -39,53 +45,89 @@
       </a>
     </p>
     <h5 class="subtitle-h5">
-      L'écriture de documents à télécharger
+      Les écrits professionnels et académiques
     </h5>
-    <Pdf v-bind:galery-pdf="pdfStratShort"></Pdf>
-    <p><i>source&nbsp;:</i> CCDMD</p>
+
     <Pdf v-bind:galery-pdf="pdfStratSynthesis"></Pdf>
 
-      <a
+    <a
       class="subtitle-link"
-        href="http://hg.moitel.free.fr/lycee_hotellerie/ANNEXES-et-METHODO/methodo_simplifiee-rdiee-une-SYNTHESE.pdf"
-        target="_blank"
-        ><i>source&nbsp;:</i> http://hg.moitel.free.fr/
-        <b-icon icon="box-arrow-right"></b-icon
-      ></a>
+      href="http://hg.moitel.free.fr/lycee_hotellerie/ANNEXES-et-METHODO/methodo_simplifiee-rdiee-une-SYNTHESE.pdf"
+      target="_blank"
+      ><i>source{{'\xa0'}}:</i> http://hg.moitel.free.fr/
+      <b-icon icon="box-arrow-right"></b-icon
+    ></a>
     <p></p>
     <Pdf v-bind:galery-pdf="pdfStraAssay"></Pdf>
-   
-      <a
-       class="subtitle-link"
-        href=" https://www.agirenfrancais.com/wp-content/uploads/2016/10/%C3%A9crire-un-essai.pdf"
-        target="_blank"
-        ><i>source:</i> https://www.agirenfrancais.com/
-        <b-icon icon="box-arrow-right"></b-icon
-      ></a>
-      <p></p>
-      <h5 class="subtitle-h5">
+
+    <a
+      class="subtitle-link"
+      href=" https://www.agirenfrancais.com/wp-content/uploads/2016/10/%C3%A9crire-un-essai.pdf"
+      target="_blank"
+      ><i>source{{'\xa0'}}:</i> https://www.agirenfrancais.com/
+      <b-icon icon="box-arrow-right"></b-icon
+    ></a>
+    <p class="bloc-element">
+      Le CCDMD propose des fiches sur les bases de la rédaction avec un cours,
+      une grille de synthèse et des exercices pour vous entraîner.
+    </p>
+    <Pdf v-bind:galery-pdf="pdfStratShort"></Pdf>
+    <p class="none-margin-top"><i>source{{'\xa0'}}:</i> CCDMD</p>
+    <h5 class="subtitle-h5">
       La copie de concours
     </h5>
-    <Video v-bind:galery-video="videoStratShort"></Video>
+    <p>
+      « Un correcteur de concours se retrouve avec plusieurs centaines de copies
+      à corriger parfois en dix jours ou en quinze jours. » Il est donc
+      important d'apporter un soin particulier à sa copie afin de ne pas la
+      pénaliser.
+    </p>
+    <Video v-bind:galery-video="videoStratShort"  v-bind:id-video="'pro2'"></Video>
     <h4>Les écrits longs</h4>
     <h5 class="subtitle-h5">
-      L'écriture de documents à télécharger
+      Le rapport de stage et le document technique
     </h5>
+    <p>
+      Le rapport de stage et la documentation technique sont des écrits qui
+      doivent être maîtrisés dans le cadre d’études supérieures. Précis et
+      spécifiques, ils peuvent vite perdre un public non averti. Découvrez
+      quelques astuces pour renforcer leur lisibilité et leur attractivité.
+    </p>
     <Pdf v-bind:galery-pdf="pdfInternshipTech"></Pdf>
-    <p><i>source&nbsp;:</i> CCDMD</p>
+    <p class="none-margin-top"><i>source{{'\xa0'}}:</i> CCDMD</p>
     <h5 class="subtitle-h5">
-      Les conseils de rédaction d'un mémoire
+      Le mémoire
     </h5>
-    <Video v-bind:galery-video="videoStratmemory"></Video>
+    <p>
+      Le mémoire est souvent rédigé dans le cadre d’un Master. Il s’agit de
+      conduire un raisonnement logique, une démonstration, sur un sujet appliqué
+      à un champ disciplinaire. Après avoir fait l’état de la recherche (lecture
+      des écrits académiques, ouvrages, articles et sites Internet consacrés au
+      sujet), le rédacteur d’un mémoire doit opter pour des hypothèses de
+      travail et un angle précis qui vont venir enrichir l’approche ou la
+      connaissance de ce même sujet.
+    </p>
+    <Video v-bind:galery-video="videoStratmemory"  v-bind:id-video="'pro3'"></Video>
     <h5 class="subtitle-h5">
       Autres conseils de rédaction
     </h5>
-    <Video v-bind:galery-video="videoStratother"></Video>
+    <Video v-bind:galery-video="videoStratother"  v-bind:id-video="'pro4'"></Video>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProStrategy"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+#ProStrategy{
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100vh;
+}
+.bloc-element {
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
@@ -94,6 +136,7 @@ import Menu from "@/components/Menu.vue";
 import Pdf from "@/components/Pdf.vue";
 import Video from "@/components/Video.vue";
 import Footer from "@/components/Footer.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
 @Component({
   components: {
@@ -103,6 +146,7 @@ import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
     Video,
     BIcon,
     BIconBoxArrowRight,
+    NextPrevBtn,
     Footer,
   },
 })
@@ -167,45 +211,51 @@ export default class ProStrategy extends Vue {
     {
       videoSrc: "https://www.youtube.com/embed/huU8hja6TXU",
       videoTitle: "La copie de concours (1re partie)",
-      videoRoot: "Chaîne&nbsp;: E-Learning Physique",
+      videoRoot: "Chaîne : E-Learning Physique",
     },
     {
       videoSrc: "https://www.youtube.com/embed/LMWJB8pvXks",
       videoTitle: "La copie de concours ? (2e partie - MP/PC/PSI)",
-      videoRoot: "Chaîne&nbsp;: E-Learning Physique",
+      videoRoot: "Chaîne : E-Learning Physique",
     },
   ];
   public videoStratmemory = [
-  
     {
       videoSrc: "https://www.youtube.com/embed/rgb_BzrvW2g",
       videoTitle: "Rédiger un mémoire – méthodologie",
-      videoRoot: "Chaîne&nbsp;: digiSchool",
+      videoRoot: "Chaîne : digiSchool",
     },
     {
       videoSrc: "https://www.youtube.com/embed/V4KN8c2GMIM",
       videoTitle: "Comment rédiger un mémoire ?",
-      videoRoot: "Chaîne&nbsp;:  Scribbr - Relecture & Correction",
+      videoRoot: "Chaîne :  Scribbr - Relecture & Correction",
     },
     {
       videoSrc: "https://www.youtube.com/embed/R4fHq8LcDRM",
       videoTitle: "10 astuces pour bien rédiger votre mémoire",
-      videoRoot: "Chaîne&nbsp;: SYMPA",
+      videoRoot: "Chaîne : SYMPA",
     },
-   
   ];
   public videoStratother = [
     {
       videoSrc: "https://www.youtube.com/embed/wu4TXt31Dcc",
       videoTitle: "Comment réussir son rapport de stage en 5 points clés",
-      videoRoot: "Chaîne&nbsp;: digiSchool",
+      videoRoot: "Chaîne : digiSchool",
     },
-    
+
     {
       videoSrc: "https://www.youtube.com/embed/EO4HtMI02H8",
       videoTitle: "Comment rédiger pour le Web ?",
-      videoRoot: "Chaîne&nbsp;: Lucie Rondelet",
+      videoRoot: "Chaîne : Lucie Rondelet",
     },
   ];
+  public nxtprevProStrategy = {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail1.png",
+    NextImage: "/thumbnail5.png",
+    PrevLink: "/Ecrit_Pro/Fondamentaux",
+    NextLink: "/Ecrit_Pro/Orthographe",
+  };
 }
 </script>

@@ -1,18 +1,18 @@
 <template>
   <div>
-    <h4>III.&nbsp;ÉVOLUTION ET ÉPOQUE CONTEMPORAINE</h4>
-    <h5 id="h5-title">1.&nbsp;Dans les années 1960-2000</h5>
+    <h4>III.{{'\xa0'}}ÉVOLUTION ET ÉPOQUE CONTEMPORAINE</h4>
+    <h5 id="h5-title">1.{{'\xa0'}}Dans les années 1960-2000</h5>
     <p>
       Certains prolongent le travail d’artistes comme Yves Klein en focalisant
-      l’art sur le corps de l’artiste&nbsp;: c’est le body art.
+      l’art sur le corps de l’artiste{{'\xa0'}}: c’est le body art.
     </p>
 
     <h7>
-      Années 1960-1970&nbsp;: focus sur le féminisme
+      Années 1960-1970{{'\xa0'}}: focus sur le féminisme
     </h7>
 
     <h5 class="text-vid">
-      Orlan&nbsp;: le baiser de l’artiste, 1977, Foire internationale de l’art
+      Orlan{{'\xa0'}}: le baiser de l’artiste, 1977, Foire internationale de l’art
       contemporain (FIAC)
     </h5>
     <b-row align-h="center">
@@ -26,7 +26,7 @@
       >
       </iframe>
     </b-row>
-    <p class="text-vid">Chaîne&nbsp;: Ina Société</p>
+    <p class="text-vid">Chaîne{{'\xa0'}}: Ina Société</p>
     <p>
       Discours féministe et teinté d’humour visant à « envisager le corps de la
       femme comme matériau nouveau » qui veut mettre en évidence la capacité
@@ -35,14 +35,14 @@
       Marie-Madeleine, la prostituée.
     </p>
 
-    <h5 id="h5-title">2.&nbsp;Plus contemporain :</h5>
+    <h5 id="h5-title">2.{{'\xa0'}}Plus contemporain :</h5>
 
     <h7> Pina Bausch, Kontakthof (1978)</h7>
 
     <p>
       <b-icon icon="arrow-right"></b-icon> Kontakthof est une succession de
       petites scènes sans lien apparent, mais reliées indirectement par le thème
-      de la pièce&nbsp;: l’histoire d’un contact, du lien que peut créer une
+      de la pièce{{'\xa0'}}: l’histoire d’un contact, du lien que peut créer une
       rencontre. Ce sont des hommes et des femmes et tout ce que représente
       l’union de ces deux sexes (séduction, violence, attirance, manipulation,
       sexualité, etc.). Ils marchent, ils courent, ils dansent, et se touchent.
@@ -58,14 +58,14 @@
       >
       </iframe>
     </b-row>
-    <p class="text-vid">Chaîne&nbsp;: Ana Moyano</p>
+    <p class="text-vid">Chaîne{{'\xa0'}}: Ana Moyano</p>
     <p>
       Cette mise en scène a été prévue pour des amateurs, avec des variantes (+
       de 65 ans, entre 15 et 18 ans).
     </p>
-
-    <h7>
-      Marina Abramović au MoMA (Museum of Modern Art à New York)&nbsp;: L’artiste est
+    <p></p>
+    <h7  class="breath">
+      Marina Abramović au MoMA (Museum of Modern Art à New York){{'\xa0'}}: L’artiste est
       présent.</h7
     >
 
@@ -109,7 +109,7 @@
       Les spectateurs ont été invités à prendre place un par un sur la chaise
       opposée. Chaque personne pouvait rester assise aussi longtemps qu’elle le
       désirait mais avec une règle stricte, pas de mouvement brusque ni de
-      contact…simplement «&nbsp;toucher avec les yeux&nbsp;».
+      contact…simplement «{{'\xa0'}}toucher avec les yeux{{'\xa0'}}».
     </p>
     <p>
       Le temps fort de cette performance est intervenue lorsque Ulay s’est
@@ -132,14 +132,14 @@
       >
       </iframe>
     </b-row>
-    <p class="text-vid">Chaîne&nbsp;: Ana Moyano</p>
+    <p class="text-vid">Chaîne{{'\xa0'}}: Ana Moyano</p>
     <p>
       Le temps n’est pas compté. L’artiste regarde alors, sans ciller, la
       personne en face d’elle. Un dialogue silencieux se met en place. Ici, la
       rencontre silencieuse déclenche une émotion très vive. A une époque où les
       relations entre les gens sont de plus en plus virtuelles (réseaux sociaux,
       mails, chat, téléphone), il est rare de prendre du temps pour se regarder.
-      Dans la ville, les individus sont nombreux et souvent pressés&nbsp;; il y est
+      Dans la ville, les individus sont nombreux et souvent pressés{{'\xa0'}}; il y est
       donc rare d’entamer un dialogue. Par l’intermédiaire de sa performance,
       Marina Abramović propose au spectateur de prendre son temps et de casser
       ses habitudes.
@@ -161,8 +161,8 @@
     </h7>
 
     <p>
-      Biologiste de formation, Olivier de Sagazan questionne le corps&nbsp;: de quoi
-      est-il fait&nbsp;? Ayant un temps enseigné au Cameroun, de Sagazan congédie la
+      Biologiste de formation, Olivier de Sagazan questionne le corps{{'\xa0'}}: de quoi
+      est-il fait{{'\xa0'}}? Ayant un temps enseigné au Cameroun, de Sagazan congédie la
       bienséance du corps occidental glorifié dans sa seule forme idéalisée où
       l’on oublie les humeurs, les excrétions, les plaies…
     </p>
@@ -183,20 +183,20 @@
     </p>
     <p>
       Le visage perd sa face. De Sagazan exprime la violence défigurante qui
-      procède à l’aveugle. L’artiste ne voit pas ce qu’il réalise&nbsp;: il se livre
+      procède à l’aveugle. L’artiste ne voit pas ce qu’il réalise{{'\xa0'}}: il se livre
       au tâtonnement d’un corps archaïque qui constitue une créature inachevée.
       Le contraste entre ce visage déconstruit et fondé sur la matière contraste
       avec le visage lisse et aux lignes parfaites de l’automate qui ouvre et
-      ferme la séquence vidéo&nbsp;: entre un visage expressif, vivant et humain ou
+      ferme la séquence vidéo{{'\xa0'}}: entre un visage expressif, vivant et humain ou
       un visage figé, robotisé et aux lignes plastifiées parfaites, que faut-il
-      plus craindre&nbsp;?
+      plus craindre{{'\xa0'}}?
     </p>
   </div>
 </template>
 
 <style lang="scss">
 #h5-title {
-  margin: 3vh 10%;
+  margin: 3vh 10% 1vh 10%;
 }
 </style>
 

@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div id="CVVideo">
+    <Header></Header>
+    <Menu></Menu>
     <h3 id="videoCV">
       LE CV VIDÉO
     </h3>
-    <p>
+    <p class=" none-margin-bottom">
       Le CV vidéo vous donne une occasion de vous démarquer, de mettre davantage
       de chances de votre côté. Il montre également que vous maîtrisez les
       nouveaux outils de communication, que vous vous exprimez avec aisance à
@@ -19,9 +21,9 @@
       ></a>
     </strong>
 
-    <h5 class="text-vid">
+    <h4>
       Réaliser son CV vidéo avec Fyte4U
-    </h5>
+    </h4>
 
     <b-row align-h="center">
       <iframe
@@ -33,36 +35,46 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid">Chaîne&nbsp;: Fyte4U</p>
-    <p>
-      <strong>
+    <p class="text-vid">Chaîne{{'\xa0'}}: Fyte4U</p>
+    <h4>
         Exemples de CV vidéo
-      </strong>
-    </p>
+      </h4>
     <p>
       Marketing, traduction, design... Tous ces CV vidéo ne manquent pas d'idées
       et vous fournissent la preuve qu'il est toujours possible de trouver des idées
       pour vour exprimer par l'audiovisuel, peu importent votre domaine d'études et vos
       compétences.
     </p>
-    <Video v-bind:galery-video="videoCVVideo"></Video>
+    <Video v-bind:galery-video="videoCVVideo"  v-bind:id-video="'cv2'"></Video>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVVideo"></NextPrevBtn>
+    <Footer></Footer>
   </div>
 </template>
 <style lang="scss">
-.text-vid {
-  color: #c21b2c;
-  text-align: center;
+#CVVideo{
+  scroll-behavior: smooth;
+  overflow:auto;
+  height:100vh;
 }
 </style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Video from "@/components/Video.vue";
 import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
+import Header from "@/components/Header.vue";
+import Menu from "@/components/Menu.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
+import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Video,
     BIcon,
     BIconBoxArrowRight,
+    Header,
+    Menu,
+    NextPrevBtn,
+    Footer,
+    
   },
 })
 export default class CVVideo extends Vue {
@@ -103,5 +115,14 @@ export default class CVVideo extends Vue {
       videoRoot: "Chaîne :  krakotte_53",
     },
   ];
+  public nxtprevCVVideo =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail3.png",
+    NextImage: "/thumbnail5.png",
+    PrevLink: "/CV/Outils",
+    NextLink: "/CV/Aller_Plus_Loin",
+  };
 }
 </script>

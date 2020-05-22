@@ -1,5 +1,7 @@
 <template>
   <div>
+    <Header></Header>
+    <Menu></Menu>
     <h3 id="AudioVisualTips">
       CONSEILS ET ASTUCES
     </h3>
@@ -20,7 +22,7 @@
       Applications de montage gratuites pour Android, Iphone et Ipad
     </h4>
     <p>
-      <b-row class="justify-content-md-center">
+      <b-row class="justify-content-md-center breath-top">
         <b-col>
           <a href="https://www.magisto.com/" target="_blank">
             <b-button class="icon" id="popover-Magisto">
@@ -33,7 +35,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-Magisto" triggers="hover" placement="bottom">
+        <b-popover target="popover-Magisto" triggers="hover" placement="top">
           Magisto
         </b-popover>
 
@@ -49,7 +51,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-PowerDirector" triggers="hover" placement="bottom">
+        <b-popover target="popover-PowerDirector" triggers="hover" placement="top">
           PowerDirector
         </b-popover>
 
@@ -65,7 +67,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-PremiereRush" triggers="hover" placement="bottom">
+        <b-popover target="popover-PremiereRush" triggers="hover" placement="top">
           Première Rush
         </b-popover>
 
@@ -82,7 +84,7 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-LumaFusion" triggers="hover" placement="bottom">
+        <b-popover target="popover-LumaFusion" triggers="hover" placement="top">
           LumaFusion
         </b-popover>
 
@@ -98,13 +100,13 @@
           </a>
         </b-col>
 
-        <b-popover target="popover-Kinemaster" triggers="hover" placement="bottom">
+        <b-popover target="popover-Kinemaster" triggers="hover" placement="top">
           Kinemaster
         </b-popover>
       </b-row>
     </p>
-    
-    
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevAudioVisualTips"></NextPrevBtn>
+    <Footer></Footer>
     
     
   </div>
@@ -112,13 +114,30 @@
 <style lang="scss"></style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Header from "@/components/Header.vue";
+import Menu from "@/components/Menu.vue";
 import { BIcon, BIconBoxArrowRight, BPopover } from "bootstrap-vue";
+import Footer from "@/components/Footer.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 @Component({
   components: {
+    Header,
+    Menu,
     BIconBoxArrowRight,
     BIcon,
     BPopover,
+    NextPrevBtn,
+    Footer,
   },
 })
-export default class AudioVisualTips extends Vue {}
+export default class AudioVisualTips extends Vue {
+  public nxtprevAudioVisualTips = {
+    BoolPrev: true,
+    BoolNext: false ,
+    PrevImage: "/thumbnail3.png",
+    NextImage: "",
+    PrevLink: "/Audiovisuel/Fondamentaux",
+    NextLink: "",
+  };
+}
 </script>

@@ -4,11 +4,10 @@
       src="/picture_OWcom/Pro/Letter.png"
       class="interractive"
       alt="Page_De_Garde1"
-       draggable="false"
     />
     <b-button class="date" variant="warning" id="popover-Date"></b-button>
     <b-popover target="popover-Date" triggers="hover" placement="left">
-      Lieu, date. Le tout aligné sur la droite
+      Lieu, date. Le tout aligné sur la droite.
     </b-popover>
     <b-button
       class="adress-exp"
@@ -17,15 +16,15 @@
     ></b-button>
     <b-popover target="popover-Adress-Exp" triggers="hover" placement="left">
       Adresse expéditeur. Toujours le prénom avant le nom. Numéro de téléphone +
-      e-mail professionnel
+      e-mail professionnel.
     </b-popover>
     <b-button class="alinea" id="popover-Alinea"></b-button>
     <b-popover target="popover-Alinea" triggers="hover" placement="right">
-      Alinéa au début de chaque paragraphe
+      Alinéa au début de chaque paragraphe.
     </b-popover>
     <b-button class="adress-dest" id="popover-Adress-Dest"></b-button>
     <b-popover target="popover-Adress-Dest" triggers="hover" placement="left">
-      Alignement à gauche. Utiliser un tableau caché
+      Alignement à gauche. Utilisez un tableau caché.
     </b-popover>
     <b-button
       class="adress-dest-2"
@@ -33,7 +32,7 @@
       id="popover-Adress-Dest2"
     ></b-button>
     <b-popover target="popover-Adress-Dest2" triggers="hover" placement="right">
-      Adresse destinataire, on n'indique ni téléphone ni e-mail
+      Adresse destinataire, on n'indique ni téléphone ni e-mail.
     </b-popover>
     <b-button
       class="adress-dest-3"
@@ -42,46 +41,46 @@
     ></b-button>
     <b-popover target="popover-Adress-Dest3" triggers="hover" placement="right">
       Espace avant la désignation du destinataire précis. Indiquez le poste de
-      votre interlocuteur
+      votre interlocuteur.
     </b-popover>
     <b-button class="object" variant="warning" id="popover-Object"></b-button>
     <b-popover target="popover-Object" triggers="hover" placement="right">
-      Objet : un verbe normalisé doit indiquer l'objectif du courier. Ici :
-      candidater
+      Objet : un verbe nominalisé doit indiquer l'objectif du courrier. Ici :
+      candidater.
     </b-popover>
     <b-button class="fst-3" id="popover-Fst-3"></b-button>
     <b-popover target="popover-Fst-3" triggers="hover" placement="right">
       1er tiers : l'en-tête de la lettre. Eventuellement, ce 1er tiers peut
-      englober la formule d'appel
+      englober la formule d'appel.
     </b-popover>
     <b-button class="corps" variant="warning" id="popover-Corps"></b-button>
     <b-popover target="popover-Corps" triggers="hover" placement="right">
       Le corps de la lettre doit être décomposé en paragraphes signifiants.
-      Privilégier l'interligne entre paragraphe et saut de ligne
+      Préférez l’interligne entre paragraphes plutôt que les sauts de ligne{{'\xa0'}}!
     </b-popover>
     <b-button class="scd-3" id="popover-Scd-3"></b-button>
 
     <b-popover target="popover-Scd-3" triggers="hover" placement="right">
       2e tiers : le corps de la lettre. Le texte doit être justifié
-      informatiquement
+      informatiquement.
     </b-popover>
     <b-button class="form" variant="warning" id="popover-Form"></b-button>
     <b-popover target="popover-Form" triggers="hover" placement="right">
-      Formule d'appel
+      Formule d'appel.
     </b-popover>
     <b-button class="disp" variant="warning" id="popover-Disp"></b-button>
     <b-popover target="popover-Disp" triggers="hover" placement="right">
-      Indications disponibilités et formule de politesse
+      Indications disponibilités et formule de politesse.
     </b-popover>
     <b-button class="sign" variant="warning" id="popover-Sign"></b-button>
     <b-popover target="popover-Sign" triggers="hover" placement="right">
       Signature manuscrite au-dessus de la signature informatique (prévoir la
-      place suffisante lors de l'impression papier). Alignement à droite
+      place suffisante lors de l'impression papier). Alignement à droite.
     </b-popover>
 
     <b-button class="thr-3" id="popover-Thr-3"></b-button>
     <b-popover target="popover-Thr-3" triggers="hover" placement="right">
-      3e tiers : formule de politesse et signature
+      3e tiers : formule de politesse et signature.
     </b-popover>
   </b-row>
 </template>
@@ -89,7 +88,7 @@
 .date {
   width: 20px;
   height: 50px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 205px;
   top: 70px;
@@ -99,7 +98,7 @@
 .adress-exp {
   width: 20px;
   height: 100px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 600px;
   top: 90px;
@@ -109,7 +108,7 @@
 .alinea {
   width: 20px;
   height: 50px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 595px;
   top: 330px;
@@ -119,7 +118,7 @@
 .adress-dest {
   width: 20px;
   height: 80px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 380px;
   top: 165px;
@@ -129,7 +128,7 @@
 .adress-dest-2 {
   width: 20px;
   height: 40px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 280px;
   top: 165px;
@@ -139,7 +138,7 @@
 .adress-dest-3 {
   width: 20px;
   height: 40px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 180px;
   top: 205px;
@@ -149,7 +148,7 @@
 .object {
   width: 20px;
   height: 40px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 730px;
   top: 265px;
@@ -159,7 +158,7 @@
 .fst-3 {
   width: 20px;
   height: 260px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 185px;
   top: 50px;
@@ -169,7 +168,7 @@
 .corps {
   width: 20px;
   height: 290px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 240px;
   top: 370px;
@@ -179,7 +178,7 @@
 .scd-3 {
   width: 20px;
   height: 260px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 235px;
   top: 310px;
@@ -189,7 +188,7 @@
 .form {
   width: 20px;
   height: 30px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 710px;
   top: 330px;
@@ -199,7 +198,7 @@
 .disp {
   width: 20px;
   height: 50px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 855px;
   top: 635px;
@@ -209,7 +208,7 @@
 .sign{
     width: 20px;
   height: 60px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 345px;
   top: 750px;
@@ -219,7 +218,7 @@
 .thr-3 {
   width: 20px;
   height: 260px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 335px;
   top: 570px;

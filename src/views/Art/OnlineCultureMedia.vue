@@ -46,9 +46,10 @@
   
     <p>
       1er site d'information français. Les articles du journal et toute
-      l'actualité en continu&nbsp;: International, France, Société, Economie,
+      l'actualité en continu{{'\xa0'}}: International, France, Société, Economie,
       Culture, Environnement...
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureMedia"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -58,6 +59,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import {BIcon, BIconBoxArrowRight} from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -65,8 +67,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIconBoxArrowRight,
     BIcon,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class OnlineCultureMedia extends Vue {}
+export default class OnlineCultureMedia extends Vue {
+  public nxtprevOnlineCultureMedia =
+  {
+    BoolPrev: true,
+    BoolNext: false,
+    PrevImage: "/thumbnail1.png",
+    NextImage: " ",
+    PrevLink: "/CultureenLigne/CultureGenerale",
+    NextLink: "",
+  };
+}
 </script>

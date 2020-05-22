@@ -47,7 +47,7 @@
     </p>
     <p>
       <strong>
-        Testez vos connaissances musicales&nbsp;!
+        Testez vos connaissances musicales{{'\xa0'}}!
       </strong>
     </p>
     <p>
@@ -67,7 +67,7 @@
         </li>
       </ul>
     </p>
-
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureMusic"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -77,6 +77,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import {BIcon, BIconBoxArrowRight} from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -84,8 +85,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIconBoxArrowRight,
     BIcon,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class OnlineCultureMusic extends Vue {}
+export default class OnlineCultureMusic extends Vue {
+  public nxtprevOnlineCultureMusic =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail5.png",
+    NextImage: "/thumbnail6.png",
+    PrevLink: "/CultureenLigne/Cinema",
+    NextLink: "/CultureenLigne/Histoire",
+  };
+}
 </script>

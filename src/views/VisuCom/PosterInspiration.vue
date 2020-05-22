@@ -1,24 +1,20 @@
 <template>
-  <div>
+  <div id="PosterInsp">
     <Header></Header>
     <Menu></Menu>
     <h3>POUR TROUVER L'INSPIRATION...</h3>
-    <p>
-      <strong>
+    <h4>
         Le choix de la police de caractères
-      </strong>
-    </p>
+      </h4>
     <p>
       Une minisérie de 12 courts métrages à retrouver sur l’histoire des polices
-      de caractères ! Une bonne source d’inspiration pour vos futurs supports de
-      communication ? En voici quelques-uns !
+      de caractères{{'\xa0'}}! Une bonne source d’inspiration pour vos futurs supports de
+      communication{{'\xa0'}}? En voici quelques-uns{{'\xa0'}}!
     </p>
-    <Video v-bind:galery-video="videoFont"></Video>
-    <p>
-      <strong>
+    <Video v-bind:galery-video="videoFont"  v-bind:id-video="'poster'"></Video>
+    <h4>
         Sites sur l’affiche et les arts
-      </strong>
-    </p>
+      </h4>
     <p>Alliance graphique internationale
       <a
         href="https://a-g-i.org/"
@@ -39,11 +35,18 @@
         ></b-icon
       ></a>
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterInspiration"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+#PosterInsp {
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100vh;
+}
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
@@ -51,6 +54,7 @@ import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Video from "@/components/Video.vue";
 import {BIcon, BIconBoxArrowRight} from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -59,6 +63,7 @@ import Footer from "@/components/Footer.vue";
     Video,
     Footer,
     BIconBoxArrowRight,
+    NextPrevBtn,
     BIcon,
   },
 })
@@ -105,5 +110,13 @@ export default class PosterInspiration extends Vue {
       videoRoot: "Chaîne : France Culture",
     },
   ];
+  public nxtprevPosterInspiration = {
+    BoolPrev: true ,
+    BoolNext: false,
+    PrevImage: "/thumbnail1.png",
+    NextImage: "",
+    PrevLink: "/Affiche/EnPratique",
+    NextLink: "",
+  };
 }
 </script>

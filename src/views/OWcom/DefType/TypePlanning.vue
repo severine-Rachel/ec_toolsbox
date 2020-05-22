@@ -6,7 +6,7 @@
         être   approchée   sur   le   plan   fonctionnel   ou hiérarchique.
     </p>
     <p>
-        Les flux d’informations peuvent être&nbsp;:
+        Les flux d’informations peuvent être{{'\xa0'}}:
         <ul>
             <li>
                 verticaux et hiérarchiques (du patron vers l’employé et inversement),
@@ -17,7 +17,7 @@
             </li>
             </ul>
             
-            On peut aussi distinguer&nbsp;:
+            On peut aussi distinguer{{'\xa0'}}:
            
             <ul>
             <li>

@@ -50,7 +50,6 @@
         
         <img
           class="fundamentals"
-         
           v-bind:src="imageElement"
         />
         <img
@@ -68,7 +67,7 @@
     </span>
 
     <div v-if="bool">
-      <img class="post-up" v-bind:src="clicked" />
+      <img class="post-up" v-bind:class="classheight" v-bind:src="clicked" />
     </div>
 
   </div>
@@ -105,5 +104,7 @@ export default class Galery extends Vue {
   }
 
   @Prop() public readonly galeryPicture!: string[];
+  @Prop() public readonly classheight!: string;
 }
+
 </script>

@@ -6,7 +6,7 @@
         cols="5"
         class="casethumbnail"
         v-for="contentsElement in contentsList"
-        :key="contentsElement"
+        :key="contentsElement.ContentsTitle"
         v-bind:style="{
           'background-image': 'url(' + contentsElement.ContentsImage + ')',
           'background-size': '100% 100%',
@@ -26,17 +26,31 @@
 .wallpaper {
   text-align: center;
   text-decoration: none !important;
-  
+   box-sizing: inherit;
+    &:focus{
+    outline: none;
+  }
 }
 .casethumbnail {
   margin: 1%;
-  padding: 5vh 1vw !important;
+  
+  
 }
-
+.H3-thumbnail-title {
+  color: white;
+  padding: 13vh 02vw;
+  transition: transform 0.2s ease-in-out;
+  margin: 0;
+  font-size: 2rem;
+  &:hover {
+    transform: scale(1.1);
+  }
+  
+}
 
 .thumbnail {
   width: 100%;
-  
+   
 }
 </style>
 
@@ -51,8 +65,8 @@ import { BLink } from "bootstrap-vue";
 export default class ContentsPage extends Vue {
   @Prop() public readonly contentsList!: {
     ContentsTitle: string;
-    ContextsPath: string;
-    ContextsImage: string;
+    ContentsPath: string;
+    ContentsImage: string;
   }[];
 }
 </script>

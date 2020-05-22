@@ -6,7 +6,7 @@
       communicationnels.
     </p>
     <p>
-      On ne peut pas ne pas communiquer&nbsp;; tout a un sens&nbsp;: la parole ou le
+      On ne peut pas ne pas communiquer{{'\xa0'}}; tout a un sens{{'\xa0'}}: la parole ou le
       silence, le mouvement ou l’immobilité.
     </p>
 
@@ -17,13 +17,13 @@
       </strong>
     </p>
     <p>
-      «&nbsp;Tout comportement induit une communication. Même le "fait de ne pas
+      «{{'\xa0'}}Tout comportement induit une communication. Même le "fait de ne pas
       parler ou de ne prêter attention à personne ne constitue pas une exception
       à ce que nous venons de dire. Un homme attablé dans un bar rempli de monde
       et qui regarde droit devant lui, un passager qui dans un avion reste assis
-      dans son fauteuil les yeux fermés, communiquent tous deux un message&nbsp;: ils
+      dans son fauteuil les yeux fermés, communiquent tous deux un message{{'\xa0'}}: ils
       ne veulent parler à personne, et ne veulent pas qu'on leur adresse la
-      parole&nbsp;; en général, leurs voisins comprennent le message et y réagissent
+      parole{{'\xa0'}}; en général, leurs voisins comprennent le message et y réagissent
       normalement en les laissant tranquilles. Manifestement, il y a là un
       échange de communication, tout autant que dans une communication animée.
       Quel que soit le comportement d'une personne, il a une signification pour
@@ -41,7 +41,7 @@
       indifférent, selon la transcription qu'en aura fait la presse, selon les
       commentaires de l'opposition, selon que ses propos seront ou non dans
       l'air du temps etc. Le décodage résulte de tout un système d'interactions
-      &nbsp;».
+      {{'\xa0'}}».
     </p>
     
       <a class="subtitle-link" href="http://membres.lycos.fr/mbao/waxiome2.htm" target="_blank">

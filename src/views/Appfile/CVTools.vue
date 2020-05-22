@@ -1,5 +1,7 @@
 <template>
   <div>
+    <Header></Header>
+    <Menu></Menu>
     <h3 id="toolCV">
       OUTILS D'AIDE À LA CONCEPTION DE CV
     </h3>
@@ -70,6 +72,8 @@
         ></b-icon
       ></a>
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVTools"></NextPrevBtn>
+    <Footer></Footer>
   </div>
 </template>
 <style lang="scss"></style>
@@ -77,11 +81,29 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
+import Header from "@/components/Header.vue";
+import Menu from "@/components/Menu.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
+import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     BIcon,
     BIconBoxArrowRight,
+    Header,
+    Menu,
+    NextPrevBtn,
+    Footer,
   },
 })
-export default class CVTools extends Vue {}
+export default class CVTools extends Vue {
+  public nxtprevCVTools =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail2.png",
+    NextImage: "/thumbnail4.png",
+    PrevLink: "/CV/Exemples",
+    NextLink: "/CV/CV_Video",
+  };
+}
 </script>

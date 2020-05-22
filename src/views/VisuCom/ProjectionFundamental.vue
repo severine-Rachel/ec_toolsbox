@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <h3 id="ProjectionFundamental">
-      LES FONDAMENTAUX
+      LES FONDAMENTAUX DU DIAPORAMA
     </h3>
 
     <strong>
@@ -31,13 +31,14 @@
         class="subtitle-link"
         download="Les règles d’or du diaporama"
       >
-        Télécharger le pdf <b-icon icon="upload"></b-icon>
+        <p class="text-vid">Télécharger le pdf <b-icon icon="upload"></b-icon></p>
       </a>
     </strong>
     <br />
     <img
       src="/picture_VisuCom/SlideRule.png"
-      class="vertical"
+       class="vertical img-int"
+       id="Page"
       alt="Regles_Diaporama"
     />
     <p></p>
@@ -46,20 +47,30 @@
       href="http://immac-pau.net/images/presentation/college/DNB/Fiche_diaporama_hist_arts.pdf"
       target="_blank"
     >
-      <i>Source&nbsp;:</i>
+      <p class="text-vid"><i>Source :</i>
 
-      immac-pau.net <b-icon icon="box-arrow-right"></b-icon>
+      immac-pau.net <b-icon icon="box-arrow-right"></b-icon></p>
     </a>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProjectionFundamental"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+  #Page{
+    box-shadow: 1px 1px 10px;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 0;
+  }
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import { BIcon, BIconBoxArrowRight, BIconUpload } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 
 @Component({
@@ -69,8 +80,18 @@ import Footer from "@/components/Footer.vue";
     BIcon,
     BIconBoxArrowRight,
     BIconUpload,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class ProjectionFundamental extends Vue {}
+export default class ProjectionFundamental extends Vue {
+  public nxtprevProjectionFundamental = {
+    BoolPrev: false ,
+    BoolNext: true,
+    PrevImage: "",
+    NextImage: "/thumbnail1.png",
+    PrevLink: "",
+    NextLink: "/Diaporama/Astuces",
+  };
+}
 </script>

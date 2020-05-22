@@ -1,19 +1,38 @@
 <template>
-  <div>
-    <h3 id="tipsCV">
+  <div id="CVtips">
+    <Header></Header>
+    <Menu></Menu>
+    <h3>
       CONSEILS ET ASTUCES
     </h3>
     <p></p>
-    <Video v-bind:galery-video="videoCVTips"></Video>
+    <Video v-bind:galery-video="videoCVTips"  v-bind:id-video="'cv1'"></Video>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVTips"></NextPrevBtn>
+    <Footer></Footer>
   </div>
 </template>
-
+<style lang="scss">
+  #CVtips{
+  scroll-behavior: smooth;
+  overflow:auto;
+  height:100vh;
+  position: relative;
+  }
+</style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Video from "@/components/Video.vue";
+import Header from "@/components/Header.vue";
+import Menu from "@/components/Menu.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
+import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Video,
+    Header,
+    Menu,
+    NextPrevBtn,
+    Footer,
   },
 })
 export default class CVKeys extends Vue {
@@ -23,7 +42,7 @@ export default class CVKeys extends Vue {
       videoTitle: "Méthodologie du CV",
       videoRoot: "Chaîne : digiSchool",
     },
-     {
+    {
       videoSrc: "https://www.youtube.com/embed/5oHVIuNPtGg",
       videoTitle: "CV : 30 secondes pour convaincre",
       videoRoot: "Chaîne :  AXA France",
@@ -38,7 +57,15 @@ export default class CVKeys extends Vue {
       videoTitle: "Les astuces pour rédiger son CV",
       videoRoot: "Chaîne : TVBilan",
     },
-   
   ];
+  public nxtprevCVTips =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail7.png",
+    NextImage: "/thumbnail2.png",
+    PrevLink: "/CV/Fondamentaux",
+    NextLink: "/CV/Exemples",
+  };
 }
 </script>

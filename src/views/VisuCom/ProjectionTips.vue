@@ -5,18 +5,16 @@
     <h3 id="ProjectionTips">
       CONSEILS ET ASTUCES
     </h3>
-    <strong>
-      <a
-        href="/pdf_projection/HelpPP.pdf"
-        class="subtitle-link"
-        download="Guide PowerPoint"
-      >
-        Guide PowerPoint <b-icon icon="upload"></b-icon>
-      </a>
-    </strong>
-    <h5 class="text-vid">
+    <p>
+      Toutes les erreurs qu’il ne faudrait pas commettre dans un diaporama ? Des
+      guides et des astuces pour bien maîtriser aussi bien PowerPoint que Prezi
+      ? Des templates classiques et originaux à télécharger… ? Vous êtes au bon
+      endroit !
+    </p>
+
+    <h4>
       10 astuces pour faire un PowerPoint très moche
-    </h5>
+    </h4>
     <b-row align-h="center">
       <iframe
         width="560"
@@ -27,10 +25,25 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid">Chaîne&nbsp;: WORKLAB</p>
-    <h5 class="text-vid">
+    <p class="text-vid">Chaîne{{'\xa0'}}: WORKLAB</p>
+    <p class="none-margin-bottom">
+      Vous trouverez dans ce guide tous les fondamentaux pour maitriser
+      parfaitement le logiciel PowerPoint 2013 parmis toutes les options qu'il
+      propose.
+    </p>
+ 
+      <a
+        href="/pdf_projection/HelpPP.pdf"
+        class="subtitle-link  pdf-line"
+        download="Guide PowerPoint"
+        
+      >
+        Guide PowerPoint  <img class="logo-pdf" src="../../assets/logo-pdf.png" />
+      </a>
+
+    <h4>
       Créer une animation dynamique avec Prezi
-    </h5>
+    </h4>
     <b-row align-h="center">
       <iframe
         width="560"
@@ -41,14 +54,24 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid">Chaîne&nbsp;: Laurene Fayolle</p>
+    <p class="text-vid">Chaîne{{'\xa0'}}: Laurene Fayolle</p>
 
     <h4>Modèles à télécharger</h4>
+    <p>
+      Voici huit modèles de diaporama (templates) téléchargeables gratuitement
+      pour concevoir des supports visuels à la fois dynamiques et contemporains.
+      Il est important d'adapter le diaporama à votre discours et non l'inverse{{'\xa0'}}!
+       Le travail sur le message à délivrer doit être une priorité.
+    </p>
     <p>
       <b-row>
         <b-col>
           <h5 class="text-vid">
-            <a href="/picture_Visu/PP/Tips_PP1.pptx" download="Modèle Diaporama 1" class="list-link">
+            <a
+              href="/picture_Visu/PP/Tips_PP1.pptx"
+              download="Modèle Diaporama 1"
+              class="list-link"
+            >
               Télécharger le diaporama <b-icon icon="upload"></b-icon>
             </a>
           </h5>
@@ -65,7 +88,11 @@
 
         <b-col>
           <h5 class="text-vid">
-            <a href="/picture_Visu/PP/Tips_PP2.pptx" download="Modèle Diaporama 2" class="list-link">
+            <a
+              href="/picture_Visu/PP/Tips_PP2.pptx"
+              download="Modèle Diaporama 2"
+              class="list-link"
+            >
               Télécharger le diaporama <b-icon icon="upload"></b-icon>
             </a>
           </h5>
@@ -83,7 +110,11 @@
       <b-row>
         <b-col>
           <h5 class="text-vid">
-            <a  href="/picture_Visu/PP/Tips_PP3.pptx" download="Modèle Diaporama 3" class="list-link">
+            <a
+              href="/picture_Visu/PP/Tips_PP3.pptx"
+              download="Modèle Diaporama 3"
+              class="list-link"
+            >
               Télécharger le diaporama <b-icon icon="upload"></b-icon>
             </a>
           </h5>
@@ -99,7 +130,11 @@
         </b-col>
         <b-col>
           <h5 class="text-vid">
-            <a  href="/picture_Visu/PP/Tips_PP4.pptx" download="Modèle Diaporama 4" class="list-link">
+            <a
+              href="/picture_Visu/PP/Tips_PP4.pptx"
+              download="Modèle Diaporama 4"
+              class="list-link"
+            >
               Télécharger le diaporama <b-icon icon="upload"></b-icon>
             </a>
           </h5>
@@ -117,7 +152,11 @@
       <b-row>
         <b-col>
           <h5 class="text-vid">
-            <a  href="/picture_Visu/PP/Tips_PP5.pptx" download="Modèle Diaporama 5" class="list-link">
+            <a
+              href="/picture_Visu/PP/Tips_PP5.pptx"
+              download="Modèle Diaporama 5"
+              class="list-link"
+            >
               Télécharger le diaporama <b-icon icon="upload"></b-icon>
             </a>
           </h5>
@@ -133,7 +172,11 @@
         </b-col>
         <b-col>
           <h5 class="text-vid">
-            <a  href="/picture_Visu/PP/Tips_PP6.pptx" download="Modèle Diaporama 6" class="list-link">
+            <a
+              href="/picture_Visu/PP/Tips_PP6.pptx"
+              download="Modèle Diaporama 6"
+              class="list-link"
+            >
               Télécharger le diaporama <b-icon icon="upload"></b-icon>
             </a>
           </h5>
@@ -151,7 +194,11 @@
       <b-row>
         <b-col>
           <h5 class="text-vid">
-            <a  href="/picture_Visu/PP/Tips_PP7.pptx" download="Modèle Diaporama 7" class="list-link">
+            <a
+              href="/picture_Visu/PP/Tips_PP7.pptx"
+              download="Modèle Diaporama 7"
+              class="list-link"
+            >
               Télécharger le diaporama <b-icon icon="upload"></b-icon>
             </a>
           </h5>
@@ -167,7 +214,11 @@
         </b-col>
         <b-col>
           <h5 class="text-vid">
-            <a  href="/picture_Visu/PP/Tips_PP8.pptx" download="Modèle Diaporama 8" class="list-link">
+            <a
+              href="/picture_Visu/PP/Tips_PP8.pptx"
+              download="Modèle Diaporama 8"
+              class="list-link"
+            >
               Télécharger le diaporama <b-icon icon="upload"></b-icon>
             </a>
           </h5>
@@ -183,6 +234,7 @@
         </b-col>
       </b-row>
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProjectionTips"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -195,6 +247,7 @@ import Menu from "@/components/Menu.vue";
 import Video from "@/components/Video.vue";
 import Pdf from "@/components/Pdf.vue";
 import { BIcon, BIconBoxArrowRight, BIconUpload } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 
 @Component({
@@ -206,6 +259,7 @@ import Footer from "@/components/Footer.vue";
     BIcon,
     BIconBoxArrowRight,
     BIconUpload,
+    NextPrevBtn,
     Footer,
   },
 })
@@ -217,5 +271,13 @@ export default class ProjectionTips extends Vue {
       TxtPdf: "Guide PowerPoint",
     },
   ];
+  public nxtprevProjectionTips = {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail5.png",
+    NextImage: "/thumbnail7.png",
+    PrevLink: "/Diaporama/Fondamentaux",
+    NextLink: "/Diaporama/EnPratique",
+  };
 }
 </script>

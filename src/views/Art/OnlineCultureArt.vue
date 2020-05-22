@@ -33,7 +33,7 @@
     </strong>
     <p>
       Panorama de l’art couvre tout le champ de l’histoire de l’art, de la
-      préhistoire jusqu’à nos jours&nbsp;: architectures, sculptures, peintures,
+      préhistoire jusqu’à nos jours{{'\xa0'}}: architectures, sculptures, peintures,
       vitraux, tapisseries… Des centaines d’images en grand format et de haute
       qualité pour le simple plaisir de regarder, comparer, découvrir et rêver.
     </p>
@@ -75,8 +75,8 @@
 
     <p>
       Le magazine des Beaux-Arts en ligne est consacré aux arts visuels sous
-      toutes leurs formes et périodes. Il permet, notamment dans sa partie «&nbsp;
-      Encyclo&nbsp;», de re-découvrir des artistes ou des mouvements artistiques.
+      toutes leurs formes et périodes. Il permet, notamment dans sa partie «{{'\xa0'}}
+      Encyclo{{'\xa0'}}», de re-découvrir des artistes ou des mouvements artistiques.
     </p>
 
     <strong>
@@ -105,8 +105,8 @@
       Le musée des Arts décoratifs est un musée parisien qui a pour objectif la
       valorisation des beaux-arts appliqués et le développement de liens entre
       industrie et culture, création et production. Vous pouvez y retrouver des
-      dossiers thématiques comme «&nbsp;Marques et personnages de la publicité » ou
-      encore «&nbsp;Une histoire de bijoux&nbsp;».
+      dossiers thématiques comme «{{'\xa0'}}Marques et personnages de la publicité » ou
+      encore «{{'\xa0'}}Une histoire de bijoux{{'\xa0'}}».
     </p>
 
     <strong>
@@ -176,6 +176,7 @@
       </li>
     </ul>
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureArt"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -185,6 +186,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -192,8 +194,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIconBoxArrowRight,
     BIcon,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class OnlineCultureArt extends Vue {}
+export default class OnlineCultureArt extends Vue {
+  public nxtprevOnlineCultureArt =
+  {
+    BoolPrev: false,
+    BoolNext: true,
+    PrevImage: " ",
+    NextImage: "/thumbnail5.png",
+    PrevLink: " ",
+    NextLink: "/CultureenLigne/Cinema",
+  };
+}
 </script>

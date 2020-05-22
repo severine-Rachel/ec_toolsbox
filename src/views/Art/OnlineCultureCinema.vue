@@ -16,7 +16,7 @@
       </strong>
     
     <p>
-      Documentaire sur l’histoire du cinéma&nbsp;: le documentaire de Stan Neuman
+      Documentaire sur l’histoire du cinéma{{'\xa0'}}: le documentaire de Stan Neuman
       offre une formidable plongée dans l’histoire du 7e art, à travers celle
       des caméras et des projecteurs.
     </p>
@@ -44,7 +44,7 @@
   
     <p>
       Près de 6000 films tombés dans le domaine public sont en téléchargement
-      sur internet. Des vrais bons classiques &nbsp;! Archive.org c’est aussi la
+      sur internet. Des vrais bons classiques {{'\xa0'}}! Archive.org c’est aussi la
       mémoire du web et la mémoire du cinéma en une seule bibliothèque
       virtuelle. En plus des long-métrages, vous pourrez trouver plus de 500 000
       vidéos, 1 000 000 d’enregistrements audio, dont 92 000 de concerts, 3 000
@@ -91,12 +91,13 @@
     </p>
     <p>
      <ul>
-        <li>Stop motion studio&nbsp;: une application pour réaliser très simplement un film en stop motion.  </li>
-        <li> Flipaclip&nbsp;: application pour créer des dessins animés.</li>
-        <li>Meme generator&nbsp;: de quoi vous amuser à créer vos propres meme pour communiquer avec vos proches  </li>
-        <li> Applications de montage gratuites pour Android, Iphone et Ipad&nbsp;: Magisto, PowerDirector, Première Rush,LumaFusion, Kinemaster….  </li> 
+        <li>Stop motion studio{{'\xa0'}}: une application pour réaliser très simplement un film en stop motion.  </li>
+        <li> Flipaclip{{'\xa0'}}: application pour créer des dessins animés.</li>
+        <li>Meme generator{{'\xa0'}}: de quoi vous amuser à créer vos propres meme pour communiquer avec vos proches  </li>
+        <li> Applications de montage gratuites pour Android, Iphone et Ipad{{'\xa0'}}: Magisto, PowerDirector, Première Rush,LumaFusion, Kinemaster….  </li> 
       </ul>
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureCinema"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -106,6 +107,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import {BIcon, BIconBoxArrowRight} from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -113,8 +115,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIconBoxArrowRight,
     BIcon,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class OnlineCultureCinema extends Vue {}
+export default class OnlineCultureCinema extends Vue {
+  public nxtprevOnlineCultureCinema =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail3.png",
+    NextImage: "/thumbnail4.png",
+    PrevLink: "/CultureenLigne/Art",
+    NextLink: "/CultureenLigne/Musique",
+  };
+}
 </script>

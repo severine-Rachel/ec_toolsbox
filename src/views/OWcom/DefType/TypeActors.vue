@@ -1,10 +1,10 @@
 <template>
   <div>
     <h4>
-        LES ACTEURS&nbsp;: COMMUNICATIONS INDIVIDUELLE ET COLLECTIVE
+        LES ACTEURS{{'\xa0'}}: COMMUNICATIONS INDIVIDUELLE ET COLLECTIVE
     </h4>
     <p>
-        La communication va être fonction du nombre d'émetteurs et du récepteurs&nbsp;:
+        La communication va être fonction du nombre d'émetteurs et du récepteurs{{'\xa0'}}:
         <ol>
             <li class="first-list">
                 <u>Communication interpersonnelle</u>
@@ -21,7 +21,7 @@
                 <u>Communication de masse</u>
             </li>
             L’émetteur (singulier ou pluriel) vise à toucher le maximum de 
-            récepteurs (vecteurs&nbsp;: presse, radio, cinéma, Internet...)
+            récepteurs (vecteurs{{'\xa0'}}: presse, radio, cinéma, Internet...)
         </ol>
     </p>
   </div>

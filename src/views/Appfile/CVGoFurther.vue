@@ -1,10 +1,12 @@
 <template>
-  <div>
+  <div id="CVFurther">
+    <Header></Header>
+    <Menu></Menu>
     <h3 id="go-furtherCV">
-      POUR ALLER PLUS LOIN&nbsp;!
+      POUR ALLER PLUS LOIN{{'\xa0'}}!
     </h3>
-    <h4 class="text-vid">
-        Comment créer un CV très original&nbsp;?
+    <h4>
+        Comment créer un CV très original{{'\xa0'}}?
       </h4>
     <b-row align-h="center">
       <iframe
@@ -16,21 +18,21 @@
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid"> Chaîne : Romain RISSOAN</p>
-    <p>
-      <strong>
-        Quelques exemples de CV très originaux:
-      </strong>
-    </p>
+    <p class="text-vid none-margin-top"> Chaîne : Romain RISSOAN</p>
+    <h4>
+        Quelques exemples de CV très originaux
+      </h4>
     <div style="text-align:center;">
       <b-row class="justify-content-md-center">
         <!--affichage des images stockées dans galleryCover-->
         <div v-for="cover in galeryCover" :key="cover">
+          <a href="#CarouselScroll" class="scroll-vid">
           <img class="imgCV" v-on:click="display(cover)" v-bind:src="cover"  draggable="false"/>
+          </a>
         </div>
       </b-row>
       <!--affichage du carousel correspondant a l'image sélectionnée dans 'display()'-->
-      <div v-if="bool">
+      <div v-if="bool" id="CarouselScroll">
         <Carousel
           v-for="(carousel, index) in galeryCarousel"
           :key="carousel"
@@ -45,17 +47,26 @@
         </Carousel>
       </div>
     </div>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVGoFurther"></NextPrevBtn>
+    <Footer></Footer>
   </div>
 </template>
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-
+import Header from "@/components/Header.vue";
+import Menu from "@/components/Menu.vue";
 import Carousel from "@/components/Carousel/Carousel.vue";
 import Slide from "@/components/Carousel/Slide.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
+import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Carousel,
     Slide,
+    Header,
+    Menu,
+    NextPrevBtn,
+    Footer,
   },
 })
 export default class CVGoFurther extends Vue {
@@ -107,24 +118,42 @@ export default class CVGoFurther extends Vue {
     if (this.bool == false) {
       this.clicked = srcImg;
       this.bool = true;
+      this.$router.push('');
+      this.$router.push('#CarouselScroll');
     } else if (this.clicked == srcImg) {
       this.clicked = "";
       this.bool = false;
+      
     } else {
       this.clicked = srcImg;
     }
   }
+  public nxtprevCVGoFurther =
+  {
+    BoolPrev: true,
+    BoolNext: false,
+    PrevImage: "/thumbnail4.png",
+    NextImage: " ",
+    PrevLink: "/CV/CV_Video",
+    NextLink: " ",
+  };
 }
 </script>
 
 <style lang="scss">
+#CVFurther{
+  scroll-behavior: smooth;
+  overflow:auto;
+  height:100vh;
+}
 .imgCV {
   width: 20vw;
   margin: 10px;
   cursor: pointer;
-  box-shadow: 1px 1px 10px;
+  
+  box-shadow: 1px 1px 10px black;
   &:hover{
-    box-shadow: 1px 1px 20px;
+    box-shadow: 1px 1px 20px black;
   }
 }
 .imgCV-slide {

@@ -4,78 +4,93 @@
       src="/picture_OWcom/Pro/Cover_Page2.png"
       class="interractive"
       alt="bonne page de garde"
-       draggable="false"
     />
-    <b-button class="graph-cov-page-2" id="popover-GraphCovPage2"> </b-button>
+    <b-button
+      class="graph-cov-page-2"
+      variant="success"
+      id="popover-GraphCovPage2"
+    >
+    </b-button>
 
     <b-popover
       target="popover-GraphCovPage2"
       triggers="hover"
       placement="right"
     >
-      Charte graphique interressante qui doit être retrouvée dans tout le
-      dossier
+      Charte graphique intéressante qui doit être retrouvée dans tout le
+      dossier.
     </b-popover>
 
-    <b-button class="sub-title-cov-page-2" id="popover-SubTitleCovPage2"> </b-button>
+    <b-button
+      class="sub-title-cov-page-2"
+      variant="success"
+      id="popover-SubTitleCovPage2"
+    >
+    </b-button>
 
     <b-popover
       target="popover-SubTitleCovPage2"
       triggers="hover"
       placement="right"
     >
-      Sous-titre bien mis en valeur
+      Sous-titre bien mis en valeur.
     </b-popover>
-    <b-button class="ico-cov-page-2" id="popover-IcoCovPage2"> </b-button>
+    <b-button class="ico-cov-page-2" variant="success" id="popover-IcoCovPage2">
+    </b-button>
 
     <b-popover target="popover-IcoCovPage2" triggers="hover" placement="right">
-      Iconographie bien en lien avec le thème
+      Iconographie bien en lien avec le thème.
     </b-popover>
-      <b-button class="logo-cov-page-2" variant="danger" id="popover-LogoCovPage2"> </b-button>
+    <b-button
+      class="logo-cov-page-2"
+      variant="danger"
+      id="popover-LogoCovPage2"
+    >
+    </b-button>
 
     <b-popover target="popover-LogoCovPage2" triggers="hover" placement="right">
-      Logo un peu gros. Attention aux oublis (logo IUT)
+      Logo un peu gros. Attention aux oublis (logo IUT).
     </b-popover>
   </b-row>
 </template>
 <style lang="scss">
 .graph-cov-page-2 {
-  width: 600px;
+  width: 20px;
   height: 140px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
-  right: 600px;
+  right: 35px;
   top: 60px;
   z-index: 10;
   display: inline-block;
 }
 .sub-title-cov-page-2 {
-  width: 305px;
+  width: 20px;
   height: 60px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
-  right: 1050px;
+  right: 150px;
   top: 350px;
   z-index: 10;
   display: inline-block;
 }
-.ico-cov-page-2{
-    width: 400px;
+.ico-cov-page-2 {
+  width: 20px;
   height: 220px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
-  right: -300px;
-  top: -473px;
+  right: 150px;
+ top: 410px;
   z-index: 10;
   display: inline-block;
 }
 .logo-cov-page-2 {
-  width: 150px;
+  width: 20px;
   height: 120px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
-  right: -220px;
-  top: -220px;
+  right: 110px;
+  top: 660px;
   z-index: 10;
   display: inline-block;
 }

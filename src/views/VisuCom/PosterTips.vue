@@ -3,11 +3,9 @@
     <Header></Header>
     <Menu></Menu>
     <h3>CONSEILS ET ASTUCES</h3>
-    <p>
-      <strong>
-        Comment créer une affiche en 20 minutes&nbsp;?
-      </strong>
-    </p>
+    <h4>
+        Comment créer une affiche en 20 minutes{{'\xa0'}}?
+      </h4>
     <b-row align-h="center">
       <iframe
         width="560"
@@ -18,13 +16,11 @@
         allowfullscreen
       ></iframe>
     </b-row>
+    <h4>
+        Les créateurs d’affiches en ligne
+      </h4>
     <p>
-      <strong>
-        Les créateurs d’affiches en ligne&nbsp;:
-      </strong>
-    </p>
-    <p>
-    <b-row class="justify-content-md-center">
+    <b-row class="justify-content-md-center breath-top">
       <b-col>
         <a href="https://www.canva.com/fr_fr/creer/" target="_blank">
           <b-button class="icon" id="popover-Canva">
@@ -116,6 +112,7 @@
       </b-popover>
     </b-row>
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterTips"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -127,14 +124,25 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import {BPopover} from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Header,
     Menu,
     BPopover,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class PosterTips extends Vue {}
+export default class PosterTips extends Vue {
+  public nxtprevPosterTips = {
+    BoolPrev: true ,
+    BoolNext: true,
+    PrevImage: "/thumbnail3.png",
+    NextImage: "/thumbnail1.png",
+    PrevLink: "/Affiche/Fondamentaux",
+    NextLink: "/Affiche/EnPratique",
+  };
+}
 </script>

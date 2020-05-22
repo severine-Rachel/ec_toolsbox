@@ -1,4 +1,4 @@
-<style>
+<style lang="scss">
 .text-group-vid {
   text-align: center;
   color: white;
@@ -9,20 +9,30 @@
   margin: 1vh 2vw;
   background-image: url(../assets/Play.png);
   background-size: 100% 100%;
-  border-radius:6%;
+  border-radius: 6%;
   cursor: pointer;
 }
-.video-image:hover{
-   filter: brightness(90%);
-   border-radius:6%;
+.video-image:hover {
+  filter: brightness(90%);
+  border-radius: 6%;
+}
+.scroll-vid{
+  display:block;
+  &:hover{
+    text-decoration: none;
+  }
+  
 }
 </style>
 
 <template>
   <div>
-    <b-row class="justify-content-md-center" >
-      <div v-for="videoImage in galeryVideo" :key="videoImage">
+   
+    <b-row class="justify-content-md-center" v-bind:id="idVideo">
+      <div v-for="videoImage in galeryVideo" :key="videoImage.videoSrc">
+        <a v-bind:href="`#${idVideo}`" class="scroll-vid">
         <div
+        
           class="video-image"
           v-on:click="
             tooglev(
@@ -32,11 +42,12 @@
             )
           "
         >
+        
           <h6 class="text-group-vid">{{ videoImage.videoTitle }} <br /></h6>
         </div>
+        </a>
       </div>
     </b-row>
-
     <h5 class="text-vid">{{ title }}</h5>
 
     <b-row align-h="center">
@@ -78,10 +89,12 @@ export default class Video extends Vue {
     this.W = 560;
   }
   @Prop() public readonly galeryVideo!: {
-    
     videoSrc: string;
     videoTitle: string;
     videoRoot: string;
-  };
+    
+  }[];
+  @Prop() public readonly idVideo!: string;
+  
 }
 </script>

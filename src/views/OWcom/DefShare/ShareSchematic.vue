@@ -9,7 +9,7 @@
       Pour  aller  plus  loin,  voir  le  schéma  de  Jakobson  qui  s’écarte  d’une  vision 
        mécaniste  dans  son schéma de communication. Roman Jakobson est un linguiste russe du
         20ᵉ siècle. Il a proposé l’une des  théories  les  plus  connues 
-        avec  les  six  fonctions  de  la  communication&nbsp;:
+        avec  les  six  fonctions  de  la  communication{{'\xa0'}}:
     </p>
 <img class="horizontal" draggable="false" src="/picture_OWcom/schematic/schema_Jackobson.png" alt="Schéma de Jakbson">
  <p>
@@ -20,21 +20,21 @@
  <ul>
    <li  class="first-list">
      <strong>
-       L’émetteur/destinateur/énonciateur&nbsp;:
+       L’émetteur/destinateur/énonciateur{{'\xa0'}}:
      </strong>
      instance qui produit le message et qui, dans le cas le plus courant, peut en être tenue pour responsable. 
    </li>
    <li  class="first-list">
      <strong>
-       Le récepteur/destinataire/énonciataire&nbsp;:
+       Le récepteur/destinataire/énonciataire{{'\xa0'}}:
      </strong>
      instance qui reçoit le message. 
    </li>
    <li  class="first-list">
      <strong>
-       Le  canal/contact&nbsp;:
+       Le  canal/contact{{'\xa0'}}:
      </strong>
-       voie matérielle qu’emprunte le message pour circuler de l’émetteur au récepteur. On distingue généralement les différents canaux selon la modalité sensorielle qui est sollicitée chez le récepteur&nbsp;: 
+       voie matérielle qu’emprunte le message pour circuler de l’émetteur au récepteur. On distingue généralement les différents canaux selon la modalité sensorielle qui est sollicitée chez le récepteur{{'\xa0'}}: 
        <ul>
          <li>
            l’ouïe (canal auditif),
@@ -43,22 +43,22 @@
            la vue (canal visuel),
          </li>
          <li>
-           le toucher (canal tactile&nbsp;; <i>cf</i> le cas du braille),
+           le toucher (canal tactile{{'\xa0'}}; <i>cf</i> le cas du braille),
          </li>
          <li>
-           et beaucoup plus marginalement l’odorat (canal olfactif&nbsp;; cas des parfums),
+           et beaucoup plus marginalement l’odorat (canal olfactif{{'\xa0'}}; cas des parfums),
          </li>
          <li>
            le goût (canal gustatif, fonctionnant la plupart du temps en couple avec le précédent).
          </li>
        </ul>
-      Généralement un code donné entretient des relations privilégiées avec un canal particulier (par exemple code gestuel&nbsp;: canal visuel). 
-      Un même message peut exploiter simultanément plusieurs canaux&nbsp;; on parle alors de communication multicanale (par exemple&nbsp;: communications audiovisuelles&nbsp;: deux canaux, auditif et visuel)
+      Généralement un code donné entretient des relations privilégiées avec un canal particulier (par exemple code gestuel{{'\xa0'}}: canal visuel). 
+      Un même message peut exploiter simultanément plusieurs canaux{{'\xa0'}}; on parle alors de communication multicanale (par exemple{{'\xa0'}}: communications audiovisuelles{{'\xa0'}}: deux canaux, auditif et visuel)
 
    </li>
    <li  class="first-list">
      <strong>
-       Le  code&nbsp;:
+       Le  code{{'\xa0'}}:
      </strong>
      
      il s’agit du système de signes dans lequel sont prélevés ceux qui vont constituer le message. 
@@ -67,92 +67,92 @@
      superposition n’est que partielle.
      <ul>
        <li>
-          l’existence d’un code est donc un préalable de l’acte de communication&nbsp;;
+          l’existence d’un code est donc un préalable de l’acte de communication{{'\xa0'}};
        </li>
        <li>
-          un  même  message  peut  emprunter  ses  signes  à  plusieurs  codes  distincts&nbsp;;  
+          un  même  message  peut  emprunter  ses  signes  à  plusieurs  codes  distincts{{'\xa0'}};  
      </li>
      </ul> on  
-       peut  alors parler  de  communications pluricodiques(les  panneaux  du  «&nbsp; code  de  la  
-       route &nbsp;»  en  fournissent  un exemple, puisque certains exploitent conjointement code 
+       peut  alors parler  de  communications pluricodiques(les  panneaux  du  «{{'\xa0'}} code  de  la  
+       route {{'\xa0'}}»  en  fournissent  un exemple, puisque certains exploitent conjointement code 
        iconique (image) et code linguistique).
 
    </li>
    <li class="first-list">
      <strong>
-       Le contexte/référent&nbsp;:
+       Le contexte/référent{{'\xa0'}}:
      </strong>
      c’est ce sur quoi porte le message, ce dont il parle.
    </li>
    <li class="first-list">
      <strong>
-       le message&nbsp;:
+       le message{{'\xa0'}}:
      </strong>
       il s’agit de l’ensemble particulier de signes (choisis au sein d’un ou plusieurs codes) 
       qu’adresse l’émetteur au récepteur — à ne pas confondre donc avec l’information qu’il a 
       l’intention de  lui  communiquer,  comme  on  risquerait  de  le  faire  en  se  fondant  
       sur  un  sens  courant  du  mot message. Il faut prendre ici le terme comme un concept, 
-      qui signifierait «&nbsp;ensemble fini et adressé d’éléments porteurs d’information&nbsp;».
+      qui signifierait «{{'\xa0'}}ensemble fini et adressé d’éléments porteurs d’information{{'\xa0'}}».
    </li>
  </ul>
  </p>
  <p>
- Les messages peuvent remplir plusieurs fonctions&nbsp;:
+ Les messages peuvent remplir plusieurs fonctions{{'\xa0'}}:
  </p>
  <p>
    <ul>
      <li class="first-list">
-       fonction expressive&nbsp;:
+       fonction expressive{{'\xa0'}}:
        <ul>
        <li>
-       expression des sentiments du locuteur&nbsp;: «&nbsp;hélas, je suis en retard&nbsp;»
+       expression des sentiments du locuteur{{'\xa0'}}: «{{'\xa0'}}hélas, je suis en retard{{'\xa0'}}»
         </li>
        </ul>
      </li>
      <li class="first-list">
-       fonction conative&nbsp;:
+       fonction conative{{'\xa0'}}:
         <ul>
        <li>
-       fonction   relative   aux   récepteurs&nbsp;;  elle  a  pour  but  d’attirer
-         l’attention  du destinataire&nbsp;:  «&nbsp;Garde 
-        à  vous&nbsp;»,  «&nbsp;tu  as  vu  ces  étoiles&nbsp;»,  «&nbsp;prenez  de  quoi écrire&nbsp;»
+       fonction   relative   aux   récepteurs{{'\xa0'}};  elle  a  pour  but  d’attirer
+         l’attention  du destinataire{{'\xa0'}}:  «{{'\xa0'}}Garde 
+        à  vous{{'\xa0'}}»,  «{{'\xa0'}}tu  as  vu  ces  étoiles{{'\xa0'}}»,  «{{'\xa0'}}prenez  de  quoi écrire{{'\xa0'}}»
         </li>
        </ul>
      </li>
      <li class="first-list">
-       fonction phatique&nbsp;:
+       fonction phatique{{'\xa0'}}:
        <ul>
        <li>mise en place et maintien de la 
-       communication&nbsp;: «&nbsp;Allô&nbsp;».
+       communication{{'\xa0'}}: «{{'\xa0'}}Allô{{'\xa0'}}».
        </li>
        </ul>
      </li>
      <li class="first-list">
-       fonction référentielle&nbsp;:
+       fonction référentielle{{'\xa0'}}:
        
        <ul>
        <li>le  message  renvoie  au  monde  
-       extérieur,  au   contexte&nbsp;:  implicite  du  message: «&nbsp;ce train va 
-       entrer en gare à 10h33&nbsp;»
+       extérieur,  au   contexte{{'\xa0'}}:  implicite  du  message: «{{'\xa0'}}ce train va 
+       entrer en gare à 10h33{{'\xa0'}}»
        </li>
        </ul>
      </li>
      <li class="first-list">
-       fonction métalinguistique&nbsp;:
+       fonction métalinguistique{{'\xa0'}}:
         <ul>
        <li>le code lui-même devient objet du 
-       message&nbsp;: «&nbsp;est-ce que vous me suivez&nbsp;?&nbsp;»
+       message{{'\xa0'}}: «{{'\xa0'}}est-ce que vous me suivez{{'\xa0'}}?{{'\xa0'}}»
        </li>
        </ul>
      </li>
      <li class="first-list">
-       fonction poétique&nbsp;:
+       fonction poétique{{'\xa0'}}:
        <ul>
        <li>
          la  forme  du  texte  devient 
-        l'essentiel  du  message&nbsp;:  «&nbsp;Puis-je  me  permettre d'emprunter 
-        votre crayon&nbsp;?&nbsp;»&nbsp;; «&nbsp;- File moi ton crayon&nbsp;»&nbsp;;  «&nbsp;- Peux tu me passer 
-        ton crayon&nbsp;?&nbsp;»
+        l'essentiel  du  message{{'\xa0'}}:  «{{'\xa0'}}Puis-je  me  permettre d'emprunter 
+        votre crayon{{'\xa0'}}?{{'\xa0'}}»{{'\xa0'}}; «{{'\xa0'}}- File moi ton crayon{{'\xa0'}}»{{'\xa0'}};  «{{'\xa0'}}- Peux tu me passer 
+        ton crayon{{'\xa0'}}?{{'\xa0'}}»
         </li>
        </ul>
      </li>

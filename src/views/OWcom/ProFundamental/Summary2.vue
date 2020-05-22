@@ -4,7 +4,6 @@
       src="/picture_OWcom/Pro/Summary2.png"
       class="interractive"
       alt="mauvais sommaire"
-       draggable="false"
     />
     <b-button
       class="title-summary-2"
@@ -18,7 +17,7 @@
       triggers="hover"
       placement="right"
     >
-      Le titre doit être plus mis en valeur
+      Le titre doit être plus mis en valeur.
     </b-popover>
     <b-button
       class="intro-summary-2"
@@ -32,27 +31,27 @@
       triggers="hover"
       placement="right"
     >
-      L'introduction n'est pas une partie, on ne l'inclue donc pas dans la
-      numérotation du plan
+      L'introduction n'est pas une partie, on ne l'inclut donc pas dans la
+      numérotation du plan.
     </b-popover>
 
     <b-button class="plan-summary-2" variant="danger" id="popover-PlanSummary2">
     </b-button>
 
     <b-popover target="popover-PlanSummary2" triggers="hover" placement="right">
-      Le plan est incohérent. Quid de la conclusion placé en plein milieu ?
+      Le plan est incohérent. Quid de la conclusion placée en plein milieu{{'\xa0'}}?
     </b-popover>
     <b-button class="part-summary-2" variant="danger" id="popover-PartSummary2">
     </b-button>
 
     <b-popover target="popover-PartSummary2" triggers="hover" placement="right">
-      Il y a trop de partie dans ce plan désorganisé
+      Il y a trop de parties dans ce plan désorganisé.
     </b-popover>
     <b-button class="num-summary-2" variant="danger" id="popover-NumSummary2">
     </b-button>
 
     <b-popover target="popover-NumSummary2" triggers="hover" placement="right">
-      Il manque l'essentiel dans ce sommaire : les numéros de pages !
+      Il manque l'essentiel dans ce sommaire{{'\xa0'}}: les numéros de pages{{'\xa0'}}!
     </b-popover>
   </b-row>
 </template>
@@ -60,7 +59,7 @@
 .title-summary-2 {
   width: 100px;
   height: 30px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 530px;
   top: 115px;
@@ -70,7 +69,7 @@
 .intro-summary-2 {
   width: 125px;
   height: 30px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 630px;
   top: 150px;
@@ -80,7 +79,7 @@
 .plan-summary-2 {
   width: 100px;
   height: 30px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 725px;
   top: 340px;
@@ -90,7 +89,7 @@
 .part-summary-2 {
   width: 30px;
   height: 400px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 855px;
   top: 180px;
@@ -100,7 +99,7 @@
 .num-summary-2 {
   width: 30px;
   height: 500px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 430px;
   top: 120px;

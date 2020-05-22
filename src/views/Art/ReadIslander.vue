@@ -11,7 +11,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Chasseur de noirs&nbsp;», Daniel Vaxelaire
+              «{{'\xa0'}}Chasseur de noirs{{'\xa0'}}», Daniel Vaxelaire
             </strong>
           </p>
           <p class="text-read">
@@ -37,7 +37,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Saisons sauvages&nbsp;», Kettly Mars
+              «{{'\xa0'}}Saisons sauvages{{'\xa0'}}», Kettly Mars
             </strong>
           </p>
           <p class="text-read">
@@ -64,7 +64,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;L’aimé&nbsp;», Axel Gauvin
+              «{{'\xa0'}}L’aimé{{'\xa0'}}», Axel Gauvin
             </strong>
           </p>
           <p class="text-read">
@@ -88,7 +88,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Rosalie l’infâme&nbsp;», Évelyne Trouillot
+              «{{'\xa0'}}Rosalie l’infâme{{'\xa0'}}», Évelyne Trouillot
             </strong>
           </p>
           <p class="text-read">
@@ -111,7 +111,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Rapatriés&nbsp;», Néhémy Pierre-Dahomey
+              «{{'\xa0'}}Rapatriés{{'\xa0'}}», Néhémy Pierre-Dahomey
             </strong>
           </p>
           <p class="text-read">
@@ -134,7 +134,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;La couleur de l’aube&nbsp;», Yanick Lahens
+              «{{'\xa0'}}La couleur de l’aube{{'\xa0'}}», Yanick Lahens
             </strong>
           </p>
           <p class="text-read">
@@ -154,7 +154,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;L’énigme du retour&nbsp;», Dany Laferrière
+              «{{'\xa0'}}L’énigme du retour{{'\xa0'}}», Dany Laferrière
             </strong>
           </p>
           <p class="text-read">
@@ -177,7 +177,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Pays sans chapeau&nbsp;», Dany Laferrière
+              «{{'\xa0'}}Pays sans chapeau{{'\xa0'}}», Dany Laferrière
             </strong>
           </p>
           <p class="text-read">
@@ -201,7 +201,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Bicentenaire&nbsp;», Lyonel Trouillot
+              «{{'\xa0'}}Bicentenaire{{'\xa0'}}», Lyonel Trouillot
             </strong>
           </p>
           <p class="text-read">
@@ -227,7 +227,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Mille eaux&nbsp;», Émile Ollivier
+              «{{'\xa0'}}Mille eaux{{'\xa0'}}», Émile Ollivier
             </strong>
           </p>
           <p class="text-read">
@@ -244,7 +244,7 @@
         <b-col col md="6"> 
           <p class="text-read">
             <strong>
-              «&nbsp;Les cloches de La Brésilienne&nbsp;», Gary Victor
+              «{{'\xa0'}}Les cloches de La Brésilienne{{'\xa0'}}», Gary Victor
             </strong>
           </p>
           <p class="text-read">
@@ -268,7 +268,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Gouverneurs de la Rosée&nbsp;», Jacques Roumain
+              «{{'\xa0'}}Gouverneurs de la Rosée{{'\xa0'}}», Jacques Roumain
             </strong>
           </p>
           <p class="text-read">
@@ -290,14 +290,14 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Compère Général Soleil&nbsp;», Jacques Stephen Alexis
+              «{{'\xa0'}}Compère Général Soleil{{'\xa0'}}», Jacques Stephen Alexis
             </strong>
           </p>
           <p class="text-read">
             C'est à Paris, où il réside de 1946 à 1954 que Jacques Stéphen
             Alexis écrit ce premier roman qui apparaît comme le prolongement
-            mais aussi la clôture de l'espoir entrouvert par «&nbsp;Gouverneur de la
-            Rosée&nbsp;» de Jacques Roumain. S'appuyant sur un événement historique
+            mais aussi la clôture de l'espoir entrouvert par «{{'\xa0'}}Gouverneur de la
+            Rosée{{'\xa0'}}» de Jacques Roumain. S'appuyant sur un événement historique
             épouvantable – le massacre des travailleurs haïtiens de la canne, en
             1937, en République Dominicaine –, il raconte comment cet événement
             s'inscrit dans la logique des dictatures fascistes, et plus
@@ -307,7 +307,7 @@
         </b-col>
       </b-row>
     </p>
-
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadIslander"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -317,6 +317,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import { BIcon, BIconUpload } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -324,8 +325,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIcon,
     BIconUpload,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class ReadIslander extends Vue {}
+export default class ReadIslander extends Vue {
+  public nxtprevReadIslander =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail2.png",
+    NextImage: "/thumbnail7.png",
+    PrevLink: "/PlaisirdeLire/LesEssaisEtTemoignages",
+    NextLink: "/PlaisirdeLire/BandesDessinees",
+  };
+}
 </script>

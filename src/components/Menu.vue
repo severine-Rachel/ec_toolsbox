@@ -13,7 +13,7 @@
           CV
         </b-dropdown-item>
 
-        <b-dropdown-item class="sub-rubric" to="/LettreMotivation"
+        <b-dropdown-item class="sub-rubric" to="/Lettre_de_Motivation"
           >LETTRE DE MOTIVATION</b-dropdown-item
         >
         <b-dropdown-item class="sub-rubric" to="/Entretien"
@@ -27,10 +27,10 @@
         toggle-class="nav-link-custom"
       >
         <b-dropdown-item class="sub-rubric" to="/Definition_Communication"
-          >QU'EST CE QUE LA COMMUNICATION</b-dropdown-item
+          >QU'EST CE QUE LA COMMUNICATION{{'\xa0'}}?</b-dropdown-item
         >
         <b-dropdown-item class="sub-rubric" to="/Ecrit_Pro"
-          >ÉCRIT PROFESSIONNEL, <br />ACADÉMIQUE ET D'INVENTION</b-dropdown-item
+          >ÉCRITS PROFESSIONNEL, <br />ACADÉMIQUE ET D'INVENTION</b-dropdown-item
         >
         <b-dropdown-item class="sub-rubric" to="/Prise_de_Parole"
           >PRISE DE PAROLE EN PUBLIC</b-dropdown-item

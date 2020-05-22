@@ -11,7 +11,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Zulu&nbsp;», Caryl Férey
+              «{{'\xa0'}}Zulu{{'\xa0'}}», Caryl Férey
             </strong>
           </p>
           <p class="text-read">
@@ -38,12 +38,12 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Au revoir là-haut&nbsp;», Pierre Lemaître
+              «{{'\xa0'}}Au revoir là-haut{{'\xa0'}}», Pierre Lemaître
             </strong>
           </p>
           <p class="text-read">
-            «&nbsp;Pour le commerce, la guerre présente beaucoup d'avantages, même
-            après.&nbsp;» Sur les ruines du plus grand carnage du XX° siècle, deux
+            «{{'\xa0'}}Pour le commerce, la guerre présente beaucoup d'avantages, même
+            après.{{'\xa0'}}» Sur les ruines du plus grand carnage du XX° siècle, deux
             rescapés des tranchées, passablement abîmés, prennent leur revanche
             en réalisant une escroquerie aussi spectaculaire qu'amorale.
           </p>
@@ -56,7 +56,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Toute la lumière que nous ne pouvons voir&nbsp;», Anthony Doerr
+              «{{'\xa0'}}Toute la lumière que nous ne pouvons voir{{'\xa0'}}», Anthony Doerr
             </strong>
           </p>
           <p class="text-read">
@@ -78,7 +78,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;J’irai cracher sur vos tombes&nbsp;», Boris Vian
+              «{{'\xa0'}}J’irai cracher sur vos tombes{{'\xa0'}}», Boris Vian
             </strong>
           </p>
           <p class="text-read">
@@ -86,7 +86,7 @@
             blanche et les cheveux blonds, quitte sa ville natale après la mort
             de son frère noir de peau qui a été lynché parce qu'il était
             amoureux d'une blanche. Arrivé dans cette autre ville, Lee, qui a «
-            franchi la ligne&nbsp;» (se revendiquer blanc), devient libraire et entre
+            franchi la ligne{{'\xa0'}}» (se revendiquer blanc), devient libraire et entre
             dans la petite bande locale de jeunes en manque d'alcool et
             sexuellement très actifs. Son but est de venger la mort de son
             frère.
@@ -101,7 +101,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Flash ou le grand voyage&nbsp;», Charles Duchaussois
+              «{{'\xa0'}}Flash ou le grand voyage{{'\xa0'}}», Charles Duchaussois
               
             </strong>
           </p>
@@ -113,8 +113,8 @@
             trafiquants d'armes, il participe dans les montagnes du Liban à la
             récolte du hachisch… C'est enfin l'épisode de Katmandou et
             l'évocation saisissante de l'univers des drogués : l'opium et le
-            hachisch qui font «&nbsp;planer&nbsp;», le «&nbsp;flash&nbsp;» de la première piqûre, le
-            «&nbsp;grand voyage&nbsp;» du L.S.D. Jamais peut-être un homme, sauvé in
+            hachisch qui font «{{'\xa0'}}planer{{'\xa0'}}», le «{{'\xa0'}}flash{{'\xa0'}}» de la première piqûre, le
+            «{{'\xa0'}}grand voyage{{'\xa0'}}» du L.S.D. Jamais peut-être un homme, sauvé in
             extremis, n'était allé aussi loin et n'avait pu revenir pour dire ce
             qui se passe là-bas.
           </p>
@@ -128,7 +128,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Petit pays&nbsp;», Gaël Faye
+              «{{'\xa0'}}Petit pays{{'\xa0'}}», Gaël Faye
             </strong>
           </p>
           <p class="text-read">
@@ -137,7 +137,7 @@
             confortable quartier d’expatriés. Gabriel passe le plus clair de son
             temps avec ses copains, une joyeuse bande occupée à faire les quatre
             cents coups. Un quotidien paisible, une enfance douce qui vont se
-            disloquer en même temps que ce «&nbsp;petit pays&nbsp;» d’Afrique brutalement
+            disloquer en même temps que ce «{{'\xa0'}}petit pays{{'\xa0'}}» d’Afrique brutalement
             malmené par l’Histoire.
           </p>
         </b-col>
@@ -150,14 +150,14 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Inconnu à cette adresse&nbsp;», K. Kressman Taylor
+              «{{'\xa0'}}Inconnu à cette adresse{{'\xa0'}}», K. Kressman Taylor
             </strong>
           </p>
           <p class="text-read">
             Une longue et solide complicité unit Max et Martin, deux associés
             marchands d'art. En 1932, Martin retourne vivre en Allemagne, tandis
-            que Max, juif américain, demeure en Californie. «&nbsp;Je crois que
-            Hitler est bon pour le pays, mais je n'en suis pas sûr&nbsp;», lui confie
+            que Max, juif américain, demeure en Californie. «{{'\xa0'}}Je crois que
+            Hitler est bon pour le pays, mais je n'en suis pas sûr{{'\xa0'}}», lui confie
             bientôt Martin. Un sombre pressentiment envahit Max à mesure que son
             compagnon espace leur correspondance. L'Histoire aura-t-elle raison
             de leur amitié ?
@@ -172,7 +172,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Les Piliers de la Terre&nbsp;», Ken Follett
+              «{{'\xa0'}}Les Piliers de la Terre{{'\xa0'}}», Ken Follett
             </strong>
           </p>
           <p class="text-read">
@@ -190,7 +190,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Cadres noirs&nbsp;», Pierre Lemaître
+              «{{'\xa0'}}Cadres noirs{{'\xa0'}}», Pierre Lemaître
             </strong>
           </p>
           <p class="text-read">
@@ -214,7 +214,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;L’Alchimiste&nbsp;», Paulo Coelho
+              «{{'\xa0'}}L’Alchimiste{{'\xa0'}}», Paulo Coelho
             </strong>
           </p>
           <p class="text-read">
@@ -232,7 +232,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Les Fourmis&nbsp;», Bernard Werber
+              «{{'\xa0'}}Les Fourmis{{'\xa0'}}», Bernard Werber
             </strong>
           </p>
           <p class="text-read">
@@ -250,11 +250,11 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;La vérité sur l’affaire Harry Quebert&nbsp;», Joël Dicker
+              «{{'\xa0'}}La vérité sur l’affaire Harry Quebert{{'\xa0'}}», Joël Dicker
             </strong>
           </p>
           <p class="text-read">
-            «&nbsp;La vérité sur l’affaire Harry Quebert&nbsp;», Joël Dicker À New York,
+            «{{'\xa0'}}La vérité sur l’affaire Harry Quebert{{'\xa0'}}», Joël Dicker À New York,
             au printemps 2008, lorsque l'Amérique bruisse des prémices de
             l'élection présidentielle, Marcus Goldman, jeune écrivain à succès,
             est dans la tourmente : il est incapable d'écrire le nouveau roman
@@ -277,7 +277,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;L’aîné des orphelins&nbsp;», Tierno Monénembo
+              «{{'\xa0'}}L’aîné des orphelins{{'\xa0'}}», Tierno Monénembo
             </strong>
           </p>
           <p class="text-read">
@@ -301,11 +301,11 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;La liste de Schindler&nbsp;», Thomas Keneally
+              «{{'\xa0'}}La liste de Schindler{{'\xa0'}}», Thomas Keneally
             </strong>
           </p>
           <p class="text-read">
-            «&nbsp;La liste de Schindler&nbsp;» est un hommage à l'Allemand Oskar
+            «{{'\xa0'}}La liste de Schindler{{'\xa0'}}» est un hommage à l'Allemand Oskar
             Schindler. Durant la Seconde Guerre mondiale, ce dernier utilisa sa
             position dominante et ses relations parmi les SS pour sauver mille
             deux cents Juifs d'une mort certaine. La liste recensait les
@@ -324,7 +324,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;La cuisinière d’Himmler&nbsp;», Frantz-Olivier Giesbert
+              «{{'\xa0'}}La cuisinière d’Himmler{{'\xa0'}}», Frantz-Olivier Giesbert
             </strong>
           </p>
           <p class="text-read">
@@ -348,7 +348,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Hygiène de l’assassin&nbsp;», Amélie Nothomb
+              «{{'\xa0'}}Hygiène de l’assassin{{'\xa0'}}», Amélie Nothomb
             </strong>
           </p>
           <p class="text-read">
@@ -376,7 +376,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Ne le dis à personne&nbsp;», Harlan Coben
+              «{{'\xa0'}}Ne le dis à personne{{'\xa0'}}», Harlan Coben
             </strong>
           </p>
           <p class="text-read">
@@ -402,7 +402,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Chanson douce&nbsp;», Leïla Slimani
+              «{{'\xa0'}}Chanson douce{{'\xa0'}}», Leïla Slimani
             </strong>
           </p>
           <p class="text-read">
@@ -424,7 +424,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Mille soleils splendides&nbsp;», Khaled Hosseini
+              «{{'\xa0'}}Mille soleils splendides{{'\xa0'}}», Khaled Hosseini
             </strong>
           </p>
           <p class="text-read">
@@ -451,7 +451,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Syngué sabour. Pierre de patience&nbsp;», Atiq Rahimi
+              «{{'\xa0'}}Syngué sabour. Pierre de patience{{'\xa0'}}», Atiq Rahimi
             </strong>
           </p>
           <p class="text-read">
@@ -471,7 +471,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Novecento : pianiste&nbsp;», Alessandro Baricco
+              «{{'\xa0'}}Novecento : pianiste{{'\xa0'}}», Alessandro Baricco
             </strong>
           </p>
           <p class="text-read">
@@ -492,7 +492,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Fight Club&nbsp;», Chuck Palahniuk
+              «{{'\xa0'}}Fight Club{{'\xa0'}}», Chuck Palahniuk
             </strong>
           </p>
           <p class="text-read">
@@ -509,7 +509,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Le Parfum&nbsp;», Patrick Süskind
+              «{{'\xa0'}}Le Parfum{{'\xa0'}}», Patrick Süskind
             </strong>
           </p>
           <p class="text-read">
@@ -527,7 +527,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Le quatrième mur&nbsp;», Sorj Chalandon
+              «{{'\xa0'}}Le quatrième mur{{'\xa0'}}», Sorj Chalandon
             </strong>
           </p>
           <p class="text-read">
@@ -551,7 +551,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;La Maladroite&nbsp;», Alexandre Seurat
+              «{{'\xa0'}}La Maladroite{{'\xa0'}}», Alexandre Seurat
             </strong>
           </p>
           <p class="text-read">
@@ -571,7 +571,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;La Chambre des officiers&nbsp;», Marc Dugain
+              «{{'\xa0'}}La Chambre des officiers{{'\xa0'}}», Marc Dugain
             </strong>
           </p>
           <p class="text-read">
@@ -582,7 +582,7 @@
             pour couvrir le tout, un ciel métallique uniforme qui se déverse à
             intervalles réguliers comme si Dieu n'en finissait plus de
             s'acharner sur le simple soldat. C'est cette guerre-là que je n'ai
-            pas connue&nbsp;». Marc Dugain, quarante et un ans, retrace avec ce
+            pas connue{{'\xa0'}}». Marc Dugain, quarante et un ans, retrace avec ce
             premier roman la destinée particulière de son grand-père.
           </p>
         </b-col>
@@ -595,7 +595,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Frère d’âme&nbsp;», David Diop
+              «{{'\xa0'}}Frère d’âme{{'\xa0'}}», David Diop
             </strong>
           </p>
           <p class="text-read">
@@ -619,7 +619,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;99 francs&nbsp;», Frédéric Beigbeder
+              «{{'\xa0'}}99 francs{{'\xa0'}}», Frédéric Beigbeder
             </strong>
           </p>
           <p class="text-read">
@@ -644,7 +644,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Verre cassé&nbsp;», Alain Mabanckou
+              «{{'\xa0'}}Verre cassé{{'\xa0'}}», Alain Mabanckou
             </strong>
           </p>
           <p class="text-read">
@@ -665,7 +665,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Où on va papa ?&nbsp;», Jean-Louis Fournier
+              «{{'\xa0'}}Où on va papa ?{{'\xa0'}}», Jean-Louis Fournier
             </strong>
           </p>
           <p class="text-read">
@@ -694,7 +694,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Les mains du miracle&nbsp;», Joseph Kessel
+              «{{'\xa0'}}Les mains du miracle{{'\xa0'}}», Joseph Kessel
             </strong>
           </p>
           <p class="text-read">
@@ -718,7 +718,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Un secret&nbsp;», Philippe Grimbert
+              «{{'\xa0'}}Un secret{{'\xa0'}}», Philippe Grimbert
             </strong>
           </p>
           <p class="text-read">
@@ -742,7 +742,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;L’Adversaire&nbsp;», Emmanuel Carrère
+              «{{'\xa0'}}L’Adversaire{{'\xa0'}}», Emmanuel Carrère
             </strong>
           </p>
           <p class="text-read">
@@ -765,7 +765,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Chagrin d’école&nbsp;», Daniel Pennac
+              «{{'\xa0'}}Chagrin d’école{{'\xa0'}}», Daniel Pennac
             </strong>
           </p>
           <p class="text-read">
@@ -781,6 +781,7 @@
         </b-col>
       </b-row>
     </p>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadLink"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -790,6 +791,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import { BIcon, BIconUpload } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -797,8 +799,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIcon,
     BIconUpload,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class ReadLink extends Vue {}
+export default class ReadLink extends Vue {
+  public nxtprevReadLink =
+  {
+    BoolPrev: false,
+    BoolNext: true,
+    PrevImage: "",
+    NextImage: "/thumbnail5.png",
+    PrevLink: "",
+    NextLink: "/PlaisirdeLire/LesClassiques",
+  };
+}
 </script>

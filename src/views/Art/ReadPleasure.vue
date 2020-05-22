@@ -5,13 +5,12 @@
     <h2 class="rubric-title">PLAISIR DE LIRE</h2>
     <p>
       <strong>
-        Vous trouverez ci-dessous une liste de livres que je vous recommande
-        vivement.
+        Vous trouverez ci-dessous des suggestions de livres à découvrir ou à redécouvrir...
       </strong>
     </p>
     <p>
       Vous pourrez accéder à certains de ces livres numérisés (et à plein
-      d’autres) gratuitement grâce aux sites suivants&nbsp;:
+      d’autres) gratuitement grâce aux sites suivants{{'\xa0'}}:
     </p>
     <p>
     <ul>

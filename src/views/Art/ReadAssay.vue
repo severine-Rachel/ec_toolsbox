@@ -12,7 +12,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Si c’est un homme&nbsp;», Primo Levi
+              «{{'\xa0'}}Si c’est un homme{{'\xa0'}}», Primo Levi
             </strong>
           </p>
           <p class="text-read">
@@ -28,7 +28,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Aucun de nous ne reviendra&nbsp;», Charlotte Delbo
+              «{{'\xa0'}}Aucun de nous ne reviendra{{'\xa0'}}», Charlotte Delbo
             </strong>
           </p>
           <p class="text-read">
@@ -52,11 +52,11 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Ceux de 14&nbsp;», Maurice Genevoix
+              «{{'\xa0'}}Ceux de 14{{'\xa0'}}», Maurice Genevoix
             </strong>
           </p>
           <p class="text-read">
-            1er août 1914&nbsp;: la France décrète la mobilisation générale. Le 2
+            1er août 1914{{'\xa0'}}: la France décrète la mobilisation générale. Le 2
             août, Genevoix, brillant normalien qui n'a pas 24 ans, rejoint le
             106e régiment d'infanterie comme sous-lieutenant… Neuf mois plus
             tard, il est grièvement blessé et est réformé. Fin de la guerre pour
@@ -75,7 +75,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Le lambeau&nbsp;», Philippe Lançon
+              «{{'\xa0'}}Le lambeau{{'\xa0'}}», Philippe Lançon
             </strong>
           </p>
           <p class="text-read">
@@ -101,7 +101,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Votre cerveau n'a pas fini de vous étonner&nbsp;», Boris Cyrulnik,
+              «{{'\xa0'}}Votre cerveau n'a pas fini de vous étonner{{'\xa0'}}», Boris Cyrulnik,
               Pierre Bustany et al.
             </strong>
           </p>
@@ -122,7 +122,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Libérez votre cerveau&nbsp;», Idriss Aberkane
+              «{{'\xa0'}}Libérez votre cerveau{{'\xa0'}}», Idriss Aberkane
             </strong>
           </p>
           <p class="text-read">
@@ -130,9 +130,9 @@
             soixante-treizième d'un nombre à cinq cents chiffres en moins de
             trois minutes. Ils ont pourtant le même cerveau que nous. Alors,
             comment font-ils, ceux qui pensent plus vite, qui se concentrent
-            plus longtemps ou bien développent une mémoire phénoménale&nbsp;? Ils
+            plus longtemps ou bien développent une mémoire phénoménale{{'\xa0'}}? Ils
             utilisent leur cerveau de façon différente et harmonieuse, selon des
-            principes «&nbsp;neuroergonomiques&nbsp;». Pour penser mieux, éduquer mieux,
+            principes «{{'\xa0'}}neuroergonomiques{{'\xa0'}}». Pour penser mieux, éduquer mieux,
             vivre mieux, pas besoin d'être un génie, il suffit d'utiliser les
             formidables ressources que la nature a mises sous notre crâne. Nous
             en sommes tous capables.
@@ -147,14 +147,14 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Vous n’aurez pas ma haine&nbsp;», Antoine Leiris
+              «{{'\xa0'}}Vous n’aurez pas ma haine{{'\xa0'}}», Antoine Leiris
             </strong>
           </p>
           <p class="text-read">
             Le lendemain du drame du 13 novembre 2015 qui a coûté la vie à son
             épouse, le journaliste Antoine Leiris délivrait un touchant
-            témoignage sur la toile, avec une lettre ouverte «&nbsp;Vous n'aurez pas
-            ma haine&nbsp;». Il se raconte désormais dans un récit qui porte le même
+            témoignage sur la toile, avec une lettre ouverte «{{'\xa0'}}Vous n'aurez pas
+            ma haine{{'\xa0'}}». Il se raconte désormais dans un récit qui porte le même
             titre, un essai touchant et bouleversant où il raconte sa nouvelle
             vie, entre l'absence de l'être aimé et la volonté de vivre, pour son
             fils, pour des lendemains qui chanteront à nouveau.
@@ -169,7 +169,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Une saison de machettes&nbsp;», Jean Hatzfeld
+              «{{'\xa0'}}Une saison de machettes{{'\xa0'}}», Jean Hatzfeld
             </strong>
           </p>
           <p class="text-read">
@@ -179,7 +179,7 @@
             "Libération", avait déjà rendu compte de ce génocide sans précédent
             en donnant la parole aux rescapés des massacres de la région de
             Nyamata dans un témoignage bouleversant, "Dans le nu de la vie.
-            Récit des marais rwandais"&nbsp;: sur une population de 59 000 personnes,
+            Récit des marais rwandais"{{'\xa0'}}: sur une population de 59 000 personnes,
             50 000 avaient été tuées par leurs voisins hutus.
           </p>
           <p class="text-read">
@@ -201,11 +201,11 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Sur le bout de la langue&nbsp;», Bertrand Perier
+              «{{'\xa0'}}Sur le bout de la langue{{'\xa0'}}», Bertrand Perier
             </strong>
           </p>
           <p class="text-read">
-            «&nbsp;Les mots sont mes plus chers compagnons. Tous les jours, je joue
+            «{{'\xa0'}}Les mots sont mes plus chers compagnons. Tous les jours, je joue
             avec les mots, je les manie avec délectation, dans une cour de
             justice, dans l’arène médiatique, dans les jurys de concours
             d’éloquence. Les mots m’ont révélé, m’ont fait sortir de ma réserve
@@ -214,7 +214,7 @@
         </b-col>
       </b-row>
     </p>
-
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadAssay"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -224,6 +224,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import { BIcon, BIconUpload } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -231,8 +232,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIcon,
     BIconUpload,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class ReadAssay extends Vue {}
+export default class ReadAssay extends Vue {
+public nxtprevReadAssay =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail5.png",
+    NextImage: "/thumbnail1.png",
+    PrevLink: "/PlaisirdeLire/LesClassiques",
+    NextLink: "/PlaisirdeLire/LectureInsulaire",
+  };
+}
 </script>

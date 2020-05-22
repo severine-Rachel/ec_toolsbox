@@ -3,29 +3,10 @@
     <Header></Header>
     <Menu></Menu>
     <h2 class="rubric-title">ENTRETIEN DE RECRUTEMENT</h2>
-    <p>
-      <strong>
-        Vos CV et lettre de motivation ont retenu l’attention du recruteur.
-        Bravo&nbsp;! Il ne vous reste plus qu’une dernière étape&nbsp;: l’entretien de
-        recrutement. Laissez le stress de côté et réjouissez-vous de cette
-        rencontre importante qui va forcément être enrichissante pour vous : au
-        mieux, elle vous permettra d’accéder à la formation de vos rêves, au
-        stage ou au poste convoités, au pire, elle vous permettra d’améliorer
-        encore vos techniques d’entretien&nbsp;! Quoiqu’il en soit, le succès d’un
-        entretien réside essentiellement dans sa préparation&nbsp;! Préparez-le donc
-        comme un grand oral. Si vous souhaitez forger vos propres outils,
-        individualisés, et découvrir davantage d’astuces, n’hésitez pas à
-        consulter mon ouvrage&nbsp;:<i> Les Premiers Entretiens de recrutement. Les clés
-        pour se démarquer et réussir.</i>
-      </strong>
-    </p>
-     <Index v-bind:index-list="indexInterview"></Index>
-     <InterviewKeys></InterviewKeys>
-      <InterviewTips></InterviewTips>
-      <InterviewGoFurther></InterviewGoFurther>
-    
 
-    
+  
+    <ContentsPage v-bind:contents-list="contentsInterview"></ContentsPage>
+
 
     <Footer></Footer>
   </div>
@@ -33,11 +14,11 @@
 
 <style lang="scss">
 #interview-galery {
-  margin-left:10%;
+  margin-left: 10%;
 }
 
-#go-further-Interview{
-    margin-left:8vw;
+#go-further-Interview {
+  margin-left: 8vw;
 }
 </style>
 
@@ -45,44 +26,34 @@
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
-import Index from "@/components/Index.vue";
-import InterviewKeys from "@/views/Appfile/InterviewKeys.vue";
-import InterviewTips from "@/views/Appfile/InterviewTips.vue";
-import InterviewGoFurther from "@/views/Appfile/InterviewGoFurther.vue";
+import ContentsPage from "@/components/ContentsPage.vue";
 import Footer from "@/components/Footer.vue";
 
 @Component({
   components: {
     Header,
     Menu,
-    Index,
-    InterviewKeys,
-    InterviewTips,
-    InterviewGoFurther,
-    Footer
-  }
+    ContentsPage,
+    Footer,
+  },
 })
 export default class Interview extends Vue {
-
-public indexInterview= [
+  public contentsInterview = [
     {
-    IndexTitle:  "LES FONDAMENTAUX : FICHES-CLÉS",
-    IndexId: "#keysInterview",
-    IndexImage: "/thumbnail2.png"
+      ContentsTitle: "LES FONDAMENTAUX DE L'ENTRETIEN : FICHES-CLÉS",
+      ContentsPath: "/Entretien/Fondamentaux",
+      ContentsImage: "/thumbnail2.png",
     },
     {
-    IndexTitle: "CONSEILS ET ASTUCES",
-    IndexId: "#tipsInterview",
-    IndexImage:"/thumbnail6.png"
+      ContentsTitle: "CONSEILS ET ASTUCES",
+      ContentsPath: "/Entretien/Astuces",
+      ContentsImage: "/thumbnail6.png",
     },
     {
-    IndexTitle: "POUR ALLER PLUS LOIN",
-    IndexId: "#goFurtherInterview",
-    IndexImage:"/thumbnail7.png"
-    }
-
-  ]
-
-
+      ContentsTitle: "POUR ALLER PLUS LOIN",
+      ContentsPath: "/Entretien/Aller_Plus_Loin",
+      ContentsImage: "/thumbnail7.png",
+    },
+  ];
 }
 </script>

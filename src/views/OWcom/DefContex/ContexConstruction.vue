@@ -1,15 +1,15 @@
 <template>
   <div>
       <h4>LA CO-CONSTRUCTION DU SENS ET LES PROCESSUS INTERPRÉTATIFS</h4>
-      <p>La communication&nbsp;: un processus d’adaptation permanent</p>
-      <p>Les individus produisent&nbsp;:</p>
+      <p>La communication{{'\xa0'}}: un processus d’adaptation permanent</p>
+      <p>Les individus produisent{{'\xa0'}}:</p>
       <p>
           <ul>
               <li>
-                  du sens&nbsp;;
+                  du sens{{'\xa0'}};
                   </li>
                 <li>
-                    co-construisent du sens&nbsp;;
+                    co-construisent du sens{{'\xa0'}};
                 </li>
                 <li>
                     partagent des significations.
@@ -17,14 +17,14 @@
               </ul>
       </p>
       <p>Et doivent mettre en place des réajustements permanents, 
-          à partir&nbsp;:</p>
+          à partir{{'\xa0'}}:</p>
       <p>
           <ul>
               <li>
-                  de reformulations&nbsp;;
+                  de reformulations{{'\xa0'}};
                   </li>
                 <li>
-                   de questionnements&nbsp;;
+                   de questionnements{{'\xa0'}};
                 </li>
                 <li>
                     d'objections.
@@ -32,8 +32,8 @@
               </ul>
       </p>
       <p>
-          L’acte de parole: «&nbsp;N’arrive pas trop tard, s’il te plaît&nbsp;!&nbsp;» 
-          suppose une conception commune du mot «&nbsp;tard&nbsp;».
+          L’acte de parole: «{{'\xa0'}}N’arrive pas trop tard, s’il te plaît{{'\xa0'}}!{{'\xa0'}}» 
+          suppose une conception commune du mot «{{'\xa0'}}tard{{'\xa0'}}».
       </p>
       <div id="quote">
       <p class="quote"> Entre
@@ -59,10 +59,12 @@
       </div>
       <p class="quote3">Bernard Werber
       </p>
-      <p class="quote3">Extrait de <i>l’Encyclopédiedu savoir relatif et absolu</i>
+      <p class="quote3">Extrait de <i>l’Encyclopédie du savoir relatif et absolu, 1993</i>
       </p>
+      <h5 class="text-vid">LA CO-CONSTRUCTION DU SENS...</h5>
 <img class="square" draggable="false" src="/picture_OWcom/schematic/schema_com.png" alt="Schema_Werber">
-  </div>
+      <h5 class="text-vid">...ET LES PROCESSUS INTERPRÉTATIFS</h5>
+</div>
 </template>
 
 <style lang="scss">

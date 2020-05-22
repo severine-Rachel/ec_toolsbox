@@ -1,24 +1,42 @@
 <template>
-  <div>
+  <div id="InterviewTips">
+    <Header></Header>
+    <Menu></Menu>
     <h3 id="tipsInterview">
       CONSEILS ET ASTUCES
     </h3>
     <h4>Ce que disent les professionnels</h4>
-    <Video v-bind:galery-video="videoInterviewTips"></Video>
-    <h4>Attention&nbsp;! Les erreurs à éviter</h4>
-    <Video v-bind:galery-video="videoInterviewErrors"></Video>
+    <Video v-bind:galery-video="videoInterviewTips" v-bind:id-video="'interview1'"></Video>
+    <h4>Attention{{'\xa0'}}! Les erreurs à éviter</h4>
+    <Video v-bind:galery-video="videoInterviewErrors"  v-bind:id-video="'interview2'"></Video>
     
     <h4>Pour dédramatiser…</h4>
-    <Video v-bind:galery-video="videoInterviewRelax"></Video>
+    <Video v-bind:galery-video="videoInterviewRelax"  v-bind:id-video="'interview3'"></Video>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevInterviewTips"></NextPrevBtn>
+    <Footer></Footer>
   </div>
 </template>
-
+<style lang="scss">
+  #InterviewTips {
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100vh;
+}
+</style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Video from "@/components/Video.vue";
+import Header from "@/components/Header.vue";
+import Menu from "@/components/Menu.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
+import Footer from "@/components/Footer.vue";
 @Component({
   components: {
     Video,
+    Header,
+    Menu,
+    NextPrevBtn,
+    Footer,
   }
 })
 export default class InterviewTips extends Vue {
@@ -63,6 +81,7 @@ export default class InterviewTips extends Vue {
       videoRoot: "Chaîne :   cadremploi",
     },
   ];
+  
   public videoInterviewRelax = [
     {
       videoSrc: "https://www.youtube.com/embed/MQjvpPpAjgo",
@@ -92,5 +111,14 @@ export default class InterviewTips extends Vue {
       videoRoot: "Chaîne :   cadremploi",
     },
    ]
+   public nxtprevInterviewTips =
+  {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail2.png",
+    NextImage: "/thumbnail7.png",
+    PrevLink: "/Entretien/Fondamentaux",
+    NextLink: "/Entretien/Aller_Plus_Loin",
+  };
 }
 </script>

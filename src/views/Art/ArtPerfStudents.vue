@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="Perf">
     <Header></Header>
     <Menu></Menu>
     <h3>PERFORMANCES D'ÉTUDIANTS IUT GEII</h3>
@@ -15,7 +15,7 @@
     </p>
     <p>
       Par leur engagement sur scène, les étudiants défendent leur point de vue
-      sur des thèmes riches et variés qui leur tiennent à cœur&nbsp;:
+      sur des thèmes riches et variés qui leur tiennent à cœur{{ "\xa0" }}:
       surconsommation, sens de la vie, addiction aux réseaux sociaux, souffrance
       animale ou encore harcèlement scolaire… Une grande fête de la créativité,
       une ouverture sur le monde mais aussi et surtout un beau moment de
@@ -37,50 +37,57 @@
     </b-row>
     <p class="text-vid">Chaîne : Perf'Art GEII Angers</p>
 
-    <h4>
-      La note d’intention&nbsp;: un outil pour créer sa performance
-    </h4>
+    <h4>La note d’intention{{ "\xa0" }}: un outil pour créer sa performance</h4>
     <a
-      class="subtitle-link"
+      class="subtitle-link  pdf-line"
       href="/pdf_perf/IntentPerf.pdf"
       download="NoteIntentionPerfArt"
     >
-      La note d’intention&nbsp; Perf’Art <b-icon icon="upload"></b-icon>
+      La note d’intention{{ "\xa0" }} Perf’Art
+      <img class="logo-pdf" src="../../assets/logo-pdf.png" />
     </a>
     <h4>
       Exemple de performance
     </h4>
     <p>
-      <strong> «&nbsp;W@tched&nbsp;»</strong>. Souriez... Vous êtes filmés. Ou comment
-      dénoncer la surveillance de masse ? Performance réalisée par des étudiants
-      en IUT GEII (Arthur, Léo et Mathias) dans la ville d'Angers puis sur scène
-      avec une douzaine de performeurs...
+      <strong> «{{ "\xa0" }}W@tched{{ "\xa0" }}»</strong>. Souriez... Vous êtes
+      filmés. Ou comment dénoncer la surveillance de masse ? Performance
+      réalisée par des étudiants en IUT GEII (Arthur, Léo et Mathias) dans la
+      ville d'Angers puis sur scène avec une douzaine de performeurs...
     </p>
     <b-row align-h="center">
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/0AH8fNb-GHs"
+        src="https://www.youtube.com/embed/57CjCvvaCdg"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
     </b-row>
-    <p class="text-vid"> Contenu soumis à des droits d'auteurs</p>
+    <p class="text-vid">Contenu soumis à des droits d'auteurs</p>
     <h4>
       Autres exemples de performances…
     </h4>
-    <Video v-bind:galery-video="videoPerf"></Video>
+    <Video v-bind:galery-video="videoPerf" v-bind:id-video="'perf'"></Video>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfStudents"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+  #Perf {
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100vh;
+}
+</style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Video from "@/components/Video.vue";
 import { BIcon, BIconUpload } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -89,6 +96,7 @@ import Footer from "@/components/Footer.vue";
     Video,
     BIcon,
     BIconUpload,
+    NextPrevBtn,
     Footer,
   },
 })
@@ -115,5 +123,13 @@ export default class ArtPerfStudents extends Vue {
       videoRoot: "Contenu soumis à des droits d'auteur",
     },
   ];
+  public nxtprevArtPerfStudents = {
+    BoolPrev: true,
+    BoolNext: true,
+    PrevImage: "/thumbnail7.png",
+    NextImage: "/thumbnail2.png",
+    PrevLink: "/PerformanceArtistique/Origines",
+    NextLink: "/PerformanceArtistique/CorpusdeTexte",
+  };
 }
 </script>

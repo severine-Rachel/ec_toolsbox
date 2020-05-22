@@ -4,8 +4,21 @@ import Home from '@/views/Home/Home.vue';
 import LegalNotice from './views/LegalNotice.vue';
 import Confidentiality from './views/Confidentiality.vue';
 import CV from './views/Appfile/CV.vue';
+import CVKeys from './views/Appfile/CVKeys.vue';
+import CVTips from './views/Appfile/CVTips.vue';
+import CVExample from './views/Appfile/CVExample.vue';
+import CVTools from './views/Appfile/CVTools.vue';
+import CVVideo from './views/Appfile/CVVideo.vue';
+import CVGoFurther from './views/Appfile/CVGoFurther.vue';
 import Letter from './views/Appfile/Letter.vue';
+import LetterKeys  from './views/Appfile/LetterKeys.vue';
+import LetterTips from './views/Appfile/LetterTips.vue';
+import LetterAnalysis from './views/Appfile/LetterAnalysis.vue';
+import LetterArguments from './views/Appfile/LetterArguments.vue';
 import Interview from './views/Appfile/Interview.vue';
+import InterviewKeys from './views/Appfile/InterviewKeys.vue';
+import InterviewTips from './views/Appfile/InterviewTips.vue';
+import InterviewGoFurther from './views/Appfile/InterviewGoFurther.vue';
 import Def from './views/OWcom/Def.vue';
 import DefShare from './views/OWcom/DefShare.vue';
 import DefType from './views/OWcom/DefType.vue';
@@ -86,14 +99,79 @@ const routes = [
   component: CV
 },
 {
-  path:'/LettreMotivation',
+  path: '/CV/Fondamentaux',
+  name:'CV_Fondamentaux',
+  component: CVKeys
+},
+{
+  path: '/CV/Astuces',
+  name:'CV_Astuces',
+  component: CVTips
+},
+{
+  path: '/CV/Exemples',
+  name:'CV_Exemples',
+  component: CVExample
+},
+{
+  path: '/CV/Outils',
+  name:'CV_Outils',
+  component: CVTools
+},
+{
+  path: '/CV/CV_Video',
+  name:'CVVideo',
+  component: CVVideo
+},
+{
+  path: '/CV/Aller_Plus_Loin',
+  name:'CV_AllerPlusLoin',
+  component: CVGoFurther
+},
+{
+  path:'/Lettre_de_Motivation',
   name:'Lettre',
   component: Letter
+},
+{
+  path:'/Lettre_de_Motivation/Fondamentaux',
+  name:'Lettre_Fondamentaux',
+  component: LetterKeys
+},
+{
+  path:'/Lettre_de_Motivation/Astuces',
+  name:'Lettre_Astuces',
+  component: LetterTips
+},
+{
+  path:'/Lettre_de_Motivation/Analyse',
+  name:'Lettre_Analyse',
+  component: LetterAnalysis
+},
+{
+  path:'/Lettre_de_Motivation/Arguments',
+  name:'Lettre_Arguments',
+  component: LetterArguments
 },
 {
   path:'/Entretien',
   name:'Entretien',
   component: Interview
+},
+{
+  path:'/Entretien/Fondamentaux',
+  name:'Entretien_Fondamentaux',
+  component: InterviewKeys
+},
+{
+  path:'/Entretien/Astuces',
+  name:'Entretien_Astuces',
+  component: InterviewTips
+},
+{
+  path:'/Entretien/Aller_Plus_Loin',
+  name:'Entretien_AllerPlusLoin',
+  component: InterviewGoFurther
 },
 {
   path:'/Definition_Communication',

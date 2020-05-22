@@ -11,7 +11,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Les Bienveillantes&nbsp;», Jonathan Littell
+              «{{'\xa0'}}Les Bienveillantes{{'\xa0'}}», Jonathan Littell
             </strong>
           </p>
           <p class="text-read">
@@ -29,7 +29,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Voyage au bout de la nuit&nbsp;», Céline
+              «{{'\xa0'}}Voyage au bout de la nuit{{'\xa0'}}», Céline
             </strong>
           </p>
           <p class="text-read">
@@ -55,7 +55,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Homme invisible, pour qui chantes-tu ?&nbsp;», Ralph Ellison
+              «{{'\xa0'}}Homme invisible, pour qui chantes-tu ?{{'\xa0'}}», Ralph Ellison
             </strong>
           </p>
           <p class="text-read">
@@ -79,7 +79,7 @@
         <b-col col md="6">
           <p class="text-read">
             <strong>
-              «&nbsp;Le tambour&nbsp;», Gϋnter Grass
+              «{{'\xa0'}}Le tambour{{'\xa0'}}», Gϋnter Grass
             </strong>
           </p>
           <p class="text-read">
@@ -95,7 +95,7 @@
         </b-col>
       </b-row>
     </p>
-
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadHardened"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
@@ -105,6 +105,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import { BIcon, BIconUpload } from "bootstrap-vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -112,8 +113,19 @@ import Footer from "@/components/Footer.vue";
     Menu,
     BIcon,
     BIconUpload,
+    NextPrevBtn,
     Footer,
   },
 })
-export default class ReadHardened extends Vue {}
+export default class ReadHardened extends Vue {
+   public nxtprevReadHardened =
+  {
+    BoolPrev: true,
+    BoolNext: false,
+    PrevImage: "/thumbnail7.png",
+    NextImage: " ",
+    PrevLink: "/PlaisirdeLire/BandesDessinees",
+    NextLink: " ",
+  };
+}
 </script>

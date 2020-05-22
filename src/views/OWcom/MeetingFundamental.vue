@@ -1,12 +1,22 @@
 <template>
-  <div>
+  <div id="MeetingFundamental">
     <Header></Header>
     <Menu></Menu>
-    <h3>LES FONDAMENTAUX</h3>
-    <h4>Les fiches clés</h4>
+    <h3>LES FONDAMENTAUX DE LA RÉUNION</h3>
+    <h4>Les fiches-clés</h4>
+    <p>
+      Il existe plusieurs types de réunions{{'\xa0'}}: les réunions d’information, de
+      résolution de problèmes, de stimulation, de formation ou encore de
+      négociation… Quel que soit son objectif, une bonne réunion est une réunion
+      bien préparée, aussi bien par ses participants que par ses animateurs.
+      Recherches et apport d’idées pour les premiers, rédaction de l’ordre du
+      jour, définition d’un objectif, cadrage, choix d’une modalité (tour de
+      table, débat, sous-groupes…) pour le deuxième… Comment participer
+      activement et de façon pertinente à une réunion{{'\xa0'}}?
+    </p>
     <Pdf v-bind:galery-pdf="pdfMeeting"></Pdf>
-    <h4> Erreurs courantes</h4>
-    <Video v-bind:galery-video="videoMeetingFund"></Video>
+    <h4>Erreurs courantes</h4>
+    <Video v-bind:galery-video="videoMeetingFund"  v-bind:id-video="'meet1'"></Video>
     <h4>Comment conduire une réunion</h4>
     <b-row align-h="center">
       <div style="width:799.983px">
@@ -56,12 +66,18 @@
         <div style="padding:5px 0 12px"></div>
       </div>
     </b-row>
-    
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevMeetingFundamental"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+  #MeetingFundamental {
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100vh;
+}
+</style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
@@ -69,6 +85,7 @@ import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Video from "@/components/Video.vue";
 import Pdf from "@/components/Pdf.vue";
+import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
@@ -76,6 +93,7 @@ import Footer from "@/components/Footer.vue";
     Menu,
     Video,
     Pdf,
+    NextPrevBtn,
     Footer,
   },
 })
@@ -114,5 +132,14 @@ export default class MeetingFundamental extends Vue {
       TxtPdf: "Rédiger un compte rendu de réunion",
     },
   ];
+
+  public nxtprevMeetingFundamental = {
+    BoolPrev: false,
+    BoolNext: true,
+    PrevImage: "",
+    NextImage: "/thumbnail1.png",
+    PrevLink: "",
+    NextLink: "/Conduite_Reunion/Astuces",
+  };
 }
 </script>

@@ -2,95 +2,74 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h2 class="rubric-title">CV</h2>
+    <h2 class="rubric-title" id="cv">CV</h2>
     <p>
       <strong>
-        Vous trouverez ici des outils qui vous permettront de concevoir votre CV
-        (contenu et forme). Une astuce&nbsp;: partez toujours d’un modèle classique,
-        que vous prendrez le temps de bien structurer, pour aller
-        progressivement vers l’originalité. Dans tous les cas, respectez bien
-        l’ordre de hiérarchisation des éléments clés et le sens de lecture du
-        CV.
+        
       </strong>
     </p>
-    <Index v-bind:index-list="indexCV"></Index>
+    
+    <ContentsPage v-bind:contents-list="contentsCV"></ContentsPage>
 
-    <CVKeys></CVKeys>
-    <CVTips></CVTips>
-    <CVExample></CVExample>
-    <CVTools></CVTools>
-    <CVVideo></CVVideo>
-    <CVGoFurther></CVGoFurther>
 
     <Footer></Footer>
   </div>
 </template>
 
 <style lang="scss">
-
-
-
+#cv {
+  padding-bottom: 1vh;
+  font-size: 2.5rem;
+}
 </style>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
-import Index from "@/components/Index.vue";
-import CVKeys from "@/views/Appfile/CVKeys.vue";
-import CVTips from "@/views/Appfile/CVTips.vue";
-import CVExample from "@/views/Appfile/CVExample.vue";
-import CVTools from "@/views/Appfile/CVTools.vue";
-import CVVideo from "@/views/Appfile/CVVideo.vue";
-import CVGoFurther from "@/views/Appfile/CVGoFurther.vue";
+import ContentsPage from "@/components/ContentsPage.vue";
 import Footer from "@/components/Footer.vue";
 
 @Component({
   components: {
     Header,
     Menu,
-    Index,
-    CVKeys,
-    CVTips,
-    CVExample,
-    CVTools,
-    CVVideo,
-    CVGoFurther,
+    ContentsPage,
 
     Footer,
   },
 })
 export default class CV extends Vue {
-  public indexCV = [
+  public contentsCV = [
     {
-      IndexTitle: "LES FONDAMENTAUX : FICHES-CLÉS",
-      IndexId: "#keysCV",
-      IndexImage: "/thumbnail7.png",
+      ContentsTitle: "LES FONDAMENTAUX DU CV : FICHES-CLÉS",
+      ContentsPath: "/CV/Fondamentaux",
+      ContentsImage: "/thumbnail7.png",
     },
     {
-      IndexTitle: "CONSEILS ET ASTUCES",
-      IndexId: "#tipsCV",
-      IndexImage: "/thumbnail1.png",
+      ContentsTitle: "CONSEILS ET ASTUCES",
+      ContentsPath: "/CV/Astuces",
+      ContentsImage: "/thumbnail1.png",
     },
     {
-      IndexTitle: "EXEMPLES DE CV (IUT)",
-      IndexId: "#exampleCV",
-      IndexImage: "/thumbnail2.png",
+      ContentsTitle: "EXEMPLES DE CV (IUT)",
+      ContentsPath: "/CV/Exemples",
+      ContentsImage: "/thumbnail2.png",
     },
     {
-      IndexTitle: "OUTILS D'AIDE À LA CONCEPTION DE CV",
-      IndexId: "#toolCV",
-      IndexImage: "/thumbnail3.png",
+      ContentsTitle: "OUTILS D'AIDE À LA CONCEPTION DE CV",
+      ContentsPath: "/CV/Outils",
+      ContentsImage: "/thumbnail3.png",
     },
     {
-      IndexTitle: "LE CV VIDÉO",
-      IndexId: "#videoCV",
-      IndexImage: "/thumbnail4.png",
+      ContentsTitle: "LE CV VIDÉO",
+      ContentsPath: "/CV/CV_Video",
+      ContentsImage: "/thumbnail4.png",
     },
     {
-      IndexTitle: "POUR ALLER PLUS LOIN !",
-      IndexId: "#go-furtherCV",
-      IndexImage: "/thumbnail5.png",
+      ContentsTitle: "POUR ALLER PLUS LOIN !",
+      ContentsPath: "/CV/Aller_Plus_Loin",
+      ContentsImage: "/thumbnail5.png",
     },
   ];
 }

@@ -26,14 +26,13 @@ import Footer from "@/components/Footer.vue";
     Header,
     Menu,
     ContentsPage,
-   
     Footer,
   },
 })
 export default class Poster extends Vue {
   public contentsPoster= [
     {
-    ContentsTitle:  "LES FONDAMENTAUX",
+    ContentsTitle:  "LES FONDAMENTAUX DE L'AFFICHE",
     ContentsPath: "/Affiche/Fondamentaux",
     ContentsImage: "/thumbnail3.png"
     },

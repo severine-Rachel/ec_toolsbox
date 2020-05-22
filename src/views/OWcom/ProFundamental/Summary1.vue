@@ -4,7 +4,6 @@
       src="/picture_OWcom/Pro/Summary1.png"
       class="interractive"
       alt="mauvais sommaire"
-       draggable="false"
     />
     <b-button
       class="sum-summary-1"
@@ -14,7 +13,7 @@
     </b-button>
 
     <b-popover target="popover-SumSummary1" triggers="hover" placement="right">
-      Le sommaire doit être généré informatiquement et les numéros de page relégués à droite
+      Le sommaire doit être généré informatiquement et les numéros de page relégués à droite.
     </b-popover>
     <b-button
       class="part-summary-1"
@@ -28,7 +27,7 @@
       triggers="hover"
       placement="right"
     >
-      Les parties et sous-parties doivent être organisées à l'aide de numéros de parties.
+      Les parties et sous-parties doivent être organisées à l'aide d'une hiérarchisation bien précise ; les parties et sous-parties doivent être associées à un plan numéroté.
     </b-popover>
    
   </b-row>
@@ -37,7 +36,7 @@
 .sum-summary-1 {
   width: 50px;
   height: 305px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 530px;
   top: 175px;
@@ -47,7 +46,7 @@
 .part-summary-1 {
   width: 250px;
   height: 160px;
-  opacity: 90%;
+  opacity: 0.5;
   position: relative;
   right: 500px;
   top: 330px;

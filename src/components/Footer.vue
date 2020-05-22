@@ -3,44 +3,59 @@
     <div id="FooterTop">
       <b-row>
         <b-col class="divide-footer" cols="3">
-          <img class="Logo" src="../assets/basic-Graph/Logo3.png" atl="Peggy Raffy-Hideux Logo Design" />
-          <h5> <router-link to="/QuiSuisJe" class="link-footer-writer">L'AUTEURE</router-link></h5>
+          <img
+            class="Logo"
+            src="../assets/basic-Graph/Logo3.png"
+            atl="Peggy Raffy-Hideux Logo Design"
+          />
+          <h5>
+            <router-link to="/QuiSuisJe" class="link-footer-writer"
+              >L'AUTEURE</router-link
+            >
+          </h5>
         </b-col>
         <b-col cols="9">
           <h5 id="H5WebDescrib">CE QUE LE SITE PROPOSE</h5>
           <p id="WebDescrib">
-            Ce site a été conçu comme une boîte à outils. Vous y trouverez de
-            nombreuses ressources en expression et communication : fiches-clés,
-            conseils et astuces, vidéos, exemples concrets, etc. qui doivent
-            vous permettre de préparer un solide dossier de candidature, de
-            concevoir des supports de communication pertinents, d’enrichir vos
-            compétences rédactionnelles, d’améliorer votre maîtrise de la langue
-            française ou encore d’élargir votre culture générale.
+            À partir de quatre rubriques principales (dossier de candidature,
+            communication écrite et orale, communication visuelle, arts et
+            culture), Développez vos compétences en expression et communication à
+            l’aide de fiches-clés, de conseils, d’astuces, de vidéos de
+            professionnels et d’exemples concrets…
           </p>
         </b-col>
       </b-row>
     </div>
-    
+
     <b-row id="FooterBottom">
       <b-col cols="3" class="divide-footer">
         <h5 id="H5FooterBottom">CONTACT</h5>
 
-        <a href="https://fr.linkedin.com/in/peggy-raffy-hideux" target="_blank" alt="LinkedIn Peggy Raffy-Hideux">
+        <a
+          href="https://fr.linkedin.com/in/peggy-raffy-hideux"
+          target="_blank"
+          alt="LinkedIn Peggy Raffy-Hideux"
+        >
           <img
             class="logo-network"
             src="../assets/basic-Graph/Logo_Linkendin.png"
             atl="logo-linkenin"
           />
         </a>
-        <a href="http://fr.viadeo.com/fr/profile/raffy.peggy" target="_blank" alt="Viadeo Peggy Raffy-Hideux">
+        <a
+          href="http://fr.viadeo.com/fr/profile/raffy.peggy"
+          target="_blank"
+          alt="Viadeo Peggy Raffy-Hideux"
+        >
           <img
             class="logo-network"
             src="../assets/basic-Graph/Logo_Viadeo.png"
             atl="logo-viadeo"
           />
         </a>
+        <div><b-icon icon="envelope"></b-icon> raffypeggy@yahoo.fr</div>
         <div>
-          <b-icon icon="envelope"></b-icon> raffypeggy@yahoo.fr / peggyraffy@gmail.com
+          peggyraffy@gmail.com
         </div>
         <div><b-icon icon="geo-alt"></b-icon> Angers</div>
         <div>
@@ -52,7 +67,7 @@
           >
         </div>
         <div>
-          <a class="link-footer" href=" https://www.aeciut.fr/"
+          Membre de l'<a class="link-footer" href=" https://www.aeciut.fr/"
             >Association des Enseignants de Communication en IUT</a
           >
         </div>
@@ -62,11 +77,9 @@
         <h5 id="H5FooterNav"><b-icon icon="list"></b-icon>NAVIGATION</h5>
         <p id="FooterNav">
           <b-icon icon="diamond"></b-icon>
-          <router-link to="/CV" class="link-footer"
-            > CV</router-link
-          >
+          <router-link to="/CV" class="link-footer"> CV</router-link>
           /
-          <router-link to="/LettreMotivation" class="link-footer"
+          <router-link to="/Lettre_de_Motivation" class="link-footer"
             >Lettre</router-link
           >
           /
@@ -164,7 +177,7 @@
 #Footer {
   font-size: 9pt;
   text-align: center;
-  margin-top: 40vh;
+  margin-top: 20vh;
 }
 #FooterTop {
   background: #bce8ff;
@@ -182,17 +195,18 @@
 #ECLogo {
   height: 10vh;
 }
-#H5WebDescrib{
+#H5WebDescrib {
   text-align: justify;
   margin-left: 5.5%;
   color: #2694cd;
+  padding-top: 3%;
 }
 #WebDescrib {
   text-align: justify;
   margin-left: 5.5%;
 }
 #H5FooterBottom {
-    color: white;
+  color: white;
   padding-top: 1rem;
   margin-bottom: 0;
   text-align: center;
@@ -216,7 +230,7 @@
   margin: 1vh 1vw 2vh 1vw;
   text-align: center;
 }
-.divide-footer{
+.divide-footer {
   border-right: solid 1px #1d4f8f;
 }
 .link-footer {
@@ -225,11 +239,9 @@
 .link-footer-legal {
   color: #bce8ff !important;
 }
-.link-footer-writer{
-  color:#2694cd !important;
-  
+.link-footer-writer {
+  color: #2694cd !important;
 }
-
 </style>
 
 <script lang="ts">

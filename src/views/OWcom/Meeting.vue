@@ -27,7 +27,7 @@ import Footer from "@/components/Footer.vue";
 export default class Meeting extends Vue {
   public contentsMeeting= [
     {
-    ContentsTitle:  "LES FONDAMENTAUX",
+    ContentsTitle:  "LES FONDAMENTAUX DE LA RÉUNION",
     ContentsPath: "/Conduite_Reunion/Fondamentaux",
     ContentsImage: "/thumbnail5.png"
     },
