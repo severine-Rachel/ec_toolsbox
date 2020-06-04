@@ -37,11 +37,11 @@ export default class DefContex extends Vue {
   public nxtprevDefContex =
   {
     BoolPrev: true,
-    BoolNext: false,
+    BoolNext: true,
     PrevImage: "/thumbnail7.png",
-    NextImage: "",
+    NextImage: "/thumbnail1.png",
     PrevLink: "/Definition_Communication/Types_Communication",
-    NextLink: "",
+    NextLink: "/Definition_Communication/Strategie_Communication",
   };
 }
 </script>

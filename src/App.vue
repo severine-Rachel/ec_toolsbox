@@ -7,7 +7,7 @@
 <script>
 import { Component, Vue } from 'vue-property-decorator';
 import Home from '@/views/Home/Home.vue';
-import LegalNotice from './views/LegalNotice.vue';
+
 
 @Component({
   components: {

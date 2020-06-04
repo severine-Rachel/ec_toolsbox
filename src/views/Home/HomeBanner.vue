@@ -22,13 +22,26 @@
   height: 50vh;
   width: 100%;
   border: solid 1px #bce8ff;
+  animation-name: appearBand;
+  animation-duration: 3s;
+}
+@keyframes appearBand {
+  from{
+    opacity:0;
+  } 
+  to{
+    opacity: 1;
+  }
 }
 #ArrowLink {
   display: block;
   width: 4vw;
   margin-left: auto; //auto need width to work
   margin-right: auto;
+  animation-name: appear2ndWelcome;
+  animation-duration: 3s;
 }
+
 #Arrow {
   width: 4vw;
   position: absolute;
@@ -40,6 +53,8 @@
   height:45%;
   width:17vw;
   left:3%;
+  
+  
   
 }
 </style>

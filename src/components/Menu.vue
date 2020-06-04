@@ -88,9 +88,10 @@
   top: 0; //when menu change from relative to absolute, need the absolute position:top 0;
   z-index: 1000; //put menu above other elements
   margin-bottom: 0.5vh;
+  
 }
 .rubric {
-  background-image: url("../assets/basic-Graph/button2.png");
+  background-image: url("../assets/basic-Graph/buttonblue.png");
   background-size: 100% 100%;
   border-radius: 0px;
   margin-right: 0.5vw;
@@ -99,14 +100,19 @@
   text-align: center !important;
 
   &:hover {
-    background-image: url("../assets/basic-Graph/buttonhover2.png");
+    background-image: url("../assets/basic-Graph/buttonred.png");
+    background-size: 100% 100%;
+  }
+  &:active{
+    background-image: url("../assets/basic-Graph/buttonfocus.png");
     background-size: 100% 100%;
   }
 }
 #home {
   //rubric home
-  background-image: url("../assets/basic-Graph/buttonhover2.png");
+  background-image: url("../assets/basic-Graph/buttonred.png");
   background-size: 100% 100%;
+
 }
 #ceasura {
   background-color: #c94a19;
@@ -122,9 +128,8 @@
   text-align: center;
   color: #2e367f;
 
-  &:hover {
-    background-color: red;
-  }
+  
+  
 }
 
 .dropdown-menu {
@@ -135,9 +140,10 @@
 .dropdown-item {
   color: #2e367f !important;
   padding: 0.25rem 0 !important;
+
 }
 .show > .nav-link {
-  background-image: url("../assets/basic-Graph/buttonhover2.png");
+  background-image: url("../assets/basic-Graph/buttonfocus.png");
   background-size: 100% 100%;
 }
 .nav-link-custom {

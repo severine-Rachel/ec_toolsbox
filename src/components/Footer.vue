@@ -68,7 +68,7 @@
         </div>
         <div>
           Membre de l'<a class="link-footer" href=" https://www.aeciut.fr/"
-            >Association des Enseignants de Communication en IUT</a
+            >Association des <br>Enseignants de Communication en IUT</a
           >
         </div>
       </b-col>

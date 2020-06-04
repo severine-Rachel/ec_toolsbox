@@ -3,6 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <HomeBanner></HomeBanner>
+    <div id="TextIntro">
     <h3 id="about">À propos</h3>
     <p class="none-margin-bottom none-margin-top">
       Ce site a été conçu comme une boîte à outils. Vous y trouverez de
@@ -19,6 +20,7 @@
       doivent prendre la parole en public, animer une réunion, produire des
       supports visuels ou encore des écrits de différentes natures…
     </p>
+    </div>
     <HomeArticle></HomeArticle>
     <Footer></Footer>
   </div>
@@ -37,6 +39,10 @@
 }
 .none-margin-bottom {
   margin-bottom: 0;
+}
+#TextIntro{
+    animation-name: appear2ndWelcome;
+  animation-duration: 3s;
 }
 .none-margin-top{
   margin-top: 0;
@@ -102,6 +108,22 @@ p {
   color: #2e367f;
   margin: 1% 10%;
   line-height: 1.7rem;
+}
+@keyframes appear2ndWelcome {
+  0%{
+   
+    opacity:0;
+  } 
+  50%{
+    opacity: 0;
+  }
+  75%{
+    
+    opacity: 0.5;
+  }
+  100%{
+    opacity:1;
+  }
 }
 a{
   outline: none;

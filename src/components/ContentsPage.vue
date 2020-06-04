@@ -33,7 +33,9 @@
 }
 .casethumbnail {
   margin: 1%;
-  
+  max-height:230px ;
+  animation-name: appearBand;
+  animation-duration: 1s;
   
 }
 .H3-thumbnail-title {

@@ -23,6 +23,7 @@ import Def from './views/OWcom/Def.vue';
 import DefShare from './views/OWcom/DefShare.vue';
 import DefType from './views/OWcom/DefType.vue';
 import DefContex from './views/OWcom/DefContex.vue';
+import DefStrategy from './views/OWcom/DefStrategy.vue';
 import Pro from './views/OWcom/Pro.vue';
 import ProFundamental from './views/OWcom/ProFundamental.vue';
 import ProStrategy from './views/OWcom/ProStrategy.vue';
@@ -192,6 +193,11 @@ const routes = [
   path:'/Definition_Communication/Situation_Communication',
   name:'Situation_Communication',
   component: DefContex
+},
+{
+  path:'/Definition_Communication/Strategie_Communication',
+  name:'Strategy_Communication',
+  component: DefStrategy
 },
 {
   path:'/Ecrit_Pro',

@@ -1,7 +1,7 @@
 <template>
   <div id="article">
-    <b-row class="mb-3" align-h="around">
-      <b-col sm="3" class="content-article">
+    <b-row class="mb-3" align-h="around" id="ArticlesInserts">
+      <b-col sm="3" xs="6" class="content-article">
         <router-link class="link-article" to="/Ecrit_Pro/Fondamentaux#form">
           <h5>MISE EN PAGE DE VOS ÉCRITS PROFESSIONNELS</h5>
           <p id="article-txt">
@@ -55,6 +55,10 @@
   margin-top: 5vh;
   padding: 4% 0;
   background-image: linear-gradient(#1794d6, #146cb3);
+}
+#ArticlesInserts{
+  animation-name: appear2ndWelcome;
+  animation-duration: 3s;
 }
 #article-txt{
   margin: 1rem 0;

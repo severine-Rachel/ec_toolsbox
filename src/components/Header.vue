@@ -29,9 +29,10 @@
 <style lang="scss">
 #HeaderBanner {
   //banner of website
-  background-image: url(../assets/basic-Graph/banner.png);
+  background-image: url(../assets/basic-Graph/banner2.png);
   background-size: 100% 100%;
   height: 20vh;
+  border-bottom: solid 0.3px #11b4ff;
 }
 
 .hearder-sub-title {

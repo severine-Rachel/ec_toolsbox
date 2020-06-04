@@ -67,6 +67,34 @@
       ><i>source{{'\xa0'}}:</i> https://www.agirenfrancais.com/
       <b-icon icon="box-arrow-right"></b-icon
     ></a>
+
+    <Pdf v-bind:galery-pdf="pdfStraCritic1"></Pdf>
+    <a
+      class="subtitle-link"
+      href="http://www.atelier-critique.fr/IMG/pdf/ecrire_une_critique_de_film.pdf"
+      target="_blank"
+      ><i>source{{'\xa0'}}:</i> http://www.atelier-critique.fr
+      <b-icon icon="box-arrow-right"></b-icon
+    ></a>
+
+    <Pdf v-bind:galery-pdf="pdfStraCritic2"></Pdf>
+    <a
+      class="subtitle-link"
+      href="http://www.cinemaparlant.com/fichesactivites/ft_redigercritique.pdf"
+      target="_blank"
+      ><i>source{{'\xa0'}}:</i> http://www.cinemaparlant.com/
+      <b-icon icon="box-arrow-right"></b-icon
+    ></a>
+
+    <Pdf v-bind:galery-pdf="pdfStraCritic3"></Pdf>
+    <a
+      class="subtitle-link"
+      href="https://disciplines.ac-toulouse.fr/daac/sites/daac/files/fichiers/critiquer_un_film2.pdf"
+      target="_blank"
+      ><i>source{{'\xa0'}}:</i> https://disciplines.ac-toulouse.fr
+      <b-icon icon="box-arrow-right"></b-icon
+    ></a>
+
     <p class="bloc-element">
       Le CCDMD propose des fiches sur les bases de la rédaction avec un cours,
       une grille de synthèse et des exercices pour vous entraîner.
@@ -207,6 +235,28 @@ export default class ProStrategy extends Vue {
       TxtPdf: "L'essai",
     },
   ];
+  public pdfStraCritic1 = [
+    {
+      pdfLink: "/pdf_movie/write_critiscism_movie.pdf",
+      pdfDownload: "Écrire une critique de film",
+      TxtPdf: "Écrire une critique de film",
+    },
+  ];
+  public pdfStraCritic2 = [
+    {
+      pdfLink: "/pdf_movie/write_critiscism_movie2.pdf",
+      pdfDownload: "Rédiger une critique de film",
+      TxtPdf: "Rédiger une critique de film",
+    },
+  ];
+  public pdfStraCritic3 = [
+    {
+      pdfLink: "/pdf_movie/critiscism_movie.pdf",
+      pdfDownload: "Critiquer un film",
+      TxtPdf: "Critiquer un film",
+    },
+  ];
+
   public videoStratShort = [
     {
       videoSrc: "https://www.youtube.com/embed/huU8hja6TXU",

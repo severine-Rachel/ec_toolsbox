@@ -4,11 +4,12 @@
       <b-carousel
         id="carousel-1"
         v-model="slide"
-       :interval="4000"
+       :interval="6000"
         controls
         indicators
         background="#bce8ff"
         img-width="1024"
+        max-height="500"
         img-height="480"
         style="text-shadow: 1px 1px 2px #333;"
         @sliding-start="onSlideStart"

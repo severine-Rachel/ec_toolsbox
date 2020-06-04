@@ -21,6 +21,18 @@
     </p>
     <p>
       <strong>
+        L'écrit réussi, c'est :
+      </strong>
+    </p>
+    <img
+      class="square"
+      src="/picture_OWcom/schematic/schema_goal_writter.png"
+      alt="Pourquoi écrit-on"
+      draggable="false"
+    />
+    <p><i>Source</i> : d’après Mireille BRAHIC, <i>Mieux rédiger vos écrits professionnels</i>, Editions d’Organisation, 2004.</p>
+    <p>
+      <strong>
       Pour tout écrit, il faut adopter une démarche par objectif 
       </strong>
     </p>

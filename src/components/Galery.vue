@@ -73,7 +73,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" >
 import { Component, Vue, Prop } from "vue-property-decorator";
 import { BIcon, BIconXSquareFill, BIconSearch  } from "bootstrap-vue";
 @Component({
@@ -103,8 +103,8 @@ export default class Galery extends Vue {
     this.bool = false;
   }
 
-  @Prop() public readonly galeryPicture!: string[];
-  @Prop() public readonly classheight!: string;
+  @Prop() public readonly galeryPicture!: string[]; //tableau de donnée 
+  @Prop() public readonly classheight!: string; //donnée 
 }
 
 </script>

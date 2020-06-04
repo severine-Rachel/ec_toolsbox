@@ -41,7 +41,12 @@ export default class Def extends Vue {
     ContentsTitle: "LES SITUATIONS DE COMMUNICATION",
     ContentsPath: "/Definition_Communication/Situation_Communication",
     ContentsImage:"/thumbnail3.png"
-    }
+    },
+    {
+    ContentsTitle: "STRATÉGIES DE COMMUNICATION",
+    ContentsPath: "/Definition_Communication/Strategie_Communication",
+    ContentsImage:"/thumbnail1.png"
+    },
 
   ]
 }

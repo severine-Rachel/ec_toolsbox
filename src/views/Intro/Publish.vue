@@ -226,6 +226,7 @@ export default class Publish extends Vue {
   public email="";
   public message="";
   public form() {
+    Axios.post("https://www.cyromus.fr/api/form.php",{});
     Axios.get("http://www.cyromus.fr/api/form.php")/*, {
       _message: this.message,
       _email: this.email

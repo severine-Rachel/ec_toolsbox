@@ -49,6 +49,10 @@
 }
 .H5-nxt-prev {
   color: white;
+  transition: transform 0.2s ease-in-out;
+  &:hover{
+    transform: scale(1.1);
+  }
 }
 #NextButton {
   right: 0;
