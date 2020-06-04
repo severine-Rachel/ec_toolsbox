@@ -12,7 +12,7 @@
             'background-size': '100% 100%',
           }"
         >
-          <b-link class="wallpaper" v-bind:to="nxtprevList.PrevLink">
+          <b-link class="wallpaper a-bloc" v-bind:to="nxtprevList.PrevLink">
             <h5 class="H5-nxt-prev">Précédent</h5>
           </b-link>
         </b-col>
@@ -27,7 +27,7 @@
             'background-size': '100% 100%',
           }"
         >
-          <b-link class="wallpaper" v-bind:to="nxtprevList.NextLink">
+          <b-link class="wallpaper a-bloc" v-bind:to="nxtprevList.NextLink">
             <h5 class="H5-nxt-prev">Suivant</h5>
           </b-link>
         </b-col>
@@ -44,12 +44,18 @@
   margin:5% !important;
 
 }
+.a-bloc{
+  display: block;
+}
 .nxt-prev {
   padding: 1vh 1vw;
 }
 .H5-nxt-prev {
   color: white;
   transition: transform 0.2s ease-in-out;
+  vertical-align: middle;
+  padding: 1vh;
+  margin:0;
   &:hover{
     transform: scale(1.1);
   }

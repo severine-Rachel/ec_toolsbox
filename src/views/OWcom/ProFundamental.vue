@@ -30,7 +30,7 @@
       alt="Pourquoi écrit-on"
       draggable="false"
     />
-    <p><i>Source</i> : d’après Mireille BRAHIC, <i>Mieux rédiger vos écrits professionnels</i>, Editions d’Organisation, 2004.</p>
+    <p><i>Source</i> :  Bettina SOULEZ, Marie-Agnès GIRAUDY, <i>Écrire vite et bien en affaires : La référence de l'écrit professionnel</i>, Chiron, 2014, p.138.</p>
     <p>
       <strong>
       Pour tout écrit, il faut adopter une démarche par objectif 
@@ -43,8 +43,7 @@
       draggable="false"
     />
     <p >
-      <i>Source</i>{{'\xa0'}}: Mireille Brahic, <i>Mieux rédiger vos écrits professionnels</i>,
-      Éditions d’Organisation, 2004.
+      <i>Source</i>{{'\xa0'}}: Bettina SOULEZ, Marie-Agnès GIRAUDY, <i>Écrire vite et bien en affaires : La référence de l'écrit professionnel</i>, Chiron, 2014, p.138.
     </p>
     <a class="subtitle-link" href="http://fr.copian.ca/biblio/apprenti/rhdcc/competences_essentielles/conseils_redaction/conseils_redaction.pdf" target=_blank>
       <strong>Fiche conseil rédaction <b-icon icon="box-arrow-right"></b-icon></strong>

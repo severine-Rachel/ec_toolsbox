@@ -1,4 +1,4 @@
-<style>
+<style lang="scss">
 .fundamentals-pdf {
   width: 10vw;
   text-align: center;
@@ -7,6 +7,9 @@
   margin:  1vh 0 1vh 2vw;
   background-image: url(../assets/pdf.png);
   background-size: 100% 100%;
+  text-decoration: none !important;
+  
+  
 }
 
 .rowcomponents{
@@ -14,6 +17,9 @@
 }
 .text-pdf{
   padding: 9% 0;
+  &:hover{
+    color : #0056b3;
+  }
 }
 </style>
 

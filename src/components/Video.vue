@@ -9,13 +9,15 @@
   margin: 1vh 2vw;
   background-image: url(../assets/Play.png);
   background-size: 100% 100%;
-  border-radius: 6%;
+  border-radius: 20px;
+
   cursor: pointer;
+  &:hover{
+    background-image: url(../assets/Playhover.png);
+  background-size: 100% 100%;
+  }
 }
-.video-image:hover {
-  filter: brightness(90%);
-  border-radius: 6%;
-}
+
 .scroll-vid{
   display:block;
   &:hover{

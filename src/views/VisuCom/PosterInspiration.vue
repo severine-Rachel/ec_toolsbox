@@ -4,28 +4,38 @@
     <Menu></Menu>
     <h3>POUR TROUVER L'INSPIRATION...</h3>
     <h4>
-        Le choix de la police de caractères
-      </h4>
+      Le choix de la police de caractères
+    </h4>
     <p>
       Une minisérie de 12 courts métrages à retrouver sur l’histoire des polices
-      de caractères{{'\xa0'}}! Une bonne source d’inspiration pour vos futurs supports de
-      communication{{'\xa0'}}? En voici quelques-uns{{'\xa0'}}!
+      de caractères{{ "\xa0" }}! Une bonne source d’inspiration pour vos futurs
+      supports de communication{{ "\xa0" }}? En voici quelques-uns{{ "\xa0" }}!
     </p>
-    <Video v-bind:galery-video="videoFont"  v-bind:id-video="'poster'"></Video>
+    <Video v-bind:galery-video="videoFont" v-bind:id-video="'poster'"></Video>
     <h4>
-        Sites sur l’affiche et les arts
-      </h4>
-    <p>Alliance graphique internationale
+      Sites sur l’affiche et les arts
+    </h4>
+    <p>
+      Communication par l'image - et sur le web
       <a
-        href="https://a-g-i.org/"
+        href="http://www.pearltrees.com/helfr/communication-par-image-sur/id24968027"
         alt=" a-g-i"
         target="_blank"
+        ><img class="Help_Builder" src="/picture_Visu/Tool4.jpg"/><b-icon
+          icon="box-arrow-right"
+        ></b-icon
+      ></a>
+    </p>
+    <p>
+      Alliance graphique internationale
+      <a href="https://a-g-i.org/" alt=" a-g-i" target="_blank"
         ><img class="Help_Builder" src="/picture_Visu/Tool1.jpg"/><b-icon
           icon="box-arrow-right"
         ></b-icon
       ></a>
     </p>
-    <p>Posters for tomorrow : galerie d’exemples
+    <p>
+      Posters for tomorrow : galerie d’exemples
       <a
         href="http://www.posterfortomorrow.org/en/gallery"
         alt=" posterfortomorrow"
@@ -53,7 +63,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import Video from "@/components/Video.vue";
-import {BIcon, BIconBoxArrowRight} from "bootstrap-vue";
+import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
 import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
@@ -111,7 +121,7 @@ export default class PosterInspiration extends Vue {
     },
   ];
   public nxtprevPosterInspiration = {
-    BoolPrev: true ,
+    BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail1.png",
     NextImage: "",

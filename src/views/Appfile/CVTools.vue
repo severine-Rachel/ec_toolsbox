@@ -24,8 +24,12 @@
         ><img
           class="Help_Builder"
           src="/picture_cv/CVTool1.jpg"
-          draggable="false"/><b-icon icon="box-arrow-right"></b-icon
-      ></a>
+          draggable="false"/>
+          <img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"/>
+          </a>
     </p>
 
     <p>
@@ -40,8 +44,10 @@
         ><img
           class="Help_Builder"
           draggable="false"
-          src="/picture_cv/CVTool2.jpg"/><b-icon icon="box-arrow-right"></b-icon
-      ></a>
+          src="/picture_cv/CVTool2.jpg"/><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"/></a>
       <a
         href="https://www.cvmaker.fr/exemples-de-cv"
         alt="cvmaker"
@@ -50,8 +56,10 @@
         ><img
           class="Help_Builder"
           src="/picture_cv/CVTool3.jpg"
-          draggable="false"/><b-icon icon="box-arrow-right"></b-icon
-      ></a>
+          draggable="false"/><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"/></a>
       <a
         href="https://www.modeles-de-cv.com/"
         alt="modeles-de-cv"
@@ -60,8 +68,10 @@
         ><img
           class="Help_Builder"
           src="/picture_cv/CVTool4.jpg"
-          draggable="false"/><b-icon icon="box-arrow-right"></b-icon
-      ></a>
+          draggable="false"/><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"/></a>
       <a
         href="https://www.exempledecv.com/"
         alt="exempledecv"

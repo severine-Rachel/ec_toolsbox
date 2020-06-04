@@ -88,7 +88,7 @@
   top: 0; //when menu change from relative to absolute, need the absolute position:top 0;
   z-index: 1000; //put menu above other elements
   margin-bottom: 0.5vh;
-  
+  background-color: white;
 }
 .rubric {
   background-image: url("../assets/basic-Graph/buttonblue.png");

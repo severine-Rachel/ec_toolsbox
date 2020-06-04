@@ -1,9 +1,9 @@
-<style>
+<style lang="scss">
 .fundamentals {
   width: 10vw;
   height: 25vh;
   margin:  1vh 2vw ;
-  
+  border: solid 1px #85DEF9;
   cursor: pointer;
   position: relative;
   z-index: 10;
@@ -17,6 +17,9 @@
   left:20%;
   z-index:11;
  cursor: pointer;
+  &:hover{
+    opacity:0.3;
+  }
  
 }
 .element-galery{
@@ -25,9 +28,7 @@
   margin:  1vh 2vw 1vh 0;
 
 }
-.superposition:hover{
-  opacity:0.3;
-}
+
 .post-up {
   width: 60vw;
   margin: 1% 20vw 1% ;

@@ -6,6 +6,23 @@
   
       <strong>
         <a
+          href="https://www.youtube.com/watch?v=kpfaza-Mw4I"
+          class="subtitle-link"
+          target="_blank"
+        >
+          <i>Majorité opprimée</i>, Éléonore Pourriat, 2010. <b-icon icon="box-arrow-right"></b-icon>
+        </a>
+      </strong>
+    
+    <p>
+      La journée d'un homme victime du sexisme ordinaire dans 
+      un monde régi par les femmes, du regard le plus anodin 
+      à l'agression la plus violente...
+    </p>
+
+
+      <strong>
+        <a
           href="https://www.youtube.com/watch?v=WUnUgy76cBM"
           class="subtitle-link"
           target="_blank"
@@ -136,7 +153,7 @@
     <p class="text-vid">Chaîne : Clement Gonzalez</p>
 
     <h4><i>Je suis le coup de foudre</i>, Maud Bettina-Marie, 2018, 2,13’.</h4>
-    <p>Je suis le coup de foudre, Maud Bettina-Marie, 2018, 2,13’.</p>
+    <p>Il était une fois un conte de fées.... ou presque.</p>
 
     <b-row align-h="center">
       <iframe frameborder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x6csxjb" allowfullscreen allow="autoplay"></iframe>

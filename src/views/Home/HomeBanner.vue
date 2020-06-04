@@ -8,12 +8,14 @@
       alt="Expression Communciation Boîtes à outils ; les premiers entretiens de recrutement"
     />
     <a href="#about" id="ArrowLink"
-      ><img
+      ><button
         id="Arrow"
-        src="../../assets/arrow.png"
+        
         alt="descendre"
         draggable="false"
-    /></a>
+    >
+     
+    </button></a>
   </div>
 </template>
 
@@ -44,10 +46,23 @@
 
 #Arrow {
   width: 4vw;
+  height: 8vh;
   position: absolute;
   top: 85%;
+  border: none;
   right:3.1%;
+  border-radius: 50%;
+  background-image: url("../../assets/arrow.png");
+  background-size: 100% 100%;
+  &:hover{
+    background-image: url("../../assets/arrowhover.png");
+  background-size: 100% 100%;
+  }
+  &:focus{
+    outline: none;
+  }
 }
+
 #BookRedir{
   position: absolute;
   height:45%;

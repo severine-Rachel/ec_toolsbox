@@ -200,8 +200,20 @@ td {
   height: 20vh;
   margin: 0 0 0 2vw;
   border: #bce8ff 5px solid;
+  z-index: 10;
   &:hover {
     border: #1794d6 5px solid;
+  }
+}
+.supperposition{
+  width: 10vw;
+  height: 20vh;
+  opacity: 0.1;
+  position: relative; 
+  right:12.6%;
+  z-index:11;
+  &:hover{
+    opacity:0.3;
   }
 }
 </style>
