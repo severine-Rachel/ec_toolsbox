@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <div id="container-intro">
-      <h3>QUI SUIS-JE{{'\xa0'}}?</h3>
+      <h2>À PROPOS - PEGGY RAFFY-HIDEUX</h2>
 
       <img
         id="background-logo"
@@ -17,19 +17,10 @@
         établissements du Supérieur (CNAM, ESEO, ESSCA, UA, UCO...) pendant plus
         d’une dizaine d’années et principalement à l’Institut Universitaire et
         Technologique d’Angers depuis 2011. Je suis également responsable de la
-        communication du département.
-      </p>
-      <p>
-        Membre de l'Association des Enseignants en Communication des IUT,
-        j'articule aujourd'hui mes domaines de recherche autour de la pédagogie
-        dans le Supérieur et de l'enseignement de la communication.
-      </p>
-      <p>
-        J’ai publié l’ouvrage<i> Les Premiers entretiens de recrutement : toutes
-        les clés pour se démarquer. Concours, stages, emplois</i> (Ellipses, 2020)
-        ainsi que deux études littéraires, <i>Les Réalismes haïtiens contemporains.
-        Récit et conscience sociale</i> (Honoré Champion, 2013) et<i> L’Univers d’Axel
-        Gauvin. Paysage, société, écriture</i> (L’Harmattan, 2005).
+        communication du département. Membre de l'Association des Enseignants en
+        Communication des IUT, j'articule aujourd'hui mes domaines de recherche
+        autour de la pédagogie dans le Supérieur et de l'enseignement de la
+        communication.
       </p>
     </div>
 
@@ -38,13 +29,25 @@
   </div>
 </template>
 <style lang="scss">
-#background-logo {
-  position: absolute;
-  z-index: -1;
-  opacity: 0.1;
-  height: 100%;
-  margin-left: 5%;
-  top:2rem;
+@media (min-width: 600px) {
+  #background-logo {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+    height: 120%;
+    margin-left: 5%;
+    top: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  #background-logo {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+    width:90%;
+    margin-left: 5%;
+    top: 6rem;
+  }
 }
 #container-intro {
   position: relative;

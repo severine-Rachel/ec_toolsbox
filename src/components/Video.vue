@@ -3,50 +3,58 @@
   text-align: center;
   color: white;
 }
-.video-image {
-  width: 17vw;
-  height: 17vh;
-  margin: 1vh 2vw;
-  background-image: url(../assets/Play.png);
-  background-size: 100% 100%;
-  border-radius: 20px;
+@media (min-width: 600px) {
+  .video-image {
+    width: 17vw;
+    height: 17vh;
+    margin: 1vh 2vw;
+    background-image: url(../assets/Play.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
 
-  cursor: pointer;
-  &:hover{
-    background-image: url(../assets/Playhover.png);
-  background-size: 100% 100%;
+    cursor: pointer;
+    &:hover {
+      background-image: url(../assets/Playhover.png);
+      background-size: 100% 100%;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .video-image {
+    margin:1vh 10vw;
+    width: 10rem;
+    height: 5rem;
+    background-image: url(../assets/Play.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
   }
 }
 
-.scroll-vid{
-  display:block;
-  &:hover{
+.scroll-vid {
+  display: block;
+  &:hover {
     text-decoration: none;
   }
-  
 }
 </style>
 
 <template>
   <div>
-   
     <b-row class="justify-content-md-center" v-bind:id="idVideo">
       <div v-for="videoImage in galeryVideo" :key="videoImage.videoSrc">
         <a v-bind:href="`#${idVideo}`" class="scroll-vid">
-        <div
-        
-          class="video-image"
-          v-on:click="
-            tooglev(
-              videoImage.videoSrc,
-              videoImage.videoTitle,
-              videoImage.videoRoot
-            )
-          "
-        >
-        
-          <h6 class="text-group-vid">{{ videoImage.videoTitle }} <br /></h6>
-        </div>
+          <div
+            class="video-image"
+            v-on:click="
+              tooglev(
+                videoImage.videoSrc,
+                videoImage.videoTitle,
+                videoImage.videoRoot
+              )
+            "
+          >
+            <h6 class="text-group-vid">{{ videoImage.videoTitle }} <br /></h6>
+          </div>
         </a>
       </div>
     </b-row>
@@ -94,9 +102,7 @@ export default class Video extends Vue {
     videoSrc: string;
     videoTitle: string;
     videoRoot: string;
-    
   }[];
   @Prop() public readonly idVideo!: string;
-  
 }
 </script>

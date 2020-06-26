@@ -6,10 +6,10 @@
 
     <p>
       <b-row class="justify-content-md-start reading reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Assay/Homme.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Si c’est un homme{{'\xa0'}}», Primo Levi
@@ -22,10 +22,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Assay/Reviendra.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Aucun de nous ne reviendra{{'\xa0'}}», Charlotte Delbo
@@ -46,10 +46,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Assay/Ceux.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Ceux de 14{{'\xa0'}}», Maurice Genevoix
@@ -69,10 +69,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Assay/Lambeau.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le lambeau{{'\xa0'}}», Philippe Lançon
@@ -95,10 +95,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Assay/Cerveau.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Votre cerveau n'a pas fini de vous étonner{{'\xa0'}}», Boris Cyrulnik,
@@ -116,10 +116,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Assay/Liberez.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Libérez votre cerveau{{'\xa0'}}», Idriss Aberkane
@@ -141,10 +141,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Assay/Haine.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Vous n’aurez pas ma haine{{'\xa0'}}», Antoine Leiris
@@ -163,10 +163,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Assay/Machette.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Une saison de machettes{{'\xa0'}}», Jean Hatzfeld
@@ -192,13 +192,13 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img
             src="/picture_read/Assay/Langue.jpg"
             class="picture-book"
           />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Sur le bout de la langue{{'\xa0'}}», Bertrand Perier

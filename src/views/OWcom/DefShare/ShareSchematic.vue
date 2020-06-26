@@ -5,7 +5,7 @@
     <h4>
       PROLONGEMENT AVEC LE SCHÉMA DE JAKOBSON
     </h4>
-    <p>
+    <p id="Jakobson">
       Pour  aller  plus  loin,  voir  le  schéma  de  Jakobson  qui  s’écarte  d’une  vision 
        mécaniste  dans  son schéma de communication. Roman Jakobson est un linguiste russe du
         20ᵉ siècle. Il a proposé l’une des  théories  les  plus  connues 

@@ -3,7 +3,8 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu.vue";
 import InPractisePerf from "@/views/VisuCom/PosterInPractise/InPractisePerf.vue";
-import Pdf from "@/components/Pdf.vue"
+import InPractisePerfPhone from "@/views/VisuCom/PosterInPractise/InPractisePerfPhone.vue";
+import Pdf from "@/components/Pdf.vue";
 import InPractiseEvent from "@/views/VisuCom/PosterInPractise/InPractiseEvent.vue";
 import InPractisePPP from "@/views/VisuCom/PosterInPractise/InPractisePPP.vue";
 import { BIcon, BIconUpload } from "bootstrap-vue";
@@ -15,6 +16,7 @@ import Footer from "@/components/Footer.vue";
     Header,
     Menu,
     InPractisePerf,
+    InPractisePerfPhone,
     Pdf,
     InPractiseEvent,
     InPractisePPP,
@@ -37,7 +39,7 @@ export default class PosterInPractise extends Vue {
       pdfDownload: "Cahier des charges de l’affiche de la fête du cinéma",
       TxtPdf: "Cahier des charges de l’affiche de la fête du cinéma",
     },
-  ]
+  ];
   public nxtprevPosterInPractise = {
     BoolPrev: true,
     BoolNext: true,
@@ -66,8 +68,8 @@ export default class PosterInPractise extends Vue {
       mieux comprendre les enjeux et les règles générales qui président à la
       conception d’une affiche.
     </p>
-    <InPractisePerf></InPractisePerf>
-
+    <InPractisePerf id="PosterPerfDesktop"></InPractisePerf>
+    <InPractisePerfPhone id="PosterPerfPhone"></InPractisePerfPhone>
     <h4>
       Concours d’affiches : répondre à un cahier des charges
     </h4>
@@ -76,15 +78,11 @@ export default class PosterInPractise extends Vue {
       lancé un concours pour trouver l’affiche de sa 33e Fête du Cinéma. Vous
       trouverez, dans le document ci-dessous, le cahier des charges de ce
       concours et une sélection d’affiches produites pour l’occasion.
-      Saurez-vous retrouver le gagnant et les finalistes parmi les participants
-      ?
+      Saurez-vous retrouver le gagnant et les finalistes parmi les
+      participants{{ "\xa0" }}?
     </p>
 
-   
     <Pdf v-bind:galery-pdf="pdfPosterInPractise"></Pdf>
-
-
-
 
     <h4 class="breath-top">
       Autres exemples…
@@ -104,15 +102,37 @@ export default class PosterInPractise extends Vue {
 </template>
 
 <style lang="scss">
-.modal-image {
+@media (min-width: 600px) {
+  #PosterPerfPhone{
+    display: none;
+  }
+  .modal-dialog,
+  .modal-md {
+    max-width: 75% !important;
+  }
+  .modal-image {
   height: 80vh;
   box-shadow: 1px 1px 10px;
 }
-.modal-dialog,
-.modal-md {
-  max-width: 75% !important;
 }
-.carousel-control-prev, .carousel-control-next{
-    width:7%!important;
+@media (max-width: 600px) {
+  #PosterPerfDesktop {
+    display: none;
   }
+  .modal-dialog,
+  .modal-md {
+    max-width: 90% !important;
+  }
+  .modal-image {
+  width:90vw;
+  margin-left:5%;
+  box-shadow: 1px 1px 10px;
+}
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 7% !important;
+}
 </style>

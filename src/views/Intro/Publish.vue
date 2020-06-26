@@ -2,12 +2,18 @@
   <div>
     <h3 id="Publish">PUBLICATIONS</h3>
     <h4>Dans le domaine de l’expression communication</h4>
-    <p>
+    <div class="margin">
       <b-row id="contain-publish">
-        <b-col cols="auto">
-          <img id="book-publish" src="../../assets/book.jpg" />
+        <b-col sm="auto">
+          <a
+            href="https://www.editions-ellipses.fr/accueil/10697-les-premiers-entretiens-de-recrutement-les-cles-pour-se-demarquer-et-reussir-concours-stages-emplois-9782340041356.html"
+            alt="lien"
+            target="_blank"
+          >
+            <img class="book-publish" src="../../assets/book.jpg" />
+          </a>
         </b-col>
-        <b-col cols="8">
+        <b-col sm="8">
           <p>
             Cet ouvrage s’adresse à tous ceux qui doivent se présenter à des
             entretiens de recrutement pour la première fois{{ "\xa0" }}: jeunes
@@ -33,7 +39,7 @@
           </p>
         </b-col>
       </b-row>
-    </p>
+    </div>
 
     <h5 id="h5-title"><i> Articles</i></h5>
 
@@ -57,12 +63,12 @@
     <h4>
       Dans le domaine de la Littérature française, francophone et comparée
     </h4>
-    <p>
+    <div class="margin">
       <b-row id="contain-publish">
-        <b-col cols="auto">
-          <img id="book-publish" src="../../assets/book2.jpg" />
+        <b-col sm="auto">
+          <img class="book-publish" src="../../assets/book2.jpg" />
         </b-col>
-        <b-col cols="8">
+        <b-col sm="8">
           <p>
             Cette étude vise à établir une archéologie de la réflexivité du réel
             dans le récit haïtien d’aujourd’hui. Jusque dans les années 1960 et
@@ -92,7 +98,14 @@
         </b-col>
       </b-row>
       <b-row id="contain-publish">
-        <b-col cols="8">
+        <b-col sm="auto">
+          <img
+            class="book-publish"
+            id="PhonePlacement"
+            src="../../assets/book3.jpg"
+          />
+        </b-col>
+        <b-col sm="8">
           <p>
             Les romans francophones d'Axel Gauvin, écrivain réunionnais, sont le
             lieu d'une plongée dans le monde créole: les activités, les goûts,
@@ -107,14 +120,18 @@
             Chamoiseau{{ "\xa0" }}?
           </p>
         </b-col>
-        <b-col cols="auto">
-          <img id="book-publish" src="../../assets/book3.jpg" />
+        <b-col sm="auto">
+          <img
+            class="book-publish"
+            id="DesktopPlacement"
+            src="../../assets/book3.jpg"
+          />
         </b-col>
       </b-row>
-    </p>
+    </div>
     <h5 id="h5-title"><i> Articles</i></h5>
 
-    <p>
+    <p id="News">
       <strong
         >«{{ "\xa0" }}Du déchiffrement du monde et du démantèlement discursif{{
           "\xa0"
@@ -140,6 +157,25 @@
       <strong>Biobibliographie «{{ "\xa0" }}Axel Gauvin{{ "\xa0" }}».</strong>
       Publiée sur <i>Île en île</i>, portail de l’Université de New York.
     </p>
+    <h3 id="Contrib">À PROPOS - LES CONTRIBUTEURS</h3>
+    <div class="margin">
+      <ul>
+        <li>
+          <strong>Rachel Roux</strong>, WebMaster, étudiante en deuxième année
+          GEII, IUT Angers, promotion 2019-2020.
+        </li>
+        <li>
+          <strong> Simon Baneti</strong>, WebMaster, étudiant en deuxième année
+          GEII, IUT Angers, promotion 2019-2020.
+        </li>
+        <li>
+          <strong>Les étudiants de l'IUT d'Angers</strong>, particulièrement
+          Syndelle Ayraud, Ronan Conqueur, Tristan Fléchard, Joshua Foreau,
+          Suzon Jegou, Jacques Lebama, Flavien Mollière, Léo Phelippot, Matthias
+          Rabier pour leurs conceptions graphiques.
+        </li>
+      </ul>
+    </div>
     <h3>
       POUR ALLER PLUS LOIN EN EXPRESSION-COMMUNICATION…
     </h3>
@@ -171,12 +207,37 @@
       lettres et arts). La revue peut ainsi accueillir aussi bien des articles
       d’enseignants que de chercheurs.
     </p>
-
-    <h2>Contact Peggy Raffy-Hideux</h2>
+    <a href="https://liberte-pour-apprendre.fr/" target="_blank">
+      <img src="../../assets/LibertyLearning.jpg" class="horizontal" />
+    </a>
+    <p>
+      Rien ne peut s’enseigner, tout peut s’apprendre. Jean-Charles Lévy y croit
+      depuis le début. Son parcours de vie, d'enseignant puis de praticien de la
+      psychothérapie l'a progressivement conduit à développer une approche
+      novatrice vieille de plusieurs siècles et active depuis plusieurs
+      décennies. De Montaigne à Montessori, en passant par Piaget, Oury frères,
+      Neill, Maslow ou Carl Rogers, les théoriciens de l’éducation et de
+      l’apprentissage disent à peu près la même chose. Chacun rappelle selon sa
+      sensibilité que l’on n’apprend que ce que l’on sait déjà{{ "\xa0" }}; que
+      la contrainte nourrit les esprits sans changer les personnes{{ "\xa0" }};
+      qu’une tête n’est pas un vase{{ "\xa0" }}; qu’un étudiant est une
+      personne{{ "\xa0" }}; que la culture n’est rien sans la liberté.
+      Réflexions sur l'apprendre autrement, programme d'enseignement en IUT,
+      monde de l'entreprise ou encore articles sur des questions d'actualité, le
+      site est une mine d'or...
+    </p>
+    <h2 id="Contact">CONTACT PEGGY RAFFY-HIDEUX</h2>
+    <h5 class="margin">{{ answer }}</h5>
     <div>
       <label>Email</label>
       <br />
-      <b-form-input type="email" class="textarea" name="email" v-model="email" required></b-form-input>
+      <b-form-input
+        type="email"
+        class="textarea"
+        name="email"
+        v-model="email"
+        required
+      ></b-form-input>
       <label>Message</label>
       <br />
       <b-form-textarea
@@ -192,9 +253,26 @@
 </template>
 
 <style lang="scss">
-#book-publish {
-  width: 20vw;
-  box-shadow: 1px 1px 5px black;
+@media (min-width: 600px) {
+  .book-publish {
+    width: 20vw;
+    box-shadow: 1px 1px 5px black;
+  }
+  #PhonePlacement {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .book-publish {
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px black;
+  }
+  #DesktopPlacement {
+    display: none;
+  }
 }
 #contain-publish {
   margin: 5%;
@@ -212,6 +290,7 @@ select {
   max-width: 80%;
 }
 </style>
+
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Axios, { AxiosResponse } from "axios";
@@ -223,16 +302,19 @@ import { BFormTextarea, BForm } from "bootstrap-vue";
   },
 })
 export default class Publish extends Vue {
-  public email="";
-  public message="";
+  public email = "";
+  public message = "";
+  public answer = "";
+
   public form() {
-    Axios.post("https://www.cyromus.fr/api/form.php",{});
-    Axios.get("http://www.cyromus.fr/api/form.php")/*, {
-      _message: this.message,
-      _email: this.email
-    })*/.then((response: AxiosResponse)=>{
+    Axios.post("http://raffy-hideux.fr/api/form.php", {
+      message: this.message,
+      email: this.email,
+    }).then((response: AxiosResponse) => {
       console.log(response.data);
-      
+      this.answer = response.data;
+      this.email = "";
+      this.message = "";
     });
   }
 }

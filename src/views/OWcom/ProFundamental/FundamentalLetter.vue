@@ -32,7 +32,7 @@
       id="popover-Adress-Dest2"
     ></b-button>
     <b-popover target="popover-Adress-Dest2" triggers="hover" placement="right">
-      Adresse destinataire, on n'indique ni téléphone ni e-mail.
+      Adresse destinataire. On n'indique ni téléphone ni e-mail.
     </b-popover>
     <b-button
       class="adress-dest-3"

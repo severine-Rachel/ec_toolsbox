@@ -86,7 +86,7 @@
   height: 30px;
   opacity: 0.5;
   position: relative;
-  right: 520px;
+  right: 990px;
   top: 480px;
   z-index: 10;
   display: inline-block;

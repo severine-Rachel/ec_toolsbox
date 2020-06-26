@@ -265,9 +265,7 @@ export default class ProExample extends Vue {
   width: auto;
   margin: 40px;
 }
-.img_slide {
-  width: 50%;
-}
+
 .mosaique {
   height: 200px;
   max-width: 120px;
@@ -276,8 +274,23 @@ export default class ProExample extends Vue {
   height: auto;
   margin: 0px !important;
 }
-.colonne {
-  width: 22% !important;
+@media (min-width: 600px) {
+  .colonne {
+    width: 22% !important;
+    
+  }
+  .img_slide {
+  height: 90vh;
+}
+}
+@media (max-width: 600px){
+  .colonne {
+    width: 80% !important;
+    margin-left:10%;
+  }
+  .img_slide {
+  width: 90vw;
+}
 }
 .img_align {
   display: inline-block;

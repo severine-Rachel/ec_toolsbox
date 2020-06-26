@@ -75,7 +75,7 @@
   </div>
 </template>
 <style lang="scss">
-  #Perf {
+#Perf {
   scroll-behavior: smooth;
   overflow: auto;
   height: 100vh;

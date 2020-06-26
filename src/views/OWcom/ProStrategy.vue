@@ -6,7 +6,7 @@
     <h4>
       Les écrits courts
     </h4>
-    <p>
+    <p id="Mail">
       Lettre, e-mail, résumé, compte-rendu, etc., quelle que soit sa forme,
       l’écrit court répond aux mêmes exigences qu’un écrit long. Il doit viser
       un objectif clair, être structuré, adapté à la cible et respecter des
@@ -15,35 +15,50 @@
     <h5 class="subtitle-h5">
       L’e-mail professionnel
     </h5>
-    <p>
+    <div class="margin">
       <a
         href="https://bien-ecrire.fr/rediger-e-mail-professionnel/"
         alt="bien-ecrire.fr"
+        class="link-help-builder"
+        
         target="_blank"
         ><img
           class="Help_Builder"
           src="/picture_OWcom/good-write1.png"
-        /><b-icon icon="box-arrow-right"></b-icon>
-      </a>
+        /><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
       <a
         href="https://bien-ecrire.fr/quel-plan-decriture-pour-un-mail-efficace/"
         alt="bien-ecrire.fr"
+        class="link-help-builder"
+        
         target="_blank"
         ><img
           class="Help_Builder"
           src="/picture_OWcom/good-write2.png"
-        /><b-icon icon="box-arrow-right"></b-icon>
-      </a>
+        /><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
       <a
         href="https://bien-ecrire.fr/pourquoi-pyramide-inversee-email/"
         alt="bien-ecrire.fr"
+        class="link-help-builder"
+        
         target="_blank"
         ><img
           class="Help_Builder"
           src="/picture_OWcom/good-write3.png"
-        /><b-icon icon="box-arrow-right"></b-icon>
-      </a>
-    </p>
+        /><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
+    </div>
     <h5 class="subtitle-h5">
       Les écrits professionnels et académiques
     </h5>
@@ -68,32 +83,7 @@
       <b-icon icon="box-arrow-right"></b-icon
     ></a>
 
-    <Pdf v-bind:galery-pdf="pdfStraCritic1"></Pdf>
-    <a
-      class="subtitle-link"
-      href="http://www.atelier-critique.fr/IMG/pdf/ecrire_une_critique_de_film.pdf"
-      target="_blank"
-      ><i>source{{'\xa0'}}:</i> http://www.atelier-critique.fr
-      <b-icon icon="box-arrow-right"></b-icon
-    ></a>
-
-    <Pdf v-bind:galery-pdf="pdfStraCritic2"></Pdf>
-    <a
-      class="subtitle-link"
-      href="http://www.cinemaparlant.com/fichesactivites/ft_redigercritique.pdf"
-      target="_blank"
-      ><i>source{{'\xa0'}}:</i> http://www.cinemaparlant.com/
-      <b-icon icon="box-arrow-right"></b-icon
-    ></a>
-
-    <Pdf v-bind:galery-pdf="pdfStraCritic3"></Pdf>
-    <a
-      class="subtitle-link"
-      href="https://disciplines.ac-toulouse.fr/daac/sites/daac/files/fichiers/critiquer_un_film2.pdf"
-      target="_blank"
-      ><i>source{{'\xa0'}}:</i> https://disciplines.ac-toulouse.fr
-      <b-icon icon="box-arrow-right"></b-icon
-    ></a>
+    
 
     <p class="bloc-element">
       Le CCDMD propose des fiches sur les bases de la rédaction avec un cours,
@@ -101,6 +91,37 @@
     </p>
     <Pdf v-bind:galery-pdf="pdfStratShort"></Pdf>
     <p class="none-margin-top"><i>source{{'\xa0'}}:</i> CCDMD</p>
+    <h5 class="subtitle-h5" id="CriticMovie">
+      La critique de cinéma
+    </h5>
+    <Pdf v-bind:galery-pdf="pdfStraCritic"></Pdf>
+    <div>
+    <a
+      class="subtitle-link"
+      href="http://www.atelier-critique.fr/IMG/pdf/ecrire_une_critique_de_film.pdf"
+      target="_blank"
+      ><i>sources{{'\xa0'}}:</i> http://www.atelier-critique.fr
+      <b-icon icon="box-arrow-right"></b-icon
+    ></a>
+    </div>
+    <div>
+    <a
+      class="subtitle-link"
+      href="http://www.cinemaparlant.com/fichesactivites/ft_redigercritique.pdf"
+      target="_blank"
+      ><i style="color:white; cursor:default">prncess{{'\xa0'}}:</i> http://www.cinemaparlant.com/
+      <b-icon icon="box-arrow-right"></b-icon
+    ></a>
+    </div>
+    <div>
+    <a
+      class="subtitle-link"
+      href="https://disciplines.ac-toulouse.fr/daac/sites/daac/files/fichiers/critiquer_un_film2.pdf"
+      target="_blank"
+      ><i style="color:white; cursor:default">celestia{{'\xa0'}}:</i> https://disciplines.ac-toulouse.fr
+      <b-icon icon="box-arrow-right"></b-icon
+    ></a>
+    </div>
     <h5 class="subtitle-h5">
       La copie de concours
     </h5>
@@ -112,7 +133,7 @@
     </p>
     <Video v-bind:galery-video="videoStratShort"  v-bind:id-video="'pro2'"></Video>
     <h4>Les écrits longs</h4>
-    <h5 class="subtitle-h5">
+    <h5 class="subtitle-h5" id="Internship">
       Le rapport de stage et le document technique
     </h5>
     <p>
@@ -235,21 +256,17 @@ export default class ProStrategy extends Vue {
       TxtPdf: "L'essai",
     },
   ];
-  public pdfStraCritic1 = [
+  public pdfStraCritic = [
     {
       pdfLink: "/pdf_movie/write_critiscism_movie.pdf",
       pdfDownload: "Écrire une critique de film",
       TxtPdf: "Écrire une critique de film",
     },
-  ];
-  public pdfStraCritic2 = [
     {
       pdfLink: "/pdf_movie/write_critiscism_movie2.pdf",
       pdfDownload: "Rédiger une critique de film",
       TxtPdf: "Rédiger une critique de film",
     },
-  ];
-  public pdfStraCritic3 = [
     {
       pdfLink: "/pdf_movie/critiscism_movie.pdf",
       pdfDownload: "Critiquer un film",

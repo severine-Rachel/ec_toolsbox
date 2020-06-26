@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h2 class="rubric-title">QU'EST CE QUE LA COMMUNICATION</h2>
+    <h2 class="rubric-title">QU'EST CE QUE LA COMMUNICATION ?</h2>
     <ContentsPage v-bind:contents-list="contentsDef"></ContentsPage>
     <Footer></Footer>
   </div>

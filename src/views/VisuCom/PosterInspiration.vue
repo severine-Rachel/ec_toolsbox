@@ -4,6 +4,57 @@
     <Menu></Menu>
     <h3>POUR TROUVER L'INSPIRATION...</h3>
     <h4>
+      Sites ressources sur l’affiche et les arts
+    </h4>
+    <p>
+      Communication par l'image - et sur le web
+    </p>
+    <p>
+      <a
+        href="http://www.pearltrees.com/helfr/communication-par-image-sur/id24968027"
+        alt=" a-g-i"
+        class="link-help-builder"
+        
+        target="_blank"
+        ><img class="Help_Builder" src="/picture_Visu/Tool4.jpg"/><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
+    </p>
+    <p>
+      Alliance graphique internationale
+    </p>
+    <p>
+      <a
+        href="https://a-g-i.org/"
+        class="link-help-builder"
+        
+        alt=" a-g-i"
+        target="_blank"
+        ><img class="Help_Builder" src="/picture_Visu/Tool1.jpg"/><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
+    </p>
+    <p>
+      Posters for tomorrow : galerie d’exemples
+    </p>
+    <p>
+      <a
+        href="http://www.posterfortomorrow.org/en/gallery"
+        alt=" posterfortomorrow"
+        class="link-help-builder"
+        
+        target="_blank"
+        ><img class="Help_Builder" src="/picture_Visu/Tool2.jpg"/><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
+    </p>
+    <h4>
       Le choix de la police de caractères
     </h4>
     <p>
@@ -12,39 +63,7 @@
       supports de communication{{ "\xa0" }}? En voici quelques-uns{{ "\xa0" }}!
     </p>
     <Video v-bind:galery-video="videoFont" v-bind:id-video="'poster'"></Video>
-    <h4>
-      Sites sur l’affiche et les arts
-    </h4>
-    <p>
-      Communication par l'image - et sur le web
-      <a
-        href="http://www.pearltrees.com/helfr/communication-par-image-sur/id24968027"
-        alt=" a-g-i"
-        target="_blank"
-        ><img class="Help_Builder" src="/picture_Visu/Tool4.jpg"/><b-icon
-          icon="box-arrow-right"
-        ></b-icon
-      ></a>
-    </p>
-    <p>
-      Alliance graphique internationale
-      <a href="https://a-g-i.org/" alt=" a-g-i" target="_blank"
-        ><img class="Help_Builder" src="/picture_Visu/Tool1.jpg"/><b-icon
-          icon="box-arrow-right"
-        ></b-icon
-      ></a>
-    </p>
-    <p>
-      Posters for tomorrow : galerie d’exemples
-      <a
-        href="http://www.posterfortomorrow.org/en/gallery"
-        alt=" posterfortomorrow"
-        target="_blank"
-        ><img class="Help_Builder" src="/picture_Visu/Tool2.jpg"/><b-icon
-          icon="box-arrow-right"
-        ></b-icon
-      ></a>
-    </p>
+
     <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterInspiration"></NextPrevBtn>
     <Footer></Footer>
   </div>

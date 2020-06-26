@@ -3,7 +3,7 @@
   
     <b-row align-h="center">
       <b-col
-        cols="5"
+        sm="5"
         class="casethumbnail"
         v-for="contentsElement in contentsList"
         :key="contentsElement.ContentsTitle"

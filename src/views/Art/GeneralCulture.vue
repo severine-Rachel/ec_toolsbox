@@ -22,9 +22,9 @@
     >
       A quoi sert la culture générale ? <img class="logo-pdf" src="../../assets/logo-pdf.png" />
     </a>
-    <p>
+    <div class="margin">
       <b-button v-b-modal.modal-2  class="breath">Lire l'article</b-button>
-    </p>
+    </div>
     <h5 class="subtitle-h5">
      Alice Raybaud, «{{'\xa0'}}Je ne connaissais rien, c'était humiliant{{'\xa0'}}»,<i> Le Monde</i>,
       21 mai 2019.
@@ -42,9 +42,9 @@
     >
       Je ne connaissais rien <img class="logo-pdf" src="../../assets/logo-pdf.png" />
     </a>
-    <p>
+    <div class="margin">
       <b-button v-b-modal.modal-3  class="breath">Lire l'article</b-button>
-    </p>
+    </div>
     <h5 class="subtitle-h5">
       Vicky Chahine, «{{'\xa0'}}Comme disaient Zadig et Voltaire…{{'\xa0'}}», <i>Le Monde</i>, 23 janvier
       2017.
@@ -61,9 +61,9 @@
     >
       Comme disaient Zadig et Voltaire <img class="logo-pdf" src="../../assets/logo-pdf.png" />
     </a>
-    <p>
+    <div class="margin">
       <b-button v-b-modal.modal-4  class="breath">Lire l'article</b-button>
-    </p>
+    </div>
     <h5 class="subtitle-h5">
       Olivier Babeau et de Coline Debayle, «{{'\xa0'}}La culture générale des salariés
       doit devenir une priorité{{'\xa0'}}», <i>Les Échos</i>, 24 janvier 2017.
@@ -81,9 +81,9 @@
     >
       La culture générale des salariés <img class="logo-pdf" src="../../assets/logo-pdf.png" />
     </a>
-    <p>
+    <div class="margin">
       <b-button v-b-modal.modal-5  class="breath">Lire l'article</b-button>
-    </p>
+    </div>
     <h5 class="subtitle-h5">
       Abnousse Shalmani, «{{'\xa0'}}La culture générale, ce trésor{{'\xa0'}}», <i>L’Express</i>, 6
       février 2020.
@@ -101,9 +101,9 @@
     >
       La culture, ce trésor <img class="logo-pdf" src="../../assets/logo-pdf.png" />
     </a>
-    <p>
+    <div class="margin">
       <b-button v-b-modal.modal-6  class="breath">Lire l'article</b-button>
-    </p>
+    </div>
 
     <b-modal size="xl" id="modal-2" hide-footer>
       <h2>À QUOI SERT LA CULTURE GÉNÉRALE{{'\xa0'}}?</h2>

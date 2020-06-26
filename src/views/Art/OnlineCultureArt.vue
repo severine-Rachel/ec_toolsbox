@@ -33,9 +33,10 @@
     </strong>
     <p>
       Panorama de l’art couvre tout le champ de l’histoire de l’art, de la
-      préhistoire jusqu’à nos jours{{'\xa0'}}: architectures, sculptures, peintures,
-      vitraux, tapisseries… Des centaines d’images en grand format et de haute
-      qualité pour le simple plaisir de regarder, comparer, découvrir et rêver.
+      préhistoire jusqu’à nos jours{{ "\xa0" }}: architectures, sculptures,
+      peintures, vitraux, tapisseries… Des centaines d’images en grand format et
+      de haute qualité pour le simple plaisir de regarder, comparer, découvrir
+      et rêver.
     </p>
 
     <strong>
@@ -75,8 +76,11 @@
 
     <p>
       Le magazine des Beaux-Arts en ligne est consacré aux arts visuels sous
-      toutes leurs formes et périodes. Il permet, notamment dans sa partie «{{'\xa0'}}
-      Encyclo{{'\xa0'}}», de re-découvrir des artistes ou des mouvements artistiques.
+      toutes leurs formes et périodes. Il permet, notamment dans sa partie «{{
+        "\xa0"
+      }}
+      Encyclo{{ "\xa0" }}», de re-découvrir des artistes ou des mouvements
+      artistiques.
     </p>
 
     <strong>
@@ -105,8 +109,8 @@
       Le musée des Arts décoratifs est un musée parisien qui a pour objectif la
       valorisation des beaux-arts appliqués et le développement de liens entre
       industrie et culture, création et production. Vous pouvez y retrouver des
-      dossiers thématiques comme «{{'\xa0'}}Marques et personnages de la publicité » ou
-      encore «{{'\xa0'}}Une histoire de bijoux{{'\xa0'}}».
+      dossiers thématiques comme «{{ "\xa0" }}Marques et personnages de la
+      publicité » ou encore «{{ "\xa0" }}Une histoire de bijoux{{ "\xa0" }}».
     </p>
 
     <strong>
@@ -164,18 +168,18 @@
     <p>
       Plusieurs musées proposent des visites virtuelles de leur collection
     </p>
-    <p>
-    <ul>
-      <li>Le musée d’Orsay à Paris</li>
-      <li>Le musée Van Gogh à Amsterdam</li>
-      <li>Le British Museum à Londres</li>
-      <li>Le Guggenheim à Bilbao</li>
-      <li>
-        Les musées du Vatican, pour réaliser, entre autres, une visite 360° de
-        la Chapelle Sixtine
-      </li>
-    </ul>
-    </p>
+    <div class="margin">
+      <ul>
+        <li>Le musée d’Orsay à Paris</li>
+        <li>Le musée Van Gogh à Amsterdam</li>
+        <li>Le British Museum à Londres</li>
+        <li>Le Guggenheim à Bilbao</li>
+        <li>
+          Les musées du Vatican, pour réaliser, entre autres, une visite 360° de
+          la Chapelle Sixtine
+        </li>
+      </ul>
+    </div>
     <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureArt"></NextPrevBtn>
     <Footer></Footer>
   </div>
@@ -199,8 +203,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCultureArt extends Vue {
-  public nxtprevOnlineCultureArt =
-  {
+  public nxtprevOnlineCultureArt = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: " ",

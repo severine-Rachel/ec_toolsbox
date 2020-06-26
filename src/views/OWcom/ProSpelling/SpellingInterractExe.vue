@@ -1,7 +1,7 @@
 <template>
   <div>
     <h4>
-      Exercices interactifs
+      Exercices interactifs CCDMD
     </h4>
     <p>
       Le CCDMD créé par un collectif d’auteurs est un site qui met à la
@@ -32,20 +32,20 @@
 
     <b-card-group deck>
       <b-card img-src="/thumbail21.png" img-alt="Image" id="oneimgcard" img-top>
-        <a href="http://ecriplus.fr/ressources/" target="_blank">
+        <a href="https://www.ccdmd.qc.ca/fr/exercices_pdf/?id=33" target="_blank">
           <b-card-text class="writeInCard">
-            J’améliore mon français écrit avec ÉCRI+
+            Série d’exercices sous forme PDF avec corrigés
           </b-card-text></a
         >
       </b-card>
 
       <b-card img-src="/thumbail21.png" img-alt="Image" id="oneimgcard" img-top>
         <a
-          href="https://www.ccdmd.qc.ca/fr/exercices_pdf/?id=33"
+          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1092&action=animer"
           target="_blank"
         >
           <b-card-text class="writeInCard">
-            Série d’exercices sous forme PDF avec corrigés
+            Apportez des nuances
           </b-card-text>
         </a>
       </b-card>
@@ -153,17 +153,8 @@
     </b-card-group>
 
     <b-card-group deck>
-      <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
-        <a
-          href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1092&action=animer"
-          target="_blank"
-        >
-          <b-card-text class="writeInCard">
-            Apportez des nuances
-          </b-card-text>
-        </a>
-      </b-card>
-      <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
+      
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
         <a
           href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1095&action=animer"
           target="_blank"
@@ -173,10 +164,8 @@
           </b-card-text>
         </a>
       </b-card>
-    </b-card-group>
-
-    <b-card-group deck>
-      <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
+    
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
         <a
           href="https://www.ccdmd.qc.ca/fr/jeux_pedagogiques/?id=1083&action=animer"
           target="_blank"
@@ -187,7 +176,7 @@
         </a>
       </b-card>
 
-      <b-card img-src="/thumbail21.png" img-alt="Image" img-top>
+      <b-card img-src="/thumbail22.png" img-alt="Image" img-top>
         <a href="https://deficonstructions.ccdmd.qc.ca/" target="_blank">
           <b-card-text class="writeInCard">
             Constructions fautives

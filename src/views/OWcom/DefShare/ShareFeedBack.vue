@@ -5,7 +5,7 @@
     <h4>
       LA NOTION DE FEED-BACK
     </h4>
-    <p>
+    <p id="NorbertWiener">
       Norbert Wiener, mathématicien et père de la cybernétique (science du contrôle des 
       communications de l’homme, de l’animal,  de  la  machine)  introduit  la  notion  de  
       feed-back,  en  1950,  sous  forme  de boucle reliant l’émetteur et le récepteur. 

@@ -16,13 +16,7 @@
 #letter-galery {
   margin-left: 10%;
 }
-.Help_Builder {
-  width: 10vw;
-  height: 20vh;
-  margin: 0 0 0 2vw;
 
-  border: #bce8ff 5px solid;
-}
 #TableLetter {
   padding: 1%;
   text-align: center;
@@ -59,12 +53,12 @@ export default class Letter extends Vue {
     },
     {
       ContentsTitle:
-        "METTRE EN ADÉQUATION VOTRE LETTRE DE  MOTIVATION \n AVEC LE POSTE : ANALYSE DE L'OFFRE",
+        "LE POSTE : ANALYSE DE L'OFFRE",
       ContentsPath: "/Lettre_de_Motivation/Analyse",
       ContentsImage: "/thumbnail3.png",
     },
     {
-      ContentsTitle: "COMMENT PRÉPARER VOS ARGUMENTS?",
+      ContentsTitle: "COMMENT PRÉPARER VOS ARGUMENTS ?",
       ContentsPath: "/Lettre_de_Motivation/Arguments",
       ContentsImage: "/thumbnail1.png",
     },

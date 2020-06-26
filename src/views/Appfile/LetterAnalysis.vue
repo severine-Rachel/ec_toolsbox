@@ -3,7 +3,7 @@
     <Header></Header>
     <Menu></Menu>
     <h3 id="analysisLetter">
-      METTRE EN ADÉQUATION VOTRE LETTRE DE MOTIVATION AVEC LE POSTE{{'\xa0'}}: ANALYSE DE
+      ANALYSE DE
       L'OFFRE
     </h3>
     <b-row>

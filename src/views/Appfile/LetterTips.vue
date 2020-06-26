@@ -5,7 +5,7 @@
     <h3 id="tipsLetter">
       CONSEILS ET ASTUCES
     </h3>
-    <Video v-bind:galery-video="videoLetterTips"></Video>
+    <Video v-bind:galery-video="videoLetterTips"   v-bind:id-video="'letter1'"></Video>
 
     <a
       href="https://baborlelefan.com/2013/12/07/enquete-faut-tenter-des-candidatures-originales/"
@@ -25,25 +25,35 @@
       <a
         href="https://fr.venngage.com/templates/resumes/cover-letters"
         alt="vennage"
+        class="link-help-builder"
+        
         target="_blank"
         draggable="false"
         ><img
           class="Help_Builder"
           src="/picture_letter/LetterTool1.jpg"
           draggable="false"
-        /><b-icon icon="box-arrow-right"></b-icon>
-      </a>
+        /><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
       <a
         href="https://fr.venngage.com/blog/modeles-lettres-de-motivation/"
         alt="vennage"
+        class="link-help-builder"
+        
         target="_blank"
         draggable="false"
         ><img
           class="Help_Builder"
           src="/picture_letter/LetterTool2.jpg"
           draggable="false"
-        /><b-icon icon="box-arrow-right"></b-icon>
-      </a>
+        /><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
     </p>
     <NextPrevBtn v-bind:nxtprev-list="nxtprevLetterTips"></NextPrevBtn>
     <Footer></Footer>

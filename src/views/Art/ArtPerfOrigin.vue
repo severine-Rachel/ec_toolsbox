@@ -4,11 +4,12 @@
     <Menu></Menu>
     <h3>EN RÉSUMÉ : LES ORIGINES DE LA PERFORMANCE ARTISTIQUE</h3>
     <p>
-      
-        Cette frise est loin d’être exhaustive. Il faudrait y ajouter les Actionnistes viennois,  Christo ou encore d’autres grands noms de l’art performance mais il donne un aperçu des performances qui ont marqué l’Histoire de cet art. 
-      
+      Cette frise est loin d’être exhaustive. Il faudrait y ajouter les
+      Actionnistes viennois, Christo ou encore d’autres grands noms de l’art
+      performance mais il donne un aperçu des performances qui ont marqué
+      l’Histoire de cet art.
     </p>
-    <img src="/picture_perf/timeline.png" class="horizontal" alt="Frise">
+    <img src="/picture_perf/timeline.png" class="horizontal" alt="Frise" />
     <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfOrigin"></NextPrevBtn>
     <Footer></Footer>
   </div>
@@ -29,8 +30,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ArtPerfOrigin extends Vue {
- public nxtprevArtPerfOrigin =
-  {
+  public nxtprevArtPerfOrigin = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail5.png",

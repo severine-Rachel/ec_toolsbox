@@ -41,7 +41,7 @@ export default class ArtPerf extends Vue {
     ContentsImage:"/thumbnail1.png"
     },
     {
-    ContentsTitle: "CORPUS DE TEXTES SUR LES LIMITES DE L'ART CONTEMPORAIN",
+    ContentsTitle: "LES LIMITES DE L'ART CONTEMPORAIN - CORPUS DE TEXTES",
     ContentsPath: "/PerformanceArtistique/CorpusdeTexte",
     ContentsImage:"/thumbnail2.png"
     },

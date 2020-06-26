@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h4>LA CO-CONSTRUCTION DU SENS ET LES PROCESSUS INTERPRÉTATIFS</h4>
+      <h4>LA CO-CONSTRUCTION DU SENS...</h4>
       <p>La communication{{'\xa0'}}: un processus d’adaptation permanent</p>
       <p>Les individus produisent{{'\xa0'}}:</p>
       <p>
@@ -32,7 +32,7 @@
               </ul>
       </p>
       <p>
-          L’acte de parole: «{{'\xa0'}}N’arrive pas trop tard, s’il te plaît{{'\xa0'}}!{{'\xa0'}}» 
+          L’acte de parole{{'\xa0'}}: «{{'\xa0'}}N’arrive pas trop tard, s’il te plaît{{'\xa0'}}!{{'\xa0'}}» 
           suppose une conception commune du mot «{{'\xa0'}}tard{{'\xa0'}}».
       </p>
       <div id="quote">
@@ -61,9 +61,9 @@
       </p>
       <p class="quote3">Extrait de <i>l’Encyclopédie du savoir relatif et absolu, 1993</i>
       </p>
-      <h5 class="text-vid">LA CO-CONSTRUCTION DU SENS...</h5>
+      <h4 id="Glasses">...ET LES PROCESSUS INTERPRÉTATIFS</h4>
 <img class="square" draggable="false" src="/picture_OWcom/schematic/schema_com.png" alt="Schema_Werber">
-      <h5 class="text-vid">...ET LES PROCESSUS INTERPRÉTATIFS</h5>
+
 </div>
 </template>
 

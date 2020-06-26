@@ -410,7 +410,7 @@
       />
       </b-row>
       <br>
-      <h7> <strong>Affiche 2{{'\xa0'}}: </strong> </h7>
+      <h7> <strong>Affiche 2 </strong> </h7>
       <table border="1">
         <tr>
           <td>

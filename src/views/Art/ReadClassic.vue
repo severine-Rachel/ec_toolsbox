@@ -6,10 +6,10 @@
 
     <p>
       <b-row class="justify-content-md-start reading reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Vie.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}La vie devant soi{{'\xa0'}}», Romain Gary
@@ -26,10 +26,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Portrait.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le Portrait de Dorian Gray{{'\xa0'}}», Oscar Wilde
@@ -47,10 +47,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Orwell.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}1984{{'\xa0'}}», George Orwell
@@ -67,10 +67,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Goriot.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le Père Goriot{{'\xa0'}}», Balzac
@@ -93,10 +93,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Route.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Sur la route{{'\xa0'}}», Jack Kerouac
@@ -110,10 +110,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Echec.jpeg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le Joueur d’échecs{{'\xa0'}}», Stefan Zweig
@@ -130,10 +130,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Seigneur.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Belle du Seigneur{{'\xa0'}}», Albert Cohen
@@ -149,10 +149,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Ecume.jpeg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}L’écume des jours{{'\xa0'}}», Boris Vian
@@ -172,10 +172,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Magnifique.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Gatsby le magnifique{{'\xa0'}}», Francis Scott Fitzgerald
@@ -196,10 +196,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Classic/Mrs.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Mrs Dalloway{{'\xa0'}}», Virginia Woolf

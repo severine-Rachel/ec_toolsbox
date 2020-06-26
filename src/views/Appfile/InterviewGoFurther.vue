@@ -7,25 +7,32 @@
     </h3>
 
     <b-row id="go-further-Interview">
-      <b-col cols="2">
-        <img
-          id="book-Com"
-          src="../../assets/book.jpg"
-          alt="Les premiers entretiens de recrutement Peggy Raffy-Hideux : Livre sur le recrutements "
-          draggable="false"
-        />
+      <b-col sm="3">
+        <a
+          class="a-bloc"
+          href="https://www.editions-ellipses.fr/accueil/10697-les-premiers-entretiens-de-recrutement-les-cles-pour-se-demarquer-et-reussir-concours-stages-emplois-9782340041356.html"
+          alt="lien"
+          target="_blank"
+        >
+          <img
+            id="book-Com"
+            src="../../assets/book.jpg"
+            alt="Les premiers entretiens de recrutement Peggy Raffy-Hideux : Livre sur le recrutements "
+            draggable="false"
+          />
+        </a>
       </b-col>
-      <b-col cols="9">
-        <p>
+      <b-col sm="9">
+        <p class="margin-intro-book">
           Cet ouvrage s’adresse à tous ceux qui doivent se présenter à des
-          entretiens de recrutement pour la première fois{{'\xa0'}}: jeunes diplômés
-          qui entrent sur le marché de l’emploi, étudiants qui postulent à un
-          stage, à une poursuite d’études ou encore lycéens face à une épreuve
-          orale de concours. Vous y trouverez des exercices pratiques, des
-          conseils méthodologiques, des outils concrets, des astuces et des
-          témoignages de professionnels.
+          entretiens de recrutement pour la première fois{{ "\xa0" }}: jeunes
+          diplômés qui entrent sur le marché de l’emploi, étudiants qui
+          postulent à un stage, à une poursuite d’études ou encore lycéens face
+          à une épreuve orale de concours. Vous y trouverez des exercices
+          pratiques, des conseils méthodologiques, des outils concrets, des
+          astuces et des témoignages de professionnels.
         </p>
-        <p>
+        <p class="margin-intro-book">
           À partir d’exemples vécus, de tests, de QCM, ou encore des 50
           questions les plus posées en entretien, vous pourrez acquérir des
           connaissances sur les méthodes de recrutement et les dernières
@@ -46,9 +53,23 @@
 </template>
 
 <style lang="scss">
-#book-Com {
-  width: 20vw;
-  box-shadow: 1px 1px 10px;
+@media (min-width: 600px) {
+  #book-Com {
+    width: 20vw;
+    box-shadow: 1px 1px 10px black;
+  }
+  .margin-intro-book{
+    margin-left:5%;
+  }
+}
+@media (max-width: 600px) {
+  #book-Com {
+    width: 70vw;
+    box-shadow: 1px 1px 10px black;
+  }
+  .margin-intro-book{
+    margin-left:0;
+  }
 }
 </style>
 
@@ -59,16 +80,15 @@ import Menu from "@/components/Menu.vue";
 import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
-   components: {
+  components: {
     Header,
     Menu,
     NextPrevBtn,
     Footer,
-   }
+  },
 })
 export default class InterviewGoFurther extends Vue {
-   public nxtprevInterviewGoFurther =
-  {
+  public nxtprevInterviewGoFurther = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail6.png",

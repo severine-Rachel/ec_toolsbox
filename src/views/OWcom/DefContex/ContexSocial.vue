@@ -37,7 +37,7 @@
             </li>
            </ul>
     </p>
-    <p>
+    <p id="FirstImp">
         La part des informations qui passent par des perceptions visuelles est estimée à 55 %{{'\xa0'}}! 
     </p>
         <img class="square" draggable="false" src="/picture_OWcom/schematic/schema_Impression.jpg" alt="information_impression">

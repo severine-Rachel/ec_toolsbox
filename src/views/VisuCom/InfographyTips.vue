@@ -38,15 +38,18 @@
     </a>
 
     <p>
-      <strong> Modèles d’infographie avec Venngage</strong>
+      <strong style="display:block"> Modèles d’infographie avec Venngage</strong>
       <a
         href="https://fr.venngage.com/templates/infographics"
         alt="Venngage"
+        class="link-help-builder"
+        
         target="_blank"
-        ><img class="Help_Builder" src="/picture_Visu/Tool3.jpg"/><b-icon
-          icon="box-arrow-right"
-        ></b-icon
-      ></a>
+        ><img class="Help_Builder" src="/picture_Visu/Tool3.jpg"/><img
+          class="supperposition"
+          src="../../assets/Boxarrowright.png"
+          draggable="false"
+      /></a>
     </p>
     <h4>
       Les créateurs d’infographies en ligne

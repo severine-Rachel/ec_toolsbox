@@ -5,10 +5,10 @@
     <h3>POUR RENOUER AVEC LA LECTURE...</h3>
     <p>
       <b-row class="justify-content-md-start reading reading">
-        <b-col col md="auto"
+        <b-col  md="auto"
           ><img src="/picture_read/Link/Zulu.gif" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col  sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Zulu{{'\xa0'}}», Caryl Férey
@@ -32,10 +32,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col  sm="auto"
           ><img src="/picture_read/Link/auRevoir.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col  sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Au revoir là-haut{{'\xa0'}}», Pierre Lemaître
@@ -50,10 +50,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col  sm="auto"
           ><img src="/picture_read/Link/Lumiere.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col  sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Toute la lumière que nous ne pouvons voir{{'\xa0'}}», Anthony Doerr
@@ -72,10 +72,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Cracher.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}J’irai cracher sur vos tombes{{'\xa0'}}», Boris Vian
@@ -95,10 +95,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Flash.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Flash ou le grand voyage{{'\xa0'}}», Charles Duchaussois
@@ -122,10 +122,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/petitPays.jpeg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Petit pays{{'\xa0'}}», Gaël Faye
@@ -144,10 +144,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Inconnu.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Inconnu à cette adresse{{'\xa0'}}», K. Kressman Taylor
@@ -166,10 +166,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Terre.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Les Piliers de la Terre{{'\xa0'}}», Ken Follett
@@ -184,10 +184,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Noirs.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Cadres noirs{{'\xa0'}}», Pierre Lemaître
@@ -208,10 +208,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Alchimiste.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}L’Alchimiste{{'\xa0'}}», Paulo Coelho
@@ -226,10 +226,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Fourmi.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Les Fourmis{{'\xa0'}}», Bernard Werber
@@ -244,10 +244,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Affaire.jpeg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}La vérité sur l’affaire Harry Quebert{{'\xa0'}}», Joël Dicker
@@ -271,10 +271,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Orphelin.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}L’aîné des orphelins{{'\xa0'}}», Tierno Monénembo
@@ -295,10 +295,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Schindler.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}La liste de Schindler{{'\xa0'}}», Thomas Keneally
@@ -318,10 +318,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Himmler.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}La cuisinière d’Himmler{{'\xa0'}}», Frantz-Olivier Giesbert
@@ -342,10 +342,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Hygiene.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Hygiène de l’assassin{{'\xa0'}}», Amélie Nothomb
@@ -370,10 +370,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Personne.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Ne le dis à personne{{'\xa0'}}», Harlan Coben
@@ -396,10 +396,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Chanson.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Chanson douce{{'\xa0'}}», Leïla Slimani
@@ -418,10 +418,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Soleil.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Mille soleils splendides{{'\xa0'}}», Khaled Hosseini
@@ -445,10 +445,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Sabour.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Syngué sabour. Pierre de patience{{'\xa0'}}», Atiq Rahimi
@@ -465,10 +465,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Pianiste.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Novecento : pianiste{{'\xa0'}}», Alessandro Baricco
@@ -486,10 +486,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Fight.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Fight Club{{'\xa0'}}», Chuck Palahniuk
@@ -503,10 +503,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Parfum.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le Parfum{{'\xa0'}}», Patrick Süskind
@@ -521,10 +521,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Mur.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le quatrième mur{{'\xa0'}}», Sorj Chalandon
@@ -545,10 +545,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Maladroite.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}La Maladroite{{'\xa0'}}», Alexandre Seurat
@@ -565,10 +565,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Officier.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}La Chambre des officiers{{'\xa0'}}», Marc Dugain
@@ -589,10 +589,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Frere.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Frère d’âme{{'\xa0'}}», David Diop
@@ -613,10 +613,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Franc.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}99 francs{{'\xa0'}}», Frédéric Beigbeder
@@ -638,10 +638,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Verre.jpeg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Verre cassé{{'\xa0'}}», Alain Mabanckou
@@ -659,10 +659,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Papa.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Où on va papa ?{{'\xa0'}}», Jean-Louis Fournier
@@ -688,10 +688,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Miracle.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Les mains du miracle{{'\xa0'}}», Joseph Kessel
@@ -712,10 +712,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Secret.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Un secret{{'\xa0'}}», Philippe Grimbert
@@ -736,10 +736,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Adversaire.jpeg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}L’Adversaire{{'\xa0'}}», Emmanuel Carrère
@@ -759,10 +759,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Link/Chagrin.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Chagrin d’école{{'\xa0'}}», Daniel Pennac

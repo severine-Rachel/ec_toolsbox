@@ -5,10 +5,10 @@
     <h3>LECTURES INSULAIRES (RÉUNION, HAÏTI)</h3>
     <p>
       <b-row class="justify-content-md-start reading reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Chasseur.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Chasseur de noirs{{'\xa0'}}», Daniel Vaxelaire
@@ -31,10 +31,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Sauvage.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Saisons sauvages{{'\xa0'}}», Kettly Mars
@@ -58,10 +58,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Aime.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}L’aimé{{'\xa0'}}», Axel Gauvin
@@ -82,10 +82,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Infame.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Rosalie l’infâme{{'\xa0'}}», Évelyne Trouillot
@@ -105,10 +105,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Rapatries.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Rapatriés{{'\xa0'}}», Néhémy Pierre-Dahomey
@@ -128,10 +128,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Aube.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}La couleur de l’aube{{'\xa0'}}», Yanick Lahens
@@ -148,10 +148,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Enigme.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}L’énigme du retour{{'\xa0'}}», Dany Laferrière
@@ -171,10 +171,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Chapeau.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Pays sans chapeau{{'\xa0'}}», Dany Laferrière
@@ -195,10 +195,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Bicentenair.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Bicentenaire{{'\xa0'}}», Lyonel Trouillot
@@ -221,10 +221,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Eaux.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Mille eaux{{'\xa0'}}», Émile Ollivier
@@ -238,10 +238,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Cloche.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6"> 
+        <b-col sm="6"> 
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Les cloches de La Brésilienne{{'\xa0'}}», Gary Victor
@@ -262,10 +262,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Rosee.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Gouverneurs de la Rosée{{'\xa0'}}», Jacques Roumain
@@ -284,10 +284,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Islander/Soleil.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Compère Général Soleil{{'\xa0'}}», Jacques Stephen Alexis

@@ -10,11 +10,16 @@
     </div>
     <div class="txt-legal">
       <strong
-        >Propriétaire, créateur, responsable de la publication et
-        Webmaster</strong
+        >Propriétaire et responsable de la publication</strong
       >
       : Peggy Raffy-Hideux – Angers, Pays de la Loire, France. Le responsable de
       la publication est une personne physique.
+    </div>
+    <div class="txt-legal">
+      <strong
+        >Créateur et WebMaster</strong
+      >
+      : Rachel Roux – Angers, Pays de la Loire, France, Simon Baneti - Angers, Pays de la Loire.
     </div>
     <div class="txt-legal">
       L’adresse de notre site Web est raffy-hideux.fr est un site dont la
@@ -270,19 +275,33 @@
   </div>
 </template>
 <style lang="scss" scoped>
-#legal-page{
+#legal-page {
   position: relative;
 }
-.txt-legal{
-  text-align: justify;
-  color: #2e367f;
-  margin: 0 10%;
-}
 
-h4 {
-  color: #2e367f;
-  font-family: Myriad;
-  margin: 0 10%;
+@media (min-width: 600px) {
+  h4 {
+    color: #2e367f;
+    font-family: Myriad;
+    margin: 0 10%;
+  }
+  .txt-legal {
+    text-align: justify;
+    color: #2e367f;
+    margin: 0 10%;
+  }
+}
+@media (max-width: 600px) {
+  h4 {
+    color: #2e367f;
+    font-family: Myriad;
+    margin: 0 1%;
+  }
+  .txt-legal {
+    text-align: justify;
+    color: #2e367f;
+    margin: 0 1%;
+  }
 }
 </style>
 <script lang="ts">
@@ -290,8 +309,8 @@ import { Component, Vue } from "vue-property-decorator";
 import Footer from "@/components/Footer.vue";
 @Component({
   components: {
-    Footer
-  }
+    Footer,
+  },
 })
 export default class LegalNotice extends Vue {
   // export default==public class

@@ -6,13 +6,17 @@
       COMMUNIQUER, C'EST ÉCHANGER
     </h3>
     <p><u>La communication</u></p>
-    <p>
+    <div class="margin">
       <ul>
         <li class="first-list">
           L’étymologie du terme nous renseigne sur le sens à donner à la
-          communication{{'\xa0'}}: en latin, <i>communicare</i> signifie «{{'\xa0'}}avoir part, partager{{'\xa0'}}».
-          Composé de <i>cum/munus</i> ou <i>cum/municus</i>, il signifie «{{'\xa0'}}être en relation avec{{'\xa0'}}» 
-          (<i>cum</i>{{'\xa0'}}: avec, <i>munus</i>{{'\xa0'}}: charge, fonction).
+          communication{{ "\xa0" }}: en latin, <i>communicare</i> signifie «{{
+            "\xa0"
+          }}avoir part, partager{{ "\xa0" }}». Composé de <i>cum/munus</i> ou
+          <i>cum/municus</i>, il signifie «{{ "\xa0" }}être en relation avec{{
+            "\xa0"
+          }}» (<i>cum</i>{{ "\xa0" }}: avec, <i>munus</i>{{ "\xa0" }}: charge,
+          fonction).
         </li>
         <li class="first-list">
           Au XVIe siècle, la communication désigne littéralement la mise en
@@ -20,10 +24,21 @@
           privilégié de relations sociales.
         </li>
       </ul>
-    </p>
+    </div>
     <ShareTheory></ShareTheory>
     <ShareFeedBack></ShareFeedBack>
     <ShareSchematic></ShareSchematic>
+    <h3 id="NoneResponse">
+      LE "MONDE" DE LA NON-RÉPONSE
+    </h3>
+    <p>
+      Dans un monde où les échanges se sont démultipliés (téléphone, e-mails,
+      messageries instantanées...), la communication est devenue massive.
+      Difficile de répondre à toutes les sollicitations dans une ère de constant
+      zapping... S'étend alors le "monde" de la non-réponse qui peut être lourde
+      en répercussions.
+    </p>
+    <img class="horizontal" draggable="false"  src="/picture_OWcom/schematic/No-Answer.jpg" alt="Le monde de la non-réponse">
     <NextPrevBtn v-bind:nxtprev-list="nxtprevDefShare"></NextPrevBtn>
     <Footer></Footer>
   </div>
@@ -48,12 +63,11 @@ import Footer from "@/components/Footer.vue";
     ShareFeedBack,
     ShareSchematic,
     NextPrevBtn,
-    Footer
-  }
+    Footer,
+  },
 })
 export default class DefShare extends Vue {
-public nxtprevDefShare =
-  {
+  public nxtprevDefShare = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: "",

@@ -21,10 +21,10 @@ export default class InPractisePPP extends Vue {}
 <template>
   <div>
     <b-row>
-      <b-col cols="6"> 
+      <b-col sm="6"> 
           <img src="/picture_Visu/Poster/ppp_Poster2.png" draggable="false" alt="Poster Projet Professionnel Personnalisé" class="poster-ppp" >
       </b-col>
-      <b-col cols="6">
+      <b-col sm="6">
           <img src="/picture_Visu/Poster/anti-Poster2.jpg" draggable="false" alt="Mauvais Poster Projet Professionnel Personnalisé" class="poster-ppp">
       </b-col>
     </b-row>

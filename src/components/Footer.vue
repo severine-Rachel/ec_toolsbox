@@ -2,33 +2,34 @@
   <div id="Footer">
     <div id="FooterTop">
       <b-row>
-        <b-col class="divide-footer" cols="3">
-          <img
-            class="Logo"
-            src="../assets/basic-Graph/Logo3.png"
-            atl="Peggy Raffy-Hideux Logo Design"
-          />
-          <h5>
-            <router-link to="/QuiSuisJe" class="link-footer-writer"
-              >L'AUTEURE</router-link
-            >
-          </h5>
+        <b-col class="divide-footer" sm="3">
+          <router-link to="/QuiSuisJe" class="link-footer-writer">
+            <img
+              class="Logo"
+              id="PRHLogo"
+              src="../assets/basic-Graph/Logo3.png"
+              atl="Peggy Raffy-Hideux Logo Design"
+            />
+          </router-link>
+          <h6 class="link-footer-writer" id="WebMaster">
+            WEBMASTERS : Rachel Roux & Simon Baneti
+          </h6>
         </b-col>
-        <b-col cols="9">
+        <b-col sm="9">
           <h5 id="H5WebDescrib">CE QUE LE SITE PROPOSE</h5>
-          <p id="WebDescrib">
+          <div id="WebDescrib">
             À partir de quatre rubriques principales (dossier de candidature,
             communication écrite et orale, communication visuelle, arts et
-            culture), Développez vos compétences en expression et communication à
-            l’aide de fiches-clés, de conseils, d’astuces, de vidéos de
+            culture), développez vos compétences en expression et communication
+            à l’aide de fiches-clés, de conseils, d’astuces, de vidéos de
             professionnels et d’exemples concrets…
-          </p>
+          </div>
         </b-col>
       </b-row>
     </div>
 
     <b-row id="FooterBottom">
-      <b-col cols="3" class="divide-footer">
+      <b-col sm="3" class="divide-footer">
         <h5 id="H5FooterBottom">CONTACT</h5>
 
         <a
@@ -68,14 +69,14 @@
         </div>
         <div>
           Membre de l'<a class="link-footer" href=" https://www.aeciut.fr/"
-            >Association des <br>Enseignants de Communication en IUT</a
+            >Association des <br />Enseignants de Communication en IUT</a
           >
         </div>
       </b-col>
 
-      <b-col cols="9" id="aboutme">
+      <b-col sm="9" id="aboutme">
         <h5 id="H5FooterNav"><b-icon icon="list"></b-icon>NAVIGATION</h5>
-        <p id="FooterNav">
+        <div id="FooterNav">
           <b-icon icon="diamond"></b-icon>
           <router-link to="/CV" class="link-footer"> CV</router-link>
           /
@@ -86,8 +87,8 @@
           <router-link to="/Entretien" class="link-footer">
             Entretien
           </router-link>
-        </p>
-        <p id="FooterNav">
+        </div>
+        <div id="FooterNav">
           <b-icon icon="diamond"></b-icon>
           <router-link to="/Definition_Communication" class="link-footer">
             La communication
@@ -104,8 +105,8 @@
           <router-link to="/Conduite_Reunion" class="link-footer">
             Conduite de réunion
           </router-link>
-        </p>
-        <p id="FooterNav">
+        </div>
+        <div id="FooterNav">
           <b-icon icon="diamond"></b-icon>
           <router-link to="/Affiche" class="link-footer">
             Affiche
@@ -122,8 +123,8 @@
           <router-link to="/Audiovisuel" class="link-footer">
             Audiovisuel
           </router-link>
-        </p>
-        <p id="FooterNav">
+        </div>
+        <div id="FooterNav">
           <b-icon icon="diamond"></b-icon>
           <router-link to="/CultureGenerale" class="link-footer">
             Culture générale
@@ -140,19 +141,19 @@
           <router-link to="/CultureenLigne" class="link-footer">
             Culture en ligne
           </router-link>
-        </p>
+        </div>
       </b-col>
     </b-row>
     <b-row id="FooterLegal">
-      <b-col cols="3">
+      <b-col sm="3">
         <div>©Peggy Raffy-Hideux</div>
       </b-col>
-      <b-col cols="3">
+      <b-col sm="3">
         <div>
           Le contenu du site est soumis à des droits d'auteur.
         </div>
       </b-col>
-      <b-col cols="3">
+      <b-col sm="3">
         <router-link
           to="/mentions-legales"
           class="link-footer-legal"
@@ -161,7 +162,7 @@
         >
       </b-col>
 
-      <b-col cols="3">
+      <b-col sm="3">
         <router-link
           to="/confidentialite"
           class="link-footer-legal"
@@ -192,6 +193,11 @@
   background-color: #1d4f8f;
   color: #bce8ff;
 }
+@media (max-width: 600px) {
+  #PRHLogo {
+    width:40%;
+  }
+}
 #ECLogo {
   height: 10vh;
 }
@@ -203,7 +209,8 @@
 }
 #WebDescrib {
   text-align: justify;
-  margin-left: 5.5%;
+  margin: 0 5.5%;
+  color: #2e367f;
 }
 #H5FooterBottom {
   color: white;
@@ -230,9 +237,12 @@
   margin: 1vh 1vw 2vh 1vw;
   text-align: center;
 }
-.divide-footer {
+@media (min-width: 600px){
+  .divide-footer {
   border-right: solid 1px #1d4f8f;
 }
+}
+
 .link-footer {
   color: white !important;
 }
@@ -241,6 +251,9 @@
 }
 .link-footer-writer {
   color: #2694cd !important;
+}
+#WebMaster {
+  margin-left: 4vw;
 }
 </style>
 

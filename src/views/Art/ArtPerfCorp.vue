@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <h3>CORPUS DE TEXTES SUR LES LIMITES DE L'ART CONTEMPORAIN</h3>
+    <h3>LES LIMITES DE L'ART CONTEMPORAIN - CORPUS DE TEXTES</h3>
     <p>
       L’art contemporain art qui suscite émotions, et parfois même
       bouleversement et dissidence, vient combattre une certaine forme de

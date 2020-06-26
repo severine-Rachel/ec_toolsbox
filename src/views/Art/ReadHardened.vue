@@ -5,10 +5,10 @@
     <h3>POUR LES LECTEURS LES PLUS AGUERRIS...</h3>
     <p>
       <b-row class="justify-content-md-start reading reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Hardened/Bienveillantes.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Les Bienveillantes{{'\xa0'}}», Jonathan Littell
@@ -23,10 +23,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Hardened/Voyage.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Voyage au bout de la nuit{{'\xa0'}}», Céline
@@ -49,10 +49,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Hardened/Invisible.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Homme invisible, pour qui chantes-tu ?{{'\xa0'}}», Ralph Ellison
@@ -73,10 +73,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Hardened/Tambour.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le tambour{{'\xa0'}}», Gϋnter Grass

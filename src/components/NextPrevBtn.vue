@@ -33,6 +33,39 @@
         </b-col>
       </b-row>
     </div>
+    <div id="MarginBetweenPhone">
+      <b-row align-h="between" class="btn-next-prev">
+        <b-col
+          cols="2"
+          id="PrevButton"
+          class="nxt-prev"
+          v-if="nxtprevList.BoolPrev"
+          v-bind:style="{
+            'background-image': 'url(' + nxtprevList.PrevImage + ')',
+            'background-size': '100% 100%',
+          }"
+        >
+          <b-link class="wallpaper a-bloc" v-bind:to="nxtprevList.PrevLink">
+            <h5 class="H5-nxt-prev"><b-icon icon="ArrowLeft"></b-icon></h5>
+          </b-link>
+        </b-col>
+        <div v-if="nxtprevList.BoolPrev == false"></div>
+        <b-col
+          cols="2"
+          id="NextButton"
+          class="nxt-prev"
+          v-if="nxtprevList.BoolNext"
+          v-bind:style="{
+            'background-image': 'url(' + nxtprevList.NextImage + ')',
+            'background-size': '100% 100%',
+          }"
+        >
+          <b-link class="wallpaper a-bloc" v-bind:to="nxtprevList.NextLink">
+            <h5 class="H5-nxt-prev"><b-icon icon="ArrowRight"></b-icon></h5>
+          </b-link>
+        </b-col>
+      </b-row>
+    </div>
   </div>
 </template>
 
@@ -40,13 +73,23 @@
 .btn-next-prev {
   margin: 5% 1%;
 }
-#MarginBetween{
-  margin:5% !important;
+@media (max-width: 600px) {
+  #MarginBetween {
+    display: none;
+  }
+  #PrevButton{
+    margin-left:3%;
+  }
+}
+@media (min-width: 600px) {
+  #MarginBetweenPhone {
+    display: none;
+  }
+}
+#MarginBetween {
+  margin: 5% !important;
+}
 
-}
-.a-bloc{
-  display: block;
-}
 .nxt-prev {
   padding: 1vh 1vw;
 }
@@ -55,8 +98,8 @@
   transition: transform 0.2s ease-in-out;
   vertical-align: middle;
   padding: 1vh;
-  margin:0;
-  &:hover{
+  margin: 0;
+  &:hover {
     transform: scale(1.1);
   }
 }
@@ -70,10 +113,13 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-import { BLink } from "bootstrap-vue";
+import { BLink, BIcon, BIconArrowRight, BIconArrowLeft } from "bootstrap-vue";
 @Component({
   components: {
     BLink,
+    BIcon,
+    BIconArrowRight,
+    BIconArrowLeft,
   },
 })
 export default class NextPrevBtn extends Vue {

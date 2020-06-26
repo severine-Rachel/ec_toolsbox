@@ -52,6 +52,12 @@ export default {
 .carousel {
     position: relative;
 }
+
+.btn_carousel.btn_next{
+    outline: none;
+}
+
+@media (min-width: 600px) {
 .btn_carousel{
     position: relative;
     border: none;
@@ -64,9 +70,6 @@ export default {
     border-radius:50%;
     
 }
-.btn_carousel.btn_next{
-    outline: none;
-}
 .btn_carousel.btn_prev{
     right: 35%;
     left: auto;
@@ -75,4 +78,28 @@ export default {
     border-radius:50%;
     outline: none;
 }
+}
+@media (max-width: 600px) {
+.btn_carousel{
+    position: relative;
+    border: none;
+    top: 400px;
+    left: 35%;
+    width: 40px;
+    height: 40px;
+    background: url(next.png);
+    background-size: 40px 40px;
+    border-radius:50%;
+    
+}
+.btn_carousel.btn_prev{
+    right: 35%;
+    left: auto;
+    background: url(prev.png);
+    background-size: 40px 40px;
+    border-radius:50%;
+    outline: none;
+}
+}
+
 </style>

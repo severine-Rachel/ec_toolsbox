@@ -87,6 +87,59 @@
       Musée de la nouvelle orthographe
       <img class="logo-pdf" src="../../assets/logo-pdf.png" />
     </a>
+    <h4>
+      Ressource Écri+
+    </h4>
+    <p>
+      Écri+ est un dispositif mutualisé pour aider les étudiants à développer
+      leurs compétences en français écrit à l’université. Il contient des outils
+      de qualité universitaire gratuits pour les établissements publics de
+      l’enseignement supérieur et leurs étudiants.
+    </p>
+    <a
+      class="subtitle-link"
+      href="http://ecriplus.fr/ressources/"
+      target="_blank"
+    >
+      Ressource Écri+ <b-icon icon="BoxArrowRight"></b-icon>
+    </a>
+    <div>
+    <a
+      class="subtitle-link"
+      href="http://uoh.univ-montp3.fr/j_ameliore_ma_maitrise_du_francais/portail/"
+      target="_blank"
+    >
+      J'améliore mon français{{ "\xa0" }}: uoh.univ-montp3.fr <b-icon icon="BoxArrowRight"></b-icon>
+    </a>
+    </div>
+    <div>
+    <a
+      class="subtitle-link"
+      href="https://ameliorer-ses-ecrits.univ-cotedazur.fr/"
+      target="_blank"
+    >
+      Améliorer ses écrits{{ "\xa0" }}: Améliorer ses écrits – Des ressources pour améliorer votre français écrit <b-icon icon="BoxArrowRight"></b-icon>
+    </a>
+    </div>
+    <div>
+    <a
+      class="subtitle-link"
+      href="https://www.fun-mooc.fr/courses/course-v1:unicaen+48002+session01/about"
+      target="_blank"
+    >
+      le MOOC sur les compétences orthographiques :  www.fun-mooc.fr <b-icon icon="BoxArrowRight"></b-icon>
+    </a>
+    </div>
+    <div>
+    <a
+      class="subtitle-link"
+      href="http://www.uoh.fr/front/notice?id=b2e045b1-b8f8-4756-8986-56f3001a402e"
+      target="_blank"
+    >
+      Vidéos thématiques du MOOC : MOOC "Renforcer ses compétences orthographiques" | Portail UOH <b-icon icon="BoxArrowRight"></b-icon>
+    </a>
+    </div>
+    
     <SpellingInterractExe></SpellingInterractExe>
     <NextPrevBtn v-bind:nxtprev-list="nxtprevProSpelling"></NextPrevBtn>
     <Footer></Footer>

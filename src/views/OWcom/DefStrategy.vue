@@ -13,7 +13,7 @@
       communication efficaces : pourquoi communiquer ? Comment définir une cible
       ? Quel est l'objectif à atteindre ? Quel plan de communication envisager ?
       Quels outils et canaux de communication privilégier ?... Étape par étape,
-      appliquer cette méthodologie du questionnement à votre propre projet.F
+      appliquez cette méthodologie du questionnement à votre propre projet.
     </p>
     <h4>
       Créer des outils de communication
@@ -44,9 +44,9 @@
       Les basiques de la communication
     </h4>
     <p>
-      Qu'est-ce qu'un plan de communication, à quoi servent les supports web,
-      quel support imprimé privilégier, comment développer ses relations presse
-      ? Ce petit guide à l'usage des associations apporte les outils
+      Qu'est-ce qu'un plan de communication{{'\xa0'}}? À quoi servent les supports web{{'\xa0'}}?
+      Quel support imprimé privilégier{{'\xa0'}}? Comment développer ses relations presse{{'\xa0'}}? 
+      Ce petit guide à l'usage des associations apporte les outils
       fondamentaux à toute organisation qui souhaite communiquer efficacement.
     </p>
     <a
@@ -71,7 +71,7 @@
       Établir le plan de communication d’un projet
     </h4>
     <p>
-      Vous êtes impliqué dans un projet ? Que vous soyez sponsor, chef de projet
+      Vous êtes impliqué.e dans un projet ? Que vous soyez sponsor, chef de projet
       professionnel ou occasionnel, gestionnaire d’un portefeuille de projets ou
       tout simplement membre d’une équipe de projet, les documents ci-dessous
       vous proposent une méthode complète pour élaborer le plan de communication
@@ -82,10 +82,9 @@
       <a
         class="subtitle-link"
         href="http://cdt64.media.tourinsoft.eu/upload/Le-Plan-de-communication.pdf"
-
         target="_blank"
       >
-        <i> source : </i>cdt64.media.tourinsoft.eu
+        <i> sources : </i>cdt64.media.tourinsoft.eu
         <b-icon icon="box-arrow-right"></b-icon>
       </a>
     </div>
@@ -93,10 +92,9 @@
       <a
         class="subtitle-link"
         href="http://cpcoop.fr/wp-content/uploads/2015/01/Fiches_PlanDeCom.pdf"
-
         target="_blank"
       >
-        <i style="color:white; cursor:default">celestia </i>cpcoop.fr
+        <i style="color:white; cursor:default">Celestia </i>cpcoop.fr
         <b-icon icon="box-arrow-right"></b-icon>
       </a>
     </div>
@@ -104,10 +102,9 @@
       <a
         class="subtitle-link"
         href="https://fedweb.belgium.be/sites/default/files/downloads/COMM12_FR_web_interactive.pdf"
-
         target="_blank"
       >
-        <i style="color:white ; cursor:default">the best</i>fedweb.belgium.be
+        <i style="color:white ; cursor:default">the best </i>fedweb.belgium.be
         <b-icon icon="box-arrow-right"></b-icon>
       </a>
     </div>
@@ -133,7 +130,6 @@
       <a
         class="subtitle-link"
         href="https://www.est-usmba.ac.ma/Alaoui/cours%20internet/plan_m%C3%83%C2%A9dia.pdf"
-
         target="_blank"
       >
         <i> source : </i>www.est-usmba.ac.ma
@@ -145,7 +141,7 @@
     </h4>
     <p>
       Communiqué de presse, outils de promotion, publicité, plan de
-      communication...: guide des bonnes pratiques de la communication.
+      communication...{{'\xa0'}}: guide des bonnes pratiques de la communication.
     </p>
     <a
       class="subtitle-link pdf-line"
@@ -160,7 +156,6 @@
       <a
         class="subtitle-link"
         href="https://cdchauteyamaska.ca/wp-content/uploads/2012/10/Guide-pratique-principaux-outils-de-communication.pdf"
-
         target="_blank"
       >
         <i> source : </i>cdchauteyamaska.ca

@@ -5,74 +5,140 @@
     <h3>LES FONDAMENTAUX DE LA RÉUNION</h3>
     <h4>Les fiches-clés</h4>
     <p>
-      Il existe plusieurs types de réunions{{'\xa0'}}: les réunions d’information, de
-      résolution de problèmes, de stimulation, de formation ou encore de
-      négociation… Quel que soit son objectif, une bonne réunion est une réunion
-      bien préparée, aussi bien par ses participants que par ses animateurs.
-      Recherches et apport d’idées pour les premiers, rédaction de l’ordre du
-      jour, définition d’un objectif, cadrage, choix d’une modalité (tour de
-      table, débat, sous-groupes…) pour le deuxième… Comment participer
-      activement et de façon pertinente à une réunion{{'\xa0'}}?
+      Il existe plusieurs types de réunions{{ "\xa0" }}: les réunions
+      d’information, de résolution de problèmes, de stimulation, de formation ou
+      encore de négociation… Quel que soit son objectif, une bonne réunion est
+      une réunion bien préparée, aussi bien par ses participants que par ses
+      animateurs. Recherches et apport d’idées pour les premiers, rédaction de
+      l’ordre du jour, définition d’un objectif, cadrage, choix d’une modalité
+      (tour de table, débat, sous-groupes…) pour le deuxième… Comment participer
+      activement et de façon pertinente à une réunion{{ "\xa0" }}?
     </p>
     <Pdf v-bind:galery-pdf="pdfMeeting"></Pdf>
     <h4>Erreurs courantes</h4>
-    <Video v-bind:galery-video="videoMeetingFund"  v-bind:id-video="'meet1'"></Video>
+    <Video
+      v-bind:galery-video="videoMeetingFund"
+      v-bind:id-video="'meet1'"
+    ></Video>
     <h4>Comment conduire une réunion</h4>
-    <b-row align-h="center">
-      <div style="width:799.983px">
-        <strong style="display:block;margin:12px 0 4px"
-          ><a
-            href="https://slideplayer.fr/slide/2572800/"
-            title="Conduire une réunion."
-            target="_blank"
-            class="list-link"
-            >Conduire une réunion.</a
-          ></strong
-        ><iframe
-          src="https://player.slideplayer.fr/9/2572800/"
-          width="799.983"
-          height="649"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          scrolling="no"
-          style="border:1px solid #CCC;border-width:1px 1px 0"
-          allowfullscreen
-        ></iframe>
-        <div style="padding:5px 0 12px"></div>
-      </div>
-    </b-row>
-    <b-row align-h="center">
-      <div style="width:799.983px">
-        <strong style="display:block;margin:12px 0 4px"
-          ><a
-            href="https://slideplayer.fr/slide/8743175/"
-            title="Savoir comment conduire une réunion"
-            target="_blank"
-            class="list-link"
-            >Savoir comment conduire une réunion</a
-          ></strong
-        ><iframe
-          src="https://player.slideplayer.fr/26/8743175/"
-          width="799.983"
-          height="649"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          scrolling="no"
-          style="border:1px solid #CCC;border-width:1px 1px 0"
-          allowfullscreen
-        ></iframe>
-        <div style="padding:5px 0 12px"></div>
-      </div>
-    </b-row>
+    <div class="desktop-slide">
+      <b-row align-h="center">
+        <div style="width:799.983px">
+          <strong style="display:block;margin:12px 0 4px"
+            ><a
+              href="https://slideplayer.fr/slide/2572800/"
+              title="Conduire une réunion."
+              target="_blank"
+              class="list-link"
+              >Conduire une réunion.</a
+            ></strong
+          ><iframe
+            src="https://player.slideplayer.fr/9/2572800/"
+            width="799.983"
+            height="649"
+            frameborder="0"
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            style="border:1px solid #CCC;border-width:1px 1px 0"
+            allowfullscreen
+          ></iframe>
+          <div style="padding:5px 0 12px"></div>
+        </div>
+      </b-row>
+      <b-row align-h="center">
+        <div style="width:799.983px">
+          <strong style="display:block;margin:12px 0 4px"
+            ><a
+              href="https://slideplayer.fr/slide/8743175/"
+              title="Savoir comment conduire une réunion"
+              target="_blank"
+              class="list-link"
+              >Savoir comment conduire une réunion</a
+            ></strong
+          ><iframe
+            src="https://player.slideplayer.fr/26/8743175/"
+            width="799.983"
+            height="649"
+            frameborder="0"
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            style="border:1px solid #CCC;border-width:1px 1px 0"
+            allowfullscreen
+          ></iframe>
+          <div style="padding:5px 0 12px"></div>
+        </div>
+      </b-row>
+    </div>
+    <div class="phone-slide">
+      <b-row align-h="center">
+        <div>
+          <strong style="display:block;margin:12px 0 4px"
+            ><a
+              href="https://slideplayer.fr/slide/2572800/"
+              title="Conduire une réunion."
+              target="_blank"
+              class="list-link"
+              >Conduire une réunion.</a
+            ></strong
+          ><iframe
+            src="https://player.slideplayer.fr/9/2572800/"
+            width="310"
+            height="240"
+            frameborder="0"
+            marginwidth="20%"
+            marginheight="0"
+            scrolling="no"
+            style="border:1px solid #CCC;border-width:1px 1px 0"
+            allowfullscreen
+          ></iframe>
+          <div style="padding:5px 0 12px"></div>
+        </div>
+      </b-row>
+      <b-row align-h="center">
+        <div>
+          <strong style="display:block;margin:12px 0 4px"
+            ><a
+              href="https://slideplayer.fr/slide/8743175/"
+              title="Savoir comment conduire une réunion"
+              target="_blank"
+              class="list-link"
+              >Savoir comment conduire une réunion</a
+            ></strong
+          ><iframe
+            src="https://player.slideplayer.fr/26/8743175/"
+            width="310"
+            height="240"
+            frameborder="0"
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            style="border:1px solid #CCC;border-width:1px 1px 0"
+            allowfullscreen
+          ></iframe>
+          <div style="padding:5px 0 12px"></div>
+        </div>
+      </b-row>
+    </div>
     <NextPrevBtn v-bind:nxtprev-list="nxtprevMeetingFundamental"></NextPrevBtn>
     <Footer></Footer>
   </div>
 </template>
 
 <style lang="scss">
-  #MeetingFundamental {
+@media (max-width: 600px){
+  .desktop-slide{
+    display:none;
+  }
+ 
+}
+@media (min-width: 600px){
+  .phone-slide{
+    display:none;
+  }
+}
+#MeetingFundamental {
   scroll-behavior: smooth;
   overflow: auto;
   height: 100vh;

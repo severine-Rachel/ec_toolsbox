@@ -5,10 +5,10 @@
     <h3>LES BANDES DESSINÉES</h3>
     <p>
       <b-row class="justify-content-md-start reading reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Tramp.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Tramp{{'\xa0'}}», Jean-Charles Kraehn
@@ -26,10 +26,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Magasin.gif" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Magasin Général{{'\xa0'}}», Loisel et Tripp
@@ -44,10 +44,10 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Aldebaran.gif" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Aldébaran{{'\xa0'}}», Léo
@@ -67,10 +67,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Aya.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Aya de Yopogoun{{'\xa0'}}», Marguerite Abouet, Clément Oubrerie
@@ -91,10 +91,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Regard.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Où le regard ne porte pas{{'\xa0'}}», Georges Abolin
@@ -114,10 +114,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Vieux.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Les vieux fourneaux{{'\xa0'}}», Wilfrid Lupano, Paul Cauuet
@@ -139,10 +139,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
-          ><img src="/picture_read/Comic/Alim.png" class="picture-book" />
+        <b-col sm="auto"
+          ><img src="/picture_read/Comic/Alim.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Alim le tanneur{{'\xa0'}}», Virginie Augustin, Wilfrid Lupano
@@ -160,10 +160,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Sad.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Blacksad{{'\xa0'}}», Juan Díaz Canales
@@ -184,10 +184,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Pan.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Peter Pan{{'\xa0'}}», Loisel
@@ -205,10 +205,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Monstre.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le sommeil du monstre{{'\xa0'}}», Enki Bilal
@@ -229,10 +229,10 @@
       </b-row>
 
       <b-row class="justify-content-md-end reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Sommet.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le sommet des Dieux{{'\xa0'}}», Jirô Taniguchi, Baku Yumemakura
@@ -254,10 +254,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Testament.JPG" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Le troisième testament{{'\xa0'}}», Xavier Dorison, Alex Alice
@@ -283,10 +283,10 @@
       </b-row>
 
       <b-row class="justify-content-md-start reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/UWT.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Universal War One{{'\xa0'}}», Denis Bajram
@@ -305,10 +305,10 @@
       </b-row>
 
       <b-row class="justify-content-md-center reading">
-        <b-col col md="auto"
+        <b-col sm="auto"
           ><img src="/picture_read/Comic/Sambre.jpg" class="picture-book" />
         </b-col>
-        <b-col col md="6">
+        <b-col sm="6">
           <p class="text-read">
             <strong>
               «{{'\xa0'}}Sambre{{'\xa0'}}», Yslaire, Yann
