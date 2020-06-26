@@ -90,8 +90,8 @@
       une grille de synthèse et des exercices pour vous entraîner.
     </p>
     <Pdf v-bind:galery-pdf="pdfStratShort"></Pdf>
-    <p class="none-margin-top"><i>source{{'\xa0'}}:</i> CCDMD</p>
-    <h5 class="subtitle-h5" id="CriticMovie">
+    <p class="none-margin-top" id="CriticMovie"><i>source{{'\xa0'}}:</i> CCDMD</p>
+    <h5 class="subtitle-h5" >
       La critique de cinéma
     </h5>
     <Pdf v-bind:galery-pdf="pdfStraCritic"></Pdf>

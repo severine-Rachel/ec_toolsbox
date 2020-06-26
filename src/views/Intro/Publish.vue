@@ -239,7 +239,7 @@
         required
       ></b-form-input>
       <label>Message</label>
-      <br />
+      <br/>
       <b-form-textarea
         class="textarea"
         name="message"

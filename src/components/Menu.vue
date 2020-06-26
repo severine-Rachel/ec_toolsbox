@@ -7,6 +7,7 @@ import { BButton } from "bootstrap-vue";
 import { BNavbarNav } from "bootstrap-vue";
 import { BNavbar } from "bootstrap-vue";
 import { BIcon, BIconSearch, BIconList } from "bootstrap-vue";
+import SearchBar from "@/components/SearchBar.vue"
 
 Vue.component("b-navbar", BNavbar);
 Vue.component("b-navbar-nav", BNavbarNav);
@@ -19,6 +20,7 @@ Vue.use(DropdownPlugin);
     BIcon,
     BIconSearch,
     BIconList,
+    SearchBar,
   },
 })
 
@@ -45,27 +47,7 @@ export default class Menu extends Vue {
     <div id="ManageBarPhone">
       <b-container fluid>
         <b-row>
-          <!--
-          <b-col cols="1">
-            <b-button size="sm" class="my-2 my-xs-0" type="submit" 
-              ><b-icon icon="search"></b-icon
-            ></b-button>
-          </b-col>
-          <b-col cols="8">
-            <b-navbar id="SearchBarPhone">
-              <b-navbar-nav class="xs-auto">
-                <b-nav-form>
-                  
-                  <b-form-input
-                    size="sm"
-                    class="mr-xs-2 "
-                    placeholder="Rechercher"
-                  ></b-form-input>
-                  
-                </b-nav-form>
-              </b-navbar-nav>
-            </b-navbar>
-          </b-col>-->
+          
           <SearchBar></SearchBar>
           <b-col cols="2">
             <b-button size="sm" id="BurgerList" class="my-2 my-sm-0" type="submit" v-on:click="ToogleShowBurger()"
