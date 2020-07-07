@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="toolCV">
       OUTILS D'AIDE À LA CONCEPTION DE CV
     </h3>
@@ -11,21 +11,17 @@
       davantage votre créativité. Vous trouverez ci-dessous plusieurs sites de
       modèles pour vous aider à concevoir votre CV.
     </p>
-    <p>
-      <strong style="display:block">
-        Modèles de CV classiques gratuits
-      </strong>
+    <div class="margin">
+      <div>
+        <strong>
+          Modèles de CV classiques gratuits
+        </strong>
+      </div>
+
       <a
         href="https://www.emploitic.com/conseils/modeles-de-cv"
         alt="emploitic"
         class="link-help-builder"
-        style="
-        
-               width:10vw;
-               height:20vh;
-               display: block;
-               margin:1%;"
-
         target="_blank"
         draggable="false"
       >
@@ -39,25 +35,21 @@
           class="supperposition"
           src="../../assets/Boxarrowright.png"
           draggable="false"
-          
         />
       </a>
-    </p>
+    </div>
 
-    <p>
-      <strong style="display:block">
-        Modèles de CV originaux gratuits
-      </strong>
+    <div class="margin">
+      <div>
+        <strong>
+          Modèles de CV originaux gratuits
+        </strong>
+      </div>
 
       <a
         href="https://www.creeruncv.com/exemple-de-cv/gratuit/"
         alt="creeruncv"
         class="link-help-builder"
-        style="
-                margin:1%;
-                width:10vw;
-                height:20vh;
-                display: inline-block;"
         target="_blank"
         draggable="false"
         ><img
@@ -73,8 +65,6 @@
         href="https://www.cvmaker.fr/exemples-de-cv"
         alt="cvmaker"
         class="link-help-builder"
-        
-
         target="_blank"
         draggable="false"
         ><img
@@ -90,7 +80,6 @@
         href="https://www.modeles-de-cv.com/"
         alt="modeles-de-cv"
         class="link-help-builder"
-        
         target="_blank"
         draggable="false"
         ><img
@@ -106,7 +95,6 @@
         href="https://www.exempledecv.com/"
         alt="exempledecv"
         class="link-help-builder"
-        
         target="_blank"
         draggable="false"
         ><img class="Help_Builder" src="/picture_cv/CVTool5.jpg"/>
@@ -115,9 +103,9 @@
           src="../../assets/Boxarrowright.png"
           draggable="false"
       /></a>
-    </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVTools"></NextPrevBtn>
-    <Footer></Footer>
+    </div>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVTools" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -140,7 +128,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class CVTools extends Vue {
-  public nxtprevCVTools = {
+  protected nxtprevCVTools = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail2.png",

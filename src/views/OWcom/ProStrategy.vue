@@ -1,7 +1,7 @@
 <template>
   <div id="ProStrategy">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>STRATÉGIES D'ÉCRITURE</h3>
     <h4>
       Les écrits courts
@@ -139,7 +139,7 @@
     <p>
       Le rapport de stage et la documentation technique sont des écrits qui
       doivent être maîtrisés dans le cadre d’études supérieures. Précis et
-      spécifiques, ils peuvent vite perdre un public non averti. Découvrez
+      spécifiques, ils peuvent vite perdre un protected non averti. Découvrez
       quelques astuces pour renforcer leur lisibilité et leur attractivité.
     </p>
     <Pdf v-bind:galery-pdf="pdfInternshipTech"></Pdf>
@@ -161,8 +161,8 @@
       Autres conseils de rédaction
     </h5>
     <Video v-bind:galery-video="videoStratother"  v-bind:id-video="'pro4'"></Video>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevProStrategy"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProStrategy" />
+    <Footer />
   </div>
 </template>
 
@@ -200,81 +200,81 @@ import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
   },
 })
 export default class ProStrategy extends Vue {
-  public pdfStratShort = [
+  protected pdfStratShort = [
     {
-      pdfLink: "/pdf_OWcom/Pro/ProLetter.pdf",
-      pdfDownload: "LettreProdessionnelle",
+      PdfLink: "/pdf_OWcom/Pro/ProLetter.pdf",
+      PdfDownload: "LettreProdessionnelle",
       TxtPdf: "La lettre professionnelle",
     },
 
     {
-      pdfLink: "/pdf_OWcom/Pro/ProResume.pdf",
-      pdfDownload: "Resume",
+      PdfLink: "/pdf_OWcom/Pro/ProResume.pdf",
+      PdfDownload: "Resume",
       TxtPdf: "Le résumé",
     },
 
     {
-      pdfLink: "/pdf_OWcom/Pro/ProReport.pdf",
-      pdfDownload: "CompteRenduCritique",
+      PdfLink: "/pdf_OWcom/Pro/ProReport.pdf",
+      PdfDownload: "CompteRenduCritique",
       TxtPdf: "Le compte rendu critique",
     },
     {
-      pdfLink: "/pdf_OWcom/Pro/ProArgument.pdf",
-      pdfDownload: "ArgumentaireProjet",
+      PdfLink: "/pdf_OWcom/Pro/ProArgument.pdf",
+      PdfDownload: "ArgumentaireProjet",
       TxtPdf: "L'argumentaire de projet",
     },
     {
-      pdfLink: "/pdf_OWcom/Pro/ProDissertation.pdf",
-      pdfDownload: "DissertationCritique",
+      PdfLink: "/pdf_OWcom/Pro/ProDissertation.pdf",
+      PdfDownload: "DissertationCritique",
       TxtPdf: "La dissertation critique",
     },
   ];
-  public pdfInternshipTech = [
+  protected pdfInternshipTech = [
     {
-      pdfLink: "/pdf_OWcom/Pro/ProTrainee.pdf",
-      pdfDownload: "RapportStage",
+      PdfLink: "/pdf_OWcom/Pro/ProTrainee.pdf",
+      PdfDownload: "RapportStage",
       TxtPdf: "La rapport de stage",
     },
     {
-      pdfLink: "/pdf_OWcom/Pro/ProTechnic.pdf",
-      pdfDownload: "DocumentTechnique",
+      PdfLink: "/pdf_OWcom/Pro/ProTechnic.pdf",
+      PdfDownload: "DocumentTechnique",
       TxtPdf: "Le document technique",
     },
   ];
 
-  public pdfStratSynthesis = [
+  protected pdfStratSynthesis = [
     {
-      pdfLink: "/pdf_OWcom/Pro/ProSynthesis.pdf",
-      pdfDownload: "NoteSynthese",
+      PdfLink: "/pdf_OWcom/Pro/ProSynthesis.pdf",
+      PdfDownload: "NoteSynthese",
       TxtPdf: "La note de synthèse",
     },
   ];
-  public pdfStraAssay = [
+  protected pdfStraAssay = [
     {
-      pdfLink: "/pdf_OWcom/Pro/ProAssay.pdf",
-      pdfDownload: "Essai",
+      PdfLink: "/pdf_OWcom/Pro/ProAssay.pdf",
+      PdfDownload: "Essai",
       TxtPdf: "L'essai",
     },
   ];
-  public pdfStraCritic = [
+  protected pdfStraCritic = [
     {
-      pdfLink: "/pdf_movie/write_critiscism_movie.pdf",
-      pdfDownload: "Écrire une critique de film",
+      PdfLink: "/pdf_movie/write_critiscism_movie.pdf",
+      PdfDownload: "Écrire une critique de film",
       TxtPdf: "Écrire une critique de film",
     },
     {
-      pdfLink: "/pdf_movie/write_critiscism_movie2.pdf",
-      pdfDownload: "Rédiger une critique de film",
+      PdfLink: "/pdf_movie/write_critiscism_movie2.pdf",
+      PdfDownload: "Rédiger une critique de film",
       TxtPdf: "Rédiger une critique de film",
     },
     {
-      pdfLink: "/pdf_movie/critiscism_movie.pdf",
-      pdfDownload: "Critiquer un film",
+      PdfLink: "/pdf_movie/critiscism_movie.pdf",
+      PdfDownload: "Critiquer un film",
       TxtPdf: "Critiquer un film",
     },
   ];
 
-  public videoStratShort = [
+  protected videoStratShort = [
     {
       videoSrc: "https://www.youtube.com/embed/huU8hja6TXU",
       videoTitle: "La copie de concours (1re partie)",
@@ -286,7 +286,7 @@ export default class ProStrategy extends Vue {
       videoRoot: "Chaîne : E-Learning Physique",
     },
   ];
-  public videoStratmemory = [
+  protected videoStratmemory = [
     {
       videoSrc: "https://www.youtube.com/embed/rgb_BzrvW2g",
       videoTitle: "Rédiger un mémoire – méthodologie",
@@ -303,7 +303,7 @@ export default class ProStrategy extends Vue {
       videoRoot: "Chaîne : SYMPA",
     },
   ];
-  public videoStratother = [
+  protected videoStratother = [
     {
       videoSrc: "https://www.youtube.com/embed/wu4TXt31Dcc",
       videoTitle: "Comment réussir son rapport de stage en 5 points clés",
@@ -316,7 +316,7 @@ export default class ProStrategy extends Vue {
       videoRoot: "Chaîne : Lucie Rondelet",
     },
   ];
-  public nxtprevProStrategy = {
+  protected nxtprevProStrategy = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail1.png",

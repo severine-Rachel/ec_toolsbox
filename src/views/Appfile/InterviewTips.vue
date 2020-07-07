@@ -1,7 +1,7 @@
 <template>
   <div id="InterviewTips">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="tipsInterview">
       CONSEILS ET ASTUCES
     </h3>
@@ -12,8 +12,8 @@
     
     <h4>Pour dédramatiser…</h4>
     <Video v-bind:galery-video="videoInterviewRelax"  v-bind:id-video="'interview3'"></Video>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevInterviewTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevInterviewTips" />
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -40,7 +40,7 @@ import Footer from "@/components/Footer.vue";
   }
 })
 export default class InterviewTips extends Vue {
-    public videoInterviewTips = [
+    protected videoInterviewTips = [
     {
       videoSrc: "https://www.youtube.com/embed/Fsb3CeFWoDs",
       videoTitle: "Conseils de professionnels",
@@ -82,7 +82,7 @@ export default class InterviewTips extends Vue {
     },
   ];
   
-  public videoInterviewRelax = [
+  protected videoInterviewRelax = [
     {
       videoSrc: "https://www.youtube.com/embed/MQjvpPpAjgo",
       videoTitle: "Bref, j’ai passé un entretien",
@@ -90,11 +90,11 @@ export default class InterviewTips extends Vue {
     },
     {
       videoSrc: "https://www.dailymotion.com/embed/video/x3hdpcd",
-      videoTitle: "Je suis UN entretien",
+      videoTitle: "Je suis un entretien",
       videoRoot: "Chaîne : Nikon Film Festival",
     },
   ]
-   public videoInterviewErrors = [
+   protected videoInterviewErrors = [
      {
       videoSrc: "https://www.youtube.com/embed/LQqaRuE3Pwk",
       videoTitle: "Les 10 erreurs à éviter en entretien",
@@ -111,7 +111,7 @@ export default class InterviewTips extends Vue {
       videoRoot: "Chaîne :   cadremploi",
     },
    ]
-   public nxtprevInterviewTips =
+   protected nxtprevInterviewTips =
   {
     BoolPrev: true,
     BoolNext: true,

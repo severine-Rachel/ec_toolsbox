@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>ARTS</h3>
 
     <strong>
@@ -10,7 +10,7 @@
         class="subtitle-link"
         target="_blank"
       >
-        Histoire des arts <b-icon icon="box-arrow-right"></b-icon>
+        Histoire des arts <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -28,7 +28,7 @@
         class="subtitle-link"
         target="_blank"
       >
-        Panorama de l’art <b-icon icon="box-arrow-right"></b-icon>
+        Panorama de l’art <b-icon icon="box-arrow-right" />
       </a>
     </strong>
     <p>
@@ -41,7 +41,7 @@
 
     <strong>
       <a href="https://artips.fr/" class="subtitle-link" target="_blank">
-        Artips <b-icon icon="box-arrow-right"></b-icon>
+        Artips <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -59,7 +59,7 @@
         target="_blank"
       >
         Docus gratuits sur l’art – Les Beaux-Arts
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -70,7 +70,7 @@
         class="subtitle-link"
         target="_blank"
       >
-        Les Beaux-Arts <b-icon icon="box-arrow-right"></b-icon>
+        Les Beaux-Arts <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -89,7 +89,7 @@
         class="subtitle-link"
         target="_blank"
       >
-        La contemporaine <b-icon icon="box-arrow-right"></b-icon>
+        La contemporaine <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -101,7 +101,7 @@
 
     <strong>
       <a href="https://madparis.fr/ " class="subtitle-link" target="_blank">
-        Musée des arts décoratifs <b-icon icon="box-arrow-right"></b-icon>
+        Musée des arts décoratifs <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -119,7 +119,7 @@
         class="subtitle-link"
         target="_blank"
       >
-        Podcast Bulle d’Art <b-icon icon="box-arrow-right"></b-icon>
+        Podcast Bulle d’Art <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -134,7 +134,7 @@
         class="subtitle-link"
         target="_blank"
       >
-        Images du Louvre <b-icon icon="box-arrow-right"></b-icon>
+        Images du Louvre <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -151,7 +151,7 @@
         class="subtitle-link"
         target="_blank"
       >
-        Base Images d'Art <b-icon icon="box-arrow-right"></b-icon>
+        Base Images d'Art <b-icon icon="box-arrow-right" />
       </a>
     </strong>
 
@@ -180,8 +180,8 @@
         </li>
       </ul>
     </div>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureArt"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureArt" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -203,7 +203,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCultureArt extends Vue {
-  public nxtprevOnlineCultureArt = {
+  protected nxtprevOnlineCultureArt = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: " ",

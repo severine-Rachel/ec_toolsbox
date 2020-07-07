@@ -16,10 +16,10 @@
     </p>
     <h4>Données utilisateurs</h4>
     <p>
-      Aucune donnée rentrée sur le site raffy-hideux.fr n'est enregistré sur un
+      Aucune donnée rentrée sur le site raffy-hideux.fr n'est enregistrée sur un
       serveur. Aucune information n'est collectée depuis le site raffy-hideux.fr.
     </p>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style lang="scss" scoped>
@@ -50,6 +50,6 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Confidentiality extends Vue {
-  // export default==public class
+  // export default==protected class
 }
 </script>

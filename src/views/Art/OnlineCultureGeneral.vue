@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>CULTURE GÉNÉRALE</h3>
 
       <strong>
@@ -10,7 +10,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Les podcasts <b-icon icon="box-arrow-right"></b-icon>
+          Les podcasts <b-icon icon="box-arrow-right" />
         </a>
       </strong>
     
@@ -25,7 +25,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Podcast Culture2000 <b-icon icon="box-arrow-right"></b-icon>
+          Podcast Culture2000 <b-icon icon="box-arrow-right" />
         </a>
       </strong>
     
@@ -40,7 +40,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Podscast Choses à savoir de Louis Guillaume Kan-Lacas <b-icon icon="box-arrow-right"></b-icon>
+          Podscast Choses à savoir de Louis Guillaume Kan-Lacas <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -52,7 +52,7 @@
    
       <strong>
         <a href="http://www.batooba.com/" class="subtitle-link" target="_blank">
-          Podcast Batooba <b-icon icon="box-arrow-right"></b-icon>
+          Podcast Batooba <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -69,7 +69,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Podcast Affaires sensibles, Fabrice Drouelle, France Inter <b-icon icon="box-arrow-right"></b-icon>
+          Podcast Affaires sensibles, Fabrice Drouelle, France Inter <b-icon icon="box-arrow-right" />
         </a>
       </strong>
    
@@ -86,7 +86,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Google Art Project <b-icon icon="box-arrow-right"></b-icon>
+          Google Art Project <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -103,7 +103,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Fun mooc <b-icon icon="box-arrow-right"></b-icon>
+          Fun mooc <b-icon icon="box-arrow-right" />
         </a>
       </strong>
     
@@ -120,7 +120,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          France Culture Conférences <b-icon icon="box-arrow-right"></b-icon>
+          France Culture Conférences <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -134,7 +134,7 @@
   
       <strong>
         <a href="https://www.bnf.fr/fr" class="subtitle-link" target="_blank">
-          Bibliothèque nationale de France (BNF) <b-icon icon="box-arrow-right"></b-icon>
+          Bibliothèque nationale de France (BNF) <b-icon icon="box-arrow-right" />
         </a>
       </strong>
  
@@ -148,7 +148,7 @@
     
       <strong>
         <a href="https://bdnf.bnf.fr" class="subtitle-link" target="_blank">
-          BDNF, la fabrique à BD <b-icon icon="box-arrow-right"></b-icon>
+          BDNF, la fabrique à BD <b-icon icon="box-arrow-right" />
         </a>
       </strong>
    
@@ -160,8 +160,8 @@
       affiches de la Belle Époque; beaucoup d’images gratuites à recomposer et
       mettre en scène.
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureCinema"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureCinema" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -183,7 +183,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCultureGeneral extends Vue {
- public nxtprevOnlineCultureCinema =
+ protected nxtprevOnlineCultureCinema =
   {
     BoolPrev: true,
     BoolNext: true,

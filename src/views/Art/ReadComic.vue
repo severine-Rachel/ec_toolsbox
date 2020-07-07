@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>LES BANDES DESSINÉES</h3>
-    <p>
+    <b-container fluid class="margin">
       <b-row class="justify-content-md-start reading reading">
         <b-col sm="auto"
           ><img src="/picture_read/Comic/Tramp.jpg" class="picture-book" />
@@ -326,9 +326,9 @@
         </b-col>
       </b-row>
 
-    </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadComic"></NextPrevBtn>
-    <Footer></Footer>
+    </b-container>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadComic" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -350,7 +350,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ReadComic extends Vue {
-  public nxtprevReadComic =
+  protected nxtprevReadComic =
   {
     BoolPrev: true,
     BoolNext: true,

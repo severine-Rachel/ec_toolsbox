@@ -1,14 +1,14 @@
 <template>
   <div id="MeetingTips">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>CONSEILS ET ASTUCES</h3>
     <h4>Être efficace</h4>
     <Video v-bind:galery-video="videoMeetingTips"  v-bind:id-video="'meet2'"></Video>
     <h4>Réussir à capter l’auditoire</h4>
     <Video v-bind:galery-video="videoMeetingListen"  v-bind:id-video="'meet3'"></Video>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevMeetingTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevMeetingTips" />
+    <Footer />
     
   </div>
 </template>
@@ -38,7 +38,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class MeetingTips extends Vue {
-    public videoMeetingTips = [
+    protected videoMeetingTips = [
     {
       videoSrc: "https://www.youtube.com/embed/3w8lmzfGqQE",
       videoTitle: "Comment animer efficacement une réunion ? 1",
@@ -57,7 +57,7 @@ export default class MeetingTips extends Vue {
     },
 
   ];
-    public videoMeetingListen = [
+    protected videoMeetingListen = [
   
     {
       videoSrc: "https://www.youtube.com/embed/YjLEeS5oIBQ",
@@ -71,7 +71,7 @@ export default class MeetingTips extends Vue {
       videoRoot: "Chaîne : Aysseline de Lardemelle ",
     },
   ];
-  public nxtprevMeetingTips =
+  protected nxtprevMeetingTips =
 {
     BoolPrev: true,
     BoolNext: false,

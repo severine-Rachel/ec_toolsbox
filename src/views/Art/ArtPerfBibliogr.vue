@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>BIBLIOGRAPHIE INDICATIVE</h3>
-    <p class="breath">
+    <p class="breath-top">
       <strong>
         OUVRAGES CONSULTÉS
       </strong>
@@ -24,15 +24,16 @@
       2004.
     </p>
 
-    <p class="breath">
+    <p class="breath-top">
       <strong>
         ARTICLES CONSULTÉS
       </strong>
     </p>
     <p>
-      IET Christian, ROQUES Sylvie, «{{ "\xa0" }}Présentation{{ "\xa0" }}»,<i>
-        Communications</i
-      >
+      IET Christian, ROQUES Sylvie, «{{ "\xa0" }}Présentation{{ "\xa0" }}»,
+      <i>
+        Communications
+      </i>
       2013/1 (n°92), pp. 5-8.
     </p>
     <p>
@@ -61,7 +62,7 @@
       2013/1 (n°92), pp. 193-204
     </p>
 
-    <p class="breath">
+    <p class="breath-top">
       <strong>
         POUR EN SAVOIR DAVANTAGE SUR LE TRAVAIL MENÉ À PARTIR DE LA PERFORMANCE
         ARTISTIQUE DANS LE SUPÉRIEUR
@@ -73,8 +74,8 @@
       <i>Didactiques de la communication 3</i>, Paris, L’Harmattan, coll.
       Uni(d)ivers(c)ité, 2019, pp. 37-51.
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfBibliogr"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfBibliogr" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -93,7 +94,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ArtPerfBibliogr extends Vue {
-  public nxtprevArtPerfBibliogr = {
+  protected nxtprevArtPerfBibliogr = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail2.png",

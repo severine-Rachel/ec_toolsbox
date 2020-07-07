@@ -19,7 +19,7 @@
               type="submit"
               v-on:click="GoSearch()"
             >
-              <b-icon icon="search"></b-icon>
+              <b-icon icon="search" />
             </b-button>
           </b-col>
         </b-nav-form>
@@ -60,8 +60,8 @@ Vue.component("b-form-input", BFormInput);
   },
 })
 export default class SearchBar extends Vue {
-  public search = "";
-  public GoSearch() {
+  protected search = "";
+  protected GoSearch() {
     switch (this.search.substring(0, 5).toLowerCase()) {
       case "fyte4":
         this.$router.push({ path: "/CV/CV_Video" });

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>MUSIQUE</h3>
     
       <strong>
@@ -10,7 +10,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Musiktips <b-icon icon="box-arrow-right"></b-icon>
+          Musiktips <b-icon icon="box-arrow-right" />
         </a>
       </strong>
    
@@ -22,8 +22,8 @@
     </p>
    
       <strong>
-        <a href="www.tsugi.fr" class="subtitle-link" target="_blank">
-          Tsugi <b-icon icon="box-arrow-right"></b-icon>
+        <a href="https://www.tsugi.fr" class="subtitle-link" target="_blank">
+          Tsugi <b-icon icon="box-arrow-right" />
         </a>
       </strong>
    
@@ -37,7 +37,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Playlist Youtube <b-icon icon="box-arrow-right"></b-icon>
+          Playlist Youtube <b-icon icon="box-arrow-right" />
         </a>
       </strong>
     
@@ -57,18 +57,18 @@
       <ul>
         <li>
           <a href="https://blinest.com/" target="_blank" class="list-link">
-            https://blinest.com/ <b-icon icon="box-arrow-right"></b-icon>
+            https://blinest.com/ <b-icon icon="box-arrow-right" />
           </a>
         </li>
         <li>
           <a href="https://www.massivemusicquiz.com/" target="_blank" class="list-link">
-            https://www.massivemusicquiz.com/ <b-icon icon="box-arrow-right"></b-icon>
+            https://www.massivemusicquiz.com/ <b-icon icon="box-arrow-right" />
           </a>
         </li>
       </ul>
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureMusic"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureMusic" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -90,7 +90,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCultureMusic extends Vue {
-  public nxtprevOnlineCultureMusic =
+  protected nxtprevOnlineCultureMusic =
   {
     BoolPrev: true,
     BoolNext: true,

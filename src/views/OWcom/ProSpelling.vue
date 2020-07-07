@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>AMÉLIORER VOTRE ORTHOGRAPHE</h3>
     <p>
       90 % des e-mails envoyés par des entreprises à leurs clients contiennent
       au moins une faute d'orthographe, selon une étude réalisée par TextMaster.
       D’autres études pointent qu’un site marchand qui contient des erreurs sur
       sa page d’accueil perd jusqu’à 50% de ses acheteurs potentiels. Ces
-      erreurs feraient rater des ventes et coûterait des millions aux
+      erreurs feraient rater des ventes et coûteraient des millions aux
       entreprises.
     </p>
     <p>
@@ -101,7 +101,7 @@
       href="http://ecriplus.fr/ressources/"
       target="_blank"
     >
-      Ressource Écri+ <b-icon icon="BoxArrowRight"></b-icon>
+      Ressource Écri+ <b-icon icon="BoxArrowRight" />
     </a>
     <div>
     <a
@@ -109,7 +109,7 @@
       href="http://uoh.univ-montp3.fr/j_ameliore_ma_maitrise_du_francais/portail/"
       target="_blank"
     >
-      J'améliore mon français{{ "\xa0" }}: uoh.univ-montp3.fr <b-icon icon="BoxArrowRight"></b-icon>
+      J'améliore mon français{{ "\xa0" }}: uoh.univ-montp3.fr <b-icon icon="BoxArrowRight" />
     </a>
     </div>
     <div>
@@ -118,7 +118,7 @@
       href="https://ameliorer-ses-ecrits.univ-cotedazur.fr/"
       target="_blank"
     >
-      Améliorer ses écrits{{ "\xa0" }}: Améliorer ses écrits – Des ressources pour améliorer votre français écrit <b-icon icon="BoxArrowRight"></b-icon>
+      Améliorer ses écrits{{ "\xa0" }}: Améliorer ses écrits – Des ressources pour améliorer votre français écrit <b-icon icon="BoxArrowRight" />
     </a>
     </div>
     <div>
@@ -127,7 +127,7 @@
       href="https://www.fun-mooc.fr/courses/course-v1:unicaen+48002+session01/about"
       target="_blank"
     >
-      le MOOC sur les compétences orthographiques :  www.fun-mooc.fr <b-icon icon="BoxArrowRight"></b-icon>
+      le MOOC sur les compétences orthographiques :  www.fun-mooc.fr <b-icon icon="BoxArrowRight" />
     </a>
     </div>
     <div>
@@ -136,13 +136,13 @@
       href="http://www.uoh.fr/front/notice?id=b2e045b1-b8f8-4756-8986-56f3001a402e"
       target="_blank"
     >
-      Vidéos thématiques du MOOC : MOOC "Renforcer ses compétences orthographiques" | Portail UOH <b-icon icon="BoxArrowRight"></b-icon>
+      Vidéos thématiques du MOOC : MOOC "Renforcer ses compétences orthographiques" | Portail UOH <b-icon icon="BoxArrowRight" />
     </a>
     </div>
     
     <SpellingInterractExe></SpellingInterractExe>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevProSpelling"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProSpelling" />
+    <Footer />
   </div>
 </template>
 
@@ -171,7 +171,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ProSpelling extends Vue {
-  public nxtprevProSpelling = {
+  protected nxtprevProSpelling = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail3.png",

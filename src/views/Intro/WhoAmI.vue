@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <div id="container-intro">
       <h2>À PROPOS - PEGGY RAFFY-HIDEUX</h2>
 
@@ -25,7 +25,7 @@
     </div>
 
     <Publish></Publish>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style lang="scss">

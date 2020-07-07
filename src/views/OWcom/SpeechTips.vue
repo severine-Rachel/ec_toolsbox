@@ -1,7 +1,7 @@
 <template>
   <div id="SpeechTips">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>CONSEILS ET ASTUCES</h3>
     <h4>Bien parler en public</h4>
     <Video v-bind:galery-video="videoSpeech" v-bind:id-video="'speak1'"></Video>
@@ -228,8 +228,8 @@
       src="/picture_OWcom/female_Speaking.png"
       draggable="false"
     />
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevSpeechTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevSpeechTips" />
+    <Footer />
   </div>
 </template>
 
@@ -270,7 +270,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class SpeechTips extends Vue {
-  public videoSpeech = [
+  protected videoSpeech = [
     {
       videoSrc: "https://www.youtube.com/embed/wkOk1wdTdrQ ",
       videoTitle: "L’art de bien parler",
@@ -310,24 +310,24 @@ export default class SpeechTips extends Vue {
       videoRoot: "Chaîne : HEC Paris",
     },
   ];
-  public videoSpeechFear = [
+  protected videoSpeechFear = [
     {
       videoSrc: "https://www.youtube.com/embed/yV4Ia3qYj3c",
-      videoTitle: "Comment vaincre la peur de parler en public ? 1",
+      videoTitle: "Comment vaincre la peur de parler en protected ? 1",
       videoRoot: "Chaîne : QuestionEntretien",
     },
     {
       videoSrc: "https://www.youtube.com/embed/YbhOsZtWuMY",
-      videoTitle: "Comment vaincre la peur de parler en public  2",
+      videoTitle: "Comment vaincre la peur de parler en protected  2",
       videoRoot: "Chaîne : Cyril Chambard",
     },
     {
       videoSrc: "https://www.youtube.com/embed/zApHS2LJxIk",
-      videoTitle: "Comment parler en public sans stress ?",
+      videoTitle: "Comment parler en protected sans stress ?",
       videoRoot: "Chaîne : Français avec Pierre",
     },
   ];
-  public nxtprevSpeechTips = {
+  protected nxtprevSpeechTips = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail4.png",

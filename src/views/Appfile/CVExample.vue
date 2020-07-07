@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="exampleCV">
       EXEMPLES DE CV (IUT)
     </h3>
@@ -14,9 +14,9 @@
       CV réalisés par des étudiants d'IUT vous apporteront des pistes pour
       élaborer un CV personnalisé et attractif.
     </p>
-    <Galery v-bind:galery-picture="CVIUT" v-bind:classheight="'square'"></Galery>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVExample"></NextPrevBtn>
-    <Footer></Footer>
+    <Galery v-bind:galery-picture="cvIut" v-bind:classheight="'square'"></Galery>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVExample" />
+    <Footer />
   </div>
 </template>
 
@@ -38,15 +38,15 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class CVExample extends Vue {
-  public CVIUT: string[] = [
+  protected cvIut: string[] = [
     "/picture_cv/example_CV_IUT1.jpg",
     "/picture_cv/example_CV_IUT2.jpg",
     "/picture_cv/example_CV_IUT3.jpg",
     "/picture_cv/example_CV_IUT4.jpg",
     "/picture_cv/example_CV_IUT55.png",
-    "/picture_CV/example_CV_IUT6.jpg",
+    "/picture_cv/example_CV_IUT6.jpg",
   ];
-   public nxtprevCVExample =
+  protected nxtprevCVExample =
   {
     BoolPrev: true,
     BoolNext: true,

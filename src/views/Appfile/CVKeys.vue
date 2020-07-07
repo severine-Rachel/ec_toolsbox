@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="keysCV">
       LES FONDAMENTAUX DU CV{{'\xa0'}}: FICHES-CLÉS
     </h3>
@@ -29,10 +29,10 @@
       <i>Source :</i>
 
       www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box
-      <b-icon icon="box-arrow-right"></b-icon>
+      <b-icon icon="box-arrow-right" />
     </a>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVFundamentals"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVFundamentals" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -59,30 +59,30 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class CVKeys extends Vue {
-  public galeryCV: string[] = [
+  protected galeryCV: string[] = [
     "/picture_cv/fundamentals_CV_Keys.png",
     "/picture_cv/fundamentals_CV_Grid.png",
     "/picture_cv/fundamentals_CV_Classic.png",
   ];
 
-  public pdfCV = [
+  protected pdfCV = [
     {
-      pdfLink: "/pdf_cv/fundamentals_CV_Keys.pdf",
-      pdfDownload: "Fiche 1 : Les 10 points clés",
+      PdfLink: "/pdf_cv/fundamentals_CV_Keys.pdf",
+      PdfDownload: "Fiche 1 : Les 10 points clés",
       TxtPdf: "Fiche 1 : Les 10 points clés",
     },
     {
-      pdfLink: "/pdf_cv/fundamentals_CV_Classic.pdf",
-      pdfDownload: "Fiche 2 : La grille d’analyse du CV",
+      PdfLink: "/pdf_cv/fundamentals_CV_Classic.pdf",
+      PdfDownload: "Fiche 2 : La grille d’analyse du CV",
       TxtPdf: "Fiche 2 : La grille d’analyse du CV",
     },
     {
-      pdfLink: "/pdf_cv/fundamentals_CV_Grid.pdf",
-      pdfDownload: "Fiche 3 : Modèle de trame classique",
+      PdfLink: "/pdf_cv/fundamentals_CV_Grid.pdf",
+      PdfDownload: "Fiche 3 : Modèle de trame classique",
       TxtPdf: "Fiche 3 : Modèle de trame classique",
     },
   ];
-    public nxtprevCVFundamentals =
+    protected nxtprevCVFundamentals =
   {
     BoolPrev: false,
     BoolNext: true,

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">CULTURE EN LIGNE</h2>
     <ContentsPage v-bind:contents-list="contentsOnline"></ContentsPage>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -23,7 +23,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCulture extends Vue {
-   public contentsOnline = [
+   protected contentsOnline = [
     {
       ContentsTitle:"ARTS",
       ContentsPath:"/CultureenLigne/Art",

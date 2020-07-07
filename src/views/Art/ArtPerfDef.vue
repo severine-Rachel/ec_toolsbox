@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>QU'EST-CE QUE LA PERFORMANCE ARTISTIQUE{{ "\xa0" }}?</h3>
     <p>
       L’art-performance – ou performance artistique – tire son nom de l’anglais
@@ -24,8 +24,8 @@
     <DefDef></DefDef>
     <DefOrigin></DefOrigin>
     <DefEvolution></DefEvolution>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfDef"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfDef" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -50,7 +50,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ArtPerfDef extends Vue {
-  public nxtprevArtPerfDef = {
+  protected nxtprevArtPerfDef = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: " ",

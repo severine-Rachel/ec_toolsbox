@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>LES CLASSIQUES</h3>
 
-    <p>
+    <b-container fluid class="margin">
       <b-row class="justify-content-md-start reading reading">
         <b-col sm="auto"
           ><img src="/picture_read/Classic/Vie.jpg" class="picture-book" />
@@ -215,9 +215,9 @@
           </p>
         </b-col>
       </b-row>
-    </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadClassic"></NextPrevBtn>
-    <Footer></Footer>
+    </b-container>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadClassic" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -239,7 +239,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ReadClassic extends Vue {
-  public nxtprevReadClassic =
+  protected nxtprevReadClassic =
   {
     BoolPrev: true,
     BoolNext: true,

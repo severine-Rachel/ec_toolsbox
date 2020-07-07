@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>
       COMMUNIQUER, C'EST ÉCHANGER
     </h3>
@@ -39,8 +39,8 @@
       en répercussions.
     </p>
     <img class="horizontal" draggable="false"  src="/picture_OWcom/schematic/No-Answer.jpg" alt="Le monde de la non-réponse">
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevDefShare"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevDefShare" />
+    <Footer />
   </div>
 </template>
 
@@ -67,7 +67,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class DefShare extends Vue {
-  public nxtprevDefShare = {
+  protected nxtprevDefShare = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: "",

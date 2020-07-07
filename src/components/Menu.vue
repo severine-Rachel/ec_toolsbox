@@ -25,8 +25,8 @@ Vue.use(DropdownPlugin);
 })
 
 export default class Menu extends Vue {
-  public showBurger= false;
-  public ToogleShowBurger(): void {
+  protected showBurger= false;
+  protected ToogleShowBurger(): void {
     if (this.showBurger == false) {this.showBurger = true;}
     else {
       this.showBurger = false;

@@ -1,7 +1,7 @@
 <template>
   <div id="ProFundamental">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>LES FONDAMENTAUX DE L'ÉCRIT</h3>
     <p>
       Aujourd’hui, avec l’essor du numérique, chacun d’entre nous est amené à
@@ -87,74 +87,35 @@
       <FundamentalLetter></FundamentalLetter>
     </div>
     <div id="PhoneExplanation">
-      <p>
-        La lettre doit respecter un équilibre global{{ "\xa0" }}; c’est la règle
-        des 3 tiers.
-      </p>
-      <p>
-        <strong>Pour la structuration{{ "\xa0" }}:</strong>
-      </p>
-      <ul class="margin">
-        <li>
-          1er tiers{{ "\xa0" }}: l'en-tête de la lettre. Eventuellement, ce 1er
-          tiers peut englober la formule d'appel.
-        </li>
-        <li>
-          2e tiers{{ "\xa0" }}: le corps de la lettre. Le texte doit être
-          justifié informatiquement.
-        </li>
-        <li>3e tiers{{ "\xa0" }}: formule de politesse et signature.</li>
-        <li>
-          L'adresse du destinataire doit être aligné à gauche. Utilisez un
-          tableau caché.
-        </li>
-        <li>Alinéa au début de chaque paragraphe.</li>
-      </ul>
-      <p>
-        <strong>Pour la mise en page{{ "\xa0" }}:</strong>
-      </p>
-
-      <ul class="margin">
-        <li>
-          Adresse expéditeur. Toujours le prénom avant le nom. Numéro de
-          téléphone + e-mail professionnel.
-        </li>
-        <li>Indiquez le lieu et la date. Le tout aligné sur la droite.</li>
-        <li>Adresse destinataire. On n'indique ni téléphone ni e-mail.</li>
-        <li>
-          Espace avant la désignation du destinataire précis. Indiquez le poste
-          de votre interlocuteur.
-        </li>
-        <li>
-          Objet{{ "\xa0" }}: un verbe nominalisé doit indiquer l'objectif du
-          courrier. Ici{{ "\xa0" }}: candidater.
-        </li>
-        <li>Commencez votre rédaction avec la formule d'appel.</li>
-        <li>
-          Le corps de la lettre doit être décomposé en paragraphes signifiants.
-          Préférez l’interligne entre paragraphes plutôt que les sauts de
-          ligne{{ "\xa0" }}!
-        </li>
-        <li>
-          Finissez votre rédaction avec les indications de disponibilités et la
-          formule de politesse.
-        </li>
-        <li>
-          Signature manuscrite au-dessus de la signature informatique (prévoir
-          la place suffisante lors de l'impression papier). Alignement à droite.
-        </li>
-      </ul>
+      <h7>La structuration</h7>
+      <img
+        src="/picture_OWcom/Pro/LetterStruc.png"
+        class="vertical"
+        alt="Structuration Lettre motivation"
+      />
+      <h7>La mise en page</h7>
+      <img
+        src="/picture_OWcom/Pro/LetterPage.png"
+        class="vertical"
+        alt="Structuration Lettre motivation"
+      />
     </div>
+
     <h5 id="h5-title">Le modèle du rapport</h5>
-    <div id="DesktopInteraction">
+    <div>
       <h7>Dossier page de garde 1</h7>
 
       <p>
         Cette page de garde est trop sobre et les différents niveaux de lecture
         non respectés.
       </p>
-      <FundamentalCoverPage1></FundamentalCoverPage1>
-
+      <FundamentalCoverPage1 id="DesktopInteraction"></FundamentalCoverPage1>
+      <img
+        src="/picture_OWcom/Pro/Cover_Page1phone.png"
+        class="vertical"
+        id="PhoneExplanation"
+        alt="mauvaise page de garde"
+      />
       <p></p>
       <h7>Dossier page de garde 2</h7>
 
@@ -163,96 +124,46 @@
         accordé à l’ensemble du dossier.
       </p>
       <b-row>
-        <FundamentalCoverPage2></FundamentalCoverPage2>
+        <FundamentalCoverPage2 id="DesktopInteraction"></FundamentalCoverPage2>
+        <img
+          src="/picture_OWcom/Pro/Cover_Page2phone.png"
+          class="vertical"
+          id="PhoneExplanation"
+          alt="bonne page de garde"
+        />
       </b-row>
 
       <h7>Dossier Sommaire 1</h7>
-
-      <Summary1></Summary1>
+      <img
+        src="/picture_OWcom/Pro/Summary1phone.png"
+        class="vertical"
+        id="PhoneExplanation"
+        alt="mauvais sommaire"
+      />
+      <Summary1 id="DesktopInteraction"></Summary1>
 
       <h7>Dossier Sommaire 2</h7>
 
-      <Summary2></Summary2>
-
+      <Summary2 id="DesktopInteraction"></Summary2>
+      <img
+        src="/picture_OWcom/Pro/Summary2phone.png"
+        class="vertical"
+        id="PhoneExplanation"
+        alt="mauvais sommaire"
+      />
       <h7>Dossier Sommaire 3</h7>
 
-      <Summary3></Summary3>
+      <Summary3 id="DesktopInteraction"></Summary3>
+      <img
+        src="/picture_OWcom/Pro/Summary3phone.png"
+        class="vertical"
+        id="PhoneExplanation"
+        alt="mauvais sommaire"
+      />
     </div>
-    <div id="PhoneExplanation">
-      <h7>Dossier page de garde</h7>
-      <p>
-        La page de garde doit être attractive et doit respecter les différents
-        niveaux de lecture. Elle témoigne du soin accordé à l’ensemble du
-        dossier.
-      </p>
-      <ul class="margin">
-        <li>
-          Les prénoms doivent être placés avant le nom, l'ensemble doit figuré
-          sous le titre du projet.
-        </li>
-        <li>
-          Le titre doit être explicite. Le titre générique du type "rapport de
-          stage" n'est pas central. Le titre ne doit pas être souligné.
-        </li>
-        <li>
-          Le titre doit être explicite. Le titre générique du type "rapport de
-          stage" n'est pas central. Le titre ne doit pas être souligné.
-        </li>
-        <li>
-          Il ne faut oublier aucun logo, ils doivent être positionnés en bas de
-          la page et ne pas être trop gros.
-        </li>
-        <li>
-          Il faut mettre une charte graphique intéressante que l'on retrouvera
-          dans le dossier.
-        </li>
-        <li>
-          L'iconographie est un point avantageux. Elle doit être en lien avec le
-          thème.
-        </li>
-        <li>
-          Le sous-titre doit être mis en avant.
-        </li>
-      </ul>
-      <h7>Dossier Sommaire</h7>
-      <ul class="margin">
-        <li>
-          Le sommaire doit être généré informatiquement et les numéros de page
-          relégués à droite.
-        </li>
-        <li>
-          Les parties et sous-parties doivent être organisées à l'aide d'une
-          hiérarchisation bien précise ; les parties et sous-parties doivent
-          être associées à un plan numéroté.
-        </li>
-        <li>
-          Le titre "Sommaire" doit être mis en valeur.
-        </li>
-        <li>
-          L'introduction, la conclusion et les annexes ne sont pas une partie, on ne les inclut donc pas dans la
-          numérotation du plan.
-        </li>
-        <li>
-           Il ne doit pas y avoir trop de parties.
-        </li>
-        <li>
-           Les titres doivent être problématisés en fonction du sujet.
-        </li>
-        <li>
-          Il ne faut pas mettre trop de sous-parties. Il faut les réunir sous de grands ensembles thématiques.
-        </li>
-        <li>
-          Il ne faut pas mettre trop de sous-parties. Il faut les réunir sous de grands ensembles thématiques.
-        </li>
-        <li>
-          Prévoyez un saut de ligne entre les grandes parties pour rendre le sommaire plus lisible.
-        </li>
 
-
-      </ul>
-    </div>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevProFundamental"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProFundamental" />
+    <Footer />
   </div>
 </template>
 
@@ -322,14 +233,14 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ProFundamental extends Vue {
-  public pdfPro = [
+  protected pdfPro = [
     {
-      pdfLink: "/pdf_OWcom/betterWritePro.pdf",
-      pdfDownload: "Fiche conseil rédaction",
+      PdfLink: "/pdf_OWcom/betterWritePro.pdf",
+      PdfDownload: "Fiche conseil rédaction",
       TxtPdf: "Fiche conseil rédaction",
     },
   ];
-  public videoTipsPro = [
+  protected videoTipsPro = [
     {
       videoSrc: "https://www.youtube.com/embed/B5LUC22dmdg",
       videoTitle: "Conseils pour améliorer vos compétences rédactionnelles",
@@ -341,7 +252,7 @@ export default class ProFundamental extends Vue {
       videoRoot: "Chaîne :   Cyril Maitre",
     },
   ];
-  public nxtprevProFundamental = {
+  protected nxtprevProFundamental = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: "",

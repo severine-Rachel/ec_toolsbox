@@ -1563,7 +1563,7 @@
         n’interpelle pas. S’il parle aux étudiants en génie électrique et
         informatique industrielle (un «{{ "\xa0" }}courant alternatif{{
           "\xa0"
-        }}»), il n’interpellera sans doute pas un public plus large.
+        }}»), il n’interpellera sans doute pas un protected plus large.
       </p>
     </b-modal>
 
@@ -1949,7 +1949,7 @@
         src="/picture_Visu/Poster/perfArt/PosterWinner2.jpg"
         draggable="false"
     /></b-modal>
-    <b-modal id="my-modal20" hide-footer  
+    <b-modal id="my-modal-phone20" hide-footer  
       ><img
         class="modal-image"
         src="/picture_Visu/Poster/perfArt/PosterWinner3.jpg"

@@ -1,7 +1,7 @@
 <template>
   <div id="ProExample">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>EXEMPLES DE RÉALISATIONS</h3>
     <p></p>
     <div style="text-align: center">
@@ -69,8 +69,8 @@
       </b-row>
       <!--affichage du carousel correspondant a l'image sélectionnée dans 'display()'-->
     </div>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevProExample"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProExample" />
+    <Footer />
   </div>
 </template>
 
@@ -106,19 +106,19 @@ import NextPrevBtn from "@/components/NextPrevBtn.vue";
   },
 })
 export default class ProExample extends Vue {
-  public galerySelected = false;
-  public carouselSelected = false;
-  public nbCarousel = 0;
-  public nbGalery = 0;
-  public nb = 0;
-  public galeryTitres: string[] = [
+  protected galerySelected = false;
+  protected carouselSelected = false;
+  protected nbCarousel = 0;
+  protected nbGalery = 0;
+  protected nb = 0;
+  protected galeryTitres: string[] = [
     "Magazine de GEII de l'IUT",
     "Critique de cinéma",
     "Le dossier de presse",
     "Analyse d'articles de presse",
   ];
   //tableaux de stockage des images des carousels
-  public carouselMagazine1: string[] = [
+  protected carouselMagazine1: string[] = [
     "/picture_OWcom/Magazine/Magazine1.jpg",
     "/picture_OWcom/Magazine/Magazine2.jpg",
     "/picture_OWcom/Magazine/Magazine3.jpg",
@@ -136,12 +136,12 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Magazine/Magazine15.jpg",
     "/picture_OWcom/Magazine/Magazine16.jpg",
   ];
-  public carouselCriticCinema: string[] = [
+  protected carouselCriticCinema: string[] = [
     "/picture_OWcom/Criticism/CinemaCriticismGard.jpg",
     "/picture_OWcom/Criticism/CinemaCriticism1.png",
     "/picture_OWcom/Criticism/CinemaCriticism2.png",
   ];
-  public carouselPress1: string[] = [
+  protected carouselPress1: string[] = [
     "/picture_OWcom/Press/_PressRobotic1.jpg",
     "/picture_OWcom/Press/_PressRobotic2.jpg",
     "/picture_OWcom/Press/_PressRobotic3.jpg",
@@ -155,7 +155,7 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Press/_PressRobotic11.jpg",
     "/picture_OWcom/Press/_PressRobotic12.jpg",
   ];
-  public carouselPress2: string[] = [
+  protected carouselPress2: string[] = [
     "/picture_OWcom/Press/PressRobotic1.jpg",
     "/picture_OWcom/Press/PressRobotic2.jpg",
     "/picture_OWcom/Press/PressRobotic3.jpg",
@@ -168,7 +168,7 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Press/PressRobotic10.jpg",
     "/picture_OWcom/Press/PressRobotic11.jpg",
   ];
-  public carouselPress3: string[] = [
+  protected carouselPress3: string[] = [
     "/picture_OWcom/Press/PressArt1.jpg",
     "/picture_OWcom/Press/PressArt2.jpg",
     "/picture_OWcom/Press/PressArt3.jpg",
@@ -181,10 +181,10 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Press/PressArt10.jpg",
     "/picture_OWcom/Press/PressArt11.jpg",
     "/picture_OWcom/Press/PressArt12.jpg",
-    "/picture_OWcom/Press/PressArt12.jpg",
+
   ];
 
-  public carouselPressCovid2: string[] = [
+  protected carouselPressCovid2: string[] = [
     "/picture_OWcom/Press/PressCovid19Final1.jpg",
     "/picture_OWcom/Press/PressCovid19Final2.jpg",
     "/picture_OWcom/Press/PressCovid19Final3.jpg",
@@ -197,11 +197,10 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Press/PressCovid19Final10.jpg",
     "/picture_OWcom/Press/PressCovid19Final11.jpg",
     "/picture_OWcom/Press/PressCovid19Final12.jpg",
-    "/picture_OWcom/Press/PressCovid19Final12.jpg",
     "/picture_OWcom/Press/PressCovid19Final13.jpg",
   ];
 
-  public carouselPressTurc2: string[] = [
+  protected carouselPressTurc2: string[] = [
     "/picture_OWcom/Press/PressTurcFinal1.jpg",
     "/picture_OWcom/Press/PressTurcFinal2.jpg",
     "/picture_OWcom/Press/PressTurcFinal3.jpg",
@@ -216,40 +215,40 @@ export default class ProExample extends Vue {
     "/picture_OWcom/Press/PressTurcFinal12.jpg",
   ];
   //tableau de stockage des carousels
-  public galeryPressFolder: string[][] = [
+  protected galeryPressFolder: string[][] = [
     this.carouselPress1,
     this.carouselPress2,
     this.carouselPress3,
   ];
-  public galeryPress: string[][] = [
+  protected galeryPress: string[][] = [
     this.carouselPressCovid2,
 
     this.carouselPressTurc2,
   ];
 
-  public galeryMagazine: string[][] = [this.carouselMagazine1];
-  public galeryCritic: string[][] = [this.carouselCriticCinema];
-  public galery: string[][][] = [
+  protected galeryMagazine: string[][] = [this.carouselMagazine1];
+  protected galeryCritic: string[][] = [this.carouselCriticCinema];
+  protected galery: string[][][] = [
     this.galeryMagazine,
     this.galeryCritic,
     this.galeryPressFolder,
     this.galeryPress,
   ];
 
-  public displayGalery(src: string[][]): void {
+  protected displayGalery(src: string[][]): void {
     this.carouselSelected = false;
     this.nbGalery = this.galery.indexOf(src);
     if (this.galerySelected == false) {
       this.galerySelected = true;
     }
   }
-  public displayCarousel(src: string[]): void {
+  protected displayCarousel(src: string[]): void {
     this.nbCarousel = this.galery[this.nbGalery].indexOf(src) + 1;
     if (this.carouselSelected == false) {
       this.carouselSelected = true;
     }
   }
-  public nxtprevProExample = {
+  protected nxtprevProExample = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail5.png",

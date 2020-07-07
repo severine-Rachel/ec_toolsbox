@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>HISTOIRE</h3>
    
       <strong>
@@ -10,7 +10,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Histoire TV <b-icon icon="box-arrow-right"></b-icon>
+          Histoire TV <b-icon icon="box-arrow-right" />
         </a>
       </strong>
    
@@ -25,7 +25,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Histoire magazine <b-icon icon="box-arrow-right"></b-icon>
+          Histoire magazine <b-icon icon="box-arrow-right" />
         </a>
       </strong>
  
@@ -39,7 +39,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Histoire pour tous <b-icon icon="box-arrow-right"></b-icon>
+          Histoire pour tous <b-icon icon="box-arrow-right" />
         </a>
       </strong>
 
@@ -55,7 +55,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Podcast Franck Ferrand raconte, Radio Classique <b-icon icon="box-arrow-right"></b-icon>
+          Podcast Franck Ferrand raconte, Radio Classique <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -63,8 +63,8 @@
       Ce passionné d'Histoire raconte et plonge l’auditeur dans les grandes
       intrigues et les sagas de l’Histoire.
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureHistory"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureHistory" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -86,7 +86,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCultureHistory extends Vue {
-  public nxtprevOnlineCultureHistory =
+  protected nxtprevOnlineCultureHistory =
   {
     BoolPrev: true,
     BoolNext: true,

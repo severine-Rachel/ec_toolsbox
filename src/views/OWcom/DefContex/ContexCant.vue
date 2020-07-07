@@ -45,7 +45,7 @@
     </p>
     
       <a class="subtitle-link" href="http://membres.lycos.fr/mbao/waxiome2.htm" target="_blank">
-      <i>Source</i> : Mbao, Ma boîte à outils, http://membres.lycos.fr/mbao/waxiome2.htm <b-icon icon="box-arrow-right"></b-icon>
+      <i>Source</i> : Mbao, Ma boîte à outils, http://membres.lycos.fr/mbao/waxiome2.htm <b-icon icon="box-arrow-right" />
       </a>
    
   </div>

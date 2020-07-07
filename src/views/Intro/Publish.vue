@@ -302,11 +302,11 @@ import { BFormTextarea, BForm } from "bootstrap-vue";
   },
 })
 export default class Publish extends Vue {
-  public email = "";
-  public message = "";
-  public answer = "";
+  protected email = "";
+  protected message = "";
+  protected answer = "";
 
-  public form() {
+  protected form() {
     Axios.post("http://raffy-hideux.fr/api/form.php", {
       message: this.message,
       email: this.email,

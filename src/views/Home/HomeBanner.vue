@@ -107,6 +107,6 @@
 import { Component, Vue } from "vue-property-decorator";
 @Component({})
 export default class HomeBanner extends Vue {
-  public arrow = document.getElementById("arrow");
+  protected arrow = document.getElementById("arrow");
 }
 </script>

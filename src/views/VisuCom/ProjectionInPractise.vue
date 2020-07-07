@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="ProjectionInPractise">
       EN PRATIQUE...
     </h3>
@@ -251,8 +251,8 @@
     </div>
     <NextPrevBtn
       v-bind:nxtprev-list="nxtprevProjectionInPractise"
-    ></NextPrevBtn>
-    <Footer></Footer>
+     />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -272,7 +272,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ProjectionInPractise extends Vue {
-  public nxtprevProjectionInPractise = {
+  protected nxtprevProjectionInPractise = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail1.png",

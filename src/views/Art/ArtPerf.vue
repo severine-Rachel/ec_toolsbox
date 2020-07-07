@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">LA PERFORMANCE ARTISTIQUE</h2>
     <ContentsPage v-bind:contents-list="contentsPerf"></ContentsPage>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -23,7 +23,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ArtPerf extends Vue {
-    public contentsPerf= [
+    protected contentsPerf= [
     {
     ContentsTitle:  "QU'EST-CE QUE LA PERFORMANCE ARTISTIQUE ?",
     ContentsPath: "/PerformanceArtistique/Definition",

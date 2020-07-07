@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">PRISE DE PAROLE EN PUBLIC</h2>
     <ContentsPage v-bind:contents-list="contentsSpeech"></ContentsPage>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -25,7 +25,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Speech extends Vue {
- public contentsSpeech= [
+ protected contentsSpeech= [
     {
     ContentsTitle:  "OSER PARLER EN PUBLIC",
     ContentsPath: "/Prise_de_Parole/Oser_Parler",

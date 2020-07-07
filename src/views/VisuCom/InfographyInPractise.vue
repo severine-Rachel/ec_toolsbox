@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="InfographyInPractise">
       EN PRATIQUE...
     </h3>
@@ -11,7 +11,7 @@
       target="_blank"
       ><strong>
         Exemples des meilleures infographies 2017
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </strong>
     </a>
     <p></p>
@@ -26,8 +26,8 @@
       class="vertical"
       alt="ExemplePosterPPP"
     />
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevInfographyInPractise"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevInfographyInPractise" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -50,7 +50,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class InfographyInPractise extends Vue {
-  public nxtprevInfographyInPractise = {
+  protected nxtprevInfographyInPractise = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail6.png",

@@ -46,7 +46,7 @@
           }"
         >
           <b-link class="wallpaper a-bloc" v-bind:to="nxtprevList.PrevLink">
-            <h5 class="H5-nxt-prev"><b-icon icon="ArrowLeft"></b-icon></h5>
+            <h5 class="H5-nxt-prev"><b-icon icon="ArrowLeft" /></h5>
           </b-link>
         </b-col>
         <div v-if="nxtprevList.BoolPrev == false"></div>
@@ -61,7 +61,7 @@
           }"
         >
           <b-link class="wallpaper a-bloc" v-bind:to="nxtprevList.NextLink">
-            <h5 class="H5-nxt-prev"><b-icon icon="ArrowRight"></b-icon></h5>
+            <h5 class="H5-nxt-prev"><b-icon icon="ArrowRight" /></h5>
           </b-link>
         </b-col>
       </b-row>
@@ -123,9 +123,9 @@ import { BLink, BIcon, BIconArrowRight, BIconArrowLeft } from "bootstrap-vue";
   },
 })
 export default class NextPrevBtn extends Vue {
-  public boolPrev = false;
-  public boolNext = false;
-  @Prop() public readonly nxtprevList!: {
+  protected boolPrev = false;
+  protected boolNext = false;
+  @Prop() protected readonly nxtprevList!: {
     BoolPrev: boolean;
     BoolNext: boolean;
     PrevImage: string;

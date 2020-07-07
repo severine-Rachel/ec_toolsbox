@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>POUR RENOUER AVEC LA LECTURE...</h3>
-    <p>
+    <b-container fluid class="margin">
       <b-row class="justify-content-md-start reading reading">
         <b-col  md="auto"
           ><img src="/picture_read/Link/Zulu.gif" class="picture-book" />
@@ -780,9 +780,9 @@
           </p>
         </b-col>
       </b-row>
-    </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadLink"></NextPrevBtn>
-    <Footer></Footer>
+    </b-container>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadLink" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -804,7 +804,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ReadLink extends Vue {
-  public nxtprevReadLink =
+  protected nxtprevReadLink =
   {
     BoolPrev: false,
     BoolNext: true,

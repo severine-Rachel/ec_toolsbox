@@ -1,7 +1,7 @@
 <template>
   <div id="LetterTips">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="tipsLetter">
       CONSEILS ET ASTUCES
     </h3>
@@ -12,7 +12,7 @@
       target="_blank"
       class="subtitle-link"
     >
-      <strong>Pour dédramatiser <b-icon icon="box-arrow-right"></b-icon></strong
+      <strong>Pour dédramatiser <b-icon icon="box-arrow-right" /></strong
     ></a>
 
     <p>
@@ -55,8 +55,8 @@
           draggable="false"
       /></a>
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevLetterTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevLetterTips" />
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -86,7 +86,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class LetterKeys extends Vue {
-  public videoLetterTips = [
+  protected videoLetterTips = [
     {
       videoSrc: "https://www.youtube.com/embed/cZXIs1LWw8I",
       videoTitle: "10 astuces pour écrire votre lettre de motivation",
@@ -108,7 +108,7 @@ export default class LetterKeys extends Vue {
       videoRoot: "Chaîne :  1er emploi, jobs, stages",
     },
   ];
-  public nxtprevLetterTips = {
+  protected nxtprevLetterTips = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail4.png",

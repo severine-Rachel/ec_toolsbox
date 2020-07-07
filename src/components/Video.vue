@@ -40,7 +40,7 @@
 
 <template>
   <div>
-    <b-row class="justify-content-md-center" v-bind:id="idVideo">
+    <b-row class="justify-content-md-center">
       <div v-for="videoImage in galeryVideo" :key="videoImage.videoSrc">
         <a v-bind:href="`#${idVideo}`" class="scroll-vid">
           <div
@@ -58,7 +58,7 @@
         </a>
       </div>
     </b-row>
-    <h5 class="text-vid">{{ title }}</h5>
+    <h5 v-bind:id="idVideo" class="text-vid">{{ title }}</h5>
 
     <b-row align-h="center">
       <iframe
@@ -66,6 +66,7 @@
         v-bind:width="W"
         v-bind:height="H"
         v-bind:src="clickedV"
+         
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -86,23 +87,23 @@ import { BIcon, BIconPlay } from "bootstrap-vue";
   },
 })
 export default class Video extends Vue {
-  public clickedV = "";
-  public title = "";
-  public root = "";
-  public H = 0;
-  public W = 0;
-  public tooglev(vidLink: string, vidT: string, vidR: string): void {
+  protected clickedV = "";
+  protected title = "";
+  protected root = "";
+  protected H = 0;
+  protected W = 0;
+  protected tooglev(vidLink: string, vidT: string, vidR: string): void {
     this.clickedV = vidLink;
     this.title = vidT;
     this.root = vidR;
     this.H = 315;
     this.W = 560;
   }
-  @Prop() public readonly galeryVideo!: {
+  @Prop() protected readonly galeryVideo!: {
     videoSrc: string;
     videoTitle: string;
     videoRoot: string;
   }[];
-  @Prop() public readonly idVideo!: string;
+  @Prop() protected readonly idVideo!: string;
 }
 </script>

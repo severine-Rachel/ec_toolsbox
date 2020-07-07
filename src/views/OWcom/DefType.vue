@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>LES TYPES DE COMMUNICATIONS</h3>
     <p>
       On peut envisager la communication en privilégiant soit{{'\xa0'}}:
@@ -20,8 +20,8 @@
     <TypeActors></TypeActors>
     <TypePlanning></TypePlanning>
     <TypeAction></TypeAction>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevDefType"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevDefType" />
+    <Footer />
   </div>
 </template>
 
@@ -48,7 +48,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class DefType extends Vue {
-  public nxtprevDefType =
+  protected nxtprevDefType =
 {
     BoolPrev: true,
     BoolNext: true,

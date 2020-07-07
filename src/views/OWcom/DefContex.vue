@@ -1,13 +1,13 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>LES SITUATIONS DE COMMUNICATION</h3>
     <ContexCant></ContexCant>
     <ContexConstruction></ContexConstruction>
     <ContexSocial></ContexSocial>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevDefContex"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevDefContex" />
+    <Footer />
   </div>
 </template>
 
@@ -34,7 +34,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class DefContex extends Vue {
-  public nxtprevDefContex =
+  protected nxtprevDefContex =
   {
     BoolPrev: true,
     BoolNext: true,

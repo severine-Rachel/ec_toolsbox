@@ -26,15 +26,15 @@
 <template>
   <div>
     <b-row class="justify-content-md-left  rowcomponents">
-      <div v-for="pdfElement in galeryPdf" :key="pdfElement.pdfLink">
+      <div v-for="pdfElement in galeryPdf" :key="pdfElement.PdfLink">
         <a
           class="fundamentals-pdf"
           draggable="false"
-          v-bind:href="pdfElement.pdfLink"
-          v-bind:download="pdfElement.pdfDownload"
+          v-bind:href="pdfElement.PdfLink"
+          v-bind:download="pdfElement.PdfDownload"
         >
           <h6 class="text-pdf">
-            {{ pdfElement.TxtPdf }} <b-icon icon="upload"></b-icon>
+            {{ pdfElement.TxtPdf }} <b-icon icon="upload" />
           </h6>
         </a>
       </div>
@@ -53,9 +53,9 @@ import { BIcon, BIconXCircle, BIconUpload } from "bootstrap-vue";
   },
 })
 export default class Pdf extends Vue {
-  @Prop() public readonly galeryPdf!: {
-    pdfLink: string;
-    pdfDownload: string;
+  @Prop() protected readonly galeryPdf!: {
+    PdfLink: string;
+    PdfDownload: string;
     TxtPdf: string;
   }[];
 }

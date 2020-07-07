@@ -1335,7 +1335,7 @@
         slogan est trop proche de la définition de l’événement{{'\xa0'}}; il n’interpelle
         pas. S’il parle aux étudiants en génie électrique et informatique
         industrielle (un «{{'\xa0'}}courant alternatif{{'\xa0'}}»), il n’interpellera sans doute
-        pas un public plus large.
+        pas un protected plus large.
       </p>
     </b-modal>
     <b-modal id="my-modal14" hide-footer hide-header

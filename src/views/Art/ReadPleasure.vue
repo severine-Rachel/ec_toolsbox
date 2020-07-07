@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">PLAISIR DE LIRE</h2>
     <p>
       <strong>
@@ -60,7 +60,7 @@
             href="https://livre.fnac.com/n286016/Petit-prix-et-bons-plans-ebooks/Tous-les-Ebooks-gratuits"
             target="_blank"
             class="list-link"
-            >La Fnac <b-icon icon="box-arrow-right"></b-icon>
+            >La Fnac <b-icon icon="box-arrow-right" />
           </a>
         </li>
 
@@ -81,7 +81,7 @@
       </ul>
     </div>
     <ContentsPage v-bind:contents-list="contentsRead"></ContentsPage>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -125,7 +125,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ReadPleasure extends Vue {
-  public contentsRead = [
+  protected contentsRead = [
     {
       ContentsTitle: "POUR RENOUER AVEC LA LECTURE...",
       ContentsPath: "/PlaisirdeLire/RenouerAvecLaLecture",

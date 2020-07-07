@@ -1,7 +1,7 @@
 <template>
   <div id="MeetingFundamental">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>LES FONDAMENTAUX DE LA RÉUNION</h3>
     <h4>Les fiches-clés</h4>
     <p>
@@ -121,8 +121,8 @@
         </div>
       </b-row>
     </div>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevMeetingFundamental"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevMeetingFundamental" />
+    <Footer />
   </div>
 </template>
 
@@ -164,7 +164,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class MeetingFundamental extends Vue {
-  public videoMeetingFund = [
+  protected videoMeetingFund = [
     {
       videoSrc: "https://www.youtube.com/embed/2E6Md66AjNY",
       videoTitle: "Ce à quoi une réunion ne devrait pas ressembler…",
@@ -176,30 +176,30 @@ export default class MeetingFundamental extends Vue {
       videoRoot: "Chaîne : Manuel Diaz",
     },
   ];
-  public pdfMeeting = [
+  protected pdfMeeting = [
     {
-      pdfLink: "/pdf_OWcom/MeetingChapter1.pdf",
-      pdfDownload: "OrganiserReunion",
+      PdfLink: "/pdf_OWcom/MeetingChapter1.pdf",
+      PdfDownload: "OrganiserReunion",
       TxtPdf: "Chapitre 1 : organiser une réunion",
     },
     {
-      pdfLink: "/pdf_OWcom/MeetingChapter2.pdf",
-      pdfDownload: "AnimerReunion",
+      PdfLink: "/pdf_OWcom/MeetingChapter2.pdf",
+      PdfDownload: "AnimerReunion",
       TxtPdf: "Chapitre 2 : animer une réunion",
     },
     {
-      pdfLink: "/pdf_OWcom/MeetingChapter3.pdf",
-      pdfDownload: "CommunicationReunion",
+      PdfLink: "/pdf_OWcom/MeetingChapter3.pdf",
+      PdfDownload: "CommunicationReunion",
       TxtPdf: "Chapitre 3 : la communication orale en réunion",
     },
     {
-      pdfLink: "/pdf_OWcom/MeetingReport.pdf",
-      pdfDownload: "CompteRenduReunion",
+      PdfLink: "/pdf_OWcom/MeetingReport.pdf",
+      PdfDownload: "CompteRenduReunion",
       TxtPdf: "Rédiger un compte rendu de réunion",
     },
   ];
 
-  public nxtprevMeetingFundamental = {
+  protected nxtprevMeetingFundamental = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: "",

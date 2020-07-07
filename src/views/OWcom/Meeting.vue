@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">CONDUITE DE RÉUNION</h2>
     <ContentsPage v-bind:contents-list="contentsMeeting"></ContentsPage>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -25,7 +25,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Meeting extends Vue {
-  public contentsMeeting= [
+  protected contentsMeeting= [
     {
     ContentsTitle:  "LES FONDAMENTAUX DE LA RÉUNION",
     ContentsPath: "/Conduite_Reunion/Fondamentaux",

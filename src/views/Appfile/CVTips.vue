@@ -1,14 +1,14 @@
 <template>
   <div id="CVtips">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>
       CONSEILS ET ASTUCES
     </h3>
     <p></p>
     <Video v-bind:galery-video="videoCVTips"  v-bind:id-video="'cv1'"></Video>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVTips" />
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -36,7 +36,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class CVKeys extends Vue {
-  public videoCVTips = [
+  protected videoCVTips = [
     {
       videoSrc: "https://www.youtube.com/embed/ljDuhygWlD4",
       videoTitle: "Méthodologie du CV",
@@ -58,7 +58,7 @@ export default class CVKeys extends Vue {
       videoRoot: "Chaîne : TVBilan",
     },
   ];
-  public nxtprevCVTips =
+  protected nxtprevCVTips =
   {
     BoolPrev: true,
     BoolNext: true,

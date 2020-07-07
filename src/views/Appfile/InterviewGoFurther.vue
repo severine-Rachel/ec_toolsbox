@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="goFurtherInterview">
       POUR ALLER PLUS LOIN
     </h3>
@@ -47,8 +47,8 @@
         </p>
       </b-col>
     </b-row>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevInterviewGoFurther"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevInterviewGoFurther" />
+    <Footer />
   </div>
 </template>
 
@@ -88,7 +88,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class InterviewGoFurther extends Vue {
-  public nxtprevInterviewGoFurther = {
+  protected nxtprevInterviewGoFurther = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail6.png",

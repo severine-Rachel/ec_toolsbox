@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>CINÉMA</h3>
 
     <a
@@ -11,7 +11,7 @@
     >
       <strong>
         Stan Neumann, 120 ans d'inventions au cinéma, 54 mn, ARTE France & La
-        cinémathèque française, 2016. <b-icon icon="box-arrow-right"></b-icon>
+        cinémathèque française, 2016. <b-icon icon="box-arrow-right" />
       </strong>
     </a>
 
@@ -27,7 +27,7 @@
       target="_blank"
     >
       <strong>
-        Leçons de cinéma par Arte <b-icon icon="box-arrow-right"></b-icon>
+        Leçons de cinéma par Arte <b-icon icon="box-arrow-right" />
       </strong>
     </a>
 
@@ -38,7 +38,7 @@
       class="subtitle-link"
       target="_blank"
     >
-      <strong> Archive.org <b-icon icon="box-arrow-right"></b-icon></strong>
+      <strong> Archive.org <b-icon icon="box-arrow-right" /></strong>
     </a>
 
     <p>
@@ -70,7 +70,7 @@
       href="https://www.senscritique.com/liste/La_liste_des_films_disponibles_gratuitement/495126"
       class="subtitle-link"
       target="_blank"
-      ><strong> Sens Critique <b-icon icon="box-arrow-right"></b-icon></strong>
+      ><strong> Sens Critique <b-icon icon="box-arrow-right" /></strong>
     </a>
 
     <p>
@@ -350,8 +350,8 @@
       ></iframe>
     </b-row>
     <p class="text-vid">Chaîne : Lapin Disco</p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureCinema"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureCinema" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -373,7 +373,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCultureCinema extends Vue {
-  public nxtprevOnlineCultureCinema = {
+  protected nxtprevOnlineCultureCinema = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail3.png",

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>LES LIMITES DE L'ART CONTEMPORAIN - CORPUS DE TEXTES</h3>
     <p>
       L’art contemporain art qui suscite émotions, et parfois même
@@ -18,8 +18,8 @@
       Dossier - L'art doit-il être sans
       limites{{'\xa0'}}? <img class="logo-pdf" src="../../assets/logo-pdf.png" />
     </a>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfCorp"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfCorp" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -41,7 +41,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ArtPerfCorp extends Vue {
-  public nxtprevArtPerfCorp = {
+  protected nxtprevArtPerfCorp = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail1.png",

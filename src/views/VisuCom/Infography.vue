@@ -1,12 +1,12 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">L'INFOGRAPHIE</h2>
 
     <ContentsPage v-bind:contents-list="contentsInfography"></ContentsPage>
 
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -28,7 +28,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Infography extends Vue {
-  public contentsInfography = [
+  protected contentsInfography = [
     {
       ContentsTitle: "LES FONDAMENTAUX DE L'INFOGRAPHIE",
       ContentsPath: "/Infographie/Fondamentaux",

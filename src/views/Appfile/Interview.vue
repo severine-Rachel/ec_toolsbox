@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">ENTRETIEN DE RECRUTEMENT</h2>
 
   
     <ContentsPage v-bind:contents-list="contentsInterview"></ContentsPage>
 
 
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -38,7 +38,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Interview extends Vue {
-  public contentsInterview = [
+  protected contentsInterview = [
     {
       ContentsTitle: "LES FONDAMENTAUX DE L'ENTRETIEN : FICHES-CLÉS",
       ContentsPath: "/Entretien/Fondamentaux",

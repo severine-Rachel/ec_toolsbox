@@ -38,7 +38,7 @@
     <h7> Pina Bausch, Kontakthof (1978)</h7>
 
     <p>
-      <b-icon icon="arrow-right"></b-icon> Kontakthof est une succession de
+      <b-icon icon="arrow-right" /> Kontakthof est une succession de
       petites scènes sans lien apparent, mais reliées indirectement par le thème
       de la pièce{{ "\xa0" }}: l’histoire d’un contact, du lien que peut créer
       une rencontre. Ce sont des hommes et des femmes et tout ce que représente
@@ -84,7 +84,7 @@
         target="_blank"
       >
         Conférence Ted de Marina Abramović pour mieux comprendre son approche de
-        l’art perfromance <b-icon icon="box-arrow-right"></b-icon>
+        l’art perfromance <b-icon icon="box-arrow-right" />
       </a>
     </strong>
     <p></p>
@@ -149,7 +149,7 @@
       target="_blank"
     >
       <strong>
-        Voir portrait Libération <b-icon icon="box-arrow-right"></b-icon>
+        Voir portrait Libération <b-icon icon="box-arrow-right" />
       </strong>
     </a>
     <p></p>

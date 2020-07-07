@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header/>
+    <Menu/>
     <h3>CONSEILS ET ASTUCES</h3>
     <h4>
         Comment créer une affiche en 20 minutes{{'\xa0'}}?
@@ -112,8 +112,8 @@
       </b-popover>
     </b-row>
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterTips" />
+    <Footer/>
   </div>
 </template>
 
@@ -136,7 +136,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class PosterTips extends Vue {
-  public nxtprevPosterTips = {
+  protected nxtprevPosterTips = {
     BoolPrev: true ,
     BoolNext: true,
     PrevImage: "/thumbnail3.png",

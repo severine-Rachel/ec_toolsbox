@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">LE DIAPORAMA</h2>
     <ContentsPage v-bind:contents-list="ContentsPageProjection"></ContentsPage>
   
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -32,7 +32,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Projection extends Vue {
-  public ContentsPageProjection = [
+  protected ContentsPageProjection = [
     {
       ContentsTitle: "LES FONDAMENTAUX DU DIAPORAMA",
       ContentsPath: "/Diaporama/Fondamentaux",

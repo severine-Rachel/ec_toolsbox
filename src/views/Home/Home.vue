@@ -1,7 +1,7 @@
 <template>
   <div id="WelcomePage">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <HomeBanner></HomeBanner>
     <div id="TextIntro">
       <h3 id="about">À propos</h3>
@@ -24,7 +24,7 @@
       </p>
     </div>
     <HomeArticle></HomeArticle>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -73,11 +73,13 @@ h5 {
 .logo-pdf {
   height: 1.5rem;
 }
+$marginText:1% 10%;
+$marginTitle:0% 10%;
 @media (min-width: 600px) {
   p {
     text-align: justify;
     color: #2e367f;
-    margin: 1% 10%;
+    margin: $marginText;
     line-height: 1.7rem;
   }
   .subtitle-link {
@@ -89,13 +91,13 @@ h5 {
     color: #2694cd;
 
     font-family: Myriad, Arial;
-    margin: 0 10%;
+    margin: $marginTitle;
     padding: 8vh 0 4vh 0;
   }
   h3 {
     color: #1794d6;
     font-family: Myriad, Arial;
-    margin: 0 10%;
+    margin: $marginTitle;
 
     padding: 8vh 0 2vh 0;
   }
@@ -103,7 +105,7 @@ h5 {
   h4 {
     color: #c21b2c;
     font-family: Myriad, Arial;
-    margin: 0 10%;
+    margin: $marginTitle;
     padding: 4vh 0 0 0;
   }
   .subtitle-h5 {
@@ -114,7 +116,7 @@ h5 {
   }
   h6 {
     padding: 5% 0;
-    margin: 0 10%;
+    margin: $marginTitle;
     color: #2e367f;
     font-family: Myriad;
     text-align: left;
@@ -126,7 +128,7 @@ h5 {
     font-size: 1.2em;
   }
   .margin {
-    margin: 1% 10%;
+    margin:  $marginText;
     color: #2e367f;
   }
   .supperposition {
@@ -157,12 +159,12 @@ h5 {
   }
   .vertical {
     width: 40vw;
-    margin: 1% 10%;
+    margin:  $marginText;
   }
   .square {
     height: 80vh;
     width: auto !important;
-    margin: 1% 10%;
+    margin:  $marginText;
     margin-left: auto !important;
     margin-right: auto !important;
     display: block;
@@ -172,37 +174,37 @@ h5 {
     margin: 4% 10%;
   }
 }
+$MarginPhone: 1% 3%;
 @media (max-width: 600px) {
   p {
     text-align: justify;
     color: #2e367f;
-    margin: 1%;
+    margin: $MarginPhone;
   }
   .subtitle-link {
     text-decoration: none !important;
     color: #2e367f;
-    margin-left: 1%;
+    margin: $MarginPhone;
   }
   h2 {
     color: #2694cd;
     font-family: Myriad, Arial;
-    margin: 0 1%;
+    margin:  $MarginPhone;
     padding: 8vh 0 4vh 0;
   }
   h3 {
     color: #1794d6;
     font-family: Myriad, Arial;
-    margin: 0 1%;
+    margin:  $MarginPhone;
     padding: 8vh 0 2vh 0;
   }
 
   h4 {
     color: #c21b2c;
     font-family: Myriad, Arial;
-    margin: 0 1%;
+    margin: $MarginPhone;
     padding: 4vh 0 0 0;
   }
-
   .subtitle-h5 {
     margin: 2% 1% 0 1%;
     color: #2e367f;
@@ -211,19 +213,19 @@ h5 {
   }
   h6 {
     padding: 5% 0;
-    margin: 0 1%;
+    margin: $MarginPhone;
     color: #2e367f;
     font-family: Myriad;
     text-align: left;
   }
   h7 {
-    margin: 1% 1% 0;
+    margin: $MarginPhone;
     color: #1794d6;
     font-family: Myriad;
     font-size: 1.2em;
   }
   .margin {
-    margin: 1%;
+    margin: $MarginPhone;
     color: #2e367f;
   }
   .supperposition {
@@ -239,7 +241,7 @@ h5 {
     width: 7rem;
     height: 7rem;
     display: block;
-    margin: 1%;
+    margin: $MarginPhone;
   }
   .vertical {
     width: 75vw;
@@ -248,7 +250,7 @@ h5 {
   .square {
     width: 80vw;
 
-    margin: 1%;
+    margin: $MarginPhone;
     display: block;
   }
   .horizontal {

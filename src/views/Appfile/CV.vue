@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title" id="cv">CV</h2>
     <p>
       <strong>
@@ -12,7 +12,7 @@
     <ContentsPage v-bind:contents-list="contentsCV"></ContentsPage>
 
 
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -40,7 +40,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class CV extends Vue {
-  public contentsCV = [
+  protected contentsCV = [
     {
       ContentsTitle: "LES FONDAMENTAUX DU CV : FICHES-CLÉS",
       ContentsPath: "/CV/Fondamentaux",

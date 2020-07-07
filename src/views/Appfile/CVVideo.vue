@@ -1,7 +1,7 @@
 <template>
   <div id="CVVideo">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="videoCV">
       LE CV VIDÉO
     </h3>
@@ -46,8 +46,8 @@
       compétences.
     </p>
     <Video v-bind:galery-video="videoCVVideo"  v-bind:id-video="'cv2'"></Video>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVVideo"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVVideo" />
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -78,7 +78,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class CVVideo extends Vue {
-  public videoCVVideo = [
+  protected videoCVVideo = [
     {
       videoSrc: "https://www.youtube.com/embed/Fz6bZaPzPuw",
       videoTitle: "Le film d'animation - Dai Duong Tran",
@@ -115,7 +115,7 @@ export default class CVVideo extends Vue {
       videoRoot: "Chaîne :  krakotte_53",
     },
   ];
-  public nxtprevCVVideo =
+  protected nxtprevCVVideo =
   {
     BoolPrev: true,
     BoolNext: true,

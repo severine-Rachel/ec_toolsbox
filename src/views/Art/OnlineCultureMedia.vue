@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>MÉDIAS, PRESSE</h3>
    
       <strong>
@@ -10,7 +10,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          The Conversation <b-icon icon="box-arrow-right"></b-icon>
+          The Conversation <b-icon icon="box-arrow-right" />
         </a>
       </strong>
     
@@ -30,7 +30,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Kipup <b-icon icon="box-arrow-right"></b-icon>
+          Kipup <b-icon icon="box-arrow-right" />
         </a>
       </strong>
    
@@ -40,7 +40,7 @@
    
       <strong>
         <a href="https://www.lemonde.fr/" class="subtitle-link" target="_blank">
-          Le Monde <b-icon icon="box-arrow-right"></b-icon>
+          Le Monde <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -49,8 +49,8 @@
       l'actualité en continu{{'\xa0'}}: International, France, Société, Economie,
       Culture, Environnement...
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureMedia"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureMedia" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -72,7 +72,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCultureMedia extends Vue {
-  public nxtprevOnlineCultureMedia =
+  protected nxtprevOnlineCultureMedia =
   {
     BoolPrev: true,
     BoolNext: false,

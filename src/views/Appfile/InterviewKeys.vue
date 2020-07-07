@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="keysInterview">
       LES FONDAMENTAUX DE L'ENTRETIEN{{ "\xa0" }}: FICHES-CLÉS
     </h3>
@@ -38,7 +38,7 @@
     >
       <i> Source :</i>
       www.univ-angers.fr/fr/formations/insertion-professionnelle/ip-box
-      <b-icon icon="box-arrow-right"></b-icon>
+      <b-icon icon="box-arrow-right" />
     </a>
 
     <h4>
@@ -142,14 +142,14 @@
     <img
       src="/picture_interview/clothes_Interview_Women.png"
       id="FstImgCloth"
-      class="horizontal"
+   
       alt="Comment s'habiller en entretien femme"
       draggable="false"
     />
     <img
       src="/picture_interview/clothes_Interview_Men.png"
       id="ScdImgCloth"
-      class="horizontal"
+     
       alt="Comment s'habiller en entretien homme"
       draggable="false"
     />
@@ -179,7 +179,7 @@
     >
       <strong> 5 Attitudes pour marquer le recruteur </strong>
 
-      <b-icon icon="box-arrow-right"></b-icon>
+      <b-icon icon="box-arrow-right" />
     </a>
     <p></p>
     <a
@@ -188,10 +188,10 @@
       class="subtitle-link"
     >
       <strong>Comment réussir un entretien à distance </strong>
-      <b-icon icon="box-arrow-right"></b-icon>
+      <b-icon icon="box-arrow-right" />
     </a>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevInterviewKeys"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevInterviewKeys" />
+    <Footer />
   </div>
 </template>
 
@@ -218,9 +218,13 @@
 #FstImgCloth {
   margin-bottom: 1%;
   margin-top: 1%;
+  width:80%;
+  margin-left:10%;
 }
 #ScdImgCloth {
   margin-top: 1%;
+  width:80%;
+  margin-left:10%;
 }
 .step-int {
   list-style-type: none;
@@ -241,8 +245,7 @@
 .img-int {
   position: relative;
 }
-.interview-step {
-}
+
 </style>
 
 <script lang="ts">
@@ -252,7 +255,6 @@ import { Component, Vue } from "vue-property-decorator";
 import Pdf from "@/components/Pdf.vue";
 import Galery from "@/components/Galery.vue";
 import { BIcon, BIconBoxArrowRight } from "bootstrap-vue";
-
 import NextPrevBtn from "@/components/NextPrevBtn.vue";
 import Footer from "@/components/Footer.vue";
 @Component({
@@ -268,67 +270,67 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class InterviewKeys extends Vue {
-  public galeryInterview: string[] = [
+  protected galeryInterview: string[] = [
     "/picture_interview/fundamentals_Interview_What'sit.png",
     "/picture_interview/fundamentals_Interview_Keys.png",
     "/picture_interview/fundamentals_Interview_Question.png",
     "/picture_interview/fundamentals_Interview_Question2.png",
     "/picture_interview/fundamentals_Interview_Grid.png",
   ];
-  public pdfInterview = [
+  protected pdfInterview = [
     {
-      pdfLink: "/pdf_interview/fundamental_Interview_What'sit.pdf",
-      pdfDownload: "Qu'est-ce-qu'un-entretien?",
+      PdfLink: "/pdf_interview/fundamental_Interview_What'sit.pdf",
+      PdfDownload: "Qu'est-ce-qu'un-entretien?",
       TxtPdf: "Fiche 1 : Qu’est-ce qu’un entretien ? ",
     },
     {
-      pdfLink: "/pdf_interview/fundamentals_Interview_Keys.pdf",
-      pdfDownload: "10PointsClésEntretien",
+      PdfLink: "/pdf_interview/fundamentals_Interview_Keys.pdf",
+      PdfDownload: "10PointsClésEntretien",
       TxtPdf: "Fiche 2 : Les 10 points clés de l’entretien",
     },
     {
-      pdfLink: "/pdf_interview/fundamental_Interview_Question.pdf",
-      pdfDownload: "QuestionType1Entretien",
+      PdfLink: "/pdf_interview/fundamental_Interview_Question.pdf",
+      PdfDownload: "QuestionType1Entretien",
       TxtPdf: "Fiche 3 : Les questions types 1",
     },
     {
-      pdfLink: "/pdf_interview/fundamental_Interview_Question2.pdf",
-      pdfDownload: "QuestionType2Entretien",
+      PdfLink: "/pdf_interview/fundamental_Interview_Question2.pdf",
+      PdfDownload: "QuestionType2Entretien",
       TxtPdf: "Fiche 4 : Les questions types 2",
     },
     {
-      pdfLink: "/pdf_interview/fundamentals_Interview_Grid.pdf",
-      pdfDownload: "GrilleAnalyseEntretien",
+      PdfLink: "/pdf_interview/fundamentals_Interview_Grid.pdf",
+      PdfDownload: "GrilleAnalyseEntretien",
       TxtPdf: "Fiche 5 : Grille d’analyse recruteur",
     },
   ];
 
-  public bool1 = false;
-  public bool2 = false;
-  public bool3 = false;
-  public bool4 = false;
-  public bool5 = false;
-  public show1(): void {
+  protected bool1 = false;
+  protected bool2 = false;
+  protected bool3 = false;
+  protected bool4 = false;
+  protected bool5 = false;
+  protected show1(): void {
     if (this.bool1 == false) this.bool1 = true;
     else this.bool1 = false;
   }
-  public show2(): void {
+  protected show2(): void {
     if (this.bool2 == false) this.bool2 = true;
     else this.bool2 = false;
   }
-  public show3(): void {
+  protected show3(): void {
     if (this.bool3 == false) this.bool3 = true;
     else this.bool3 = false;
   }
-  public show4(): void {
+  protected show4(): void {
     if (this.bool4 == false) this.bool4 = true;
     else this.bool4 = false;
   }
-  public show5(): void {
+  protected show5(): void {
     if (this.bool5 == false) this.bool5 = true;
     else this.bool5 = false;
   }
-  public nxtprevInterviewKeys = {
+  protected nxtprevInterviewKeys = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: "",

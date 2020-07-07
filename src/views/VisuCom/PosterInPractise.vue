@@ -27,20 +27,20 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class PosterInPractise extends Vue {
-  public pdfPosterInPractise = [
+  protected pdfPosterInPractise = [
     {
-      pdfLink: "/pdf_poster/ExamplePosterCinema.pdf",
-      pdfDownload: "Les participants au concours de la fête du cinéma",
+      PdfLink: "/pdf_poster/ExamplePosterCinema.pdf",
+      PdfDownload: "Les participants au concours de la fête du cinéma",
       TxtPdf: "Exemples concours d’affiches – La fête du cinéma",
     },
 
     {
-      pdfLink: "/pdf_poster/SpecificationsPosterCinema.pdf",
-      pdfDownload: "Cahier des charges de l’affiche de la fête du cinéma",
+      PdfLink: "/pdf_poster/SpecificationsPosterCinema.pdf",
+      PdfDownload: "Cahier des charges de l’affiche de la fête du cinéma",
       TxtPdf: "Cahier des charges de l’affiche de la fête du cinéma",
     },
   ];
-  public nxtprevPosterInPractise = {
+  protected nxtprevPosterInPractise = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail4.png",
@@ -53,8 +53,8 @@ export default class PosterInPractise extends Vue {
 
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>EN PRATIQUE...</h3>
     <h4>
       Affiches à analyser : Le Perf’Art GEII
@@ -96,8 +96,8 @@ export default class PosterInPractise extends Vue {
     <p>
       <InPractisePPP></InPractisePPP>
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterInPractise"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterInPractise" />
+    <Footer />
   </div>
 </template>
 

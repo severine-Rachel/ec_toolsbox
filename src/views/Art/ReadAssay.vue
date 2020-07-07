@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>TÉMOIGNAGES/ESSAIS</h3>
 
-    <p>
+    <b-container fluid class="margin">
       <b-row class="justify-content-md-start reading reading">
         <b-col sm="auto"
           ><img src="/picture_read/Assay/Homme.jpg" class="picture-book" />
@@ -213,9 +213,9 @@
           </p>
         </b-col>
       </b-row>
-    </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadAssay"></NextPrevBtn>
-    <Footer></Footer>
+    </b-container>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevReadAssay" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -237,7 +237,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ReadAssay extends Vue {
-public nxtprevReadAssay =
+protected nxtprevReadAssay =
   {
     BoolPrev: true,
     BoolNext: true,

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>SCIENCES</h3>
    
       <strong>
@@ -10,7 +10,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          L’actualité des sciences <b-icon icon="box-arrow-right"></b-icon>
+          L’actualité des sciences <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -24,7 +24,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Accédez au Centre National de Recherche Scientifique <b-icon icon="box-arrow-right"></b-icon>
+          Accédez au Centre National de Recherche Scientifique <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -35,7 +35,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          Assistez à des conférences scientifiques <b-icon icon="box-arrow-right"></b-icon>
+          Assistez à des conférences scientifiques <b-icon icon="box-arrow-right" />
         </a>
       </strong>
     
@@ -59,7 +59,7 @@
           class="subtitle-link"
           target="_blank"
         >
-          L’actualité de l’astronomie <b-icon icon="box-arrow-right"></b-icon>
+          L’actualité de l’astronomie <b-icon icon="box-arrow-right" />
         </a>
       </strong>
   
@@ -70,12 +70,12 @@
           class="subtitle-link"
           target="_blank"
         >
-          Le Centre National d’Études Spatiales <b-icon icon="box-arrow-right"></b-icon>
+          Le Centre National d’Études Spatiales <b-icon icon="box-arrow-right" />
         </a>
       </strong>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureScience"></NextPrevBtn>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevOnlineCultureScience" />
 
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -97,7 +97,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class OnlineCultureSciences extends Vue {
-  public nxtprevOnlineCultureScience =
+  protected nxtprevOnlineCultureScience =
   {
     BoolPrev: true,
     BoolNext: true,

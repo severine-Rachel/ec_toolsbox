@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">L'AUDIOVISUEL</h2>
    
     <ContentsPage v-bind:contents-list="contentsAudioVisu"></ContentsPage>
     <p></p>
     
     
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -30,7 +30,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class AudioVisual extends Vue {
-  public contentsAudioVisu = [
+  protected contentsAudioVisu = [
     {
       ContentsTitle: "LES FONDAMENTAUX DE L'AUDIOVISUEL",
       ContentsPath: "/Audiovisuel/Fondamentaux",

@@ -1,11 +1,12 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="analysisLetter">
       ANALYSE DE
       L'OFFRE
     </h3>
+    <b-container fluid>
     <b-row>
       <b-col col="6">
         <img src="/picture_letter/Adequacy_Letter_Announce.png" class="vertical" id="VirginPage"  draggable="false">
@@ -14,8 +15,9 @@
         <img src="/picture_letter/Adequacy_Letter_Prepare.png" class="vertical" id="VirginPage"  draggable="false">
       </b-col>
     </b-row>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevLetterAnalysis"></NextPrevBtn>
-    <Footer></Footer>
+    </b-container>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevLetterAnalysis" />
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -38,7 +40,7 @@ import Footer from "@/components/Footer.vue";
    }
 })
 export default class LetterAnalysis extends Vue {
-  public nxtprevLetterAnalysis =
+  protected nxtprevLetterAnalysis =
   {
     BoolPrev: true,
     BoolNext: true,

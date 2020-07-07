@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="ProjectionFundamental">
       LES FONDAMENTAUX DU DIAPORAMA
     </h3>
@@ -31,7 +31,7 @@
         class="subtitle-link"
         download="Les règles d’or du diaporama"
       >
-        <p class="text-vid">Télécharger le pdf <b-icon icon="upload"></b-icon></p>
+        <p class="text-vid">Télécharger le pdf <b-icon icon="upload" /></p>
       </a>
     </strong>
     <br />
@@ -49,10 +49,10 @@
     >
       <p class="text-vid"><i>Source :</i>
 
-      immac-pau.net <b-icon icon="box-arrow-right"></b-icon></p>
+      immac-pau.net <b-icon icon="box-arrow-right" /></p>
     </a>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevProjectionFundamental"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProjectionFundamental" />
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -85,7 +85,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ProjectionFundamental extends Vue {
-  public nxtprevProjectionFundamental = {
+  protected nxtprevProjectionFundamental = {
     BoolPrev: false ,
     BoolNext: true,
     PrevImage: "",

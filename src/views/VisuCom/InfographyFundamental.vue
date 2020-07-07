@@ -1,13 +1,13 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="InfographyFundamental">
       LES FONDAMENTAUX DE L'INFOGRAPHIE
     </h3>
     <p>
       L’infographie est un format de communication très utilisé sur le web et
-      dans la presse, réalisée à l’aide d’un outil informatique. Elle propose au
+      dans la presse, réalisé à l’aide d’un outil informatique. L'infographie propose au
       lecteur une information illustrée en recourant à des graphiques, des
       chiffres, des images et du texte. Son objectif est de restituer sous un
       format visuel et synthétique un contenu ciblé. Percutante et attrayante,
@@ -45,8 +45,8 @@
     <p class="text-vid">De Virginie Colombel</p>
     <NextPrevBtn
       v-bind:nxtprev-list="nxtprevInfographyFundamental"
-    ></NextPrevBtn>
-    <Footer></Footer>
+     />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -68,11 +68,11 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class InfographyFundamental extends Vue {
-  public galeryInfographyFundamental: string[] = [
+  protected galeryInfographyFundamental: string[] = [
     "picture_Infography/fundamental_infography.png",
     "picture_Infography/fundamental_infography2.jpg",
   ];
-  public nxtprevInfographyFundamental = {
+  protected nxtprevInfographyFundamental = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: "",

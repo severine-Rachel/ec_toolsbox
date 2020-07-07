@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>EN RÉSUMÉ : LES ORIGINES DE LA PERFORMANCE ARTISTIQUE</h3>
     <p>
       Cette frise est loin d’être exhaustive. Il faudrait y ajouter les
@@ -9,12 +9,25 @@
       performance mais il donne un aperçu des performances qui ont marqué
       l’Histoire de cet art.
     </p>
-    <img src="/picture_perf/timeline.png" class="horizontal" alt="Frise" />
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfOrigin"></NextPrevBtn>
-    <Footer></Footer>
+    <img src="/picture_perf/timeline.png" id="ScreenFull" alt="Frise" />
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfOrigin" />
+    <Footer />
   </div>
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+@media (min-width: 600px) {
+  #ScreenFull {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 600px) {
+  #ScreenFull {
+    width: 90%;
+    
+  }
+}
+</style>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Header from "@/components/Header.vue";
@@ -30,7 +43,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ArtPerfOrigin extends Vue {
-  public nxtprevArtPerfOrigin = {
+  protected nxtprevArtPerfOrigin = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail5.png",

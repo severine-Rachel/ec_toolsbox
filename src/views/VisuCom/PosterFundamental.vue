@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>LES FONDAMENTAUX DE L'AFFICHE</h3>
     <p>
       Comment articuler le message et le design de votre affiche{{'\xa0'}}? Quelles
@@ -13,10 +13,7 @@
       Les fiches-clés
     </h4>
     <p>
-      Ces fiches vous donneront les conseils pour confectionner vos affiches par
-      rapport à l'articulation du message avec les informations à transmettre et
-      le design. Les questions à se poser pour attirer l'attention et les
-      affirmations à trouver quant aux différents niveaux de lecture possible.
+      Comment concevoir son affiche ? Tous les conseils pour bien définir son message, travailler la forme et mettre en valeur le fond, équilibrer image et texte, attirer le regard... Bonnes pratiques et exemples concrets.
     </p>
     <Pdf v-bind:galery-pdf="pdfPosterKey"></Pdf>
     <h4 class="breath-top">
@@ -39,7 +36,7 @@
     </p>
 
     <h5 class="subtitle-h5">2. Définir sa cible</h5>
-    <p>
+    <div class="margin">
         <ul>
             <li>Quels sont ses besoins ?</li>
             <li>Ses attentes ?</li>
@@ -50,11 +47,11 @@
             </li>
             <li>Quel niveau de détail d'informations ?</li>
         </ul>
-    </p>
+    </div>
     <h5 class="subtitle-h5">
      3. Regrouper les matériaux
     </h5>
-    <p>
+    <div class="margin">
         <ul>
             <li>
                 idées d’illustrations qui pourraient coller au sujet, au thème (photos,
@@ -70,15 +67,15 @@
                 jeu de mots, en exposant un conflit, etc.
             </li>
             <li>identifier les codes de présentation propres à chaque domaine</li>
-            <li>réunir logos de la structure émettrice et des partenaires</li>
+            <li>réunir les logos de la structure émettrice et des partenaires</li>
         </ul>
-    </p>
+    </div>
     <h5 class="subtitle-h5">
      4. Créer la maquette graphique de l’affiche
     </h5>
 
     <p>
-      1er parcours de survol qui identifie les zones sur lesquelles revenir de
+      Premier parcours de survol qui identifie les zones sur lesquelles revenir de
       façon plus approfondie :
     </p>
     <img
@@ -135,14 +132,14 @@
         style="text-decoration: none !important; color: #2e367f;"
       >
         De la couleur dans l’image (pour aller plus loin...)
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </p>
 
     <h5 class="subtitle-h5">
      5. Choisir les outils
     </h5>
-    <p>
+    <div class="margin">
     <b-row class="justify-content-md-center breath-top">
       <b-col>
         <a href="https://inkscape.org/" target="_blank">
@@ -252,7 +249,7 @@
 
       <b-col>
         <a
-          href="http://www.quark.com/fr/Products/QuarkXPress/Default.aspx"
+          href="https://www.quark.com/"
           target="_blank"
         >
           <b-button class="icon" id="popover-QuarkXpress">
@@ -383,10 +380,10 @@
       </b-popover>
       <b-col></b-col><b-col></b-col><b-col></b-col><b-col></b-col>
     </b-row>
-    </p>
+    </div>
 
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterFundamental"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterFundamental" />
+    <Footer />
   </div>
 </template>
 
@@ -419,29 +416,29 @@ import NextPrevBtn from "@/components/NextPrevBtn.vue";
   },
 })
 export default class PosterFundamental extends Vue {
-  public pdfPosterKey = [
+  protected pdfPosterKey = [
     {
-      pdfLink: "/pdf_poster/6PointKey.pdf",
-      pdfDownload: "Les 6 points clés d'une affiche",
+      PdfLink: "/pdf_poster/6PointKey.pdf",
+      PdfDownload: "Les 6 points clés d'une affiche",
       TxtPdf: "Les 6 points clés d'une affiche",
     },
     {
-      pdfLink: "/pdf_poster/ExamplePoster.pdf",
-      pdfDownload: "Les éléments de composition d’une affiche",
+      PdfLink: "/pdf_poster/ExamplePoster.pdf",
+      PdfDownload: "Les éléments de composition d’une affiche",
       TxtPdf: "Les éléments de composition d’une affiche",
     },
     {
-      pdfLink: "/pdf_poster/MITACS.pdf",
-      pdfDownload: "MITACS – Créer une affiche",
+      PdfLink: "/pdf_poster/MITACS.pdf",
+      PdfDownload: "MITACS – Créer une affiche",
       TxtPdf: "MITACS – Créer une affiche",
     },
     {
-      pdfLink: "/pdf_poster/CNRS.pdf",
-      pdfDownload: "CNRS – Le poster",
+      PdfLink: "/pdf_poster/CNRS.pdf",
+      PdfDownload: "CNRS – Le poster",
       TxtPdf: "CNRS – Le poster",
     },
   ];
-  public nxtprevPosterFundamental = {
+  protected nxtprevPosterFundamental = {
     BoolPrev: false,
     BoolNext: true,
     PrevImage: "",

@@ -39,7 +39,7 @@
       <strong>
         La Fabrique culturelle{{ "\xa0" }}: qu’est-ce qu’une performance{{
           "\xa0"
-        }}? <b-icon icon="box-arrow-right"></b-icon>
+        }}? <b-icon icon="box-arrow-right" />
       </strong>
     </a>
 

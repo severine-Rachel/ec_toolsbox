@@ -1,6 +1,5 @@
 <template>
-  <div>
-  
+  <b-container fluid>
     <b-row align-h="center">
       <b-col
         sm="5"
@@ -10,62 +9,61 @@
         v-bind:style="{
           'background-image': 'url(' + contentsElement.ContentsImage + ')',
           'background-size': '100% 100%',
-          
         }"
       >
         <b-link class="wallpaper" v-bind:to="contentsElement.ContentsPath">
-          <h3 class="H3-thumbnail-title">{{ contentsElement.ContentsTitle }}</h3>
+          <h3 class="h3-thumbnail-title">
+            {{ contentsElement.ContentsTitle }}
+          </h3>
         </b-link>
       </b-col>
     </b-row>
-  </div>
+  </b-container>
 </template>
 
 <style lang="scss">
-
 .wallpaper {
   text-align: center;
   text-decoration: none !important;
-   box-sizing: inherit;
-    &:focus{
+  box-sizing: inherit;
+  &:focus {
     outline: none;
   }
 }
 .casethumbnail {
   margin: 1%;
-  max-height:230px ;
+  max-height: 230px;
   animation-name: appearBand;
   animation-duration: 1s;
-  
 }
-.H3-thumbnail-title {
+.h3-thumbnail-title {
   color: white;
   padding: 13vh 02vw;
   transition: transform 0.2s ease-in-out;
+  vertical-align: middle;
   margin: 0;
   font-size: 2rem;
   &:hover {
     transform: scale(1.1);
   }
-  
 }
 
 .thumbnail {
   width: 100%;
-   
 }
 </style>
 
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
 import { BLink } from "bootstrap-vue";
+
 @Component({
-    components: {
-        BLink
-    }
+  components: {
+    BLink,
+  },
 })
 export default class ContentsPage extends Vue {
-  @Prop() public readonly contentsList!: {
+  @Prop() protected readonly contentsList!: {
     ContentsTitle: string;
     ContentsPath: string;
     ContentsImage: string;

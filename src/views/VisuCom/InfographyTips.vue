@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="InfographyTips">
       CONSEILS ET ASTUCES
     </h3>
@@ -120,8 +120,8 @@
         </b-popover>
       </b-row>
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevInfographyTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevInfographyTips" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -145,7 +145,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class InfographyTips extends Vue {
-  public nxtprevInfographyTips = {
+  protected nxtprevInfographyTips = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail4.png",

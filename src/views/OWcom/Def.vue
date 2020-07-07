@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">QU'EST CE QUE LA COMMUNICATION ?</h2>
     <ContentsPage v-bind:contents-list="contentsDef"></ContentsPage>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -26,7 +26,7 @@ import Footer from "@/components/Footer.vue";
   }
 })
 export default class Def extends Vue {
-  public contentsDef= [
+  protected contentsDef= [
     {
     ContentsTitle:  "COMMUNIQUER, C'EST ÉCHANGER",
     ContentsPath: "/Definition_Communication/Partager",

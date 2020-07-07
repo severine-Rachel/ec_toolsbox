@@ -271,7 +271,7 @@
       personnes physiques auxquelles elles s’appliquent » (article 4 de la loi
       n° 78-17 du 6 janvier 1978)
     </div>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style lang="scss" scoped>
@@ -313,6 +313,6 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class LegalNotice extends Vue {
-  // export default==public class
+  // export default==protected class
 }
 </script>

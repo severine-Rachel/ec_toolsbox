@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="ProjectionTips">
       CONSEILS ET ASTUCES
     </h3>
@@ -73,7 +73,7 @@
               download="Modèle Diaporama 1"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -94,7 +94,7 @@
               download="Modèle Diaporama 2"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -116,7 +116,7 @@
               download="Modèle Diaporama 3"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -136,7 +136,7 @@
               download="Modèle Diaporama 4"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -158,7 +158,7 @@
               download="Modèle Diaporama 5"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -178,7 +178,7 @@
               download="Modèle Diaporama 6"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -200,7 +200,7 @@
               download="Modèle Diaporama 7"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -220,7 +220,7 @@
               download="Modèle Diaporama 8"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -244,7 +244,7 @@
               download="Modèle Diaporama 1"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -265,7 +265,7 @@
               download="Modèle Diaporama 2"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -287,7 +287,7 @@
               download="Modèle Diaporama 3"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -307,7 +307,7 @@
               download="Modèle Diaporama 4"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -329,7 +329,7 @@
               download="Modèle Diaporama 5"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -349,7 +349,7 @@
               download="Modèle Diaporama 6"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -371,7 +371,7 @@
               download="Modèle Diaporama 7"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -391,7 +391,7 @@
               download="Modèle Diaporama 8"
               class="list-link"
             >
-              Télécharger le diaporama <b-icon icon="upload"></b-icon>
+              Télécharger le diaporama <b-icon icon="upload" />
             </a>
           </h5>
           <iframe
@@ -406,8 +406,8 @@
         </b-col>
       </b-row>
     </div>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevProjectionTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevProjectionTips" />
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>
@@ -436,14 +436,14 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ProjectionTips extends Vue {
-  public pdfSlideTips = [
+  protected pdfSlideTips = [
     {
-      pdfLink: "/pdf_projection/HelpPP.pdf",
-      pdfDownload: "GuidePowerPoint",
+      PdfLink: "/pdf_projection/HelpPP.pdf",
+      PdfDownload: "GuidePowerPoint",
       TxtPdf: "Guide PowerPoint",
     },
   ];
-  public nxtprevProjectionTips = {
+  protected nxtprevProjectionTips = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail5.png",

@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">
       ÉCRITS PROFESSIONNELS, ACADÉMIQUE ET D'INVENTION
     </h2>
     
     <ContentsPage v-bind:contents-list="contentsPro"></ContentsPage>
 
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -31,7 +31,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Pro extends Vue {
-  public contentsPro = [
+  protected contentsPro = [
     {
       ContentsTitle: "LES FONDAMENTAUX DE L'ÉCRIT",
       ContentsPath: "/Ecrit_Pro/Fondamentaux",

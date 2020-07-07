@@ -1,7 +1,7 @@
 <template>
   <div id="CVFurther">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="go-furtherCV">
       POUR ALLER PLUS LOIN{{'\xa0'}}!
     </h3>
@@ -47,8 +47,8 @@
         </Carousel>
       </div>
     </div>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVGoFurther"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevCVGoFurther" />
+    <Footer />
   </div>
 </template>
 <script lang="ts">
@@ -70,27 +70,27 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class CVGoFurther extends Vue {
-  public clicked = "";
-  public bool = false;
-  public nbCarousel = 0;
+  protected clicked = "";
+  protected bool = false;
+  protected nbCarousel = 0;
   //tableaux stockage des images des carousels
-  public galeryCover: string[] = [
+  protected galeryCover: string[] = [
     "/picture_cv/gofurther_CV/cv-original-burger1.jpg",
     "/picture_cv/gofurther_CV/cv-original-lego.jpg",
     "/picture_cv/gofurther_CV/cv-original-magazine.jpg",
     "/picture_cv/gofurther_CV/cv-original-packagin1.jpg",
   ];
-  public galerySlide1: string[] = [
+  protected galerySlide1: string[] = [
     "/picture_cv/gofurther_CV/cv-original-burger1.jpg",
     "/picture_cv/gofurther_CV/cv-original-burger2.jpg",
     "/picture_cv/gofurther_CV/cv-original-burger3.jpg",
     "/picture_cv/gofurther_CV/cv-original-burger4.jpg",
   ];
-  public galerySlide2: string[] = [
+  protected galerySlide2: string[] = [
     "/picture_cv/gofurther_CV/cv-original-lego.jpg",
     "/picture_cv/gofurther_CV/cv-original-lego1.jpg",
   ];
-  public galerySlide3: string[] = [
+  protected galerySlide3: string[] = [
     "/picture_cv/gofurther_CV/cv-original-magazine.jpg",
     "/picture_cv/gofurther_CV/cv-original-magazine1.jpg",
     "/picture_cv/gofurther_CV/cv-original-magazine2.jpg",
@@ -102,18 +102,18 @@ export default class CVGoFurther extends Vue {
     "/picture_cv/gofurther_CV/cv-original-magazine8.jpg",
     "/picture_cv/gofurther_CV/cv-original-magazine9.jpg",
   ];
-  public galerySlide4: string[] = [
+  protected galerySlide4: string[] = [
     "/picture_cv/gofurther_CV/cv-original-packagin1.jpg",
     "/picture_cv/gofurther_CV/cv-original-packagin2.jpg",
   ];
   //tableau de stockage des carousel
-  public galeryCarousel: string[][] = [
+  protected galeryCarousel: string[][] = [
     this.galerySlide1,
     this.galerySlide2,
     this.galerySlide3,
     this.galerySlide4,
   ];
-  public display(srcImg: string): void {
+  protected display(srcImg: string): void {
     this.nbCarousel = this.galeryCover.indexOf(srcImg);
     if (this.bool == false) {
       this.clicked = srcImg;
@@ -128,7 +128,7 @@ export default class CVGoFurther extends Vue {
       this.clicked = srcImg;
     }
   }
-  public nxtprevCVGoFurther =
+  protected nxtprevCVGoFurther =
   {
     BoolPrev: true,
     BoolNext: false,

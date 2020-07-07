@@ -116,12 +116,12 @@ import { BIcon, BIconXSquareFill, BIconSearch } from "bootstrap-vue";
   },
 })
 export default class Galery extends Vue {
-  // export default==public class
-  public image = "";
-  public clicked = "";
-  public bool = false;
+  // export default==protected class
+  protected image = "";
+  protected clicked = "";
+  protected bool = false;
 
-  public toogle(srcImg: string): void {
+  protected toogle(srcImg: string): void {
     if (this.bool == false) {
       this.clicked = srcImg;
       this.bool = true;
@@ -132,12 +132,12 @@ export default class Galery extends Vue {
       this.clicked = srcImg;
     }
   }
-  public erased(): void {
+  protected erased(): void {
     this.clicked = "";
     this.bool = false;
   }
 
-  @Prop() public readonly galeryPicture!: string[]; //tableau de donnée
-  @Prop() public readonly classheight!: string; //donnée
+  @Prop() protected readonly galeryPicture!: string[]; //tableau de donnée
+  @Prop() protected readonly classheight!: string; //donnée
 }
 </script>

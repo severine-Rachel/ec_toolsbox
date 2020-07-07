@@ -1,7 +1,7 @@
 <template>
   <div id="Perf">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>PERFORMANCES D'ÉTUDIANTS IUT GEII</h3>
     <p>
       Le département Génie électrique et informatique industrielle (GEII) de
@@ -70,8 +70,8 @@
       Autres exemples de performances…
     </h4>
     <Video v-bind:galery-video="videoPerf" v-bind:id-video="'perf'"></Video>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfStudents"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevArtPerfStudents" />
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -101,7 +101,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class ArtPerfStudents extends Vue {
-  public videoPerf = [
+  protected videoPerf = [
     {
       videoSrc: "https://www.youtube.com/embed/fizlZKMboSE",
       videoTitle: "Océans Bienséants",
@@ -123,7 +123,7 @@ export default class ArtPerfStudents extends Vue {
       videoRoot: "Contenu soumis à des droits d'auteur",
     },
   ];
-  public nxtprevArtPerfStudents = {
+  protected nxtprevArtPerfStudents = {
     BoolPrev: true,
     BoolNext: true,
     PrevImage: "/thumbnail7.png",

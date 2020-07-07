@@ -1,12 +1,12 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>OSER PARLER EN PUBLIC</h3>
 
     <p>
       Il existe
-      <strong>trois sortes de prise de parole en public</strong> définis à
+      <strong>trois sortes de prise de parole en public</strong> définies à
       partir de deux critères qui sont{{'\xa0'}}:
     </p>
     <p>
@@ -42,7 +42,7 @@
       
     
     <p>
-      C’est à <i>priori</i> une prise de parole libre. Vous êtes théoriquement
+      C’est <i>a priori</i> une prise de parole libre. Vous êtes théoriquement
       sur un « pied d’égalité » avec les autres participants qui sont également
       invités à s’exprimer{{'\xa0'}}:
     </p>
@@ -73,7 +73,7 @@
     </ul>
     </p>
     <p>
-      général, dans ce cas, la prise de parole est plus improvisée. Elle peut
+      En général, dans ce cas, la prise de parole est plus improvisée. Elle peut
       avoir été préparée en amont mais elle va se faire sans notes.
     </p>
     <p><strong> Ce qu’il est important d’avoir à l’esprit{{'\xa0'}}:</strong></p>
@@ -101,13 +101,13 @@
       </li>
       <li>
         <strong>On ne naît pas orateur</strong>, on le devient au prix de maints
-        exercices et de nombreux essais. Parler en public est un art qui
+        exercices et de nombreux essais. Parler en protected est un art qui
         s’apprend et qu’il faut ensuite dissimuler.
       </li>
     </ul>
     </p>
     <p>
-      <b-icon icon="arrow-right"></b-icon> Le moment de l’oral est une mise en
+      <b-icon icon="arrow-right" /> Le moment de l’oral est une mise en
       scène de soi.
     </p>
     <img
@@ -118,8 +118,8 @@
     />
 
     <p><i>Source{{'\xa0'}}: </i>Gautier Antoine, <i>J’ose parler en public</i>, Paris, Dunod, 2019</p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevSpeechDare"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevSpeechDare" />
+    <Footer />
   </div>
 </template>
 
@@ -143,7 +143,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class SpeechDare extends Vue {
-  public nxtprevSpeechDare = {
+  protected nxtprevSpeechDare = {
     BoolPrev: false,
     BoolNext:  true,
     PrevImage: "",

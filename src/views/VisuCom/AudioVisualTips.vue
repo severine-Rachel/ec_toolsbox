@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="AudioVisualTips">
       CONSEILS ET ASTUCES
     </h3>
@@ -15,7 +15,7 @@
       target="_blank"
     ><strong>
       Toutes les astuces techniques pour réaliser son film amateur sur le site devenir-realisateur.com.
-      <b-icon icon="box-arrow-right"></b-icon></strong>
+      <b-icon icon="box-arrow-right" /></strong>
     </a>
 
     <h4>
@@ -105,8 +105,8 @@
         </b-popover>
       </b-row>
     </p>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevAudioVisualTips"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevAudioVisualTips" />
+    <Footer />
     
     
   </div>
@@ -131,7 +131,7 @@ import NextPrevBtn from "@/components/NextPrevBtn.vue";
   },
 })
 export default class AudioVisualTips extends Vue {
-  public nxtprevAudioVisualTips = {
+  protected nxtprevAudioVisualTips = {
     BoolPrev: true,
     BoolNext: false ,
     PrevImage: "/thumbnail3.png",

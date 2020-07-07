@@ -7,7 +7,7 @@
             <h5>MISE EN PAGE DE VOS ÉCRITS PROFESSIONNELS</h5>
             <p id="article-txt">
               Comment mettre en forme vos lettres de motivation ainsi que vos
-              dossiers ? Modèles commentés.
+              dossiers{{ "\xa0" }}? Modèles commentés.
             </p>
             <img
               class="img-art"
@@ -37,9 +37,9 @@
             class="link-article"
             to="/PerformanceArtistique/Definition"
           >
-            <h5>QU'EST CE QUE LA PERFORMANCE ARTISTIQUE ?</h5>
+            <h5>QU'EST CE QUE LA PERFORMANCE ARTISTIQUE{{ "\xa0" }}?</h5>
             <p id="article-txt">
-              La performance artistique, découvrez cet art hybride en action, caractérisé par sa diversité
+              Découvrez cet art hybride en action, caractérisé par sa diversité
               de messages et d’approches.
             </p>
             <img
@@ -91,6 +91,6 @@ import { LayoutPlugin } from "bootstrap-vue";
 Vue.use(LayoutPlugin);
 @Component({})
 export default class HomeArticle extends Vue {
-  // export default==public class
+  // export default==protected class
 }
 </script>

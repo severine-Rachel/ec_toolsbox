@@ -54,11 +54,8 @@
             atl="logo-viadeo"
           />
         </a>
-        <div><b-icon icon="envelope"></b-icon> raffypeggy@yahoo.fr</div>
-        <div>
-          peggyraffy@gmail.com
-        </div>
-        <div><b-icon icon="geo-alt"></b-icon> Angers</div>
+        
+        <div><b-icon icon="geo-alt" /> Angers</div>
         <div>
           <a
             class="link-footer"
@@ -75,9 +72,9 @@
       </b-col>
 
       <b-col sm="9" id="aboutme">
-        <h5 id="H5FooterNav"><b-icon icon="list"></b-icon>NAVIGATION</h5>
+        <h5 id="H5FooterNav"><b-icon icon="list" />NAVIGATION</h5>
         <div id="FooterNav">
-          <b-icon icon="diamond"></b-icon>
+          <b-icon icon="diamond" />
           <router-link to="/CV" class="link-footer"> CV</router-link>
           /
           <router-link to="/Lettre_de_Motivation" class="link-footer"
@@ -89,7 +86,7 @@
           </router-link>
         </div>
         <div id="FooterNav">
-          <b-icon icon="diamond"></b-icon>
+          <b-icon icon="diamond" />
           <router-link to="/Definition_Communication" class="link-footer">
             La communication
           </router-link>
@@ -107,7 +104,7 @@
           </router-link>
         </div>
         <div id="FooterNav">
-          <b-icon icon="diamond"></b-icon>
+          <b-icon icon="diamond" />
           <router-link to="/Affiche" class="link-footer">
             Affiche
           </router-link>
@@ -125,7 +122,7 @@
           </router-link>
         </div>
         <div id="FooterNav">
-          <b-icon icon="diamond"></b-icon>
+          <b-icon icon="diamond" />
           <router-link to="/CultureGenerale" class="link-footer">
             Culture générale
           </router-link>
@@ -277,6 +274,6 @@ import {
   },
 })
 export default class Footer extends Vue {
-  // export default==public class
+  // export default==protected class
 }
 </script>

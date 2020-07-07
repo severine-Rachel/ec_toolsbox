@@ -19,7 +19,7 @@
             type="submit"
             v-on:click="GoSearch()"
           >
-            <b-icon icon="search"></b-icon>
+            <b-icon icon="search" />
           </b-button>
         </b-nav-form>
       </b-navbar-nav>
@@ -127,6 +127,6 @@ Vue.component("b-form-input", BFormInput);
   },
 })
 export default class Header extends Vue {
-  // export default==public class
+  // export default==protected class
 }
 </script>

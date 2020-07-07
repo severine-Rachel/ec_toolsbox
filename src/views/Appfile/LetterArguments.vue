@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="argumentLetter">
       COMMENT PRÉPARER VOS ARGUMENTS{{'\xa0'}}?
     </h3>
@@ -121,8 +121,8 @@
       </tbody>
     </table>
     </b-container>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevLetterArguments"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevLetterArguments" />
+    <Footer />
   </div>
 </template>
 <style lang="scss" scoped>
@@ -152,7 +152,7 @@ import Footer from "@/components/Footer.vue";
    }
 })
 export default class LetterArguments extends Vue {
-  public nxtprevLetterArguments =
+  protected nxtprevLetterArguments =
   {
     BoolPrev: true,
     BoolNext: false,

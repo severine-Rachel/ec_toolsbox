@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">L'IMPORTANCE DE LA CULTURE GÉNÉRALE</h2>
     <h4>
       En quoi la culture générale est-elle essentielle à l’individu{{'\xa0'}}?<br> Pour ceux
@@ -112,7 +112,7 @@
         culture. Nous avons voulu savoir ce qu’en pensent les écrivains
       </h3>
       <p>
-        EST-IL indispensable d’être cultivé{{'\xa0'}}? Cette question paraît presque
+        Est-il indispensable d’être cultivé{{'\xa0'}}? Cette question paraît presque
         indécente en France où l’on fait si grand cas de la culture générale.
         Elle est posée par un professeur de philosophie de l’université du
         Québec, dans un petit pamphlet qui a le mérite de nous faire réfléchir à
@@ -778,7 +778,7 @@
         <strong>Abnousse Shalmani</strong>, engagée contre l’obsession identitaire,  est écrivain et journaliste. 
       </p>
     </b-modal>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style lang="scss"></style>

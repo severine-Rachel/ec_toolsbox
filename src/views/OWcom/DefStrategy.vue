@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>
       STRATÉGIES DE COMMUNICATION
     </h3>
@@ -37,7 +37,7 @@
         href="https://www.unicef.fr/sites/default/files/fiche_initiative_creer_outils_communication.pdf"
         target="_blank"
       >
-        <i> source : </i>www.unicef.fr <b-icon icon="box-arrow-right"></b-icon>
+        <i> source : </i>www.unicef.fr <b-icon icon="box-arrow-right" />
       </a>
     </div>
     <h4>
@@ -64,7 +64,7 @@
         target="_blank"
       >
         <i> source : </i>www.guidepratiqueasso.org
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </div>
     <h4>
@@ -85,7 +85,7 @@
         target="_blank"
       >
         <i> sources : </i>cdt64.media.tourinsoft.eu
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </div>
     <div>
@@ -95,7 +95,7 @@
         target="_blank"
       >
         <i style="color:white; cursor:default">Celestia </i>cpcoop.fr
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </div>
     <div>
@@ -105,7 +105,7 @@
         target="_blank"
       >
         <i style="color:white ; cursor:default">the best </i>fedweb.belgium.be
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </div>
     <h4>
@@ -133,7 +133,7 @@
         target="_blank"
       >
         <i> source : </i>www.est-usmba.ac.ma
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </div>
     <h4>
@@ -159,7 +159,7 @@
         target="_blank"
       >
         <i> source : </i>cdchauteyamaska.ca
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </div>
     <h4>
@@ -187,7 +187,7 @@
         target="_blank"
       >
         <i> source : </i>moodle.umontpellier.fr
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </div>
     <h4>
@@ -215,11 +215,11 @@
         target="_blank"
       >
         <i> source : </i>www.forim.net
-        <b-icon icon="box-arrow-right"></b-icon>
+        <b-icon icon="box-arrow-right" />
       </a>
     </div>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevDefStrategy"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevDefStrategy" />
+    <Footer />
   </div>
 </template>
 
@@ -245,25 +245,25 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class DefStrategy extends Vue {
-  public pdfDefStrat = [
+  protected pdfDefStrat = [
     {
-      pdfLink: "/pdf_OWcom/PlanCom.pdf",
-      pdfDownload:
+      PdfLink: "/pdf_OWcom/PlanCom.pdf",
+      PdfDownload:
         "Pourquoi et comment concevoir son plan de communication\xa0?",
       TxtPdf: "Pourquoi et comment concevoir son plan de communication\xa0?",
     },
     {
-      pdfLink: "/pdf_OWcom/PlanCom2.pdf",
-      pdfDownload: "Le plan de communication",
+      PdfLink: "/pdf_OWcom/PlanCom2.pdf",
+      PdfDownload: "Le plan de communication",
       TxtPdf: "Le plan de communication",
     },
     {
-      pdfLink: "/pdf_OWcom/PlanCom3.pdf",
-      pdfDownload: "Etablir le plan de communication d’un projet",
+      PdfLink: "/pdf_OWcom/PlanCom3.pdf",
+      PdfDownload: "Etablir le plan de communication d’un projet",
       TxtPdf: "Etablir le plan de communication d’un projet",
     },
   ];
-  public nxtprevDefStrategy = {
+  protected nxtprevDefStrategy = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail3.png",

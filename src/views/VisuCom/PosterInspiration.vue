@@ -1,7 +1,7 @@
 <template>
   <div id="PosterInsp">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3>POUR TROUVER L'INSPIRATION...</h3>
     <h4>
       Sites ressources sur l’affiche et les arts
@@ -64,8 +64,8 @@
     </p>
     <Video v-bind:galery-video="videoFont" v-bind:id-video="'poster'"></Video>
 
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterInspiration"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevPosterInspiration" />
+    <Footer />
   </div>
 </template>
 
@@ -97,7 +97,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class PosterInspiration extends Vue {
-  public videoFont = [
+  protected videoFont = [
     {
       videoSrc: "https://www.dailymotion.com/embed/video/x284c63",
       videoTitle: "Sacrés caractères - Futura",
@@ -139,7 +139,7 @@ export default class PosterInspiration extends Vue {
       videoRoot: "Chaîne : France Culture",
     },
   ];
-  public nxtprevPosterInspiration = {
+  protected nxtprevPosterInspiration = {
     BoolPrev: true,
     BoolNext: false,
     PrevImage: "/thumbnail1.png",

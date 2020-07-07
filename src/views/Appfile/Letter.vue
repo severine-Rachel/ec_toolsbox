@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h2 class="rubric-title">LETTRE DE MOTIVATION</h2>
    
     
     <ContentsPage v-bind:contents-list="ContentsLetter"></ContentsPage>
 
 
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
@@ -40,7 +40,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class Letter extends Vue {
-  public ContentsLetter = [
+  protected ContentsLetter = [
     {
       ContentsTitle: "LES FONDAMENTAUX DE LA LETTRE : FICHES-CLÉS",
       ContentsPath: "/Lettre_de_Motivation/Fondamentaux",

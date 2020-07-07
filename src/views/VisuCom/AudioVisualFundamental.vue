@@ -1,7 +1,7 @@
 <template>
   <div id="AVFundamental">
-    <Header></Header>
-    <Menu></Menu>
+    <Header />
+    <Menu />
     <h3 id="AudioVisualFundamental">
       LES FONDAMENTAUX DE L'AUDIOVISUEL
     </h3>
@@ -74,7 +74,7 @@
       target="_blank"
     >
      <strong> la capsule vidéo, Claire Guglielmina
-      <b-icon icon="box-arrow-right"></b-icon></strong>
+      <b-icon icon="box-arrow-right" /></strong>
     </a>
     <p></p>
     <p>
@@ -152,8 +152,8 @@
         <a href="http://www.calameo.com/">Publish at Calameo</a>
       </div>
     </div>
-    <NextPrevBtn v-bind:nxtprev-list="nxtprevAudioVisualFundamental"></NextPrevBtn>
-    <Footer></Footer>
+    <NextPrevBtn v-bind:nxtprev-list="nxtprevAudioVisualFundamental" />
+    <Footer />
   </div>
 </template>
 <style lang="scss">
@@ -184,7 +184,7 @@ import Footer from "@/components/Footer.vue";
   },
 })
 export default class AudioVisualFundamental extends Vue {
-  public videoVideo = [
+  protected videoVideo = [
     {
       videoSrc: "https://www.youtube.com/embed/PUPuemxfm2c",
       videoTitle: "Comment faire une capsule vidéo ?",
@@ -196,7 +196,7 @@ export default class AudioVisualFundamental extends Vue {
       videoRoot: " Chaîne : Jerome Blanstier",
     },
   ];
-  public nxtprevAudioVisualFundamental = {
+  protected nxtprevAudioVisualFundamental = {
     BoolPrev: false,
     BoolNext:  true,
     PrevImage: "",
