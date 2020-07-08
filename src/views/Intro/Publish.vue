@@ -307,7 +307,7 @@ export default class Publish extends Vue {
   protected answer = "";
 
   protected form() {
-    Axios.post("http://raffy-hideux.fr/api/form.php", {
+    Axios.post("", {
       message: this.message,
       email: this.email,
     }).then((response: AxiosResponse) => {
