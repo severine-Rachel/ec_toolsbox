@@ -109,7 +109,7 @@
       class="subtitle-link"
       href="http://www.cinemaparlant.com/fichesactivites/ft_redigercritique.pdf"
       target="_blank"
-      ><i style="color:white; cursor:default">prncess{{'\xa0'}}:</i> http://www.cinemaparlant.com/
+      ><i class="easter-egg">celestia{{'\xa0'}}:</i> http://www.cinemaparlant.com/
       <b-icon icon="box-arrow-right"></b-icon
     ></a>
     </div>
@@ -118,9 +118,8 @@
       class="subtitle-link"
       href="https://disciplines.ac-toulouse.fr/daac/sites/daac/files/fichiers/critiquer_un_film2.pdf"
       target="_blank"
-      ><i style="color:white; cursor:default">celestia{{'\xa0'}}:</i> https://disciplines.ac-toulouse.fr
-      <b-icon icon="box-arrow-right"></b-icon
-    ></a>
+      ><i class="easter-egg">thebest{{'\xa0'}}:</i> https://disciplines.ac-toulouse.fr
+      <b-icon icon="box-arrow-right" /></a>
     </div>
     <h5 class="subtitle-h5">
       La copie de concours

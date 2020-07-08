@@ -94,7 +94,7 @@
         href="http://cpcoop.fr/wp-content/uploads/2015/01/Fiches_PlanDeCom.pdf"
         target="_blank"
       >
-        <i style="color:white; cursor:default">Celestia </i>cpcoop.fr
+        <i class="easter-egg">dat Luna</i>cpcoop.fr
         <b-icon icon="box-arrow-right" />
       </a>
     </div>
@@ -104,7 +104,7 @@
         href="https://fedweb.belgium.be/sites/default/files/downloads/COMM12_FR_web_interactive.pdf"
         target="_blank"
       >
-        <i style="color:white ; cursor:default">the best </i>fedweb.belgium.be
+        <i class="easter-egg">Who win</i>fedweb.belgium.be
         <b-icon icon="box-arrow-right" />
       </a>
     </div>

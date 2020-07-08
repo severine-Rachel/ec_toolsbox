@@ -184,6 +184,7 @@ $MarginPhone: 1% 3%;
   .subtitle-link {
     text-decoration: none !important;
     color: #2e367f;
+    display: inline-block;
     margin: $MarginPhone;
   }
   h2 {
@@ -206,7 +207,7 @@ $MarginPhone: 1% 3%;
     padding: 4vh 0 0 0;
   }
   .subtitle-h5 {
-    margin: 2% 1% 0 1%;
+    margin: $MarginPhone;
     color: #2e367f;
     font-family: Myriad;
     padding: 1vh 0 1vh 0;
@@ -325,6 +326,10 @@ td {
 
 .a-bloc {
   display: block;
+}
+.easter-egg {
+  color:white; 
+  cursor: default;
 }
 </style>
 <script>

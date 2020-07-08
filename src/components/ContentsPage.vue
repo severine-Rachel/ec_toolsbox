@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid>
+  <div>
     <b-row align-h="center">
       <b-col
         sm="5"
@@ -18,7 +18,7 @@
         </b-link>
       </b-col>
     </b-row>
-  </b-container>
+  </div>
 </template>
 
 <style lang="scss">

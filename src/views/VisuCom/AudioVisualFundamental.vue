@@ -73,7 +73,7 @@
       href="https://www.ac-strasbourg.fr/fileadmin/pedagogie/histoiregeographie/TICE/GFA_TICE/Creer_des_videos_pedagogiques.pdf"
       target="_blank"
     >
-     <strong> la capsule vidéo, Claire Guglielmina
+     <strong> La capsule vidéo, Claire Guglielmina
       <b-icon icon="box-arrow-right" /></strong>
     </a>
     <p></p>

@@ -42,7 +42,7 @@ import Footer from "@/components/Footer.vue";
 export default class CV extends Vue {
   protected contentsCV = [
     {
-      ContentsTitle: "LES FONDAMENTAUX DU CV : FICHES-CLÉS",
+      ContentsTitle: "LES FONDAMENTAUX DU CV\xa0: FICHES-CLÉS",
       ContentsPath: "/CV/Fondamentaux",
       ContentsImage: "/thumbnail7.png",
     },
